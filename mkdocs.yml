@@ -1,0 +1,35 @@
+repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_IRM-MARY-KELLER
+repo_name: 2025-2_T02_IRM-MARY-KELLER
+
+site_name: Grupo IRMA-MARY-KELLER - Turma 2 (2024.2)
+site_description: Documentação do projeto do grupo IRMA-MARY-KELLER de Qualidade de Software (2024.2), Turma 2
+
+nav:
+  - Home: index.md
+  - Fase 1 - Propósito de avaliação: fase_1/fase_1.md
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: teal
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: teal
+    - scheme: high-contrast
+      primary: black
+      accent: yellow
+      toggle:
+        icon: material/weather-cloudy-alert
+        name: Switch to high contrast
+  logo: assets/img/logo.png
+
