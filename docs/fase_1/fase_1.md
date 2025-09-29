@@ -10,7 +10,7 @@ Este trabalho foi desenvolvido na disciplina Qualidade de Software com o objetiv
 
 ## Aplicação Escolhida
 
-O software avaliado neste trabalho é o Aprender 3, o ambiente virtual de aprendizagem institucional da Universidade de Brasília, construído sobre a plataforma Moodle. A ferramenta apoia disciplinas de modalidades presencial, híbrida e a distância, centralizando a publicação de conteúdos, a realização de atividades como tarefas e questionários, a comunicação por meio de fóruns e avisos, e o acompanhamento do desempenho dos estudantes. O Aprender 3 sucedeu a versão anterior, Aprender 2, consolidando a migração da UnB para uma base tecnológica mais moderna, estável e escalável.
+O software avaliado neste trabalho é o [Aprender 3](https://aprender3.unb.br/), o ambiente virtual de aprendizagem institucional da Universidade de Brasília, construído sobre a plataforma Moodle. A ferramenta apoia disciplinas de modalidades presencial, híbrida e a distância, centralizando a publicação de conteúdos, a realização de atividades como tarefas e questionários, a comunicação por meio de fóruns e avisos, e o acompanhamento do desempenho dos estudantes. O Aprender 3 sucedeu a versão anterior, Aprender 2, consolidando a migração da UnB para uma base tecnológica mais moderna, estável e escalável.
 
 Como uma instância do Moodle, o Aprender 3 herda uma arquitetura modular e extensível, com uma vasta biblioteca de plugins que incluem fóruns, rubricas, bancos de questões e o sistema de notas. Seus mecanismos de análise de uso apoiam tanto a docência quanto a gestão acadêmica. A filosofia de código aberto do Moodle permite a evolução contínua das funcionalidades sem dependência de fornecedores proprietários, além de favorecer análises de engajamento e usabilidade no contexto educacional.
 
@@ -65,7 +65,7 @@ A proposta busca elevar a qualidade da plataforma Aprender3 (Moodle da UnB), a p
 
 ### Público-alvo
 
-Embora o público principal do Aprender3 seja composto por professores e estudantes da UnB, é fundamental reconhecer os diferentes perfis e níveis de familiaridade e assessibilidade dos usuários para com a plataforma Moodle. Em geral a aplicação abrange a gestão de:
+Embora o público principal do Aprender3 seja composto por professores e estudantes da UnB, é fundamental reconhecer os diferentes perfis e níveis de familiaridade e acessibilidade dos usuários para com a plataforma Moodle. Em geral, a aplicação abrange a gestão de:
 
  - Disciplinas de Graduação e Pós-Graduação: Servindo como espaço central para a disponibilização de conteúdo, comunicação, atividades avaliativas e interação.
  - Cursos de Extensão, Treinamentos e Projetos Especiais: Apoiando diversas iniciativas da universidade.
@@ -75,7 +75,7 @@ Embora o público principal do Aprender3 seja composto por professores e estudan
 
 | Foco | Descrição |
 | --- | --- |
-| Portabilidade (Cross-Platform) | Analisar a capacidade do sistema de ser executado de forma consistente em diferentes ambientes computacionais, verificando sua funcionalidade e layout em diversos navegadores (Chrome, Firefox, Edge, Safari) e dispositivos (desktop, tablet, mobile), assegurando uma boa experiência em todas os dispositivos. |
+| Portabilidade (Cross-Platform) | Analisar a capacidade do sistema de ser executado de forma consistente em diferentes ambientes computacionais, verificando sua funcionalidade e layout em diversos navegadores (Chrome, Firefox, Edge, Safari) e dispositivos (desktop, tablet, mobile), assegurando uma boa experiência em todos os dispositivos. |
 | Compatibilidade e Interoperabilidade | Avaliar a coexistência do software dentro do ecossistema Moodle e a sua capacidade de interoperar e trocar dados com sucesso com sistemas externos da UnB (como o SIGAA para dados acadêmicos e o sistema de e-mail institucional para notificações), garantindo um fluxo de trabalho integrado e sem conflitos. |
 
 ## Especificação do Modelo de Qualidade
@@ -88,14 +88,14 @@ Para avaliar a qualidade da aplicação AgroMart, adotaremos um modelo baseado n
 
 ## Conexão com ODS (Objetivos de Desenvolvimento Sustentável) da ONU
 
-O Aprender 3, como ambiente virtual de aprendizagem institucional da UnB construído sobre o Moodle, conecta-se a objetivos da Agenda 2030 ao ampliar acesso, apoiar práticas pedagógicas inovadoras e facilitar colaboração acadêmica. Abaixo, os ODS mais diretamente relacionados:
+O Aprender 3, como ambiente virtual de aprendizagem institucional da UnB construído sobre o Moodle, conecta-se aos [Objetivos de Desenvolvimento Sustentável (ODS)](https://brasil.un.org/pt-br/sdgs) da Agenda 2030 ao ampliar acesso, apoiar práticas pedagógicas inovadoras e facilitar colaboração acadêmica. Abaixo, os ODS mais diretamente relacionados:
 
 | ODS | Como o Aprender 3 contribui / pode contribuir |
 |-----|-----------------------------------------------|
 | ODS 4 – Educação de Qualidade | Disponibiliza conteúdos e disciplinas on-line; flexibiliza o ensino entre presencial, híbrido e remoto; apoia docentes e estudantes no uso de tecnologia educacional, favorecendo aprendizagem contínua e avaliação formativa. |
-| ODS 10 – Redução das Desigualdades | Possibilita acesso a estudantes geograficamente distantes ou com restrições de deslocamento; pode incorporar recursos de acessibilidade (legendas, leitores de tela, design responsivo) para inclusão de diferentes perfis de usuários. |
-| ODS 9 – Indústria, Inovação e Infraestrutura | Sustenta infraestrutura digital universitária estável; incentiva inovação pedagógica por meio de ferramentas e plugins; permite personalização do ambiente conforme a realidade da UnB, elevando eficiência e qualidade do ecossistema acadêmico. |
 | ODS 5 – Igualdade de Gênero | Oferece condições de acesso e permanência em igualdade para todas as pessoas; quando alinhado a políticas institucionais, contribui para ampliar participação feminina em cursos, projetos e atividades acadêmicas. |
+| ODS 9 – Indústria, Inovação e Infraestrutura | Sustenta infraestrutura digital universitária estável; incentiva inovação pedagógica por meio de ferramentas e plugins; permite personalização do ambiente conforme a realidade da UnB, elevando eficiência e qualidade do ecossistema acadêmico. |
+| ODS 10 – Redução das Desigualdades | Possibilita acesso a estudantes geograficamente distantes ou com restrições de deslocamento; pode incorporar recursos de acessibilidade (legendas, leitores de tela, design responsivo) para inclusão de diferentes perfis de usuários. |
 | ODS 17 – Parcerias e Meios de Implementação | Facilita colaboração entre universidades e órgãos públicos, compartilhamento de recursos digitais, oferta de cursos e eventos on-line, e intercâmbio de boas práticas, fortalecendo redes de cooperação. |
 
 ## Tabela de Contribuição
@@ -115,8 +115,33 @@ Na Tabela 1, apresenta-se a contribuição dos membros da equipe na construção
     </thead>
     <tbody>
       <tr>
+        <td>222032810</td>
+        <td><a href="https://github.com/Fhansen98">Felipe Aguiar Hansen</a></td>
+        <td>X,XX</td>
+      </tr>
+      <tr>
+        <td>211030620</td>
+        <td><a href="https://github.com/patrickacs">Patrick Anderson Carvalho dos Santos</a></td>
+        <td>X,XX</td>
+      </tr>
+      <tr>
         <td>211043745</td>
         <td><a href="https://github.com/PedroSampaioDias">Pedro Sampaio Dias Rocha</a></td>
+        <td>X,XX</td>
+      </tr>
+      <tr>
+        <td>211030264</td>
+        <td><a href="https://github.com/taybalau">Taynara Gabrielle Vitorino</a></td>
+        <td>X,XX</td>
+      </tr>
+      <tr>
+        <td>202017147</td>
+        <td><a href="https://github.com/thalesgvl">Thales Germano Vargas Lima</a></td>
+        <td>X,XX</td>
+      </tr>
+      <tr>
+        <td>190101091</td>
+        <td><a href="https://github.com/yagoas">Yago Amin Santos</a></td>
         <td>X,XX</td>
       </tr>
     </tbody>
@@ -125,13 +150,13 @@ Na Tabela 1, apresenta-se a contribuição dos membros da equipe na construção
 
 <font size="3"><p style="text-align: center"><b>Autores: Grupo Irmã Mary Keller, 2025</p></font>
 
-<!--
 ## Referências Bibliográficas
 
-> [1] ISO/IEC 25010. Disponível em: <https://iso25000.com/index.php/en/iso-25000-standards/iso-25010>. Acesso em: 28 de setembro de 2025.
+> [1] ISO/IEC 25010. Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models. Disponível em: <https://iso25000.com/index.php/en/iso-25000-standards/iso-25010>. Acesso em: 28 de setembro de 2025.
 
-> [2] ONU. Objetivos de Desenvolvimento Sustentável. Disponível em: <https://brasil.un.org/pt-br/sdgs>. Acesso em: 28 de setembro de 2025.
--->
+> [2] ONU Brasil. Objetivos de Desenvolvimento Sustentável. Disponível em: <https://brasil.un.org/pt-br/sdgs>. Acesso em: 28 de setembro de 2025.
+
+> [3] Moodle. Moodle - Open-source learning platform. Disponível em: <https://moodle.org/>. Acesso em: 28 de setembro de 2025.
 
 ## Histórico de Versões
 
@@ -139,3 +164,4 @@ Na Tabela 1, apresenta-se a contribuição dos membros da equipe na construção
 |:----:|----|---------|-----|
 |`1.0`|28/09/2025|Criação do documento| [Pedro Sampaio](https://github.com/PedroSampaioDias)|
 |`1.1`|29/09/2025|Adição da Proposta de Avaliação e Melhoria de Qualidade| [Felipe Hansen](https://github.com/Fhansen98)|
+|`1.2`|29/09/2025|Revisão geral do documento| [Yago Amin](https://github.com/yagoas)|

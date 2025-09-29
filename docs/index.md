@@ -2,7 +2,9 @@
 
 ## Sobre o Projeto
 
-Esta página documenta os artefatos do Grupo Irmã Mary Kenneth Keller no segundo semestre de 2025, na disciplina de Qualidade de Software da Faculdade de Ciências e Tecnologias em Engenharia da Universidade de Brasília (FCTE-UnB).
+Esta página documenta os artefatos desenvolvidos pelo Grupo Irmã Mary Kenneth Keller no segundo semestre de 2025, na disciplina de **Qualidade de Software** da Faculdade de Ciências e Tecnologias em Engenharia da Universidade de Brasília (FCTE-UnB).
+
+O projeto tem como objetivo aplicar técnicas, normas e boas práticas de qualidade de software, realizando uma análise do **Aprender 3** com base em critérios estabelecidos pela norma ISO/IEC 25010 (SQuaRE).
 
 ## Figura 1 — Irmã Mary Kenneth Keller
 
@@ -44,20 +46,26 @@ Keller foi defensora do acesso democrático à computação, especialmente na ed
 <table>
   <tr>
     <td align="center">
-      <a href="http://github.com/PedroSampaioDias">
-        <img src="http://github.com/PedroSampaioDias.png" width="100" height="100" style="border-radius: 50%; object-fit: cover;" alt="Foto de Pedro Sampaio Dias Rocha"/>
+      <a href="https://github.com/Fhansen98">
+        <img src="https://github.com/Fhansen98.png" width="100" height="100" style="border-radius: 50%; object-fit: cover;" alt="Foto de Felipe Aguiar Hansen"/>
+        <br /><sub><b>Felipe Hansen</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/patrickacs">
+        <img src="https://github.com/patrickacs.png" width="100" height="100" style="border-radius: 50%; object-fit: cover;" alt="Foto de Patrick Anderson Carvalho dos Santos"/>
+        <br /><sub><b>Patrick Anderson</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/PedroSampaioDias">
+        <img src="https://github.com/PedroSampaioDias.png" width="100" height="100" style="border-radius: 50%; object-fit: cover;" alt="Foto de Pedro Sampaio Dias Rocha"/>
         <br /><sub><b>Pedro Sampaio</b></sub>
       </a>
     </td>
     <td align="center">
-      <a href="http://github.com/Fhansen98">
-        <img src="http://github.com/Fhansen98.png" width="100" height="100" style="border-radius: 50%; object-fit: cover;" alt="Foto de Felipe Aguiar Hansen"/>
-        <br /><sub><b> Felipe Hansen</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="http://github.com/taybalau">
-        <img src="http://github.com/taybalau.png" width="100" height="100" style="border-radius: 50%; object-fit: cover;" alt="Foto de Taynara Gabrielle Vitorino"/>
+      <a href="https://github.com/taybalau">
+        <img src="https://github.com/taybalau.png" width="100" height="100" style="border-radius: 50%; object-fit: cover;" alt="Foto de Taynara Gabrielle Vitorino"/>
         <br /><sub><b>Taynara Gabrielle</b></sub>
       </a>
     </td>
@@ -68,15 +76,9 @@ Keller foi defensora do acesso democrático à computação, especialmente na ed
       </a>
     </td>
     <td align="center">
-      <a href="http://github.com/yagoas">
-        <img src="http://github.com/yagoas.png" width="100" height="100" style="border-radius: 50%; object-fit: cover;" alt="Foto de Yago Amin Santos"/>
+      <a href="https://github.com/yagoas">
+        <img src="https://github.com/yagoas.png" width="100" height="100" style="border-radius: 50%; object-fit: cover;" alt="Foto de Yago Amin Santos"/>
         <br /><sub><b>Yago Amin</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="http://github.com/patrickacs">
-        <img src="http://github.com/patrickacs.png" width="100" height="100" style="border-radius: 50%; object-fit: cover;" alt="Foto de Patrick Anderson Carvalho dos Santos"/>
-        <br /><sub><b> Patrick Anderson</b></sub>
       </a>
     </td>
   </tr>
@@ -86,4 +88,5 @@ Keller foi defensora do acesso democrático à computação, especialmente na ed
 
 |Versão|Data|Descrição|Autor|
 |:----:|----|---------|-----|
-| `1.0` | 28/09/2025 | Criação da página inicial | [Pedro Sampaio](https://github.com/PedroSampaioDias) |  
+| `1.0` | 28/09/2025 | Criação da página inicial | [Pedro Sampaio](https://github.com/PedroSampaioDias) |
+| `1.1` | 29/09/2025 | Revisão e padronização de links | [Yago Amin](https://github.com/yagoas) |  
