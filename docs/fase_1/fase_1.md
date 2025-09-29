@@ -80,9 +80,9 @@ Embora o público principal do Aprender3 seja composto por professores e estudan
 
 ## Especificação do Modelo de Qualidade
 
-<!--
-Para avaliar a qualidade da aplicação AgroMart, adotaremos um modelo baseado na ISO/IEC 25000, com foco na característica de Usabilidade e Confiabilidade. A abordagem será complementada pelas metodologias GQM (Goal-Question-Metric) e PSM (Practical Software Measurement) para garantir uma análise estruturada e orientada a dados. O GQM nos permitirá definir objetivos claros de usabilidade. Já o PSM apoiará na seleção de métricas viáveis e acionáveis. A combinação dessas metodologias assegurará uma avaliação abrangente, alinhando os critérios técnicos da ISO 25000 com as necessidades reais dos usuários e stakeholders.
--->
+Para avaliar a qualidade da plataforma Aprender 3, adotaremos um modelo baseado na ISO/IEC 25010 (SQuaRE), com foco principal nas características de **Portabilidade** e **Compatibilidade**. A abordagem será complementada pelas metodologias GQM (Goal-Question-Metric) e métricas da ISO/IEC 25023 para garantir uma análise estruturada e orientada a dados.
+
+O GQM nos permitirá definir objetivos claros relacionados à portabilidade e compatibilidade da plataforma, estruturando questões específicas e métricas mensuráveis para cada subcaracterística. As métricas da ISO/IEC 25023 (medição de qualidade de produto de software) fornecerão diretrizes específicas para medir portabilidade e compatibilidade de forma padronizada e objetiva. A combinação dessas metodologias assegurará uma avaliação abrangente, alinhando os critérios técnicos da ISO 25010 com as necessidades reais dos usuários (professores e estudantes) e stakeholders da UnB.
 
 ---
 
@@ -154,9 +154,11 @@ Na Tabela 1, apresenta-se a contribuição dos membros da equipe na construção
 
 > [1] ISO/IEC 25010. Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models. Disponível em: <https://iso25000.com/index.php/en/iso-25000-standards/iso-25010>. Acesso em: 28 de setembro de 2025.
 
-> [2] ONU Brasil. Objetivos de Desenvolvimento Sustentável. Disponível em: <https://brasil.un.org/pt-br/sdgs>. Acesso em: 28 de setembro de 2025.
+> [2] ISO/IEC 25023:2016. Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — Measurement of system and software product quality. Disponível em: <https://www.iso.org/standard/35747.html>. Acesso em: 29 de setembro de 2025.
 
 > [3] Moodle. Moodle - Open-source learning platform. Disponível em: <https://moodle.org/>. Acesso em: 28 de setembro de 2025.
+
+> [4] ONU Brasil. Objetivos de Desenvolvimento Sustentável. Disponível em: <https://brasil.un.org/pt-br/sdgs>. Acesso em: 28 de setembro de 2025.
 
 ## Histórico de Versões
 
@@ -165,3 +167,4 @@ Na Tabela 1, apresenta-se a contribuição dos membros da equipe na construção
 |`1.0`|28/09/2025|Criação do documento| [Pedro Sampaio](https://github.com/PedroSampaioDias)|
 |`1.1`|29/09/2025|Adição da Proposta de Avaliação e Melhoria de Qualidade| [Felipe Hansen](https://github.com/Fhansen98)|
 |`1.2`|29/09/2025|Revisão geral do documento| [Yago Amin](https://github.com/yagoas)|
+|`1.3`|29/09/2025|Adição das Especificação do Modelo de Qualidade| [Yago Amin](https://github.com/yagoas)|
