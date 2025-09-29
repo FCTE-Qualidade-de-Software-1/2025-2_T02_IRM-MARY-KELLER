@@ -1,0 +1,132 @@
+# Fase 1 - Processo de Avaliação
+
+---
+
+## Contexto de Trabalho
+
+Este trabalho foi desenvolvido na disciplina Qualidade de Software com o objetivo de aplicar, na prática, técnicas, normas e boas práticas que garantem a qualidade de produtos e processos ao longo do ciclo de vida do software. Como atividade central, realizamos uma análise crítica de uma aplicação real, avaliando critérios como usabilidade, confiabilidade, segurança, portabilidade e outros atributos de qualidade relevantes. O resultado esperado é identificar pontos fortes, não conformidades e oportunidades de melhoria, propondo recomendações objetivas para elevar o nível de qualidade do software analisado.
+
+---
+
+## Aplicação Escolhida
+
+O software avaliado neste trabalho é o Aprender 3, o ambiente virtual de aprendizagem institucional da Universidade de Brasília, construído sobre a plataforma Moodle. A ferramenta apoia disciplinas de modalidades presencial, híbrida e a distância, centralizando a publicação de conteúdos, a realização de atividades como tarefas e questionários, a comunicação por meio de fóruns e avisos, e o acompanhamento do desempenho dos estudantes. O Aprender 3 sucedeu a versão anterior, Aprender 2, consolidando a migração da UnB para uma base tecnológica mais moderna, estável e escalável.
+
+Como uma instância do Moodle, o Aprender 3 herda uma arquitetura modular e extensível, com uma vasta biblioteca de plugins que incluem fóruns, rubricas, bancos de questões e o sistema de notas. Seus mecanismos de análise de uso apoiam tanto a docência quanto a gestão acadêmica. A filosofia de código aberto do Moodle permite a evolução contínua das funcionalidades sem dependência de fornecedores proprietários, além de favorecer análises de engajamento e usabilidade no contexto educacional.
+
+A natureza aberta da plataforma Moodle alinha-se aos princípios da educação pública, como transparência, auditabilidade e colaboração, promovendo a melhoria contínua pela comunidade e garantindo a independência tecnológica da universidade. Para a UnB, isso se traduz em um ecossistema sustentável, que facilita a adaptação pedagógica, a acessibilidade e a interoperabilidade.
+
+A avaliação do software considera critérios de qualidade essenciais como a portabilidade e a compatibilidade. A portabilidade é a capacidade de um software ser executado em diferentes ambientes computacionais com mínima modificação, como uma aplicação web que funciona em múltiplos navegadores e plataformas. Já a compatibilidade abrange tanto a habilidade de um software coexistir com outros sistemas sem gerar conflitos, a exemplo de uma aplicação que funciona dentro de um ecossistema maior como o Moodle, quanto a sua capacidade de interoperar, ou seja, de trocar informações com serviços externos para executar funções, como ao se integrar a um sistema de e-mail para enviar notificações.
+
+---
+
+## Classificação e Ênfase das Características de Qualidade
+
+Nesta etapa inicial do processo de avaliação da plataforma Aprender3, foram definidas as características de qualidade a serem consideradas com base em seus objetivos estratégicos e no perfil de sua comunidade. A análise levou em conta as necessidades de integração da ferramenta ao ecossistema digital da instituição e a garantia de acesso amplo para todos os usuários.
+
+Foram priorizadas as características de portabilidade e compatibilidade. A portabilidade é fundamental para garantir que alunos e professores possam acessar a plataforma a partir de qualquer dispositivo. Já a compatibilidade é crucial para assegurar que o Aprender3 não funcione como um sistema isolado, mas sim como uma peça integrada à infraestrutura tecnológica e aos serviços já existentes na universidade.
+
+A seguir, detalham-se as características priorizadas com exemplos concretos extraídos da análise do sistema, conforme os critérios da abordagem SQuaRE (ISO/IEC 25010).
+
+### Análise Detalhada das Características e Subcaracterísticas
+
+* **Portabilidade:** mede o quão fácil é adaptar o sistema a diferentes ambientes.
+    * **Adaptabilidade e Instalabilidade:** por ser um sistema web, o Aprender 3 funciona nos principais navegadores (Chrome, Firefox, Edge, Safari) e em sistemas operacionais variados (Windows, Linux, macOS, Android, iOS), exigindo apenas conexão e navegador atualizados. Em dispositivos móveis, pode ser acessado via navegador ou aplicativo oficial do ecossistema Moodle, o que facilita a instalação e o uso. O layout responsivo se ajusta a diferentes tamanhos de tela (smartphones, tablets, notebooks, monitores ultrawide), reduzindo a necessidade de configurações locais. Exemplos: acesso a tarefas e questionários pelo celular, visualização de notas no tablet e upload de arquivos a partir do desktop.
+    * **Substituibilidade:** a evolução do Aprender 2 para o Aprender 3 demonstra a capacidade de substituir versões anteriores com migração de dados e continuidade de serviços. Essa característica permite atualizar a plataforma conforme novas demandas acadêmicas, atualizar plugins e temas, e descontinuar componentes obsoletos sem interromper o uso pelos cursos. Exemplos: troca de tema para melhorar acessibilidade, atualização de plugins de questionário, e migração de cursos arquivados para o novo ambiente.
+
+* **Compatibilidade:** avalia a capacidade do Aprender 3 de coexistir e interagir com outros sistemas.
+    * **Coexistência:** o Aprender 3 convive com o ecossistema Moodle e seus componentes, incluindo o aplicativo móvel e extensões de funcionalidade. Também opera de forma estável ao lado de serviços institucionais como repositórios de documentos, bibliotecas digitais e ferramentas de videoconferência adotadas pela universidade. Exemplos: abertura de PDFs hospedados em repositórios institucionais, incorporação de vídeos educacionais e utilização de salas virtuais de aula.
+    * **Interoperabilidade:** o sistema integra-se a serviços institucionais para automatizar fluxos comuns, como envio de notificações por e-mail, publicação de avisos em massa e sincronização de prazos com calendários acadêmicos. Também permite troca de arquivos e referências com serviços de nuvem adotados pela instituição, bem como exportação de notas e relatórios para planilhas e sistemas administrativos quando habilitados. Exemplos: avisos de novas atividades enviados ao e-mail dos estudantes, eventos de prova aparecendo no calendário pessoal e exportação de notas para acompanhamento em relatórios acadêmicos.
+
+
+### Tabela de Ênfase
+
+A classificação a seguir resume a ênfase de cada característica em uma escala de 1 a 5.
+
+| Característica        | Ênfase (1-5)         |
+|-----------------------|----------------------|
+| Compatibilidade       | 5 – grande interesse |
+| Portabilidade         | 5 – grande interesse |
+| Adequação Funcional   | 2 – baixo interesse  |
+| Usabilidade           | 2 – baixo interesse  |
+| Confiabilidade        | 2 – baixo interesse  |
+| Eficiência (Desempenho)| 1 – nenhum interesse |
+| Segurança             | 1 – nenhum interesse |
+| Manutenibilidade      | 1 – nenhum interesse |
+
+
+Essa priorização servirá como base para a especificação das métricas e o planejamento da avaliação, garantindo foco na capacidade do Aprender3 de operar de forma integrada, flexível e acessível dentro do ambiente tecnológico da instituição.
+
+---
+
+## Proposta de Avaliação e Melhoria de Qualidade
+
+<!--
+A proposta de avaliação tem como principal objetivo assegurar a qualidade da aplicação a partir das perspectivas dos usuários e desenvolvedores, considerando as características do público-alvo predominante, composto por:
+
+- Pessoas com idade entre 30 anos ou mais, com ênfase no público idoso;
+- Indivíduos com menor familiaridade com tecnologias digitais.
+
+O domínio da aplicação abrange comunidades de agricultura familiar, consumidores e vendedores inseridos em um ambiente digital de compra e venda. A avaliação visa, portanto, garantir que o produto atenda às necessidades desse público, identificar pontos de melhoria relacionados à usabilidade, de modo a facilitar o acesso, a navegação e a compreensão da aplicação, além de propor sugestões que contribuam para a manutenção da confiabilidade do sistema.
+-->
+
+## Especificação do Modelo de Qualidade
+
+<!--
+Para avaliar a qualidade da aplicação AgroMart, adotaremos um modelo baseado na ISO/IEC 25000, com foco na característica de Usabilidade e Confiabilidade. A abordagem será complementada pelas metodologias GQM (Goal-Question-Metric) e PSM (Practical Software Measurement) para garantir uma análise estruturada e orientada a dados. O GQM nos permitirá definir objetivos claros de usabilidade. Já o PSM apoiará na seleção de métricas viáveis e acionáveis. A combinação dessas metodologias assegurará uma avaliação abrangente, alinhando os critérios técnicos da ISO 25000 com as necessidades reais dos usuários e stakeholders.
+-->
+
+---
+
+## Conexão com ODS (Objetivos de Desenvolvimento Sustentável) da ONU
+
+O Aprender 3, como ambiente virtual de aprendizagem institucional da UnB construído sobre o Moodle, conecta-se a objetivos da Agenda 2030 ao ampliar acesso, apoiar práticas pedagógicas inovadoras e facilitar colaboração acadêmica. Abaixo, os ODS mais diretamente relacionados:
+
+| ODS | Como o Aprender 3 contribui / pode contribuir |
+|-----|-----------------------------------------------|
+| ODS 4 – Educação de Qualidade | Disponibiliza conteúdos e disciplinas on-line; flexibiliza o ensino entre presencial, híbrido e remoto; apoia docentes e estudantes no uso de tecnologia educacional, favorecendo aprendizagem contínua e avaliação formativa. |
+| ODS 10 – Redução das Desigualdades | Possibilita acesso a estudantes geograficamente distantes ou com restrições de deslocamento; pode incorporar recursos de acessibilidade (legendas, leitores de tela, design responsivo) para inclusão de diferentes perfis de usuários. |
+| ODS 9 – Indústria, Inovação e Infraestrutura | Sustenta infraestrutura digital universitária estável; incentiva inovação pedagógica por meio de ferramentas e plugins; permite personalização do ambiente conforme a realidade da UnB, elevando eficiência e qualidade do ecossistema acadêmico. |
+| ODS 5 – Igualdade de Gênero | Oferece condições de acesso e permanência em igualdade para todas as pessoas; quando alinhado a políticas institucionais, contribui para ampliar participação feminina em cursos, projetos e atividades acadêmicas. |
+| ODS 17 – Parcerias e Meios de Implementação | Facilita colaboração entre universidades e órgãos públicos, compartilhamento de recursos digitais, oferta de cursos e eventos on-line, e intercâmbio de boas práticas, fortalecendo redes de cooperação. |
+
+## Tabela de Contribuição
+
+Na Tabela 1, apresenta-se a contribuição dos membros da equipe na construção do artefato.
+
+<font size="3"><p style="text-align: center">Tabela 1 - Tabela de contribuição</p></font>
+
+<div align="center">
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Matrícula</th>
+        <th>Nome completo</th>
+        <th>Contribuição (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>211043745</td>
+        <td><a href="https://github.com/PedroSampaioDias">Pedro Sampaio Dias Rocha</a></td>
+        <td>X,XX</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<font size="3"><p style="text-align: center"><b>Autores: Grupo Irmã Mary Keller, 2025</p></font>
+
+<!--
+## Referências Bibliográficas
+
+> [1] ISO/IEC 25010. Disponível em: <https://iso25000.com/index.php/en/iso-25000-standards/iso-25010>. Acesso em: 28 de setembro de 2025.
+
+> [2] ONU. Objetivos de Desenvolvimento Sustentável. Disponível em: <https://brasil.un.org/pt-br/sdgs>. Acesso em: 28 de setembro de 2025.
+-->
+
+## Histórico de Versões
+
+|Versão|Data|Descrição|Autor|
+|:----:|----|---------|-----|
+|`1.0`|28/09/2025|Criação do documento| [Pedro Sampaio](https://github.com/PedroSampaioDias)|

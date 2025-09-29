@@ -6,7 +6,7 @@ site_description: Documentação do projeto do grupo IRMA-MARY-KELLER de Qualida
 
 nav:
   - Home: index.md
-  - Fase 1 - Propósito de avaliação: fase_1/fase_1.md
+  - Fase 1: fase_1/fase_1.md
 
 theme:
   name: material
