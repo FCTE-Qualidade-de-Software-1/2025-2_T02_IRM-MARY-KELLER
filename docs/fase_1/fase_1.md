@@ -61,14 +61,22 @@ Essa priorização servirá como base para a especificação das métricas e o p
 
 ## Proposta de Avaliação e Melhoria de Qualidade
 
-<!--
-A proposta de avaliação tem como principal objetivo assegurar a qualidade da aplicação a partir das perspectivas dos usuários e desenvolvedores, considerando as características do público-alvo predominante, composto por:
+A proposta busca elevar a qualidade da plataforma Aprender3 (Moodle da UnB), a partir do ponto de vista dos seus usuários (professores e estudantes) e também dos desenvolvedores e da equipe de suporte. O foco é garantir que o ambiente virtual de aprendizagem (AVA) seja acessível e confiável para apoiar o ensino e a pesquisa na Universidade de Brasília.
 
-- Pessoas com idade entre 30 anos ou mais, com ênfase no público idoso;
-- Indivíduos com menor familiaridade com tecnologias digitais.
+### Público-alvo
 
-O domínio da aplicação abrange comunidades de agricultura familiar, consumidores e vendedores inseridos em um ambiente digital de compra e venda. A avaliação visa, portanto, garantir que o produto atenda às necessidades desse público, identificar pontos de melhoria relacionados à usabilidade, de modo a facilitar o acesso, a navegação e a compreensão da aplicação, além de propor sugestões que contribuam para a manutenção da confiabilidade do sistema.
--->
+Embora o público principal do Aprender3 seja composto por professores e estudantes da UnB, é fundamental reconhecer os diferentes perfis e níveis de familiaridade e assessibilidade dos usuários para com a plataforma Moodle. Em geral a aplicação abrange a gestão de:
+
+ - Disciplinas de Graduação e Pós-Graduação: Servindo como espaço central para a disponibilização de conteúdo, comunicação, atividades avaliativas e interação.
+ - Cursos de Extensão, Treinamentos e Projetos Especiais: Apoiando diversas iniciativas da universidade.
+
+
+### Foco da Avaliação
+
+| Foco | Descrição |
+| --- | --- |
+| Portabilidade (Cross-Platform) | Analisar a capacidade do sistema de ser executado de forma consistente em diferentes ambientes computacionais, verificando sua funcionalidade e layout em diversos navegadores (Chrome, Firefox, Edge, Safari) e dispositivos (desktop, tablet, mobile), assegurando uma boa experiência em todas os dispositivos. |
+| Compatibilidade e Interoperabilidade | Avaliar a coexistência do software dentro do ecossistema Moodle e a sua capacidade de interoperar e trocar dados com sucesso com sistemas externos da UnB (como o SIGAA para dados acadêmicos e o sistema de e-mail institucional para notificações), garantindo um fluxo de trabalho integrado e sem conflitos. |
 
 ## Especificação do Modelo de Qualidade
 
@@ -130,3 +138,4 @@ Na Tabela 1, apresenta-se a contribuição dos membros da equipe na construção
 |Versão|Data|Descrição|Autor|
 |:----:|----|---------|-----|
 |`1.0`|28/09/2025|Criação do documento| [Pedro Sampaio](https://github.com/PedroSampaioDias)|
+|`1.1`|29/09/2025|Adição da Proposta de Avaliação e Melhoria de Qualidade| [Felipe Hansen](https://github.com/Fhansen98)|
