@@ -42,18 +42,28 @@ A seguir, detalham-se as características priorizadas com exemplos concretos ext
 
 ### Tabela de Ênfase
 
-A classificação a seguir resume a ênfase de cada característica em uma escala de 1 a 5.
+A decisão sobre a prioridade das características de qualidade para o Aprender3 foi alcançada através de uma votação no canal do Discord da equipe.
+
+O Método de Votação: Para garantir um foco claro e justo, cada membro da equipe recebeu o direito a apenas 2 votos no total, que deveriam ser atribuídos às características consideradas mais importantes. O resultado final da ênfase (escala de 1 a 5) foi uma representação do nível de consenso do grupo:
+
+ - As características de Compatibilidade e Portabilidade foram as que receberam a maioria dos votos, sendo, por isso, categorizadas com a Ênfase 5 (Grande Interesse).
+
+ - As características de Adequação Funcional, Eficiência e Confiabilidade receberam alguns votos, indicando um interesse secundário e aceitável para o lançamento inicial, o que as posicionou com a Ênfase 2 (Baixo Interesse).
+
+ - Por fim, Segurança e Manutenibilidade foram as únicas a registrar zero votos, resultando na Ênfase 1 (Nenhum Interesse), após o consenso de que seriam otimizadas e priorizadas em fases subsequentes.
+
+ - A Usabilidade foi a única característica que não foi incluída na votação, pois foi vetada pela professora, resultando na Ênfase 0.
 
 | Característica | Ênfase (1-5) |
 | --- | --- |
 | Compatibilidade | 5 – grande interesse |
 | Portabilidade | 5 – grande interesse |
 | Adequação Funcional | 2 – baixo interesse |
-| Usabilidade | 2 – baixo interesse |
 | Confiabilidade | 2 – baixo interesse |
-| Eficiência (Desempenho)| 1 – nenhum interesse |
+| Eficiência (Desempenho)| 2 – baixo interesse |
 | Segurança | 1 – nenhum interesse |
 | Manutenibilidade | 1 – nenhum interesse |
+| Usabilidade | 0 – fora da votação |
 
 Essa priorização servirá como base para a especificação das métricas e o planejamento da avaliação, garantindo foco na capacidade do Aprender3 de operar de forma integrada, flexível e acessível dentro do ambiente tecnológico da instituição.
 
@@ -168,3 +178,4 @@ Na Tabela 1, apresenta-se a contribuição dos membros da equipe na construção
 |`1.2`|29/09/2025|Revisão geral do documento| [Yago Amin](https://github.com/yagoas)|
 |`1.3`|29/09/2025|Adição das Especificação do Modelo de Qualidade| [Yago Amin](https://github.com/yagoas)|
 |`1.4`|30/09/2025|Correçoes sugeridas pela professora| [Taynara Vitorino](https://github.com/taybalau)|
+|`1.5`|01/10/2025|Descrição da votação da Tabela de Ênfase| [Felipe Hansen](https://github.com/Fhansen98)|
