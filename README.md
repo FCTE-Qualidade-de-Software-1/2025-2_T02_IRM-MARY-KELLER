@@ -1,4 +1,4 @@
-# Qualidade de software - 2025.1 - T1x- Nome do grupo
+# Qualidade de software - 2025.2 - T1x- Nome do grupo
 
 ## :scroll: Sobre o projeto
    Explique brevente sobre o projeto que estão desenvolvendo. 

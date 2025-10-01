@@ -54,16 +54,16 @@ O Método de Votação: Para garantir um foco claro e justo, cada membro da equi
 
  - A Usabilidade foi a única característica que não foi incluída na votação, pois foi vetada pela professora, resultando na Ênfase 0.
 
-| Característica | Ênfase (1-5) |
-| --- | --- |
-| Compatibilidade | 5 – grande interesse |
-| Portabilidade | 5 – grande interesse |
-| Adequação Funcional | 2 – baixo interesse |
-| Confiabilidade | 2 – baixo interesse |
-| Eficiência (Desempenho)| 2 – baixo interesse |
-| Segurança | 1 – nenhum interesse |
-| Manutenibilidade | 1 – nenhum interesse |
-| Usabilidade | 0 – fora da votação |
+| Característica | Ênfase (1-5) | Justificativa |
+| :--- | :--- | :--- |
+| Compatibilidade | 5 – grande interesse | **Foco Principal.** Essencial para que o Aprender3 se integre a outros sistemas da UnB (e-mail, SIGAA), garantindo um fluxo de trabalho unificado para alunos e professores. |
+| Portabilidade | 5 – grande interesse | **Foco Principal.** Garante que a plataforma seja acessível e funcional em múltiplos dispositivos (celulares, tablets, desktops) e navegadores, o que é crucial para a comunidade acadêmica. |
+| Adequação Funcional | 2 – baixo interesse | O Moodle é uma plataforma consolidada com um vasto conjunto de funcionalidades. Assume-se que as funções essenciais já atendem às necessidades básicas, não sendo o foco desta avaliação. |
+| Confiabilidade | 2 – baixo interesse | A plataforma já está em produção e é gerenciada pela equipe de TI da universidade. Pressupõe-se um nível básico de estabilidade, não sendo o objetivo realizar testes de carga ou falha. |
+| Eficiência (Desempenho)| 2 – baixo interesse | Embora o desempenho seja importante, a avaliação inicial priorizou características de integração e acesso, considerando que a performance da infraestrutura é de responsabilidade da equipe de TI da UnB. |
+| Segurança | 1 – nenhum interesse | A segurança é um requisito fundamental gerenciado pela universidade e considerado uma premissa do sistema. Por isso, não faz parte do escopo desta análise específica de qualidade. |
+| Manutenibilidade | 1 – nenhum interesse | Esta característica é mais relevante para a equipe de desenvolvimento e manutenção do Moodle na UnB. O foco do grupo é na qualidade sob a perspectiva do usuário final. |
+| Usabilidade | 0 – fora da votação | A característica foi vetada pela professora para esta fase do projeto, não sendo incluída no processo de votação e priorização da equipe, conforme descrito no documento. |
 
 Essa priorização servirá como base para a especificação das métricas e o planejamento da avaliação, garantindo foco na capacidade do Aprender3 de operar de forma integrada, flexível e acessível dentro do ambiente tecnológico da instituição.
 
