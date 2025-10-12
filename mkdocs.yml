@@ -7,6 +7,12 @@ site_description: Documentação do projeto do grupo IRMA-MARY-KELLER de Qualida
 nav:
   - Home: index.md
   - Fase 1: fase_1/fase_1.md
+  - Fase 2 - Especificação da Avaliação:
+    - Abordagem GQM: "fase_2/GQM.md"
+    - Medição 1 - Compatibilidade: "fase_2/confiabilidade.md"
+    - Medição 2 - Portabilidade: "fase_2/portabilidade.md"
+    - Níveis de Pontuação e critérios de julgamento: "fase_2/niveis_pontuacao_criterios_julgamento.md"
+    - Conclusão: "fase_2/conclusao.md"
 
 theme:
   name: material
@@ -33,3 +39,6 @@ theme:
         name: Switch to high contrast
   logo: assets/img/logo.png
 
+markdown_extensions:
+  - md_in_html
+  - attr_list
