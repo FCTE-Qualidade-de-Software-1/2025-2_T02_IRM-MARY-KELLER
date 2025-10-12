@@ -2,7 +2,7 @@
 
 **Tabela 2** - Objetivo de Medição 2: Portabilidade.
 
-| **Analisar**          | o i-Educar |
+| **Analisar**          | Descrição |
 |------------------------|------------|
 | **Para o propósito de** | ... |
 | **Com respeito a**     | ... |
