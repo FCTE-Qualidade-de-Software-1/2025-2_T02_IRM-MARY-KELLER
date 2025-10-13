@@ -52,6 +52,23 @@
  <! -- ## :email: Site -->
 <hr/>
 
+## 🚀 Como executar localmente
+
+Para executar o projeto localmente, siga os passos abaixo:
+
+1.  **Ative o ambiente virtual:**
+
+    ```bash
+    source mkdocs_env/bin/activate
+    ```
+
+2.  **Inicie o servidor de desenvolvimento:**
+
+    ```bash
+    mkdocs serve
+    ```
+O site estará disponível em `http://127.0.0.1:8000/`.
+
 
 ## :bookmark_tabs: Documentação 
 
