@@ -1,71 +1,174 @@
-## Objetivo de Medição 2: Compatibilidade
-
-**Tabela 2** - Objetivo de Medição 2: Compatibilidade.
+## Objetivo de Medição 1: Compatibilidade
 
 | Analisar | Descrição |
 | :--- | :--- |
-| **Para o propósito de** | Caracterizar o nível de **compatibilidade** (incluindo interoperabilidade e coexistência) do **Aprender 3** com diversos ambientes de operação e outros sistemas essenciais. |
-| **Com respeito a** | A funcionalidade do sistema e a troca de informações em navegadores, dispositivos móveis e a coexistência entre o acesso via Web e via aplicativo Moodle. |
-| **Do ponto de vista da** | **Comunidade acadêmica (professores e estudantes)**, que depende de uma experiência fluida e integrada em múltiplas plataformas. |
-| **No contexto da** | **Operação em produção** do ambiente virtual de aprendizagem (`https://aprender3.unb.br/`) durante o semestre letivo. |
+| **Para o propósito de** | Avaliar |
+| **Com respeito a** | Compatibilidade |
+| **Do ponto de vista da** | Comunidade discente |
+| **No contexto da** | Operação em produção |
+
+**Tabela 2** - Objetivo de Medição 1: Compatibilidade.
 
 ---
 
 ### Perguntas e Hipóteses de Medição
 
-**Questão 1: Em que medida o Aprender 3 demonstra interoperabilidade com os navegadores web mais utilizados pela comunidade?**
-> Qual é a taxa de sucesso das interações-chave do usuário em navegadores *mainstream* e em navegadores secundários ou desatualizados?
+**Questão 1 (Sincronia de Dados):**
+> Qual é a consistência dos dados do discente entre o Aprender 3 (Web) e o App Moodle?
 
-* **Hipótese 1.1 (H1.1):** A taxa de sucesso em funcionalidades de interface (e.g., edição de texto, *drag-and-drop*) será menor em navegadores que não estejam na versão *N* ou *N-1* (onde *N* é a versão mais recente).
+* **Hipótese 1.1 (H1.1):** O status de conclusão de atividades (marcar como "feita") fica inconsistente entre a plataforma Web e o aplicativo móvel.
+* **Hipótese 1.2 (H1.2):** Os arquivos na área "Arquivos privados" não são sincronizados corretamente entre a versão Web e o App.
 
-**Questão 2: Qual o grau de adaptabilidade do Aprender 3 a diferentes tamanhos e tipos de dispositivos móveis?**
-> A experiência do usuário, em termos de eficiência e eficácia, é mantida ao acessar o sistema em *smartphones* e *tablets* (via *browser* ou aplicativo)?
+**Questão 2 (Recursos do Navegador):**
+> Qual é a variação no consumo de recursos (CPU/RAM) do Aprender 3 entre diferentes navegadores?
 
-* **Hipótese 2.1 (H2.1):** Tarefas que envolvem o envio de documentos (e.g., submissão de trabalhos) exigem um **número significativamente maior de cliques ou interações** em telas pequenas (*smartphones*) comparadas a *desktops*, indicando menor eficiência.
-* **Hipótese 2.2 (H2.2):** A **proporção de tempo gasto** por usuário na plataforma via *desktop* é significativamente maior do que via celular, indicando que os usuários preferem (ou necessitam) da tela maior para atividades essenciais.
+* **Hipótese 2.1 (H2.1):** O consumo de memória RAM do Aprender 3 é visivelmente maior em um navegador (ex: Chrome) comparado a outro (ex: Firefox), atrapalhando o uso de outros programas pelo discente.
 
-**Questão 3: O Aprender 3 coexiste eficientemente entre seus diferentes pontos de acesso (Web e Aplicativo Moodle) e em sistemas operacionais de uso geral (Windows, Linux, macOS)?**
-> A consistência de conteúdo entre a interface Web e o aplicativo Moodle (Coexistência) e o desempenho sob diferentes sistemas operacionais (Coexistência) são adequados?
+**Questão 3 (Notificações de Fórum):**
+> Em que medida o discente recebe notificações por e-mail sobre novas postagens em fóruns de discussão subscritos?
 
-* **Hipótese 3.1 (H3.1):** A **proporção de cursos** que apresentam uma diferença na contagem de atividades e recursos entre o aplicativo Moodle e a interface Web do Aprender 3 é inferior a 1%, garantindo a **Coexistência** de conteúdo.
-* **Hipótese 3.2 (H3.2):** O **Consumo de Recursos (CPU/RAM)** do navegador ao rodar o Aprender 3 não varia significativamente entre os principais Sistemas Operacionais de uso geral (Coexistência).
+* **Hipótese 3.1 (H3.1):** O discente não recebe os e-mails de notificação de novas mensagens em fóruns que acompanha, mesmo com a opção ativada.
+
+**Questão 4 (Calendário Externo):**
+> Em que medida o Aprender 3 permite a exportação para calendários externos?
+
+* **Hipótese 4.1 (H4.1):** Os principais serviços de calendário (Google, Outlook) falham ao tentar importar o calendário do Aprender 3 usando o link de subscrição (URL).
+* **Hipótese 4.2 (H4.2):** A importação manual (arquivo `.ics`) funciona, mas a importação automática (via link) falha, indicando um problema específico no mecanismo de atualização automática.
+
+**Questão 5 (Compatibilidade de Interação):**
+> Qual é a consistência da funcionalidade drag-and-drop entre os navegadores suportados?
+
+* **Hipótese 5.1 (H5.1):** A funcionalidade de "arrastar e soltar" arquivos (ex: envio de tarefas) falha muito mais em navegadores específicos (ex: Firefox, Safari) do que no navegador principal (ex: Chrome).
 
 ---
 
 ### Seleção das Métricas
 
-**Questão 1: Em que medida o Aprender 3 demonstra interoperabilidade com os navegadores web mais utilizados pela comunidade?**
+**Questão 1 (Sincronia de Dados):**
 
-* **Métrica 1.1: Índice de Conformidade de Navegador (ICN)**
-    * **Definição:** Porcentagem de funcionalidades críticas que passam nos testes automatizados ou manuais de compatibilidade (Testes de Regressão) em uma suíte predefinida de navegadores/versões.
-    * **Fórmula:** ICN = (Funcionalidades Aprovadas / Total de Funcionalidades Testadas) x 100
-    * **Coleta:** Resultados de ferramentas de automação de testes *cross-browser* ou relatórios de *QA*.
-    * **Propósito:** Medir a **Interoperabilidade** do *front-end* com diferentes implementações de padrões web.
+* **Métrica 1.1: Percentual de Discrepância de Status de Conclusão**
+    * **Definição:** A porcentagem de atividades que, após serem marcadas como "concluídas" em uma plataforma (Web ou App) e a ação de sincronização ser executada, não refletem essa mudança na outra plataforma.
+    * **Fórmula:** (% Discrepância) = (Nº de atividades com status diferente / Nº total de atividades testadas) x 100
+    * **Coleta:**
+        1. Selecionar uma amostra de N atividades para o teste.
+        2. Na plataforma A (ex: Web), marcar a atividade como "concluída".
+        3. Executar a ação de sincronização na plataforma B (ex: App).
+        4. Verificar se o status da atividade na plataforma B foi atualizado para "concluída".
+        5. Registrar o resultado (sucesso ou discrepância) e repetir para N atividades.
+    * **Propósito:** Medir a compatibilidade da sincronização do progresso do aluno entre os dois ambientes.
+    * **Critérios de Julgamento:**
+    
+    | Excelente | Bom | Regular | Insatisfatório |
+    | :--- | :--- | :--- | :--- |
+    | 0% de discrepância | <= 2% de discrepância | 2% a 5% de discrepância | > 5% de discrepância |
 
-**Questão 2: Qual o grau de adaptabilidade do Aprender 3 a diferentes tamanhos e tipos de dispositivos móveis?**
+* **Métrica 1.2: Taxa de Sucesso de Sincronização Bidirecional de Arquivos**
+    * **Definição:** A taxa de sucesso de operações de arquivo (criar, enviar, deletar) na área privada do usuário, testadas em ambas as direções (da Web para o App e do App para a Web).
+    * **Fórmula:** Média ( (Sucesso Web-para-App / Total) , (Sucesso App-para-Web / Total) ) x 100
+    * **Coleta:**
+        1. (Web-para-App): Fazer upload de N arquivos na área "Arquivos Privados" via Web.
+        2. (Web-para-App): Sincronizar o App e verificar se os N arquivos estão visíveis.
+        3. (App-para-Web): Fazer upload de M arquivos na área "Arquivos Privados" via App.
+        4. (App-para-Web): Atualizar a página Web e verificar se os M arquivos estão visíveis.
+        5. Registrar o número de sucessos em cada direção.
+    * **Propósito:** Garantir que os arquivos do usuário estejam consistentes e acessíveis em ambos os locais.
+    * **Critérios de Julgamento:**
 
-* **Métrica 2.1: Índice de Esforço de Interação (IEI)**
-    * **Definição:** Razão entre o número médio de cliques (ou toques) necessários para completar uma tarefa padrão (e.g., enviar um documento) em dispositivos móveis versus desktops.
-    * **Fórmula:** IEI = (Média de Cliques no Dispositivo Móvel) / (Média de Cliques no Desktop)
-    * **Coleta:** Ferramentas de análise de produto (*product analytics*) que rastreiam eventos de clique em funis de tarefas predefinidos, segmentados por tipo de dispositivo.
-    * **Propósito:** Medir a **eficiência da interface** e o esforço do usuário (ligados à Adaptabilidade) em diferentes formatos de tela. Um índice maior que 1 indica maior esforço no ambiente móvel.
+    | Excelente | Bom | Regular | Insatisfatório |
+    | :--- | :--- | :--- | :--- |
+    | 100% de sucesso | 98% a 99.9% de sucesso | 90% a 97.9% de sucesso | < 90% de sucesso |
 
-* **Métrica 2.2: Tempo para Conclusão de Tarefa em Diferentes Fatores de Forma (TCT-FF)**
-    * **Definição:** Tempo médio gasto pelos usuários para completar uma tarefa padrão (e.g., visualizar notas ou responder a um fórum) em *desktop* vs. *smartphone*.
-    * **Fórmula:** TCT-FF = (Tempo Médio no Smartphone) / (Tempo Médio no Desktop)
-    * **Coleta:** Logs de interação do usuário ou estudos de usabilidade cronometrados.
-    * **Propósito:** Medir a **Eficiência de Operação** (ligada à Adaptabilidade) em diferentes formatos de tela.
+**Questão 2 (Recursos do Navegador):**
 
-**Questão 3: O Aprender 3 coexiste eficientemente entre seus diferentes pontos de acesso e em sistemas operacionais de uso geral?**
+* **Métrica 2.1: Consumo Médio de RAM por Navegador**
+    * **Definição:** A média de memória RAM (em Megabytes) usada pelo navegador após executar um cenário de teste padrão (ex: logar, abrir um curso, rolar a página).
+    * **Fórmula:** Média(RAM)_Browser A vs Média(RAM)_Browser B vs Média(RAM)_Browser C
+    * **Coleta:**
+        1. Definir um cenário de teste padrão (ex: login, abrir curso X, rolar a página até o fim).
+        2. Abrir o Navegador A (ex: Chrome) em um estado "limpo" (sem outras abas).
+        3. Executar o cenário de teste padrão.
+        4. Usar o gerenciador de tarefas do navegador para medir a RAM (em MB) usada pelo processo.
+        5. Fechar, reabrir e repetir N vezes para o Navegador A para obter a média.
+        6. Repetir todos os passos para o Navegador B (ex: Firefox) e C (ex: Safari).
+    * **Propósito:** Avaliar o impacto de desempenho da plataforma em diferentes navegadores.
+    * **Critérios de Julgamento:** (Baseado na variação entre o navegador mais leve e o mais pesado)
 
-* **Métrica 3.1: Taxa de Discrepância de Conteúdo (TDC)**
-    * **Definição:** Proporção de cursos amostrados onde a contagem total de atividades e recursos visíveis na interface Web difere da contagem total no aplicativo Moodle.
-    * **Fórmula:** TDC = (Cursos com Contagem de Atividades Diferente / Total de Cursos Amostrados)
-    * **Coleta:** Testes automatizados ou manuais de comparação de *endpoint* (Web vs. App) para uma amostra de cursos.
-    * **Propósito:** Medir a **Coexistência** (consistência de dados) entre o acesso Web e o aplicativo móvel.
+    | Excelente | Bom | Regular | Insatisfatório |
+    | :--- | :--- | :--- | :--- |
+    | Variação < 15% | Variação de 15% a 30% | Variação de 30% a 50% | Variação > 50% |
 
-* **Métrica 3.2: Variação no Uso de Recursos (VUR) por Sistema Operacional (SO)**
-    * **Definição:** Desvio padrão do consumo de CPU e Memória (RAM) do *browser* ao rodar o Aprender 3, agrupado por Sistema Operacional. (Uma variação baixa indica melhor coexistência).
-    * **Fórmula:** VUR = Desvio Padrão (Uso de Recursos) por SO
-    * **Coleta:** Testes de desempenho em ambiente controlado.
-    * **Propósito:** Medir a **Coexistência** e a estabilidade da carga de recursos em diferentes S.O.s.
+**Questão 3 (Notificações de Fórum):**
+
+* **Métrica 3.1: Taxa de Falha de Entrega de Notificação**
+    * **Definição:** A porcentagem de novas postagens em fóruns que não geraram um e-mail de notificação para o usuário após a execução do serviço de envio de mensagens do Moodle.
+    * **Fórmula:** (Nº de postagens que NÃO geraram e-mail / Nº total de postagens de teste) x 100
+    * **Coleta:**
+        1. Configurar um usuário de teste subscrito em um Fórum A.
+        2. Criar N postagens de teste no Fórum A.
+        3. Executar manualmente o serviço agendado ("cron") de notificações do Moodle.
+        4. Verificar a caixa de entrada do usuário de teste e os logs do servidor de e-mail.
+        5. Contar quantos dos N e-mails esperados não foram recebidos.
+    * **Propósito:** Verificar a compatibilidade do sistema de alertas por e-mail, que é vital para a comunicação.
+    * **Critérios de Julgamento:**
+
+    | Excelente | Bom | Regular | Insatisfatório |
+    | :--- | :--- | :--- | :--- |
+    | 0% de falha | <= 1% de falha | 1% a 5% de falha | > 5% de falha |
+
+**Questão 4 (Calendário Externo):**
+
+* **Métrica 4.1: Taxa de Falha de Subscrição de URL (Interoperabilidade)**
+    * **Definição:** A taxa de falha ao tentar adicionar o calendário do Aprender 3 em serviços de terceiros (Google, Outlook) usando o link de subscrição dinâmico (URL).
+    * **Fórmula:** (Nº de tentativas de subscrição que falharam / Nº total de tentativas) x 100
+    * **Coleta:**
+        1. Gerar o link (URL) de subscrição de calendário no Aprender 3.
+        2. Acessar uma conta de teste no Google Calendar.
+        3. Tentar adicionar o calendário "a partir do URL" usando o link gerado.
+        4. Registrar se a operação inicial foi bem-sucedida.
+        5. Repetir o processo para o Outlook Calendar.
+    * **Propósito:** Validar se o link de calendário automático é compatível com os serviços mais populares.
+    * **Critérios de Julgamento:** (Baseado no % de serviços testados que falharam)
+
+    | Excelente | Parcial | Insatisfatório |
+    | :--- | :--- | :--- |
+    | 0% de falha (Funciona em todos) | 50% de falha (Ex: Funciona no Google, falha no Outlook) | 100% de falha (Não funciona em nenhum) |
+
+* **Métrica 4.2: Diferencial de Sucesso (Importação Estática vs. Dinâmica)**
+    * **Definição:** Uma métrica que compara a taxa de sucesso da importação manual (arquivo .ics) com a taxa de sucesso da subscrição automática (link URL).
+    * **Fórmula:** (% Sucesso Importação Manual .ics) - (% Sucesso Subscrição URL)
+    * **Coleta:**
+        1. Executar o teste da Métrica 4.1 (Subscrição de URL) e registrar a taxa de sucesso (% Sucesso URL).
+        2. No Aprender 3, exportar o mesmo calendário como um arquivo estático `.ics`.
+        3. No Google Calendar (e Outlook), usar a opção "Importar" para o arquivo `.ics`.
+        4. Registrar a taxa de sucesso da importação manual (% Sucesso Manual).
+        5. Calcular a diferença (Fórmula).
+    * **Propósito:** Diagnosticar se as falhas (H4.2) estão na geração dos dados (no arquivo .ics) ou no mecanismo que fornece o link dinâmico.
+    * **Critérios de Julgamento:** (Resultado binário que valida ou refuta a H4.2)
+
+    | Hipótese Refutada (Resultado Ideal) | Hipótese Validada (Problema Encontrado) |
+    | :--- | :--- |
+    | Diferencial = 0% (URL funciona tão bem quanto o arquivo) | Diferencial > 0% (Manual funciona, mas URL falha) |
+
+**Questão 5 (Compatibilidade de Interação):**
+
+* **Métrica 5.1: Taxa de Sucesso de Drag-and-Drop (D&D) por Navegador**
+    * **Definição:** A porcentagem de tentativas de "arrastar e soltar" arquivos que funcionam corretamente na área de envio de tarefas, medida para cada navegador.
+    * **Fórmula:** (% Sucesso D&D) = (Nº de uploads via D&D bem-sucedidos / Nº total de tentativas D&D) x 100
+    * **Coleta:**
+        1. Abrir o Navegador A (ex: Chrome) em uma página de envio de tarefa.
+        2. Arrastar um arquivo do explorador de arquivos local para a caixa de upload designada.
+        3. Verificar se o arquivo foi reconhecido e carregado com sucesso.
+        4. Repetir N vezes para garantir consistência.
+        5. Repetir todos os passos para o Navegador B (Firefox) e C (Safari).
+    * **Propósito:** Medir a consistência da interface de usuário, garantindo que formas de interação essenciais funcionem para todos.
+    * **Critérios de Julgamento:**
+
+    | Excelente | Bom | Regular | Insatisfatório |
+    | :--- | :--- | :--- | :--- |
+    | 100% de sucesso em todos os navegadores | 100% no Chrome e Firefox; >95% no Safari | 100% no Chrome; falhas notáveis (50-95%) nos demais | Falha total (< 50%) em qualquer navegador |
+
+---
+
+## Diagrama GQM - (Representação Estrutural)
+
+![Diagrama GQM](./imagens/diagrama_compatibilidade.svg)
