@@ -4,54 +4,162 @@
 
 **Tabela 2** - Objetivo de Medição 2: Portabilidade.
 
-| **Analisar**           | A portabilidade do site "Aprender". |
+| **Analisar**           | o site "Aprender". |
 |------------------------|------------------------------------------------------------------------------------------------|
-| **Para o propósito de**| Garantir que ele possa ser facilmente adaptado e executado em diferentes ambientes.              |
-| **Com respeito a**     | Sua adaptabilidade a navegadores e facilidade de instalação.                                   |
-| **Do ponto de vista da** | Equipe de desenvolvimento.                                                                     |
-| **No contexto da**     | Manutenção e implantação do site "Aprender".                                                   |
+| **Para o propósito de**| Avaliar              |
+| **Com respeito a**     | Portabilidade                                |
+| **Do ponto de vista da** | Comunidade discente                                                                     |
+| **No contexto da**     | Universidade de Brasília                                                   |
 
 ---
 
 ### Perguntas e Hipóteses de Medição
 
-**Questão 1: Quão adaptável é o site a diferentes navegadores dispositivos?**
-> A tecnologia usada no desenvolvimento do site garante que ele funcione corretamente nos navegadores mais populares?
+**Questão 1: (Adaptabilidade)**
+> A tecnologia usada no desenvolvimento do site garante que ele funcione corretamente nos navegadores mais populares e até em dispositivos móveis?
 
 * **Hipótese 1.1 (H1.1):** O layout responsivo do Aprender 3 se ajusta adequadamente a diferentes tamanhos de tela, e diferentes navegadores, garantindo sua usabilidade.
 * **Hipótese 1.2 (H1.2):** O acesso via aplicativo oficial do Moodle oferece uma alternativa viável e funcional ao navegador, ampliando a portabilidade para o ecossistema móvel.
 
-**Questão 2: A plataforma Moodle demonstra capacidade de substituibilidade, permitindo atualizações e migrações?**
+**Questão 2: (Substituibilidade)**
 > A arquitetura do Aprender 3 facilita a evolução do sistema, como a migração de dados de versões anteriores e a atualização de seus componentes?
 
 * **Hipótese 2.1 (H2.1):** A migração bem-sucedida do Aprender 2 para o Aprender 3 evidencia a capacidade da plataforma de ser substituída por versões mais novas, mantendo a continuidade dos serviços.
 * **Hipótese 2.2 (H2.2):** A natureza modular do Moodle permite a atualização e substituição de componentes (plugins e temas), garantindo sua evolução tecnológica e funcional.
 
+**Questão 3: (Instalabilidade)**
+> O acesso ao Aprender 3, seja via aplicativo móvel ou navegador, pode ser configurado sem a necessidade de conhecimentos técnicos avançados?
+
+* **Hipótese 3.1 (H3.1):** A configuração do aplicativo Moodle para conectar-se ao site da UnB (`aprender3.unb.br`) é um processo complexo, causando dificuldades para usuários não técnicos.
+* **Hipótese 3.2 (H3.2):** O sistema não impõe a instalação de plugins ou softwares específicos no navegador do usuário para seu funcionamento básico, garantindo a portabilidade entre diferentes máquinas e perfis de permissão.
+
+<!-- **Questão 4: (Compatibilidade de Versões)**
+> Atividades, recursos e configurações de um curso podem ser "portados" para uma nova versão do Aprender sem perda de dados ou funcionalidade?
+
+* **Hipótese 4.1 (H4.1):** Recursos nativos do Moodle (ex: Fóruns, Tarefas, Questionários) mantêm total compatibilidade quando um curso é restaurado em uma versão mais recente da plataforma.
+* **Hipótese 4.2 (H4.2):** Conteúdos que dependem de plugins de terceiros (não-nativos) apresentam um risco significativo de quebra de funcionalidade após uma atualização, exigindo intervenção manual ou substituição. -->
+
 ---
 
 ### Seleção das Métricas
 
-**Questão 1: Quão adaptável é o site a diferentes navegadores dispositivos?**
+**Questão 1: (Adaptabilidade)**
 
-* **Métrica 1.1: Compatibilidade do Layout entre Navegadores**
+* **Métrica 1.1: Taxa de Conformidade de Layout Responsivo**
+    * **Definição:** A porcentagem de páginas e funcionalidades essenciais que são renderizadas corretamente, sem quebras de layout ou perda de funcionalidade, em diferentes resoluções de tela e navegadores.
+    * **Fórmula:** (% Conformidade) = (Nº de páginas/funcionalidades conformes / Nº total de páginas/funcionalidades testadas) x 100
+    * **Coleta:**
+        1. Definir uma lista de N páginas e funcionalidades críticas (ex: login, página inicial do curso, fórum, envio de tarefa).
+        2. Definir os ambientes de teste: Navegadores (Chrome, Firefox, Safari) e Resoluções (Desktop, Tablet, Smartphone).
+        3. Para cada ambiente, executar o checklist de funcionalidades, registrando sucesso ou falha (ex: elemento sobreposto, botão inacessível).
+    * **Propósito:** Garantir que a experiência do usuário seja consistente e funcional, independentemente do dispositivo ou navegador utilizado.
+    * **Critérios de Julgamento:**
 
-    * **Definição:** Avalia o layout e as funcionalidades do site em diferentes resoluções de tela (desktop, tablet, smartphone) e em navegadores alvo.
-    * **Coleta:** Teste manual, acessando o site `aprender3.unb.br` e executando tarefas (acessar um curso, visualizar notas, abrir um fórum) em cada tipo de dispositivo e diferentes navegadores (Google Chrome, Mozilla Firefox e Safari).
-    * **Resultado:** O layout do Aprender 3 é responsivo e se adapta bem à maioria dos dispositivos, embora alguns elementos complexos, como tabelas de notas, possam exigir rolagem horizontal em telas menores.
+    | Excelente | Bom | Regular | Insatisfatório |
+    | :--- | :--- | :--- | :--- |
+    | > 90% de conformidade | 75% a 90% de conformidade | 60% a 74% de conformidade | < 60% de conformidade |
 
-* **Métrica 1.2: Funcionalidade do Aplicativo Móvel**
-    * **Definição:** Verifica a disponibilidade e a funcionalidade do aplicativo oficial do Moodle como meio de acesso ao Aprender 3.
-    * **Coleta:** Instalação do aplicativo Moodle em um dispositivo móvel (Android ou iOS), configuração do site `aprender3.unb.br` e teste de funcionalidades básicas.
-    * **Resultado:** O aplicativo oficial do Moodle se conecta com sucesso ao Aprender 3, oferecendo uma interface para dispositivos móveis e confirmando a portabilidade da plataforma.
+* **Métrica 1.2: Taxa de Sucesso em Funcionalidades no App Móvel**
+    * **Definição:** A porcentagem de tarefas essenciais que podem ser concluídas com sucesso através do aplicativo oficial do Moodle.
+    * **Fórmula:** (% Sucesso no App) = (Nº de tarefas bem-sucedidas no App / Nº total de tarefas testadas) x 100
+    * **Coleta:**
+        1. Definir um checklist de tarefas críticas (ex: visualizar notas, enviar uma mensagem, responder a um fórum).
+        2. Instalar o App Moodle em um dispositivo de teste (Android ou iOS).
+        3. Tentar executar cada tarefa do checklist, registrando sucesso ou falha.
+    * **Propósito:** Validar se o aplicativo móvel é uma alternativa viável e funcional ao navegador, confirmando a portabilidade para o ecossistema móvel.
+    * **Critérios de Julgamento:**
 
-**Questão 2: A plataforma Moodle demonstra capacidade de substituibilidade, permitindo atualizações e migrações?**
+    | Excelente | Bom | Regular | Insatisfatório |
+    | :--- | :--- | :--- | :--- |
+    | > 90% de sucesso | 75% a 90% de sucesso | 60% a 74% de sucesso | < 60% de sucesso |
 
-* **Métrica 2.1: Histórico de Migração bem-sucedida**
-    * **Definição:** Verifica a existência de evidências de migração de versões anteriores.
-    * **Coleta:** Análise do histórico do projeto (ex: a transição do Aprender 2 para o Aprender 3).
-    * **Resultado:** A existência do Aprender 3 como uma evolução do Aprender 2 é uma evidência da substituibilidade da plataforma.
+**Questão 2: (Substituibilidade)**
 
-<!-- * **Métrica 2.2: Análise da Arquitetura Modular**
-    * **Definição:** Avalia a capacidade de atualizar ou trocar componentes individuais do sistema (plugins, temas).
-    * **Coleta:** Análise da documentação oficial do Moodle e da lista de plugins instalados no próprio Aprender 3.
-    * **Resultado:** A arquitetura do Moodle é reconhecidamente modular. Isso permite que a UnB atualize e adicione novos plugins de atividades, demonstrando capacidade de substituibilidade de componentes. -->
+* **Métrica 2.1: Verificação de Histórico de Migração**
+    * **Definição:** Uma métrica binária (Sim/Não) que verifica se a plataforma já passou por um processo de atualização de versão majoritária com sucesso.
+    * **Fórmula:** N/A (Verificação qualitativa)
+    * **Coleta:**
+        1. Pesquisar em notícias, comunicados da UnB ou documentação interna sobre a transição de sistemas anteriores (ex: Aprender 2) para o Aprender 3.
+        2. Registrar a existência (Sim) ou ausência (Não) de evidências de uma migração bem-sucedida.
+    * **Propósito:** Confirmar, com base em evidências passadas, a capacidade da plataforma de ser substituída por versões mais novas.
+    * **Critérios de Julgamento:**
+
+    | Hipótese Validada | Hipótese Refutada |
+    | :--- | :--- |
+    | Sim (evidência encontrada) | Não (nenhuma evidência) |
+
+* **Métrica 2.2: Taxa de Compatibilidade de Plugins na Atualização**
+    * **Definição:** A porcentagem de plugins e temas instalados que são oficialmente compatíveis com a versão mais recente do Moodle disponível.
+    * **Fórmula:** (% Compatibilidade de Plugins) = (Nº de plugins compatíveis / Nº total de plugins instalados) x 100
+    * **Coleta:**
+        1. Listar todos os plugins e temas de terceiros instalados na versão atual do Aprender 3.
+        2. Consultar o diretório oficial de plugins do Moodle para verificar a compatibilidade de cada um com a versão-alvo da atualização.
+        3. Registrar o número de plugins compatíveis.
+    * **Propósito:** Avaliar a manutenibilidade e a capacidade de evolução da plataforma, medindo a dependência de componentes que podem se tornar obsoletos.
+    * **Critérios de Julgamento:**
+
+    | Excelente | Bom | Regular | Insatisfatório |
+    | :--- | :--- | :--- | :--- |
+    | > 90% compatíveis | 75% a 90% compatíveis | 60% a 74% compatíveis | < 60% compatíveis |
+
+**Questão 3: (Instalabilidade)**
+
+* **Métrica 3.1: Taxa de Sucesso na Configuração do App por Novos Usuários**
+    * **Definição:** A porcentagem de usuários sem experiência prévia que conseguem instalar e configurar o aplicativo Moodle para acessar o Aprender 3 sem assistência.
+    * **Fórmula:** (% Sucesso na Configuração) = (Nº de usuários bem-sucedidos / Nº total de usuários testados) x 100
+    * **Coleta:**
+        1. Selecionar um grupo de N usuários de teste sem conhecimento prévio do processo.
+        2. Fornecer a instrução: "Instale o aplicativo Moodle e acesse sua conta do Aprender 3".
+        3. Observar o processo e registrar se o usuário conseguiu completar a tarefa sem ajuda.
+    * **Propósito:** Medir a complexidade real do processo de configuração inicial para um usuário comum, avaliando a portabilidade da instalação.
+    * **Critérios de Julgamento:**
+
+    | Excelente | Bom | Regular | Insatisfatório |
+    | :--- | :--- | :--- | :--- |
+    | > 90% de sucesso | 75% a 90% de sucesso | 60% a 74% de sucesso | < 60% de sucesso |
+
+* **Métrica 3.2: Verificação de Dependências de Navegador**
+    * **Definição:** Uma métrica binária (Sim/Não) que verifica se o funcionamento básico do Aprender 3 requer a instalação de qualquer software, plugin ou extensão de navegador de terceiros.
+    * **Fórmula:** N/A (Verificação qualitativa)
+    * **Coleta:**
+        1. Utilizar um navegador em sua configuração padrão ("limpa"), sem extensões.
+        2. Executar um checklist de funcionalidades essenciais (ex: login, visualização de conteúdo, envio de tarefa).
+        3. Registrar se alguma funcionalidade exigiu a instalação de um componente adicional (Não) ou se tudo funcionou nativamente (Sim).
+    * **Propósito:** Garantir que a plataforma seja facilmente portável entre diferentes computadores (pessoais, laboratórios, etc.) sem barreiras de instalação.
+    * **Critérios de Julgamento:**
+
+    | Excelente (Portável) | Insatisfatório (Não Portável) |
+    | :--- | :--- |
+    | Sim (nenhuma dependência) | Não (requer instalação) |
+<!-- 
+**Questão 4: (Compatibilidade de Versões)**
+
+* **Métrica 4.1: Taxa de Sucesso na Restauração de Cursos (Recursos Nativos)**
+    * **Definição:** A porcentagem de recursos e atividades nativas de um curso que são restaurados com sucesso e permanecem 100% funcionais após a migração para uma nova versão do Moodle.
+    * **Fórmula:** (% Sucesso na Restauração) = (Nº de recursos nativos funcionais / Nº total de recursos nativos testados) x 100
+    * **Coleta:**
+        1. Criar um curso de teste em uma versão anterior do Moodle, contendo uma amostra de N recursos nativos (fóruns, tarefas, questionários, etc.).
+        2. Realizar o backup do curso.
+        3. Restaurar o backup na versão atual do Aprender 3.
+        4. Verificar sistematicamente o funcionamento de cada um dos N recursos.
+    * **Propósito:** Medir a confiabilidade da portabilidade do conteúdo do curso, garantindo que o trabalho dos professores não seja perdido em atualizações.
+    * **Critérios de Julgamento:**
+
+    | Excelente | Bom | Regular | Insatisfatório |
+    | :--- | :--- | :--- | :--- |
+    | > 90% de sucesso | 75% a 90% de sucesso | 60% a 74% de sucesso | < 60% de sucesso |
+
+* **Métrica 4.2: Taxa de Falha de Plugins de Terceiros Pós-Restauração**
+    * **Definição:** A porcentagem de atividades baseadas em plugins de terceiros que se tornam não funcionais após a restauração de um curso em uma nova versão.
+    * **Fórmula:** (% Falha de Plugins) = (Nº de plugins de terceiros com falha / Nº total de plugins de terceiros testados) x 100
+    * **Coleta:**
+        1. Criar um curso de teste em uma versão anterior, utilizando M plugins de terceiros.
+        2. Realizar o backup e restaurá-lo na versão atual do Aprender 3.
+        3. Tentar acessar e utilizar cada uma das M atividades baseadas em plugins.
+        4. Registrar o número de atividades que apresentaram falha.
+    * **Propósito:** Identificar o risco associado ao uso de plugins não-nativos, que podem comprometer a portabilidade do conteúdo a longo prazo.
+    * **Critérios de Julgamento:**
+
+    | Excelente | Bom | Regular | Insatisfatório |
+    | :--- | :--- | :--- | :--- |
+    | < 5% de falha | 5% a 15% de falha | 16% a 30% de falha | > 30% de falha | -->
