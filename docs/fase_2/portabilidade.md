@@ -4,12 +4,12 @@
 
 **Tabela 2** - Objetivo de Medição 2: Portabilidade.
 
-| **Analisar**           | o site "Aprender". |
-|------------------------|------------------------------------------------------------------------------------------------|
-| **Para o propósito de**| Avaliar              |
-| **Com respeito a**     | Portabilidade                                |
-| **Do ponto de vista da** | Comunidade discente                                                                     |
-| **No contexto da**     | Universidade de Brasília                                                   |
+| **Analisar** | o site "Aprender". |
+|:---|:---|
+| **Para o propósito de**| Avaliar |
+| **Com respeito a** | Portabilidade |
+| **Do ponto de vista da** | Comunidade discente |
+| **No contexto da** | Universidade de Brasília |
 
 ---
 
@@ -33,11 +33,17 @@
 * **Hipótese 3.1 (H3.1):** A configuração do aplicativo Moodle para conectar-se ao site da UnB (`aprender3.unb.br`) é um processo complexo, causando dificuldades para usuários não técnicos.
 * **Hipótese 3.2 (H3.2):** O sistema não impõe a instalação de plugins ou softwares específicos no navegador do usuário para seu funcionamento básico, garantindo a portabilidade entre diferentes máquinas e perfis de permissão.
 
-<!-- **Questão 4: (Compatibilidade de Versões)**
-> Atividades, recursos e configurações de um curso podem ser "portados" para uma nova versão do Aprender sem perda de dados ou funcionalidade?
+---
 
-* **Hipótese 4.1 (H4.1):** Recursos nativos do Moodle (ex: Fóruns, Tarefas, Questionários) mantêm total compatibilidade quando um curso é restaurado em uma versão mais recente da plataforma.
-* **Hipótese 4.2 (H4.2):** Conteúdos que dependem de plugins de terceiros (não-nativos) apresentam um risco significativo de quebra de funcionalidade após uma atualização, exigindo intervenção manual ou substituição. -->
+### Critérios de Julgamento da Característica (Portabilidade)
+
+Em conformidade com Estabelecimento de Critérios de Julgamento, são definidos os critérios para o julgamento final da característica **Portabilidade** como um todo. Os níveis de pontuação das métricas individuais (Excelente, Bom, Regular, Insatisfatório) serão agregados para fornecer um veredito final, conforme a tabela abaixo:
+
+| Julgamento Final | Critério de Agregação |
+| :--- | :--- |
+| **Aceitável** | No mínimo 70% das métricas avaliadas obtiveram pontuação "Bom" ou "Excelente" E nenhuma métrica obteve pontuação "Insatisfatório". |
+| **Parcialmente aceitável** | No mínimo 50% das métricas avaliadas obtiveram pontuação "Regular" ou superior, OU se alguma métrica-chave (ex: M1.1, M3.1) obteve pontuação "Insatisfatório". |
+| **Inaceitável** | Mais de 30% das métricas avaliadas obtiveram pontuação "Insatisfatório", indicando falhas sistêmicas na portabilidade. |
 
 ---
 
@@ -131,35 +137,9 @@
     | Excelente (Portável) | Insatisfatório (Não Portável) |
     | :--- | :--- |
     | Sim (nenhuma dependência) | Não (requer instalação) |
-<!-- 
-**Questão 4: (Compatibilidade de Versões)**
 
-* **Métrica 4.1: Taxa de Sucesso na Restauração de Cursos (Recursos Nativos)**
-    * **Definição:** A porcentagem de recursos e atividades nativas de um curso que são restaurados com sucesso e permanecem 100% funcionais após a migração para uma nova versão do Moodle.
-    * **Fórmula:** (% Sucesso na Restauração) = (Nº de recursos nativos funcionais / Nº total de recursos nativos testados) x 100
-    * **Coleta:**
-        1. Criar um curso de teste em uma versão anterior do Moodle, contendo uma amostra de N recursos nativos (fóruns, tarefas, questionários, etc.).
-        2. Realizar o backup do curso.
-        3. Restaurar o backup na versão atual do Aprender 3.
-        4. Verificar sistematicamente o funcionamento de cada um dos N recursos.
-    * **Propósito:** Medir a confiabilidade da portabilidade do conteúdo do curso, garantindo que o trabalho dos professores não seja perdido em atualizações.
-    * **Critérios de Julgamento:**
+---
 
-    | Excelente | Bom | Regular | Insatisfatório |
-    | :--- | :--- | :--- | :--- |
-    | > 90% de sucesso | 75% a 90% de sucesso | 60% a 74% de sucesso | < 60% de sucesso |
+## Diagrama GQM - (Representação Estrutural)
 
-* **Métrica 4.2: Taxa de Falha de Plugins de Terceiros Pós-Restauração**
-    * **Definição:** A porcentagem de atividades baseadas em plugins de terceiros que se tornam não funcionais após a restauração de um curso em uma nova versão.
-    * **Fórmula:** (% Falha de Plugins) = (Nº de plugins de terceiros com falha / Nº total de plugins de terceiros testados) x 100
-    * **Coleta:**
-        1. Criar um curso de teste em uma versão anterior, utilizando M plugins de terceiros.
-        2. Realizar o backup e restaurá-lo na versão atual do Aprender 3.
-        3. Tentar acessar e utilizar cada uma das M atividades baseadas em plugins.
-        4. Registrar o número de atividades que apresentaram falha.
-    * **Propósito:** Identificar o risco associado ao uso de plugins não-nativos, que podem comprometer a portabilidade do conteúdo a longo prazo.
-    * **Critérios de Julgamento:**
-
-    | Excelente | Bom | Regular | Insatisfatório |
-    | :--- | :--- | :--- | :--- |
-    | < 5% de falha | 5% a 15% de falha | 16% a 30% de falha | > 30% de falha | -->
+![Diagrama GQM de Portabilidade](./imagens/gqm_portabilidade.png)

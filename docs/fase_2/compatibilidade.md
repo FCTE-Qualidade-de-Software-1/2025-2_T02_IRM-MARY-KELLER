@@ -42,6 +42,18 @@
 
 ---
 
+### Critérios de Julgamento da Característica (Compatibilidade)
+
+Em conformidade com o Estabelecimento de Critérios de Julgamento, são definidos os critérios para o julgamento final da característica **Compatibilidade** como um todo. Os níveis de pontuação das métricas individuais (Excelente, Bom, Regular, Insatisfatório) serão agregados para fornecer um veredito final, conforme a tabela abaixo:
+
+| Julgamento Final | Critério de Agregação |
+| :--- | :--- |
+| **Aceitável** | No mínimo 70% das métricas avaliadas obtiveram pontuação "Bom" ou "Excelente" E nenhuma métrica obteve pontuação "Insatisfatório". |
+| **Parcialmente aceitável** | No mínimo 50% das métricas avaliadas obtiveram pontuação "Regular" ou superior, OU se alguma métrica-chave (ex: M1.1, M3.1) obteve pontuação "Insatisfatório". |
+| **Inaceitável** | Mais de 30% das métricas avaliadas obtiveram pontuação "Insatisfatório", indicando falhas sistêmicas na compatibilidade. |
+
+---
+
 ### Seleção das Métricas
 
 **Questão 1 (Sincronia de Dados):**
@@ -171,4 +183,4 @@
 
 ## Diagrama GQM - (Representação Estrutural)
 
-![Diagrama GQM](./imagens/diagrama_compatibilidade.svg)
+![Diagrama GQM de Compatibilidade](./imagens/diagrama_compatibilidade.svg)
