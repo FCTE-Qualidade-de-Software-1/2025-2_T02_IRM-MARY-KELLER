@@ -12,6 +12,12 @@ nav:
     - Medição 1 - Compatibilidade: "fase_2/compatibilidade.md"
     - Medição 2 - Portabilidade: "fase_2/portabilidade.md"
     - Conclusão: "fase_2/conclusao.md"
+  - Fase 3 - Projeto de Avaliação:
+    - Planejamento da Avaliação: "fase_3/planejamento.md"
+    - Testes de Compatibilidade: "fase_3/compatibilidade.md"
+    - Testes de Portabilidade: "fase_3/portabilidade.md"
+    - Cronograma de ações: "fase_3/cronograma.md"
+    - Ferramentas e Ambiente: "fase_3/ferramentas.md"
 
 theme:
   name: material
