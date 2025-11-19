@@ -1,21 +1,17 @@
-# 2. Casos de Teste – Portabilidade
+# Casos de Teste – Portabilidade
 
-Esta seção apresenta os **Casos de Teste (CTs)** projetados para avaliar a característica **Portabilidade** do Aprender 3, conforme o Objetivo de Medição 2 definido no modelo GQM.
+Esta seção descreve os **Casos de Teste (CTs)** projetados para avaliar a característica de **Portabilidade** do Aprender 3, de acordo com o modelo **GQM** definido na Fase 2.
 
 Cada CT está explicitamente associado a:
 
 - uma **Questão GQM**;
-- uma **Métrica**;
-- as **Hipóteses** correspondentes (quando aplicável);
-- os **critérios de julgamento** definidos na Fase 2 (Excelente, Bom, Regular, Insatisfatório).
+- uma **Métrica** (conforme definido na Fase 2);
+- e, quando aplicável, às **Hipóteses** correspondentes.
 
-O cálculo numérico das métricas deve seguir **exatamente** as fórmulas definidas na Fase 2.
+O cálculo numérico de cada métrica e a classificação dos resultados **devem seguir exatamente as fórmulas e critérios de julgamento definidos na Fase 2** (Excelente, Bom, Regular, Insatisfatório).
 
 ---
-
-## 2.1. Casos de Teste de Portabilidade
-
-### CT-POR-01: Conformidade de Layout Responsivo (Web – Desktop, Tablet e Smartphone)
+## CT-POR-01: Conformidade de Layout Responsivo (Web – Desktop, Tablet e Smartphone)
 
 - **Questão GQM:** Q1 (Adaptabilidade)  
 - **Métrica Associada:** Métrica 1.1 – Taxa de Conformidade de Layout Responsivo  
@@ -88,7 +84,7 @@ Ou seja, dividir o número de combinações conformes pelo número total de comb
 
 ---
 
-### CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle
+## CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle
 
 - **Questão GQM:** Q1 (Adaptabilidade)  
 - **Métrica Associada:** Métrica 1.2 – Taxa de Sucesso em Funcionalidades no App Móvel  
@@ -147,7 +143,7 @@ Ou seja, dividir o número de tarefas concluídas com sucesso pelo número total
 
 ---
 
-### CT-POR-03: Verificação de Histórico de Migração (Aprender 2 → Aprender 3)
+## CT-POR-03: Verificação de Histórico de Migração (Aprender 2 → Aprender 3)
 
 - **Questão GQM:** Q2 (Substituibilidade)  
 - **Métrica Associada:** Métrica 2.1 – Verificação de Histórico de Migração  
@@ -200,7 +196,7 @@ Métrica qualitativa/binária:
 
 ---
 
-### CT-POR-04: Compatibilidade de Plugins e Temas na Atualização do Moodle
+## CT-POR-04: Compatibilidade de Plugins e Temas na Atualização do Moodle
 
 - **Questão GQM:** Q2 (Substituibilidade)  
 - **Métrica Associada:** Métrica 2.2 – Taxa de Compatibilidade de Plugins na Atualização  
@@ -256,7 +252,7 @@ Ou seja, dividir o número de plugins compatíveis pelo número total de plugins
 
 ---
 
-### CT-POR-05: Sucesso na Configuração do App Moodle por Novos Usuários
+## CT-POR-05: Sucesso na Configuração do App Moodle por Novos Usuários
 
 - **Questão GQM:** Q3 (Instalabilidade)  
 - **Métrica Associada:** Métrica 3.1 – Taxa de Sucesso na Configuração do App por Novos Usuários  
@@ -305,7 +301,7 @@ Ou seja, dividir o número de usuários bem-sucedidos pelo número total de part
 
 ---
 
-### CT-POR-06: Verificação de Dependências de Navegador (Navegador Limpo)
+## CT-POR-06: Verificação de Dependências de Navegador (Navegador Limpo)
 
 - **Questão GQM:** Q3 (Instalabilidade)  
 - **Métrica Associada:** Métrica 3.2 – Verificação de Dependências de Navegador  
