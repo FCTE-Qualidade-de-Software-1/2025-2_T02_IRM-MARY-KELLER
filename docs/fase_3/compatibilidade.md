@@ -153,45 +153,44 @@ Medir e comparar o **consumo médio de memória RAM** do Aprender 3 em diferente
 
 ## CT-COMP-04: Entrega de Notificações de Fórum por E-mail
 
-- **Questão GQM:** Q3 (Notificações de Fórum)  
-- **Métrica Associada:** Métrica 3.1 – Taxa de Falha de Entrega de Notificação  
-- **Hipótese Relacionada:** H3.1 – Discente não recebe e-mails de novas mensagens em fóruns subscritos  
-- **Perfil Principal:** Discente / Equipe Técnica (para logs)
+- **Questão GQM:** Q3 (Notificações de Fórum)
+- **Métrica Associada:** Métrica 3.1 – Taxa de Falha de Entrega de Notificação
+- **Hipótese Relacionada:** H3.1 – Discente não recebe e-mails de novas mensagens em fóruns subscritos
+- **Perfil Principal:** Discente (Visão do Usuário)
 
-**Objetivo:**  
-Verificar se o Aprender 3 envia corretamente **e-mails de notificação** para um discente subscrito em um fórum, após novas postagens.
+**Objetivo:**
+Verificar se o Aprender 3 envia corretamente **e-mails de notificação** para um discente subscrito em um fórum, garantindo que configurações de perfil do usuário não estejam impedindo o recebimento.
 
 **Pré-condições:**
-
-- Conta de estudante de teste com endereço de e-mail funcional (institucional ou de laboratório).
-- Curso de teste com um **fórum configurado**.
-- Acesso ao painel de administração/logs de e-mail (se autorizado).
-- Tarefas agendadas (cron) do Moodle corretamente configuradas no ambiente de teste ou produção.
+- **Duas contas de usuário distintas:**
+    - **Conta A (Autor):** Para realizar a postagem.
+    - **Conta B (Destinatário):** Para receber a notificação.
+- Curso de teste com um **fórum acessível** a ambas as contas.
+- **Configuração Obrigatória (Conta B):** Nas "Preferências do Fórum" (Menu do usuário > Preferências), o campo **Tipo de resumo de e-mail** deve estar marcado como: **"Sem resumo (um e-mail para cada nova mensagem do fórum)"**.
 
 **Passos de Execução:**
 
-1. Selecionar um fórum de teste em um curso do Aprender 3.
-2. [Estudante de teste] Fazer login na Web e se **inscrever/subscrever** ao fórum (caso a inscrição não seja automática).
-3. Confirmar que a opção de **notificação por e-mail** está ativada para o usuário.
-4. Criar uma sequência de **N postagens** de teste no fórum (podem ser feitas por diferentes contas para simular uso real).
-5. Garantir que o **cron** do Moodle seja executado (automaticamente ou manualmente, conforme ambiente).
-6. Monitorar a caixa de entrada do e-mail do estudante de teste por um período adequado (por exemplo, até o ciclo completo de execução do cron + atraso normal esperado).
-7. Registrar, em planilha, para cada uma das N postagens:
-   - Data/hora da postagem  
-   - Se o e-mail de notificação foi recebido ou não  
-   - Eventuais atrasos significativos (se forem relevantes ao contexto).
-8. Quando possível, consultar os **logs de e-mail** no servidor/Moodle para confirmar o envio das mensagens.
+1. **[Conta B - Destinatário]** Acessar o fórum de teste e garantir que a opção **"Assinar este fórum"** esteja ativa.
+2. **[Conta A - Autor]** Criar uma nova postagem (tópico ou resposta) no fórum.
+3. Aguardar o período de processamento.
+4. **[Conta B - Destinatário]** Monitorar a caixa de entrada do e-mail.
+5. Caso não esteja na caixa de entrada, verificar obrigatoriamente a pasta de **Spam/Lixo Eletrônico**.
+6. Registrar os resultados na planilha de teste.
+
+**Registros (Planilha de Teste):**
+Para cada postagem, registrar:
+- Data/Hora da Postagem (Conta A)
+- Recebeu notificação? (Sim/Não)
+- Local de recebimento (Caixa de Entrada ou Spam)
+- Data/Hora do Recebimento (para cálculo de latência)
 
 **Resultado Esperado:**
-
-- Idealmente, todas as **N postagens** geram e-mails de notificação corretamente entregues ao discente (0 falhas).
+- A Conta B deve receber um e-mail individual contendo o texto da postagem feita pela Conta A.
+- O recebimento deve ocorrer após o tempo de edição (30 min), dentro de um limite aceitável (ex: até 2 horas no total).
 
 **Cálculo da Métrica e Classificação:**
-
-- Aplicar a **fórmula da Métrica 3.1**, conforme definida na Fase 2, sobre o número de notificações esperadas versus recebidas.  
-- Classificar a taxa de falha obtida utilizando os **critérios da Métrica 3.1** definidos na Fase 2.
-
----
+- Aplicar a **fórmula da Métrica 3.1**, conforme definida na Fase 2, sobre o número de notificações esperadas versus recebidas.
+- Se o e-mail cair no **Spam**, considera-se sucesso de entrega do Moodle, mas deve ser anotado como alerta de qualidade.
 
 ## CT-COMP-05: Subscrição de Calendário via URL
 
