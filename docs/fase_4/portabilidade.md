@@ -85,7 +85,7 @@ Taxa de Sucesso = (100% + 85,7% + 100% + 100% + 100%) ÷ 5 = 97,14%
 
 ---
 
-### 1.7 Classificação da Métrica 1.2
+### 1.7 Classificação da Métrica 1.1
 
 Conforme critérios definidos na Fase 2:
 
@@ -177,8 +177,21 @@ Assim como a futura atualização planejada para o Moodle 4.0, essas mudanças i
 - **Sim:** Pelo menos 2 fontes documentadas confirmando a migração/evolução
 
 ```
-Resultado da Métrica 2.1: Confirmada
+Resultado da Métrica 2.1: Sim
 ```
+
+---
+
+### 2.6 Classificação da Métrica 2.1
+
+Conforme critérios definidos na Fase 2:
+
+| Valor              | Interpretação          |
+| ------------------ | ---------------------- |
+| **Sim**            | **Hipótese validada**  |
+| Não                | Hipótese refutada      |
+
+Classificação Obtida: **Sim**
 
 ---
 
@@ -189,7 +202,7 @@ Resultado da Métrica 2.1: Confirmada
 | Métrica       | Descrição                                       | Resultado  | Classificação |
 | ------------- | ----------------------------------------------- | ---------- | ------------- |
 | **CT-POR-02** | Taxa de Sucesso em Funcionalidades no App Móvel | 97,14%     | **Excelente** |
-| **CT-POR-03** | Verificação de Histórico de Migração            | Confirmado | -             |
+| **CT-POR-03** | Verificação de Histórico de Migração            | Confirmado | **Sim**       |
 
 ---
 
