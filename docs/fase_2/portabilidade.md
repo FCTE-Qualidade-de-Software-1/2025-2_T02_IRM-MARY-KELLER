@@ -25,7 +25,7 @@
 > A arquitetura do Aprender 3 facilita a evolução do sistema, como a migração de dados de versões anteriores e a atualização de seus componentes?
 
 * **Hipótese 2.1 (H2.1):** A migração bem-sucedida do Aprender 2 para o Aprender 3 evidencia a capacidade da plataforma de ser substituída por versões mais novas, mantendo a continuidade dos serviços.
-* **Hipótese 2.2 (H2.2):** A natureza modular do Moodle permite a atualização e substituição de componentes (plugins e temas), garantindo sua evolução tecnológica e funcional.
+<!-- * **Hipótese 2.2 (H2.2):** A natureza modular do Moodle permite a atualização e substituição de componentes (plugins e temas), garantindo sua evolução tecnológica e funcional. -->
 
 **Questão 3: (Instalabilidade)**
 > O acesso ao Aprender 3, seja via aplicativo móvel ou navegador, pode ser configurado sem a necessidade de conhecimentos técnicos avançados?
@@ -94,7 +94,7 @@ Em conformidade com Estabelecimento de Critérios de Julgamento, são definidos 
     | :--- | :--- |
     | Sim (evidência encontrada) | Não (nenhuma evidência) |
 
-* **Métrica 2.2: Taxa de Compatibilidade de Plugins na Atualização**
+<!-- * **Métrica 2.2: Taxa de Compatibilidade de Plugins na Atualização**
     * **Definição:** A porcentagem de plugins e temas instalados que são oficialmente compatíveis com a versão mais recente do Moodle disponível.
     * **Fórmula:** (% Compatibilidade de Plugins) = (Nº de plugins compatíveis / Nº total de plugins instalados) x 100
     * **Coleta:**
@@ -106,7 +106,7 @@ Em conformidade com Estabelecimento de Critérios de Julgamento, são definidos 
 
     | Excelente | Bom | Regular | Insatisfatório |
     | :--- | :--- | :--- | :--- |
-    | > 90% compatíveis | 75% a 90% compatíveis | 60% a 74% compatíveis | < 60% compatíveis |
+    | > 90% compatíveis | 75% a 90% compatíveis | 60% a 74% compatíveis | < 60% compatíveis | -->
 
 **Questão 3: (Instalabilidade)**
 

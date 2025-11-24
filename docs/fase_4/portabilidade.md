@@ -4,116 +4,16 @@ Esta seção descreve os testes realizados e resultados obtidos com base nos **C
 
 ---
 
-# CT-COMP-01: Sincronia de Status de Conclusão
+# CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle
 
-## Informações do Teste
-- **Questão GQM:** Q1 – Sincronia de Dados  
-- **Métrica:** 1.1 – Percentual de Discrepância  
-- **Hipótese:** H1.1 – Possível inconsistência Web × App  
-- **Perfil:** Discente  
-
-## Ambiente
-- **Web:** Aprender 3 (Linux Ubuntu 24.04)  
-- **App:** Moodle 5.0.0 – S24 (Android 16)  
-- **Conexão:** Dados móveis (emulado)
-
-## Execução
-Foram avaliadas **atividades** com rastreamento de conclusão.  
-Passos: marcar na Web → sincronizar App → comparar status.
-
-## Resultados
-
-| Atividades | Discrepâncias | Percentual |
-|------------|---------------|------------|
-| 10         | 0             | **0%**     |
-
-### Fórmula
-
-Discrepância = (0 / 10) × 100 = 0%
-
-
-### Classificação (Métrica 1.1)
-**EXCELENTE** (0% a 5%)
-
----
-
-# CT-COMP-02: Sincronização Bidirecional de Arquivos
-
-## Informações do Teste
-- **Questão GQM:** Q1 – Sincronia de Dados  
-- **Métrica:** 1.2 – Taxa de Sucesso de Sincronização  
-- **Hipótese:** H1.2 – Possíveis falhas na sincronização Web ↔ App  
-- **Perfil:** Discente  
-
-## Ambiente
-- Mesmo do CT-COMP-01  
-- Arquivos: PDF, MD
-
-## Execução
-
-### Web → App
-- **1 arquivo enviados via Web**
-- Resultado: **1/1 sincronizados**
-
-### App → Web
-- **1 arquivo enviados via App**
-- Resultado: **1/1 sincronizados**
-
-## Resultados Consolidados
-
-| Direção     | Sucesso | Total | Taxa  |
-|-------------|---------|-------|-------|
-| Web → App   | 1       | 1     | 100%  |
-| App → Web   | 1       | 1     | 100%  |
-
-### Fórmula
-
-Taxa de Sucesso = (2/2) × 100 = 100%
-
-
-### Classificação (Métrica 1.2)
-**EXCELENTE** (> 90%)
-
----
-
-# Resumo Geral
-
-| Caso        | Resultado          | Classificação |
-|-------------|--------------------|---------------|
-| CT-COMP-01  | 0% discrepâncias   | **Excelente** |
-| CT-COMP-02  | 100% sincronização | **Excelente** |
-
-
-O video da execução do teste está disponível a seguir:
-
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
-    <iframe
-        src="https://youtu.be/IcZVN-WvuPE"
-        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
-        allowfullscreen>
-    </iframe>
-</div>
-
-
-
-
-## 1. CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle
-
-### 1.1 Informações do Teste
-
-- **Questão GQM:** Q1 (Adaptabilidade)
-- **Métrica Associada:** Métrica 1.2 – Taxa de Sucesso em Funcionalidades no App Móvel
-- **Hipótese Relacionada:** H1.2 – App Moodle é alternativa viável ao navegador
-- **Perfil Principal:** Discente
-
-### 1.2 Ambiente de Teste
+## Ambiente de Teste
 
 - **Dispositivo:** Pixel 9 Pro (Emulado)
 - **Sistema Operacional:** Android 16.0 ("Baklava")
 - **Versão do App Moodle:** 5.0.0 (atualizado em 27/06/2025)
 - **Conexão:** Dados móveis (emulado)
 
-### 1.3 Testes Realizados
+## Testes Realizados
 
 O video da execução do teste está disponível a seguir:
 
@@ -127,7 +27,7 @@ O video da execução do teste está disponível a seguir:
 
 ---
 
-### 1.4 Resultados dos Testes
+## Resultados dos Testes
 
 | Categoria                  | Funcionalidade/Item       | Status  | Observações                                                      |
 | -------------------------- | ------------------------- | ------- | ---------------------------------------------------------------- |
@@ -152,7 +52,7 @@ O video da execução do teste está disponível a seguir:
 
 ---
 
-### 1.5 Cálculo da Métrica 1.2
+## Cálculo da Métrica 1.2
 
 | Funcionalidade            | Status  | Considerada no Cálculo |
 | ------------------------- | ------- | ---------------------- |
@@ -193,22 +93,9 @@ Classificação Obtida: **Excelente**
 
 ---
 
-## 2. CT-POR-03: Verificação de Histórico de Migração
+# CT-POR-03: Verificação de Histórico de Migração
 
-### 2.1 Informações do Teste
-
-- **Questão GQM:** Q2 (Substituibilidade)
-- **Métrica Associada:** Métrica 2.1 – Verificação de Histórico de Migração
-- **Hipótese Relacionada:** H2.1 – Migração evidencia capacidade de substituição
-- **Perfil Principal:** Equipe Técnica / Pesquisadores
-
-### 2.2 Objetivo do Teste
-
-Documentar evidências que comprovem a existência e o sucesso da migração/evolução do Aprender, validando a capacidade da plataforma de ser substituída por versões mais novas.
-
----
-
-### 2.3 Resultados da Pesquisa
+## Resultados da Pesquisa
 
 **Tabela de Fontes de Evidência**
 
@@ -219,7 +106,7 @@ Documentar evidências que comprovem a existência e o sucesso da migração/evo
 
 ---
 
-### 2.4 Análise dos Resultados
+## Análise dos Resultados
 
 **Linha do Tempo da Evolução do Moodle na UnB**
 
@@ -263,28 +150,84 @@ Assim como a futura atualização planejada para o Moodle 4.0, essas mudanças i
 
 ---
 
-### 2.5 Cálculo da Métrica 2.1
+## Cálculo da Métrica 2.1
 
-**Critério de Avaliação:** Métrica binária (Sim/Não)
+O teste realizado encontrou pelo menos 2 fontes documentadas que confirmam a evolução e migração da plataforma. Então de acordo com a métrica o teste teve sua hipótese validada:
 
-- **Sim:** Pelo menos 2 fontes documentadas confirmando a migração/evolução
+- **Sim:** foi encontrada evidência clara de migração bem-sucedida
 
-```
-Resultado da Métrica 2.1: Sim
-```
 
 ---
 
-### 2.6 Classificação da Métrica 2.1
 
-Conforme critérios definidos na Fase 2:
+<!-- ---
 
-| Valor              | Interpretação          |
-| ------------------ | ---------------------- |
-| **Sim**            | **Hipótese validada**  |
-| Não                | Hipótese refutada      |
+## 3. CT-POR-04: Compatibilidade de Plugins e Temas na Atualização do Moodle
 
-Classificação Obtida: **Sim**
+### 3.1 Informações do Teste
+
+- **Questão GQM:** Q2 (Substituibilidade)
+- **Métrica Associada:** Métrica 2.2 – Taxa de Compatibilidade de Plugins na Atualização
+- **Hipótese Relacionada:** H2.2 – Natureza modular permite atualização de componentes
+- **Perfil Principal:** Equipe Técnica / Administração do Moodle
+
+### 3.2 Ambiente de Teste
+
+- Acesso à lista completa de plugins e temas do Aprender 3.
+- Versão atual do Moodle e versão-alvo de atualização.
+- Acesso ao diretório oficial de plugins do Moodle.
+
+### 3.3 Testes Realizados
+
+O teste consistiu em verificar a compatibilidade de plugins e temas do Aprender 3 com a versão atual do Moodle e a versão-alvo de atualização.
+
+### 3.4 Resultados dos Testes
+
+Os resultados dos testes mostraram que 90% dos plugins e temas do Aprender 3 são compatíveis com a versão atual do Moodle e a versão-alvo de atualização.
+
+
+### 3.5 Classificação da Métrica
+
+
+Classificação Obtida: **Excelente** -->
+
+---
+
+# CT-POR-04: Sucesso na Configuração do App Moodle por Novos Usuários
+
+## Testes Realizados
+
+- Grupo de 3 usuários de teste sem experiência prévia com o app Moodle e que não são estudantes da UnB.
+- Dispositivos móveis (Android/iOS), um por participante.
+
+O teste consiste em verificar a capacidade dos usuários de configurar o app Moodle sem assistência técnica.
+
+## Resultados dos Testes
+
+Os resultados dos testes mostraram que 100% dos usuários conseguiram configurar o app Moodle sem assistência técnica. A seguir estão linkados os vídeos da gravação de tela dos smartphones realizados durante os testes. Um vídeo foi realizado em um aparelho android e o outro em um aparelho iOS. O terceiro teste também foi realizado em um smartphone iOS e como obteve o mesmo resultado não se fez necessário adicionar seu vídeo, por já possuir um video praticamente igual
+
+
+## Classificação da Métrica
+Taxa de Sucesso na Configuração do App por Novos Usuários = (3 / 3) x 100 = 100%. Como todos os testes foram bem-sucedidos por usuários que não estão acostumados com a tecnologia e em diferentes dispositivos, a portabilidade do app é considerada excelente.
+
+Classificação Obtida: **Excelente**
+
+---
+
+# CT-POR-05: Verificação de Dependências de Navegador (Navegador Limpo)
+
+## Testes Realizados
+
+O teste consistiu em verificar se o Aprender 3 funciona corretamente em um navegador limpo, simulado a partir de uma guia anônima, sem extensões ou dados de sessão.
+
+## Resultados dos Testes
+
+Os resultados dos testes mostraram que as funções listadas no teste funcionam corretamente no Aprender 3 em um navegador limpo, sem a necessidade da instalação de plugins adicionais ou de configurações específicas, demonstrando alta portabilidade.
+
+## Cálculo da Métrica
+
+De acordo com a métrica binária definida, como nenhuma plugin ou extensão adicional foi necessária para o funcionamento correto, a verificação de dependências de navegador foi bem-sucedida e o sistema foi classificado com **Excelente (Portável)**, por não exigir dependências adicionais em nenhuma das tarefas de teste descritas.
+
 
 ---
 
@@ -296,6 +239,8 @@ Classificação Obtida: **Sim**
 | ------------- | ----------------------------------------------- | ---------- | ------------- |
 | **CT-POR-02** | Taxa de Sucesso em Funcionalidades no App Móvel | 97,14%     | **Excelente** |
 | **CT-POR-03** | Verificação de Histórico de Migração            | Confirmado | **Sim**       |
+| **CT-POR-04** | Compatibilidade de Plugins e Temas na Atualização do Moodle | 100% | **Excelente** |
+| **CT-POR-05** | Sucesso na Configuração do App Moodle por Novos Usuários | 100% | **Excelente (Portável)** |
 
 ---
 
@@ -305,5 +250,5 @@ Classificação Obtida: **Sim**
 | :----: | ---------- | --------------------------------------- | -------------------------------------- |
 | `1.0`  | 23/11/2025 | Criação da página e Adição do CT-POR-02 | [Yago Amin](https://github.com/yagoas) |
 | `1.1`  | 23/11/2025 | Adição do CT-POR-03                     | [Yago Amin](https://github.com/yagoas) |
-| `1.2`  | 23/11/2025 | Adição do CT-COM-01 e  CT-COM-02                    | [Thales Germano](https://github.com/thalesgvl) |
+| `1.2`  | 24/11/2025 | Adição do CT-POR-04 e CT-POR-05         | [Felipe Hansen](https://github.com/FHansen98) |
 

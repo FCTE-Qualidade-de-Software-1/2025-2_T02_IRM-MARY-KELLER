@@ -21,7 +21,7 @@ O cronograma foi estruturado para permitir a coleta paralela dos dados de **Comp
 | :--- | :--- | :--- |
 | **M1.1: Taxa de Conformidade de Layout Responsivo** | **Patrick** | 1–3 Dias |
 | **M1.2: Taxa de Sucesso no App Móvel** <br> **M2.1: Verificação de Histórico de Migração** | **Yago** | 1–3 Dias |
-| **M2.2: Compatibilidade de Plugins na Atualização** <br> **M3.1: Sucesso na Configuração do App por Novos Usuários** <br> **M3.2: Verificação de Dependências de Navegador** | **Felipe** | 1–3 Dias |
+| **M3.1: Sucesso na Configuração do App por Novos Usuários** <br> **M3.2: Verificação de Dependências de Navegador** | **Felipe** | 1–3 Dias |
 
 ---
 

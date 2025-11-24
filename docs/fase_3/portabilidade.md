@@ -196,7 +196,7 @@ Métrica qualitativa/binária:
 
 ---
 
-## CT-POR-04: Compatibilidade de Plugins e Temas na Atualização do Moodle
+<!-- ## CT-POR-04: Compatibilidade de Plugins e Temas na Atualização do Moodle
 
 - **Questão GQM:** Q2 (Substituibilidade)  
 - **Métrica Associada:** Métrica 2.2 – Taxa de Compatibilidade de Plugins na Atualização  
@@ -232,27 +232,12 @@ Avaliar o grau de dependência do Aprender 3 em relação a plugins e temas que 
 
 #### Resultado Esperado
 
-- A maioria dos plugins e temas deve ser compatível com a versão-alvo, permitindo evolução da plataforma sem grandes impedimentos.
+- A maioria dos plugins e temas deve ser compatível com a versão-alvo, permitindo evolução da plataforma sem grandes impedimentos. -->
 
-#### Cálculo da Métrica 2.2
-
-Calcular a porcentagem de plugins compatíveis em relação ao total de plugins instalados.  
-Ou seja, dividir o número de plugins compatíveis pelo número total de plugins e multiplicar o resultado por 100 para obter o percentual de compatibilidade de plugins.
-
-
-
-#### Classificação (Métrica 2.2)
-
-| Faixa de Resultado           | Classificação   |
-|------------------------------|-----------------|
-| > 90% compatíveis           | Excelente       |
-| 75% a 90% compatíveis       | Bom             |
-| 60% a 74% compatíveis       | Regular         |
-| < 60% compatíveis           | Insatisfatório  |
 
 ---
 
-## CT-POR-05: Sucesso na Configuração do App Moodle por Novos Usuários
+## CT-POR-04: Sucesso na Configuração do App Moodle por Novos Usuários
 
 - **Questão GQM:** Q3 (Instalabilidade)  
 - **Métrica Associada:** Métrica 3.1 – Taxa de Sucesso na Configuração do App por Novos Usuários  
@@ -268,7 +253,8 @@ Medir a dificuldade real que novos usuários encontram para instalar e configura
 - Grupo de **N** usuários de teste sem experiência prévia com o app Moodle.
 - Dispositivos móveis (Android/iOS), um por participante.
 - A mesma instrução para todos:  
-  > “Instale o aplicativo Moodle no seu celular e acesse sua conta do Aprender 3 (aprender3.unb.br).”
+  > “Instale o aplicativo Moodle no seu celular e acesse sua conta do Aprender 3 (link: https://aprender3.unb.br).”
+  > "Será passado usuário e senha de uma conta de um estudante cadastrada previamente."
 
 #### Passos de Execução
 
@@ -282,26 +268,13 @@ Medir a dificuldade real que novos usuários encontram para instalar e configura
 
 #### Resultado Esperado
 
+- Calcular a porcentagem de usuários que conseguiram configurar o aplicativo com sucesso em relação ao total de usuários testados.  
 - A maior parte dos usuários deve obter **Sucesso (S)** sem auxílio técnico, indicando boa instalabilidade.
 
-#### Cálculo da Métrica 3.1
-
-Calcular a porcentagem de usuários que conseguiram configurar o aplicativo com sucesso em relação ao total de usuários testados.  
-Ou seja, dividir o número de usuários bem-sucedidos pelo número total de participantes e multiplicar o resultado por 100 para obter o percentual de sucesso na configuração.
-
-
-#### Classificação (Métrica 3.1)
-
-| Faixa de Resultado         | Classificação   |
-|----------------------------|-----------------|
-| > 90% de sucesso           | Excelente       |
-| 75% a 90% de sucesso       | Bom             |
-| 60% a 74% de sucesso       | Regular         |
-| < 60% de sucesso           | Insatisfatório  |
 
 ---
 
-## CT-POR-06: Verificação de Dependências de Navegador (Navegador Limpo)
+## CT-POR-05: Verificação de Dependências de Navegador (Navegador Limpo)
 
 - **Questão GQM:** Q3 (Instalabilidade)  
 - **Métrica Associada:** Métrica 3.2 – Verificação de Dependências de Navegador  
@@ -335,14 +308,8 @@ Verificar se o funcionamento básico do Aprender 3 exige a instalação de qualq
 
 #### Resultado Esperado
 
+- Saber se o Aprender 3 funciona completamente com navegadores padrão.
 - Nenhuma funcionalidade básica deve exigir instalação de plugins/extensões adicionais.
-
-#### Cálculo da Métrica 3.2
-
-Métrica qualitativa/binária:
-
-- **Sim:** funcionamento básico sem dependências extras.  
-- **Não:** há exigência de plugins ou softwares adicionais.
 
 ---
 

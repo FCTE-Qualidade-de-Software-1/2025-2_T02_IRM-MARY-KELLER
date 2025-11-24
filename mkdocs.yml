@@ -19,6 +19,7 @@ nav:
     - Cronograma de ações: "fase_3/cronograma.md"
     - Ferramentas e Ambiente: "fase_3/ferramentas.md"
   - Fase 4 - Execução da Avaliação:
+    - Compatibilidade: "fase_4/compatibilidade.md"
     - Portabilidade: "fase_4/portabilidade.md"
 
 theme:
