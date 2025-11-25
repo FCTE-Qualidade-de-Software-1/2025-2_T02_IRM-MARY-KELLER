@@ -1,0 +1,192 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Artes marciais mistas
+X-WR-TIMEZONE:UTC
+X-WR-CALDESC:Matches from multiple leagues.
+BEGIN:VEVENT
+DTSTART:20251122T150000Z
+DTEND:20251122T180000Z
+DTSTAMP:20251122T192239Z
+UID:c74d5b09-f66b-bbbf-b04f-48d271430779
+URL:https://www.espn.com/mma/fightcenter/_/id/600055175/league/ufc
+CLASS:PUBLIC
+CREATED:20251122T005943Z
+DESCRIPTION:UFC Fight Night\nScheduled\n\nAdditional information\nhttps://w
+ ww.espn.com/mma/fightcenter/_/id/600055175/league/ufc\n\nMy calendars\nhttp
+ s://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is prov
+ ided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 
+ Nov 2025 00:59:43 +0000\n\nSource data downloaded\nSat\, 22 Nov 2025 00:59:
+ 33 +0000\n\nSubscription ID\nb4ab4fc12f1555458aa0e259c53c4bba
+LAST-MODIFIED:20251122T005943Z
+LOCATION:ABHA Arena\, Doha
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Tsarukyan vs. Hooker
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260215
+DTEND;VALUE=DATE:20260216
+DTSTAMP:20251122T192239Z
+UID:226e2d3a-3bca-4582-d389-bb08c6aca7c2
+URL:https://www.webcal.guru/pt-BR/contas_gratuitas_e_pagas
+CLASS:PUBLIC
+CREATED:20251122T005943Z
+DESCRIPTION:Your calendar 'Artes marciais mistas' expires in 7 days. If you
+  want to use this calendar in the future\, update your subscription (addres
+ s https://www.webcal.guru/pt-BR/contas_gratuitas_e_pagas) and select either
+  Paid Account or Pro Account.\n\nAdditional information\nhttps://www.webcal
+ .guru/pt-BR/contas_gratuitas_e_pagas\n\nMy calendars\nhttps://www.webcal.gu
+ ru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided by WebCal.Gu
+ ru https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:59:43
+  +0000\n\nSource data downloaded\nSat\, 22 Nov 2025 00:59:33 +0000\n\nSubsc
+ ription ID\nb4ab4fc12f1555458aa0e259c53c4bba
+LAST-MODIFIED:20251122T005943Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:🛑️ Calendar 'Artes marciais mistas' expiring
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260222
+DTEND;VALUE=DATE:20260223
+DTSTAMP:20251122T192239Z
+UID:eb575e1e-c359-dc44-9787-18533e7511bf
+URL:https://www.webcal.guru/pt-BR/contas_gratuitas_e_pagas
+CLASS:PUBLIC
+CREATED:20251122T005943Z
+DESCRIPTION:Your calendar 'Artes marciais mistas' expires today. If you wan
+ t to use this calendar in the future\, update your subscription (address ht
+ tps://www.webcal.guru/pt-BR/contas_gratuitas_e_pagas) and select either Pai
+ d Account or Pro Account.\n\nAdditional information\nhttps://www.webcal.gur
+ u/pt-BR/contas_gratuitas_e_pagas\n\nMy calendars\nhttps://www.webcal.guru/p
+ t-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided by WebCal.Guru h
+ ttps://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:59:43 +00
+ 00\n\nSource data downloaded\nSat\, 22 Nov 2025 00:59:33 +0000\n\nSubscript
+ ion ID\nb4ab4fc12f1555458aa0e259c53c4bba
+LAST-MODIFIED:20251122T005943Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:🛑️ Calendar 'Artes marciais mistas' expiring
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251206T230000Z
+DTEND:20251207T020000Z
+DTSTAMP:20251122T192239Z
+UID:dcf61f9d-fa9f-a471-3e82-75a606a3836a
+URL:https://www.espn.com/mma/fightcenter/_/id/600056375/league/ufc
+CLASS:PUBLIC
+CREATED:20251122T005943Z
+DESCRIPTION:UFC 323\nScheduled\n\nAdditional information\nhttps://www.espn.
+ com/mma/fightcenter/_/id/600056375/league/ufc\n\nMy calendars\nhttps://www.
+ webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided by 
+ WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025
+  00:59:43 +0000\n\nSource data downloaded\nSat\, 22 Nov 2025 00:59:33 +0000
+ \n\nSubscription ID\nb4ab4fc12f1555458aa0e259c53c4bba
+LAST-MODIFIED:20251122T005943Z
+LOCATION:T-Mobile Arena\, Las Vegas
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Dvalishvili vs. Yan 2
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20251122T192239Z
+UID:b365413f-d4a6-820b-fcb4-f1ef083d7445
+URL:https://www.webcal.guru/pt-BR/contas_gratuitas_e_pagas
+CLASS:PUBLIC
+CREATED:20251122T005943Z
+DESCRIPTION:Your calendar 'Artes marciais mistas' expires in 4 days. If you
+  want to use this calendar in the future\, update your subscription (addres
+ s https://www.webcal.guru/pt-BR/contas_gratuitas_e_pagas) and select either
+  Paid Account or Pro Account.\n\nAdditional information\nhttps://www.webcal
+ .guru/pt-BR/contas_gratuitas_e_pagas\n\nMy calendars\nhttps://www.webcal.gu
+ ru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided by WebCal.Gu
+ ru https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:59:43
+  +0000\n\nSource data downloaded\nSat\, 22 Nov 2025 00:59:33 +0000\n\nSubsc
+ ription ID\nb4ab4fc12f1555458aa0e259c53c4bba
+LAST-MODIFIED:20251122T005943Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:🛑️ Calendar 'Artes marciais mistas' expiring
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260220
+DTEND;VALUE=DATE:20260221
+DTSTAMP:20251122T192239Z
+UID:1a7861c9-1153-e188-726a-591795eeec68
+URL:https://www.webcal.guru/pt-BR/contas_gratuitas_e_pagas
+CLASS:PUBLIC
+CREATED:20251122T005943Z
+DESCRIPTION:Your calendar 'Artes marciais mistas' expires overmorrow. If yo
+ u want to use this calendar in the future\, update your subscription (addre
+ ss https://www.webcal.guru/pt-BR/contas_gratuitas_e_pagas) and select eithe
+ r Paid Account or Pro Account.\n\nAdditional information\nhttps://www.webca
+ l.guru/pt-BR/contas_gratuitas_e_pagas\n\nMy calendars\nhttps://www.webcal.g
+ uru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided by WebCal.G
+ uru https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:59:4
+ 3 +0000\n\nSource data downloaded\nSat\, 22 Nov 2025 00:59:33 +0000\n\nSubs
+ cription ID\nb4ab4fc12f1555458aa0e259c53c4bba
+LAST-MODIFIED:20251122T005943Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:🛑️ Calendar 'Artes marciais mistas' expiring
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251214T000000Z
+DTEND:20251214T030000Z
+DTSTAMP:20251122T192239Z
+UID:0ebd2dcf-cf62-fceb-d581-1b89a89ae977
+URL:https://www.espn.com/mma/fightcenter/_/id/600056266/league/ufc
+CLASS:PUBLIC
+CREATED:20251122T005943Z
+DESCRIPTION:UFC Fight Night\nScheduled\n\nAdditional information\nhttps://w
+ ww.espn.com/mma/fightcenter/_/id/600056266/league/ufc\n\nMy calendars\nhttp
+ s://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is prov
+ ided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 
+ Nov 2025 00:59:43 +0000\n\nSource data downloaded\nSat\, 22 Nov 2025 00:59:
+ 33 +0000\n\nSubscription ID\nb4ab4fc12f1555458aa0e259c53c4bba
+LAST-MODIFIED:20251122T005943Z
+LOCATION:UFC APEX\, Las Vegas
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Royval vs. Kape
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+END:VCALENDAR

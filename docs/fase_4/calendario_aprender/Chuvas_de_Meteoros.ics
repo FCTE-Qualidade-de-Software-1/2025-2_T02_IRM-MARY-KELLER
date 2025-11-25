@@ -1,0 +1,522 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Chuvas de meteoros
+X-WR-TIMEZONE:UTC
+X-WR-CALDESC:Known meteor showers throughout the year. On these nights you 
+ can expect to see several shooting stars in the atmosphere.
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+DTSTAMP:20251122T192249Z
+UID:6d1a31a0-ba4e-4653-6f70-9fd8fe47d350
+URL:https://en.wikipedia.org/wiki/Taurids
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Right asscention of the shower radiant: 58.0°\nDeclination of t
+ he shower radiant: +22°\nGeocentric velocity: 29 km/s\nMeteors/h: 5\n\nAddi
+ tional information\nhttps://en.wikipedia.org/wiki/Taurids\n\nMy calendars\n
+ https://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia content
+  re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3.
+ 0/\n\nThis calendar is provided by WebCal.Guru https://www.webcal.guru/.\n\
+ nContent created\nSat\, 22 Nov 2025 00:52:51 +0000\n\nSource data downloade
+ d\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscription ID\nb22be8d4d26053f0acf
+ 2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Northern Taurids ☄️
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+DTSTAMP:20251122T192249Z
+UID:7ac8f6a5-dc71-138c-93d2-46ba5c3ee0af
+URL:https://en.wikipedia.org/wiki/Perseids
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Right asscention of the shower radiant: 48.0°\nDeclination of t
+ he shower radiant: +58°\nGeocentric velocity: 59 km/s\nMeteors/h: 150\n\nAd
+ ditional information\nhttps://en.wikipedia.org/wiki/Perseids\n\nMy calendar
+ s\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia cont
+ ent re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa
+ /3.0/\n\nThis calendar is provided by WebCal.Guru https://www.webcal.guru/.
+ \n\nContent created\nSat\, 22 Nov 2025 00:52:51 +0000\n\nSource data downlo
+ aded\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscription ID\nb22be8d4d26053f0
+ acf2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Perseids ☄️☄️☄️
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260104
+DTEND;VALUE=DATE:20260105
+DTSTAMP:20251122T192249Z
+UID:116eb2a5-1a0c-57e2-b9ce-c735b95ea3d4
+URL:https://en.wikipedia.org/wiki/Quadrantids
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Right asscention of the shower radiant: 230.0°\nDeclination of 
+ the shower radiant: +49°\nGeocentric velocity: 41 km/s\nMeteors/h: 120\n\nA
+ dditional information\nhttps://en.wikipedia.org/wiki/Quadrantids\n\nMy cale
+ ndars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia 
+ content re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/b
+ y-sa/3.0/\n\nThis calendar is provided by WebCal.Guru https://www.webcal.gu
+ ru/.\n\nContent created\nSat\, 22 Nov 2025 00:52:51 +0000\n\nSource data do
+ wnloaded\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscription ID\nb22be8d4d260
+ 53f0acf2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Quadrantids ☄️☄️☄️
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DTEND;VALUE=DATE:20251223
+DTSTAMP:20251122T192249Z
+UID:28483119-fcba-7da5-f97f-2e239728b8bd
+URL:https://en.wikipedia.org/wiki/Ursids
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Right asscention of the shower radiant: 217.0°\nDeclination of 
+ the shower radiant: +76°\nGeocentric velocity: 33 km/s\n\nAdditional inform
+ ation\nhttps://en.wikipedia.org/wiki/Ursids\n\nMy calendars\nhttps://www.we
+ bcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia content re-released u
+ nder CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3.0/\n\nThis cal
+ endar is provided by WebCal.Guru https://www.webcal.guru/.\n\nContent creat
+ ed\nSat\, 22 Nov 2025 00:52:51 +0000\n\nSource data downloaded\nSun\, 16 No
+ v 2025 20:20:53 +0000\n\nSubscription ID\nb22be8d4d26053f0acf2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Ursids
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+DTSTAMP:20251122T192249Z
+UID:87cabbb3-71fc-2c22-e959-964d3a4720a9
+URL:https://en.wikipedia.org/wiki/Southern_Delta_Aquariids
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Right asscention of the shower radiant: 340.0°\nDeclination of 
+ the shower radiant: -16°\nGeocentric velocity: 41 km/s\nMeteors/h: 25\n\nAd
+ ditional information\nhttps://en.wikipedia.org/wiki/Southern_Delta_Aquariid
+ s\n\nMy calendars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n
+ \nWikipedia content re-released under CC-BY-SA.\nhttps://creativecommons.or
+ g/licenses/by-sa/3.0/\n\nThis calendar is provided by WebCal.Guru https://w
+ ww.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:52:51 +0000\n\nSo
+ urce data downloaded\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscription ID\n
+ b22be8d4d26053f0acf2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Southern delta Aquariids ☄️☄️
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+DTSTAMP:20251122T192249Z
+UID:fc5be216-4e3c-e2d2-7cd5-1901da0e9dc5
+URL:https://en.wikipedia.org/wiki/Leonids
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Right asscention of the shower radiant: 152.0°\nDeclination of 
+ the shower radiant: +22°\nGeocentric velocity: 71 km/s\nMeteors/h: 15\n\nAd
+ ditional information\nhttps://en.wikipedia.org/wiki/Leonids\n\nMy calendars
+ \nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia conte
+ nt re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/
+ 3.0/\n\nThis calendar is provided by WebCal.Guru https://www.webcal.guru/.\
+ n\nContent created\nSat\, 22 Nov 2025 00:52:51 +0000\n\nSource data downloa
+ ded\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscription ID\nb22be8d4d26053f0a
+ cf2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Leonids ☄️☄️
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260215
+DTEND;VALUE=DATE:20260216
+DTSTAMP:20251122T192249Z
+UID:29148f5a-4c2b-e55a-518d-9f000755274f
+URL:https://www.webcal.guru/pt-BR/contas_gratuitas_e_pagas
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Your calendar 'Chuvas de meteoros' expires in 7 days. If you wa
+ nt to use this calendar in the future\, update your subscription (address h
+ ttps://www.webcal.guru/pt-BR/contas_gratuitas_e_pagas) and select either Pa
+ id Account or Pro Account.\n\nAdditional information\nhttps://www.webcal.gu
+ ru/pt-BR/contas_gratuitas_e_pagas\n\nMy calendars\nhttps://www.webcal.guru/
+ pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided by WebCal.Guru 
+ https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:52:51 +0
+ 000\n\nSource data downloaded\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscrip
+ tion ID\nb22be8d4d26053f0acf2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:🛑️ Calendar 'Chuvas de meteoros' expiring
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251214
+DTEND;VALUE=DATE:20251215
+DTSTAMP:20251122T192249Z
+UID:1ef78943-d18e-f2bb-8d8e-98abeb99aad3
+URL:https://en.wikipedia.org/wiki/Geminids
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Right asscention of the shower radiant: 112.0°\nDeclination of 
+ the shower radiant: +33°\nGeocentric velocity: 35 km/s\nMeteors/h: 120\n\nA
+ dditional information\nhttps://en.wikipedia.org/wiki/Geminids\n\nMy calenda
+ rs\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia con
+ tent re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-s
+ a/3.0/\n\nThis calendar is provided by WebCal.Guru https://www.webcal.guru/
+ .\n\nContent created\nSat\, 22 Nov 2025 00:52:51 +0000\n\nSource data downl
+ oaded\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscription ID\nb22be8d4d26053f
+ 0acf2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Geminids ☄️☄️☄️
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+DTSTAMP:20251122T192249Z
+UID:4dc31f94-32ef-f61e-50e1-492051b4d359
+URL:https://en.wikipedia.org/wiki/Orionids
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Right asscention of the shower radiant: 95.0°\nDeclination of t
+ he shower radiant: +16°\nGeocentric velocity: 66 km/s\nMeteors/h: 15\n\nAdd
+ itional information\nhttps://en.wikipedia.org/wiki/Orionids\n\nMy calendars
+ \nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia conte
+ nt re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/
+ 3.0/\n\nThis calendar is provided by WebCal.Guru https://www.webcal.guru/.\
+ n\nContent created\nSat\, 22 Nov 2025 00:52:51 +0000\n\nSource data downloa
+ ded\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscription ID\nb22be8d4d26053f0a
+ cf2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Orionids ☄️
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+DTSTAMP:20251122T192249Z
+UID:e7825ff0-6fa8-848b-4f59-3da1ae9662ad
+URL:https://en.wikipedia.org/wiki/Alpha_Capricornids
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Right asscention of the shower radiant: 307.0°\nDeclination of 
+ the shower radiant: -10°\nGeocentric velocity: 23 km/s\nMeteors/h: 5\n\nAdd
+ itional information\nhttps://en.wikipedia.org/wiki/Alpha_Capricornids\n\nMy
+  calendars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikip
+ edia content re-released under CC-BY-SA.\nhttps://creativecommons.org/licen
+ ses/by-sa/3.0/\n\nThis calendar is provided by WebCal.Guru https://www.webc
+ al.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:52:51 +0000\n\nSource da
+ ta downloaded\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscription ID\nb22be8d
+ 4d26053f0acf2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Alpha Capricornids ☄️
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251112
+DTEND;VALUE=DATE:20251113
+DTSTAMP:20251122T192249Z
+UID:ac049635-78b0-064c-1795-9df3d6af9fa8
+URL:https://en.wikipedia.org/wiki/Taurids
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Right asscention of the shower radiant: 58.0°\nDeclination of t
+ he shower radiant: +22°\nGeocentric velocity: 29 km/s\nMeteors/h: 5\n\nAddi
+ tional information\nhttps://en.wikipedia.org/wiki/Taurids\n\nMy calendars\n
+ https://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia content
+  re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3.
+ 0/\n\nThis calendar is provided by WebCal.Guru https://www.webcal.guru/.\n\
+ nContent created\nSat\, 22 Nov 2025 00:52:51 +0000\n\nSource data downloade
+ d\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscription ID\nb22be8d4d26053f0acf
+ 2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Northern Taurids ☄️
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260220
+DTEND;VALUE=DATE:20260221
+DTSTAMP:20251122T192249Z
+UID:ca86cad5-7508-9518-4994-b78a9842e733
+URL:https://www.webcal.guru/pt-BR/contas_gratuitas_e_pagas
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Your calendar 'Chuvas de meteoros' expires overmorrow. If you w
+ ant to use this calendar in the future\, update your subscription (address 
+ https://www.webcal.guru/pt-BR/contas_gratuitas_e_pagas) and select either P
+ aid Account or Pro Account.\n\nAdditional information\nhttps://www.webcal.g
+ uru/pt-BR/contas_gratuitas_e_pagas\n\nMy calendars\nhttps://www.webcal.guru
+ /pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided by WebCal.Guru
+  https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:52:51 +
+ 0000\n\nSource data downloaded\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscri
+ ption ID\nb22be8d4d26053f0acf2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:🛑️ Calendar 'Chuvas de meteoros' expiring
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+DTSTAMP:20251122T192249Z
+UID:7156002d-9843-8c75-f209-bf386a02615d
+URL:https://en.wikipedia.org/wiki/Eta_Aquariids
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Right asscention of the shower radiant: 338.0°\nDeclination of 
+ the shower radiant: -1°\nGeocentric velocity: 66 km/s\nMeteors/h: 40\n\nAdd
+ itional information\nhttps://en.wikipedia.org/wiki/Eta_Aquariids\n\nMy cale
+ ndars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia 
+ content re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/b
+ y-sa/3.0/\n\nThis calendar is provided by WebCal.Guru https://www.webcal.gu
+ ru/.\n\nContent created\nSat\, 22 Nov 2025 00:52:51 +0000\n\nSource data do
+ wnloaded\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscription ID\nb22be8d4d260
+ 53f0acf2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Eta Aquariids ☄️☄️
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251117
+DTEND;VALUE=DATE:20251118
+DTSTAMP:20251122T192249Z
+UID:936fe7aa-3ca3-d66a-377d-85a69d1ac97f
+URL:https://en.wikipedia.org/wiki/Leonids
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Right asscention of the shower radiant: 152.0°\nDeclination of 
+ the shower radiant: +22°\nGeocentric velocity: 71 km/s\nMeteors/h: 15\n\nAd
+ ditional information\nhttps://en.wikipedia.org/wiki/Leonids\n\nMy calendars
+ \nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia conte
+ nt re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/
+ 3.0/\n\nThis calendar is provided by WebCal.Guru https://www.webcal.guru/.\
+ n\nContent created\nSat\, 22 Nov 2025 00:52:51 +0000\n\nSource data downloa
+ ded\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscription ID\nb22be8d4d26053f0a
+ cf2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Leonids ☄️☄️
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251022
+DTEND;VALUE=DATE:20251023
+DTSTAMP:20251122T192249Z
+UID:ef723b6d-7988-0b49-438d-6174d69a04e4
+URL:https://en.wikipedia.org/wiki/Orionids
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Right asscention of the shower radiant: 95.0°\nDeclination of t
+ he shower radiant: +16°\nGeocentric velocity: 66 km/s\nMeteors/h: 15\n\nAdd
+ itional information\nhttps://en.wikipedia.org/wiki/Orionids\n\nMy calendars
+ \nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia conte
+ nt re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/
+ 3.0/\n\nThis calendar is provided by WebCal.Guru https://www.webcal.guru/.\
+ n\nContent created\nSat\, 22 Nov 2025 00:52:51 +0000\n\nSource data downloa
+ ded\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscription ID\nb22be8d4d26053f0a
+ cf2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Orionids ☄️
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+DTSTAMP:20251122T192249Z
+UID:9793116b-2cf0-90b4-89fe-4f4829cbb51a
+URL:https://en.wikipedia.org/wiki/Taurids
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Right asscention of the shower radiant: 32.0°\nDeclination of t
+ he shower radiant: +9°\nGeocentric velocity: 27 km/s\nMeteors/h: 5\n\nAddit
+ ional information\nhttps://en.wikipedia.org/wiki/Taurids\n\nMy calendars\nh
+ ttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia content 
+ re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3.0
+ /\n\nThis calendar is provided by WebCal.Guru https://www.webcal.guru/.\n\n
+ Content created\nSat\, 22 Nov 2025 00:52:51 +0000\n\nSource data downloaded
+ \nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscription ID\nb22be8d4d26053f0acf2
+ b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Southern Taurids ☄️
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260222
+DTEND;VALUE=DATE:20260223
+DTSTAMP:20251122T192249Z
+UID:3d56f893-4900-a204-ff08-bce5a3f13e4c
+URL:https://www.webcal.guru/pt-BR/contas_gratuitas_e_pagas
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Your calendar 'Chuvas de meteoros' expires today. If you want t
+ o use this calendar in the future\, update your subscription (address https
+ ://www.webcal.guru/pt-BR/contas_gratuitas_e_pagas) and select either Paid A
+ ccount or Pro Account.\n\nAdditional information\nhttps://www.webcal.guru/p
+ t-BR/contas_gratuitas_e_pagas\n\nMy calendars\nhttps://www.webcal.guru/pt-B
+ R/os_meus_calend%C3%A1rios\n\nThis calendar is provided by WebCal.Guru http
+ s://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:52:51 +0000\
+ n\nSource data downloaded\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscription
+  ID\nb22be8d4d26053f0acf2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:🛑️ Calendar 'Chuvas de meteoros' expiring
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260422
+DTEND;VALUE=DATE:20260423
+DTSTAMP:20251122T192249Z
+UID:70a540d1-86e1-868a-3247-612f6c8672ae
+URL:https://en.wikipedia.org/wiki/Lyrids
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Right asscention of the shower radiant: 271.0°\nDeclination of 
+ the shower radiant: +34°\nGeocentric velocity: 49 km/s\nMeteors/h: 18\n\nAd
+ ditional information\nhttps://en.wikipedia.org/wiki/Lyrids\n\nMy calendars\
+ nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia conten
+ t re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3
+ .0/\n\nThis calendar is provided by WebCal.Guru https://www.webcal.guru/.\n
+ \nContent created\nSat\, 22 Nov 2025 00:52:51 +0000\n\nSource data download
+ ed\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscription ID\nb22be8d4d26053f0ac
+ f2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:April Lyrids ☄️
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20251122T192249Z
+UID:82997b17-e458-782f-b27b-a29a0d0e3e60
+URL:https://www.webcal.guru/pt-BR/contas_gratuitas_e_pagas
+CLASS:PUBLIC
+CREATED:20251122T005251Z
+DESCRIPTION:Your calendar 'Chuvas de meteoros' expires in 4 days. If you wa
+ nt to use this calendar in the future\, update your subscription (address h
+ ttps://www.webcal.guru/pt-BR/contas_gratuitas_e_pagas) and select either Pa
+ id Account or Pro Account.\n\nAdditional information\nhttps://www.webcal.gu
+ ru/pt-BR/contas_gratuitas_e_pagas\n\nMy calendars\nhttps://www.webcal.guru/
+ pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided by WebCal.Guru 
+ https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:52:51 +0
+ 000\n\nSource data downloaded\nSun\, 16 Nov 2025 20:20:53 +0000\n\nSubscrip
+ tion ID\nb22be8d4d26053f0acf2b222c780ead2
+LAST-MODIFIED:20251122T005251Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:🛑️ Calendar 'Chuvas de meteoros' expiring
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+END:VCALENDAR

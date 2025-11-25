@@ -1,0 +1,1295 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lançamentos de foguetes
+X-WR-TIMEZONE:UTC
+X-WR-CALDESC:All known past and planned space rocket launches from anywhere
+  in the world. Great for astronomy nerds.
+BEGIN:VEVENT
+DTSTART:20251121T032100Z
+DTEND:20251121T052100Z
+DTSTAMP:20251122T192232Z
+UID:61be1c77-b27b-0136-1ff7-020470bf750a
+URL:https://rocketlaunch.live/launch/starlink-6-78
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the Starlink (6-78) 
+ mission on Friday\, November 21\, 2025 at 3:21 AM (UTC).\n\nLaunch data pro
+ vided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional inf
+ ormation\nhttps://rocketlaunch.live/launch/starlink-6-78\n\nMy calendars\nh
+ ttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is p
+ rovided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 
+ 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:
+ 18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LC-39A\, Kennedy Space Center\, Florida\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink (6-78)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251127T072600Z
+DTSTAMP:20251122T192232Z
+UID:b6118800-5422-1180-746d-564477e8153b
+URL:https://rocketlaunch.live/launch/soyuz-ms-28
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A Roscosmos Soyuz-2 rocket will launch the Soyuz MS-28 mission 
+ on Thursday\, November 27\, 2025 at 7:26 AM (UTC).\n\nLaunch data provided 
+ by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional informati
+ on\nhttps://rocketlaunch.live/launch/soyuz-ms-28\n\nMy calendars\nhttps://w
+ ww.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided 
+ by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2
+ 025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:16 +0
+ 000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LC-31/6\, Baikonur Cosmodrome\, Kazakhstan
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Soyuz-2\, Soyuz MS-28\, Roscosmos
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251102T050900Z
+DTSTAMP:20251122T192232Z
+UID:241a08c1-5a5d-164e-2a59-6a761f8cb317
+URL:https://rocketlaunch.live/launch/bandwagon-4
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the Bandwagon-4 miss
+ ion on Sunday\, November 2\, 2025 at 5:09 AM (UTC).\n\nLaunch data provided
+  by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional informat
+ ion\nhttps://rocketlaunch.live/launch/bandwagon-4\n\nMy calendars\nhttps://
+ www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided
+  by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 
+ 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:16 +
+ 0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-40\, Cape Canaveral SFS\, Florida\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Bandwagon-4\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251109T033200Z
+DTSTAMP:20251122T192232Z
+UID:c477e29b-4756-1cd0-8c2f-0891312429f7
+URL:https://rocketlaunch.live/launch/chutian-2-01-02
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A CAS Space Kinetica-1 rocket was set to launch the Chutian-2 0
+ 1 & 02 mission on Sunday\, November 9\, 2025 at 3:32 AM (UTC).\n\nLaunch da
+ ta provided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAddition
+ al information\nhttps://rocketlaunch.live/launch/chutian-2-01-02\n\nMy cale
+ ndars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calen
+ dar is provided by WebCal.Guru https://www.webcal.guru/.\n\nContent created
+ \nSat\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 
+ 2025 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LP-43/130\, Jiuquan Satellite Launch Center\, China
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Kinetica-1\, Chutian-2 01 & 02\, CAS Space
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251105T195100Z
+DTSTAMP:20251122T192232Z
+UID:8dd37dff-b89d-8f72-f11c-298b5a858051
+URL:https://rocketlaunch.live/launch/the-nation-god-navig
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A Rocket Lab Electron rocket was set to launch the "The Nation 
+ God Navigates" mission on Wednesday\, November 5\, 2025 at 7:51 PM (UTC).\n
+ \nhttps://www.youtube.com/watch?v=BM8OCzwJtMg\n\nLaunch data provided by Ro
+ cketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional information\nh
+ ttps://rocketlaunch.live/launch/the-nation-god-navig\n\nMy calendars\nhttps
+ ://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provi
+ ded by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 N
+ ov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:1
+ 6 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LC-1A\, Rocket Lab Launch Complex\, Mahia Peninsula\, New Zealand
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Electron\, "The Nation God Navigates"\, Rocket Lab
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251126T155400Z
+DTSTAMP:20251122T192232Z
+UID:cccb5e11-6502-6c07-dafa-ff2aff208f03
+URL:https://rocketlaunch.live/launch/cas500-3
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A KARI KSLV-2 rocket will launch the CAS500-3 mission on Wednes
+ day\, November 26\, 2025 at 3:54 PM (UTC).\n\nLaunch data provided by Rocke
+ tLaunch.Live https://www.rocketlaunch.live/\n\nAdditional information\nhttp
+ s://rocketlaunch.live/launch/cas500-3\n\nMy calendars\nhttps://www.webcal.g
+ uru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided by WebCal.G
+ uru https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:57:0
+ 7 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:16 +0000\n\nSubs
+ cription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LC-2\, Naro Space Center\, South Korea
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:KSLV-2\, CAS500-3\, KARI
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251110T040200Z
+DTSTAMP:20251122T192232Z
+UID:51b22b6f-b530-a86d-f06f-247fe266536c
+URL:https://rocketlaunch.live/launch/jilin-1-hr-04c
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A Galactic Energy Ceres-1 rocket launched the Jilin-1 High Reso
+ lution-04C & Others mission on Monday\, November 10\, 2025 at 4:02 AM (UTC)
+ .\n\nLaunch data provided by RocketLaunch.Live https://www.rocketlaunch.liv
+ e/\n\nAdditional information\nhttps://rocketlaunch.live/launch/jilin-1-hr-0
+ 4c\n\nMy calendars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\
+ n\nThis calendar is provided by WebCal.Guru https://www.webcal.guru/.\n\nCo
+ ntent created\nSat\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\n
+ Fri\, 21 Nov 2025 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d
+ 5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LC-95A\, Jiuquan Satellite Launch Center\, China
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Ceres-1\, Jilin-1 High Resolution-04C & Others\, Galactic Energy
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251110T024100Z
+DTSTAMP:20251122T192232Z
+UID:94e57017-1766-d86f-e6f0-6ae3e500a093
+URL:https://rocketlaunch.live/launch/guawang-13
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A CASC Long March 12 rocket was set to launch the SatNet LEO Gr
+ oup 13 mission on Monday\, November 10\, 2025 at 2:41 AM (UTC).\n\nLaunch d
+ ata provided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditio
+ nal information\nhttps://rocketlaunch.live/launch/guawang-13\n\nMy calendar
+ s\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar 
+ is provided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSa
+ t\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025
+  12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LC-2\, Wenchang Satellite Launch Center\, China
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Long March 12\, SatNet LEO Group 13\, CASC
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251215T115200Z
+DTSTAMP:20251122T192232Z
+UID:4bdc17a4-02a8-3812-f968-4edb95a64865
+URL:https://rocketlaunch.live/launch/elektro-l-5
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A Roscosmos Proton-M rocket will launch the Elektro-L №5 missio
+ n on Monday\, December 15\, 2025 at 11:52 AM (UTC).\n\nLaunch data provided
+  by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional informat
+ ion\nhttps://rocketlaunch.live/launch/elektro-l-5\n\nMy calendars\nhttps://
+ www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided
+  by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 
+ 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:16 +
+ 0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LC-81/24\, Baikonur Cosmodrome\, Kazakhstan
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Proton-M\, Elektro-L №5\, Roscosmos
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251123T080000Z
+DTEND:20251123T100000Z
+DTSTAMP:20251122T192232Z
+UID:384b3d97-3b0f-ec92-72c8-f213229a0f0e
+URL:https://rocketlaunch.live/launch/starlink-11-30
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A SpaceX Falcon 9 rocket will launch the Starlink (11-30) missi
+ on on Sunday\, November 23\, 2025 at 8:00 AM (UTC).\n\nLaunch data provided
+  by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional informat
+ ion\nhttps://rocketlaunch.live/launch/starlink-11-30\n\nMy calendars\nhttps
+ ://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provi
+ ded by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 N
+ ov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:1
+ 6 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-4E\, Vandenberg SFB\, California\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink (11-30)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251104T210200Z
+DTSTAMP:20251122T192232Z
+UID:40246670-c3ee-0774-140a-6c080f188400
+URL:https://rocketlaunch.live/launch/sentinel-1d-mission
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:An Arianespace Ariane 6 rocket was set to launch the Sentinel-1
+ D Mission mission on Tuesday\, November 4\, 2025 at 9:02 PM (UTC).\n\nhttps
+ ://www.youtube.com/watch?v=6daC_wTrjS0\n\nLaunch data provided by RocketLau
+ nch.Live https://www.rocketlaunch.live/\n\nAdditional information\nhttps://
+ rocketlaunch.live/launch/sentinel-1d-mission\n\nMy calendars\nhttps://www.w
+ ebcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided by W
+ ebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 
+ 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:16 +0000\
+ n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:ELA-4\, Guiana Space Centre\, French Guiana
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Ariane 6\, Sentinel-1D Mission\, Arianespace
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251128T172100Z
+DTSTAMP:20251122T192232Z
+UID:ef27a4f4-ce67-669c-b20c-d0c3f79d3766
+URL:https://rocketlaunch.live/launch/kompsat-7-mission
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:An Arianespace Vega C rocket will launch the KOMPSAT-7 mission 
+ on Friday\, November 28\, 2025 at 5:21 PM (UTC).\n\nLaunch data provided by
+  RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional information
+ \nhttps://rocketlaunch.live/launch/kompsat-7-mission\n\nMy calendars\nhttps
+ ://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provi
+ ded by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 N
+ ov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:1
+ 6 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:ELV\, Guiana Space Centre\, French Guiana
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Vega C\, KOMPSAT-7\, Arianespace
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251023T143000Z
+DTSTAMP:20251122T192232Z
+UID:bfd1fe94-0e67-58ae-b8a3-de53f94e0eea
+URL:https://rocketlaunch.live/launch/tjsw-20
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A CASC Long March 5 rocket was set to launch the TJSW-20 missio
+ n on Thursday\, October 23\, 2025 at 2:30 PM (UTC).\n\nLaunch data provided
+  by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional informat
+ ion\nhttps://rocketlaunch.live/launch/tjsw-20\n\nMy calendars\nhttps://www.
+ webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided by 
+ WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025
+  00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:16 +0000
+ \n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LP-101\, Wenchang Satellite Launch Center\, China
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Long March 5\, TJSW-20\, CASC
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251106T013100Z
+DTEND:20251106T033100Z
+DTSTAMP:20251122T192232Z
+UID:61f22556-a0de-5af0-c9f4-90212e8ec3a7
+URL:https://rocketlaunch.live/launch/starlink-6-81
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the Starlink-320 (6-
+ 81) mission on Thursday\, November 6\, 2025 at 1:31 AM (UTC).\n\nLaunch dat
+ a provided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditiona
+ l information\nhttps://rocketlaunch.live/launch/starlink-6-81\n\nMy calenda
+ rs\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar
+  is provided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nS
+ at\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 202
+ 5 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-40\, Cape Canaveral SFS\, Florida\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink-320 (6-81)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251111T032100Z
+DTEND:20251111T052100Z
+DTSTAMP:20251122T192232Z
+UID:8cdd0180-722a-31d7-efa8-19d3916b2736
+URL:https://rocketlaunch.live/launch/starlink-6-87
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the Starlink-323 (6-
+ 87) mission on Tuesday\, November 11\, 2025 at 3:21 AM (UTC).\n\nhttps://ww
+ w.youtube.com/watch?v=S50zCe7WYos\n\nLaunch data provided by RocketLaunch.L
+ ive https://www.rocketlaunch.live/\n\nAdditional information\nhttps://rocke
+ tlaunch.live/launch/starlink-6-87\n\nMy calendars\nhttps://www.webcal.guru/
+ pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided by WebCal.Guru 
+ https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:57:07 +0
+ 000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:16 +0000\n\nSubscrip
+ tion ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-40\, Cape Canaveral SFS\, Florida\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink-323 (6-87)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251125T041100Z
+DTSTAMP:20251122T192232Z
+UID:1f09110f-4af8-be68-c02e-c4ceb08c3e12
+URL:https://rocketlaunch.live/launch/shenzhou-22
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A CASC Long March 2F rocket will launch the Shenzhou 22 mission
+  on Tuesday\, November 25\, 2025 at 4:11 AM (UTC).\n\nLaunch data provided 
+ by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional informati
+ on\nhttps://rocketlaunch.live/launch/shenzhou-22\n\nMy calendars\nhttps://w
+ ww.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided 
+ by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2
+ 025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:16 +0
+ 000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LA-4 / Pad 921 (SLS-1)\, Jiuquan Satellite Launch Center\, China
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Long March 2F\, Shenzhou 22\, CASC
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251025T142000Z
+DTSTAMP:20251122T192232Z
+UID:da665057-b793-a1dd-094a-b3b5a55d8b3b
+URL:https://rocketlaunch.live/launch/starlink-11-12
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the Starlink-315 (11
+ -12) mission on Saturday\, October 25\, 2025 at 2:20 PM (UTC).\n\nLaunch da
+ ta provided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAddition
+ al information\nhttps://rocketlaunch.live/launch/starlink-11-12\n\nMy calen
+ dars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calend
+ ar is provided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\
+ nSat\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2
+ 025 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-4E\, Vandenberg SFB\, California\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink-315 (11-12)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251031T204100Z
+DTSTAMP:20251122T192232Z
+UID:4b55ba5a-9c4c-1bbf-f46f-a79842e1afd4
+URL:https://rocketlaunch.live/launch/starlink-11-23
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the Starlink-319 (11
+ -23) mission on Friday\, October 31\, 2025 at 8:41 PM (UTC).\n\nLaunch data
+  provided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional
+  information\nhttps://rocketlaunch.live/launch/starlink-11-23\n\nMy calenda
+ rs\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar
+  is provided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nS
+ at\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 202
+ 5 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-4E\, Vandenberg SFB\, California\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink-319 (11-23)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251031T154400Z
+DTSTAMP:20251122T192232Z
+UID:33e395e3-d3ef-dd6e-ceac-ab5306e42f3b
+URL:https://rocketlaunch.live/launch/shenzhou-21
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A CASC Long March 2F rocket was set to launch the Shenzhou 21 m
+ ission on Friday\, October 31\, 2025 at 3:44 PM (UTC).\n\nhttps://www.youtu
+ be.com/watch?v=YdKgnrcGDVU\n\nLaunch data provided by RocketLaunch.Live htt
+ ps://www.rocketlaunch.live/\n\nAdditional information\nhttps://rocketlaunch
+ .live/launch/shenzhou-21\n\nMy calendars\nhttps://www.webcal.guru/pt-BR/os_
+ meus_calend%C3%A1rios\n\nThis calendar is provided by WebCal.Guru https://w
+ ww.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:57:07 +0000\n\nSo
+ urce data downloaded\nFri\, 21 Nov 2025 12:18:16 +0000\n\nSubscription ID\n
+ f7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LA-4 / Pad 921 (SLS-1)\, Jiuquan Satellite Launch Center\, China
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Long March 2F\, Shenzhou 21\, CASC
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251102T115600Z
+DTSTAMP:20251122T192232Z
+UID:39528cf2-3c0d-1352-c2d6-c8e2592eb4e9
+URL:https://rocketlaunch.live/launch/cms-03-gsat-7r
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:An ISRO LVM-3 rocket was set to launch the CMS-03 (GSAT-7R) mis
+ sion on Sunday\, November 2\, 2025 at 11:56 AM (UTC).\n\nhttps://www.youtub
+ e.com/watch?v=yAR9fV48Hjw\n\nLaunch data provided by RocketLaunch.Live http
+ s://www.rocketlaunch.live/\n\nAdditional information\nhttps://rocketlaunch.
+ live/launch/cms-03-gsat-7r\n\nMy calendars\nhttps://www.webcal.guru/pt-BR/o
+ s_meus_calend%C3%A1rios\n\nThis calendar is provided by WebCal.Guru https:/
+ /www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:57:07 +0000\n\n
+ Source data downloaded\nFri\, 21 Nov 2025 12:18:16 +0000\n\nSubscription ID
+ \nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLP\, Satish Dhawan Space Centre\, India
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:LVM-3\, CMS-03 (GSAT-7R)\, ISRO
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251118T130000Z
+DTSTAMP:20251122T192232Z
+UID:72489fd4-e71a-5c0c-bbf9-e9893e7f4a26
+URL:https://rocketlaunch.live/launch/van-haste
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A Rocket Lab Electron rocket was set to launch the VAN (HASTE) 
+ mission on Tuesday\, November 18\, 2025 at 1:00 PM (UTC).\n\nhttps://www.yo
+ utube.com/watch?v=n3EppO2wppQ\n\nLaunch data provided by RocketLaunch.Live 
+ https://www.rocketlaunch.live/\n\nAdditional information\nhttps://rocketlau
+ nch.live/launch/van-haste\n\nMy calendars\nhttps://www.webcal.guru/pt-BR/os
+ _meus_calend%C3%A1rios\n\nThis calendar is provided by WebCal.Guru https://
+ www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:57:07 +0000\n\nS
+ ource data downloaded\nFri\, 21 Nov 2025 12:18:16 +0000\n\nSubscription ID\
+ nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:Rocket Lab LC-3\, Mid-Atlantic Regional Spaceport (Wallops Island)
+ \, Virginia\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Electron\, VAN (HASTE)\, Rocket Lab
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251103T034700Z
+DTSTAMP:20251122T192232Z
+UID:a5d5487f-fbc9-0b49-fae0-c23a54f889b5
+URL:https://rocketlaunch.live/launch/yaogan-46
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A CASC Long March 7A rocket was set to launch the Yaogan-46 mis
+ sion on Monday\, November 3\, 2025 at 3:47 AM (UTC).\n\nLaunch data provide
+ d by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional informa
+ tion\nhttps://rocketlaunch.live/launch/yaogan-46\n\nMy calendars\nhttps://w
+ ww.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided 
+ by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2
+ 025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:16 +0
+ 000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LC-201\, Wenchang Satellite Launch Center\, China
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Long March 7A\, Yaogan-46\, CASC
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251028T004300Z
+DTSTAMP:20251122T192232Z
+UID:64d3fade-4559-a7f7-0701-deba4f8718d7
+URL:https://rocketlaunch.live/launch/starlink-11-21
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the Starlink-317 (11
+ -21) mission on Tuesday\, October 28\, 2025 at 12:43 AM (UTC).\n\nLaunch da
+ ta provided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAddition
+ al information\nhttps://rocketlaunch.live/launch/starlink-11-21\n\nMy calen
+ dars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calend
+ ar is provided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\
+ nSat\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2
+ 025 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-4E\, Vandenberg SFB\, California\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink-317 (11-21)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251026T150000Z
+DTSTAMP:20251122T192232Z
+UID:7ac3961b-4ad4-6168-530d-7223e7b5a973
+URL:https://rocketlaunch.live/launch/starlink-10-21
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the Starlink-316 (10
+ -21) mission on Sunday\, October 26\, 2025 at 3:00 PM (UTC).\n\nhttps://www
+ .youtube.com/watch?v=QUIWpYg1i_U\n\nLaunch data provided by RocketLaunch.Li
+ ve https://www.rocketlaunch.live/\n\nAdditional information\nhttps://rocket
+ launch.live/launch/starlink-10-21\n\nMy calendars\nhttps://www.webcal.guru/
+ pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided by WebCal.Guru 
+ https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:57:07 +0
+ 000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:16 +0000\n\nSubscrip
+ tion ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-40\, Cape Canaveral SFS\, Florida\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink-316 (10-21)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251122T065900Z
+DTEND:20251122T085900Z
+DTSTAMP:20251122T192232Z
+UID:446a0bb4-e319-0dd5-7431-62f620b23328
+URL:https://rocketlaunch.live/launch/starlink-6-79
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A SpaceX Falcon 9 rocket will launch the Starlink (6-79) missio
+ n on Saturday\, November 22\, 2025 at 6:59 AM (UTC).\n\nLaunch data provide
+ d by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional informa
+ tion\nhttps://rocketlaunch.live/launch/starlink-6-79\n\nMy calendars\nhttps
+ ://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provi
+ ded by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 N
+ ov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:1
+ 6 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-40\, Cape Canaveral SFS\, Florida\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink (6-79)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251108T210100Z
+DTSTAMP:20251122T192232Z
+UID:a4d29b0f-3535-9aa6-1656-df3aa71d60dd
+URL:https://rocketlaunch.live/launch/shiyan-32-01-03
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A CASC Long March 11 rocket was set to launch the Shiyan 32 01-
+ 03 mission on Saturday\, November 8\, 2025 at 9:01 PM (UTC).\n\nLaunch data
+  provided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional
+  information\nhttps://rocketlaunch.live/launch/shiyan-32-01-03\n\nMy calend
+ ars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calenda
+ r is provided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\n
+ Sat\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 20
+ 25 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:Sea Launch\, Yellow Sea\, China
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Long March 11\, Shiyan 32 01-03\, CASC
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251115T030100Z
+DTEND:20251115T050100Z
+DTSTAMP:20251122T192232Z
+UID:da995abf-af11-070d-3779-8bebe4daa535
+URL:https://rocketlaunch.live/launch/starlink-6-85
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the Starlink-325 (6-
+ 85) mission on Saturday\, November 15\, 2025 at 6:44 AM (UTC).\n\nLaunch da
+ ta provided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAddition
+ al information\nhttps://rocketlaunch.live/launch/starlink-6-85\n\nMy calend
+ ars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calenda
+ r is provided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\n
+ Sat\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 20
+ 25 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-40\, Cape Canaveral SFS\, Florida\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink-325 (6-85)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251109T081000Z
+DTEND:20251109T101000Z
+DTSTAMP:20251122T192232Z
+UID:f9394810-766e-5053-fe7e-9062ca5694aa
+URL:https://rocketlaunch.live/launch/starlink-10-51
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the Starlink-322 (10
+ -51) mission on Sunday\, November 9\, 2025 at 8:10 AM (UTC).\n\nLaunch data
+  provided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional
+  information\nhttps://rocketlaunch.live/launch/starlink-10-51\n\nMy calenda
+ rs\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar
+  is provided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nS
+ at\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 202
+ 5 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LC-39A\, Kennedy Space Center\, Florida\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink-322 (10-51)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251119T001200Z
+DTEND:20251119T021200Z
+DTSTAMP:20251122T192232Z
+UID:44f11027-1f00-49ea-6ab2-9d0df26d0295
+URL:https://rocketlaunch.live/launch/starlink-6-94
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the Starlink-326 (6-
+ 94) mission on Wednesday\, November 19\, 2025 at 12:12 AM (UTC).\n\nhttps:/
+ /www.youtube.com/watch?v=GmsZ8UaGl7Y\n\nLaunch data provided by RocketLaunc
+ h.Live https://www.rocketlaunch.live/\n\nAdditional information\nhttps://ro
+ cketlaunch.live/launch/starlink-6-94\n\nMy calendars\nhttps://www.webcal.gu
+ ru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided by WebCal.Gu
+ ru https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:57:07
+  +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:16 +0000\n\nSubsc
+ ription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-40\, Cape Canaveral SFS\, Florida\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink-326 (6-94)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251125T130000Z
+DTSTAMP:20251122T192232Z
+UID:8edde57a-dc00-ccd9-5de1-933eb4fdd381
+URL:https://rocketlaunch.live/launch/kosmos-classified-pa-
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A Russian Military Angara-1.2 rocket will launch the Kosmos (Cl
+ assified Payload) mission on Tuesday\, November 25\, 2025 at 1:00 PM (UTC).
+ \n\nLaunch data provided by RocketLaunch.Live https://www.rocketlaunch.live
+ /\n\nAdditional information\nhttps://rocketlaunch.live/launch/kosmos-classi
+ fied-pa-\n\nMy calendars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A
+ 1rios\n\nThis calendar is provided by WebCal.Guru https://www.webcal.guru/.
+ \n\nContent created\nSat\, 22 Nov 2025 00:57:07 +0000\n\nSource data downlo
+ aded\nFri\, 21 Nov 2025 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f
+ 2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LC-35/1\, Plesetsk Cosmodrome\, Russia
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Angara-1.2\, Kosmos (Classified Payload)\, Russian Military
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251207T023000Z
+DTEND:20251207T033000Z
+DTSTAMP:20251122T192232Z
+UID:e2770a6c-e75b-768a-4c9a-12493b2144bb
+URL:https://rocketlaunch.live/launch/michibiki-no-5-qzs-5
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A JAXA H-3 rocket will launch the Michibiki No.5 (QZS-5) Quasi-
+ Zenith Satellite System mission on Sunday\, December 7\, 2025 at 2:30 AM (U
+ TC).\n\nLaunch data provided by RocketLaunch.Live https://www.rocketlaunch.
+ live/\n\nAdditional information\nhttps://rocketlaunch.live/launch/michibiki
+ -no-5-qzs-5\n\nMy calendars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C
+ 3%A1rios\n\nThis calendar is provided by WebCal.Guru https://www.webcal.gur
+ u/.\n\nContent created\nSat\, 22 Nov 2025 00:57:07 +0000\n\nSource data dow
+ nloaded\nFri\, 21 Nov 2025 12:18:16 +0000\n\nSubscription ID\nf7c442b33b997
+ 27f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LA-Y2\, Tanegashima Space Center\, Japan
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:H-3\, Michibiki No.5 (QZS-5) Quasi-Zenith Satellite System\, JAXA
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251122T180000Z
+DTEND:20251122T200000Z
+DTSTAMP:20251122T192232Z
+UID:87f0ce10-ecc6-d49a-994d-48b889d9f16f
+URL:https://rocketlaunch.live/launch/operacao-spaceward
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:An INNOSPACE HANBIT-Nano rocket will launch the Operação Spacew
+ ard mission on Saturday\, November 22\, 2025 at 6:00 PM (UTC).\n\nLaunch da
+ ta provided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAddition
+ al information\nhttps://rocketlaunch.live/launch/operacao-spaceward\n\nMy c
+ alendars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis ca
+ lendar is provided by WebCal.Guru https://www.webcal.guru/.\n\nContent crea
+ ted\nSat\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 N
+ ov 2025 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:Launch Pad\, Alcântara Space Center\, Brazil
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:HANBIT-Nano\, Operação Spaceward\, INNOSPACE
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251221T005500Z
+DTSTAMP:20251122T192232Z
+UID:a7c6b0c8-bcb5-829e-2c0c-57d73eaac422
+URL:https://rocketlaunch.live/launch/progress-ms-33
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A Roscosmos Soyuz-2 rocket will launch the Progress MS-33 missi
+ on on Sunday\, December 21\, 2025 at 12:55 AM (UTC).\n\nLaunch data provide
+ d by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional informa
+ tion\nhttps://rocketlaunch.live/launch/progress-ms-33\n\nMy calendars\nhttp
+ s://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is prov
+ ided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 
+ Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:
+ 16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LC-31/6\, Baikonur Cosmodrome\, Kazakhstan
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Soyuz-2\, Progress MS-33\, Roscosmos
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251115T030800Z
+DTEND:20251115T050800Z
+DTSTAMP:20251122T192232Z
+UID:bd093e5d-7df3-297f-c772-e1d2688058d6
+URL:https://rocketlaunch.live/launch/starlink-6-89
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the Starlink-324 (6-
+ 89) mission on Saturday\, November 15\, 2025 at 3:08 AM (UTC).\n\nLaunch da
+ ta provided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAddition
+ al information\nhttps://rocketlaunch.live/launch/starlink-6-89\n\nMy calend
+ ars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calenda
+ r is provided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\n
+ Sat\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 20
+ 25 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LC-39A\, Kennedy Space Center\, Florida\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink-324 (6-89)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251113T205500Z
+DTSTAMP:20251122T192232Z
+UID:4645a8b7-7416-d371-710d-09367901a80c
+URL:https://rocketlaunch.live/launch/escapade
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A Blue Origin New Glenn rocket was set to launch the ESCAPADE m
+ ission on Thursday\, November 13\, 2025 at 8:55 PM (UTC).\n\nhttps://www.yo
+ utube.com/watch?v=ecfxcTEl-1I\nhttps://www.youtube.com/watch?v=e9WpN-c9VCQ\
+ nhttps://www.youtube.com/watch?v=9sT4Hr-Il30\nhttps://www.youtube.com/watch
+ ?v=R0dQ1nzz1Do\n\nLaunch data provided by RocketLaunch.Live https://www.roc
+ ketlaunch.live/\n\nAdditional information\nhttps://rocketlaunch.live/launch
+ /escapade\n\nMy calendars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%
+ A1rios\n\nThis calendar is provided by WebCal.Guru https://www.webcal.guru/
+ .\n\nContent created\nSat\, 22 Nov 2025 00:57:07 +0000\n\nSource data downl
+ oaded\nFri\, 21 Nov 2025 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727
+ f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LC-36\, Cape Canaveral SFS\, Florida\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:New Glenn\, ESCAPADE\, Blue Origin
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251022T141600Z
+DTEND:20251022T161600Z
+DTSTAMP:20251122T192232Z
+UID:b4e70a92-a9a1-0306-fa06-ca12acf17414
+URL:https://rocketlaunch.live/launch/starlink-11-5
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the Starlink-314 (11
+ -5) mission on Wednesday\, October 22\, 2025 at 2:16 PM (UTC).\n\nLaunch da
+ ta provided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAddition
+ al information\nhttps://rocketlaunch.live/launch/starlink-11-5\n\nMy calend
+ ars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calenda
+ r is provided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\n
+ Sat\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 20
+ 25 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-4E\, Vandenberg SFB\, California\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink-314 (11-5)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251026T000000Z
+DTEND:20251026T020000Z
+DTSTAMP:20251122T192232Z
+UID:f11d988d-e11f-6d33-6556-aadd2dfa95c9
+URL:https://rocketlaunch.live/launch/htv-x1
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A JAXA H-3 rocket was set to launch the HTV-X1 mission on Sunda
+ y\, October 26\, 2025 at 12:00 AM (UTC).\n\nhttps://www.youtube.com/watch?v
+ =EBEq84QrSEA\n\nLaunch data provided by RocketLaunch.Live https://www.rocke
+ tlaunch.live/\n\nAdditional information\nhttps://rocketlaunch.live/launch/h
+ tv-x1\n\nMy calendars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1ri
+ os\n\nThis calendar is provided by WebCal.Guru https://www.webcal.guru/.\n\
+ nContent created\nSat\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloade
+ d\nFri\, 21 Nov 2025 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c0
+ 48d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LA-Y2\, Tanegashima Space Center\, Japan
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:H-3\, HTV-X1\, JAXA
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251026T035500Z
+DTSTAMP:20251122T192232Z
+UID:fc473efb-35fa-9c6a-5b84-033754257ec8
+URL:https://rocketlaunch.live/launch/gaofen-14-02
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A CASC Long March 3B rocket was set to launch the Gaofen-14 02 
+ mission on Sunday\, October 26\, 2025 at 3:55 AM (UTC).\n\nLaunch data prov
+ ided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional info
+ rmation\nhttps://rocketlaunch.live/launch/gaofen-14-02\n\nMy calendars\nhtt
+ ps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is pro
+ vided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22
+  Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18
+ :16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LC-2\, Xichang Satellite Launch Center\, China
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Long March 3B\, Gaofen-14 02\, CASC
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251119T040100Z
+DTSTAMP:20251122T192232Z
+UID:56db6b69-aac7-1897-a834-ff36e753b922
+URL:https://rocketlaunch.live/launch/shijian-30-a-c
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A CASC Long March 2C rocket was set to launch the Shijian 30 A-
+ C mission on Wednesday\, November 19\, 2025 at 4:01 AM (UTC).\n\nLaunch dat
+ a provided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditiona
+ l information\nhttps://rocketlaunch.live/launch/shijian-30-a-c\n\nMy calend
+ ars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calenda
+ r is provided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\n
+ Sat\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 20
+ 25 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LA-4 / Pad 603 (SLS-2)\, Jiuquan Satellite Launch Center\, China
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Long March 2C\, Shijian 30 A-C\, CASC
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251106T211300Z
+DTEND:20251106T231300Z
+DTSTAMP:20251122T192232Z
+UID:f9fdff75-0051-da38-70c0-9c49903c50c8
+URL:https://rocketlaunch.live/launch/starlink-11-14
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the Starlink-321 (11
+ -14) mission on Thursday\, November 6\, 2025 at 9:13 PM (UTC).\n\nLaunch da
+ ta provided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAddition
+ al information\nhttps://rocketlaunch.live/launch/starlink-11-14\n\nMy calen
+ dars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calend
+ ar is provided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\
+ nSat\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2
+ 025 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-4E\, Vandenberg SFB\, California\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink-321 (11-14)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251121T105500Z
+DTSTAMP:20251122T192232Z
+UID:5410879c-da7e-bb5b-dcb0-3ffbb22c078d
+URL:https://rocketlaunch.live/launch/tbd----
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A CASC Long March 3B rocket was set to launch the TBD mission o
+ n Friday\, November 21\, 2025 at 10:55 AM (UTC).\n\nLaunch data provided by
+  RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional information
+ \nhttps://rocketlaunch.live/launch/tbd----\n\nMy calendars\nhttps://www.web
+ cal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided by Web
+ Cal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00
+ :57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:16 +0000\n\
+ nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LC-2\, Xichang Satellite Launch Center\, China
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Long March 3B\, TBD\, CASC
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251029T163500Z
+DTSTAMP:20251122T192232Z
+UID:e85ccb86-10d3-47e8-5dfa-c061b2e905e5
+URL:https://rocketlaunch.live/launch/starlink-10-37
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the Starlink-318 (10
+ -37) mission on Wednesday\, October 29\, 2025 at 4:35 PM (UTC).\n\nLaunch d
+ ata provided by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditio
+ nal information\nhttps://rocketlaunch.live/launch/starlink-10-37\n\nMy cale
+ ndars\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calen
+ dar is provided by WebCal.Guru https://www.webcal.guru/.\n\nContent created
+ \nSat\, 22 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 
+ 2025 12:18:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-40\, Cape Canaveral SFS\, Florida\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink-318 (10-37)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251024T013000Z
+DTEND:20251024T033000Z
+DTSTAMP:20251122T192232Z
+UID:d5185685-0816-53e0-d84e-eb54b9e5619d
+URL:https://rocketlaunch.live/launch/spainsat-ng-ii
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the SpainSat NG-II m
+ ission on Friday\, October 24\, 2025 at 1:30 AM (UTC).\n\nLaunch data provi
+ ded by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional infor
+ mation\nhttps://rocketlaunch.live/launch/spainsat-ng-ii\n\nMy calendars\nht
+ tps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is pr
+ ovided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 2
+ 2 Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:1
+ 8:16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-40\, Cape Canaveral SFS\, Florida\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, SpainSat NG-II\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251114T030400Z
+DTSTAMP:20251122T192232Z
+UID:bbbd9fe5-68d1-4a60-43b8-ebf7856b056c
+URL:https://rocketlaunch.live/launch/viasat-3-1
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A United Launch Alliance (ULA) Atlas V rocket was set to launch
+  the ViaSat 3 EMEA mission on Friday\, November 14\, 2025 at 3:04 AM (UTC).
+ \n\nhttps://www.youtube.com/watch?v=01trpl8BxBc\nhttps://www.youtube.com/wa
+ tch?v=DWgoYkFr-HE\n\nLaunch data provided by RocketLaunch.Live https://www.
+ rocketlaunch.live/\n\nAdditional information\nhttps://rocketlaunch.live/lau
+ nch/viasat-3-1\n\nMy calendars\nhttps://www.webcal.guru/pt-BR/os_meus_calen
+ d%C3%A1rios\n\nThis calendar is provided by WebCal.Guru https://www.webcal.
+ guru/.\n\nContent created\nSat\, 22 Nov 2025 00:57:07 +0000\n\nSource data 
+ downloaded\nFri\, 21 Nov 2025 12:18:16 +0000\n\nSubscription ID\nf7c442b33b
+ 99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-41\, Cape Canaveral SFS\, Florida\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Atlas V\, ViaSat 3 EMEA\, United Launch Alliance (ULA)
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251120T124300Z
+DTEND:20251120T144300Z
+DTSTAMP:20251122T192232Z
+UID:08766033-43cf-59fc-8df5-e56e33430bb6
+URL:https://rocketlaunch.live/launch/blacksky-gen-3-3
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A Rocket Lab Electron rocket was set to launch the "Follow My S
+ peed" mission on Thursday\, November 20\, 2025 at 12:43 PM (UTC).\n\nhttps:
+ //www.youtube.com/watch?v=q-w-ZUYyEAo\n\nLaunch data provided by RocketLaun
+ ch.Live https://www.rocketlaunch.live/\n\nAdditional information\nhttps://r
+ ocketlaunch.live/launch/blacksky-gen-3-3\n\nMy calendars\nhttps://www.webca
+ l.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is provided by WebCa
+ l.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:5
+ 7:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:16 +0000\n\nS
+ ubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:LC-1A\, Rocket Lab Launch Complex\, Mahia Peninsula\, New Zealand
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Electron\, "Follow My Speed"\, Rocket Lab
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251126T181800Z
+DTEND:20251126T201800Z
+DTSTAMP:20251122T192232Z
+UID:4b19912b-cb31-1f21-2c5e-08b725cad364
+URL:https://rocketlaunch.live/launch/transporter-15
+CLASS:PUBLIC
+CREATED:20251122T005708Z
+DESCRIPTION:A SpaceX Falcon 9 rocket will launch the Transporter-15 mission
+  on Wednesday\, November 26\, 2025 at 6:18 PM (UTC).\n\nLaunch data provide
+ d by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional informa
+ tion\nhttps://rocketlaunch.live/launch/transporter-15\n\nMy calendars\nhttp
+ s://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is prov
+ ided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22 
+ Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18:
+ 16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-4E\, Vandenberg SFB\, California\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Transporter-15\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251117T052100Z
+DTSTAMP:20251122T192232Z
+UID:88651640-7f89-1ddc-6d1e-d277fb6991d2
+URL:https://rocketlaunch.live/launch/sentinel-6b
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A SpaceX Falcon 9 rocket was set to launch the Sentinel-6B miss
+ ion on Monday\, November 17\, 2025 at 5:21 AM (UTC).\n\nhttps://www.youtube
+ .com/watch?v=6tyr0ld2ZB4\n\nLaunch data provided by RocketLaunch.Live https
+ ://www.rocketlaunch.live/\n\nAdditional information\nhttps://rocketlaunch.l
+ ive/launch/sentinel-6b\n\nMy calendars\nhttps://www.webcal.guru/pt-BR/os_me
+ us_calend%C3%A1rios\n\nThis calendar is provided by WebCal.Guru https://www
+ .webcal.guru/.\n\nContent created\nSat\, 22 Nov 2025 00:57:07 +0000\n\nSour
+ ce data downloaded\nFri\, 21 Nov 2025 12:18:16 +0000\n\nSubscription ID\nf7
+ c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-4E\, Vandenberg SFB\, California\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Sentinel-6B\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251122T164400Z
+DTSTAMP:20251122T192232Z
+UID:eb09cf27-4425-3bfb-6cb2-8da3b1ec60b2
+URL:https://rocketlaunch.live/launch/starlink-11-15
+CLASS:PUBLIC
+CREATED:20251122T005707Z
+DESCRIPTION:A SpaceX Falcon 9 rocket will launch the Starlink (11-15) missi
+ on on Saturday\, November 22\, 2025 at 4:44 PM (UTC).\n\nLaunch data provid
+ ed by RocketLaunch.Live https://www.rocketlaunch.live/\n\nAdditional inform
+ ation\nhttps://rocketlaunch.live/launch/starlink-11-15\n\nMy calendars\nhtt
+ ps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nThis calendar is pro
+ vided by WebCal.Guru https://www.webcal.guru/.\n\nContent created\nSat\, 22
+  Nov 2025 00:57:07 +0000\n\nSource data downloaded\nFri\, 21 Nov 2025 12:18
+ :16 +0000\n\nSubscription ID\nf7c442b33b99727f2c048d5fd97c47b4
+LAST-MODIFIED:20251122T005709Z
+LOCATION:SLC-4E\, Vandenberg SFB\, California\, United States
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Falcon 9\, Starlink (11-15)\, SpaceX
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+END:VCALENDAR

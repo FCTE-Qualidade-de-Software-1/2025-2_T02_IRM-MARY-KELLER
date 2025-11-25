@@ -1,0 +1,1091 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Planetas
+X-WR-TIMEZONE:America/Sao_Paulo
+X-WR-CALDESC:Eventos relacionados a cada planeta de sua escolha. Eventos di
+ sponíveis incluem horários de nascer\, pôr e culminar.
+BEGIN:VEVENT
+DTSTART:20251127T063249Z
+DTSTAMP:20251122T192246Z
+UID:551de71d-f3e3-aa44-1080-daf37b66658f
+URL:https://in-the-sky.org/whatsup_times.php?day=27&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Júpiter\nTrânsito: 03:32\nDireção: ↑ Norte (0°)\nAltitude: 52°\
+ n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=27&mo
+ nth=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_m
+ eus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https:/
+ /www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\n
+ ID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Júpiter ⚬ 03:32
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251128T023044Z
+DTSTAMP:20251122T192246Z
+UID:8b34ec60-2f0d-10ff-25a0-17fdfb29ce7e
+URL:https://in-the-sky.org/whatsup_times.php?day=28&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Urano\nTrânsito: 23:30\nDireção: ↑ Norte (0°)\nAltitude: 54°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=28&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Urano ⚬ 23:30
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251127T223319Z
+DTSTAMP:20251122T192246Z
+UID:4ac6121c-d211-8c14-d17c-6d6cff1f45c0
+URL:https://in-the-sky.org/whatsup_times.php?day=26&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Saturno\nTrânsito: 19:33\nDireção: ↑ Norte (355°)\nAltitude: 78
+ °\n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=26&
+ month=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os
+ _meus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https
+ ://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n
+ \nID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Saturno ⚬ 19:33
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251123T224909Z
+DTSTAMP:20251122T192246Z
+UID:50f2d722-efdc-3dbb-fc4d-296e53bd0c70
+URL:https://in-the-sky.org/whatsup_times.php?day=22&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Saturno\nTrânsito: 19:49\nDireção: ↑ Norte (355°)\nAltitude: 78
+ °\n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=22&
+ month=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os
+ _meus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https
+ ://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n
+ \nID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Saturno ⚬ 19:49
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251124T225514Z
+DTSTAMP:20251122T192246Z
+UID:baf96994-1a9d-fa19-d0de-76253b2e8f9e
+URL:https://in-the-sky.org/whatsup_times.php?day=24&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Netuno\nTrânsito: 19:55\nDireção: ↑ Norte (0°)\nAltitude: 75°\n
+ \nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=24&mon
+ th=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_me
+ us_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://
+ www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nI
+ D de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Netuno ⚬ 19:55
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251127T154656Z
+DTSTAMP:20251122T192246Z
+UID:f9f0f936-079a-b020-3be4-c8e08dc43634
+URL:https://in-the-sky.org/whatsup_times.php?day=27&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Marte\nTrânsito: 12:46\nDireção: ↓ Sul (179°)\nAltitude: 82°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=27&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Marte ⚬ 12:46
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251128T142106Z
+DTSTAMP:20251122T192246Z
+UID:465a1e3c-884f-06a2-631f-266b3b234a45
+URL:https://in-the-sky.org/whatsup_times.php?day=28&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Vênus\nTrânsito: 11:21\nDireção: ↓ Sul (179°)\nAltitude: 87°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=28&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Vênus ⚬ 11:21
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251124T154912Z
+DTSTAMP:20251122T192246Z
+UID:c33ac80f-644c-ba33-eef9-e5f02e20c169
+URL:https://in-the-sky.org/whatsup_times.php?day=24&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Marte\nTrânsito: 12:49\nDireção: ↓ Sul (180°)\nAltitude: 82°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=24&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Marte ⚬ 12:49
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251123T141523Z
+DTSTAMP:20251122T192246Z
+UID:58583b31-107e-4587-819a-99a90a698e10
+URL:https://in-the-sky.org/whatsup_times.php?day=23&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Vênus\nTrânsito: 11:15\nDireção: ↓ Sul (180°)\nAltitude: 88°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=23&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Vênus ⚬ 11:15
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251122T155045Z
+DTSTAMP:20251122T192246Z
+UID:394e6579-08fa-7f8f-9e74-39365e6ab84b
+URL:https://in-the-sky.org/whatsup_times.php?day=22&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Marte\nTrânsito: 12:50\nDireção: ↓ Sul (180°)\nAltitude: 82°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=22&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Marte ⚬ 12:50
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251124T024708Z
+DTSTAMP:20251122T192246Z
+UID:4b9c6f94-e82f-098d-48ae-4a4e894510e6
+URL:https://in-the-sky.org/whatsup_times.php?day=24&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Urano\nTrânsito: 23:47\nDireção: ↑ Norte (0°)\nAltitude: 54°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=24&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Urano ⚬ 23:47
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251125T225116Z
+DTSTAMP:20251122T192246Z
+UID:85e2499e-b928-b392-51fb-c1a47983e2a3
+URL:https://in-the-sky.org/whatsup_times.php?day=25&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Netuno\nTrânsito: 19:51\nDireção: ↑ Norte (0°)\nAltitude: 75°\n
+ \nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=25&mon
+ th=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_me
+ us_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://
+ www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nI
+ D de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Netuno ⚬ 19:51
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251122T143750Z
+DTSTAMP:20251122T192246Z
+UID:e685b182-51f2-4107-3afe-453d15ab860f
+URL:https://in-the-sky.org/whatsup_times.php?day=22&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Mercúrio\nTrânsito: 11:37\nDireção: ↓ Sul (179°)\nAltitude: 87°
+ \n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=22&m
+ onth=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_
+ meus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https:
+ //www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\
+ nID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Mercúrio ⚬ 11:37
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251124T141629Z
+DTSTAMP:20251122T192246Z
+UID:199ffa78-9aae-4904-e685-3afdbe28ebb8
+URL:https://in-the-sky.org/whatsup_times.php?day=24&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Vênus\nTrânsito: 11:16\nDireção: ↓ Sul (179°)\nAltitude: 88°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=24&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Vênus ⚬ 11:16
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251123T154958Z
+DTSTAMP:20251122T192246Z
+UID:b8233427-7539-7640-7354-e2c031030b47
+URL:https://in-the-sky.org/whatsup_times.php?day=23&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Marte\nTrânsito: 12:49\nDireção: ↓ Sul (179°)\nAltitude: 82°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=23&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Marte ⚬ 12:49
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251126T223715Z
+DTSTAMP:20251122T192246Z
+UID:10742769-2cf9-48d0-6745-7ecd3fcb1773
+URL:https://in-the-sky.org/whatsup_times.php?day=25&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Saturno\nTrânsito: 19:37\nDireção: ↑ Norte (355°)\nAltitude: 78
+ °\n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=25&
+ month=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os
+ _meus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https
+ ://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n
+ \nID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Saturno ⚬ 19:37
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251126T154741Z
+DTSTAMP:20251122T192246Z
+UID:b1a7584e-cd27-bc24-d232-39ed9c9d1af3
+URL:https://in-the-sky.org/whatsup_times.php?day=26&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Marte\nTrânsito: 12:47\nDireção: ↓ Sul (179°)\nAltitude: 82°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=26&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Marte ⚬ 12:47
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251124T064511Z
+DTSTAMP:20251122T192246Z
+UID:2543b6b4-066e-8747-2b9a-44c7308667e7
+URL:https://in-the-sky.org/whatsup_times.php?day=24&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Júpiter\nTrânsito: 03:45\nDireção: ↑ Norte (0°)\nAltitude: 52°\
+ n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=24&mo
+ nth=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_m
+ eus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https:/
+ /www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\n
+ ID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Júpiter ⚬ 03:45
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251125T141424Z
+DTSTAMP:20251122T192246Z
+UID:6ed20bd8-a84e-17bc-d251-fed4695092b5
+URL:https://in-the-sky.org/whatsup_times.php?day=25&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Mercúrio\nTrânsito: 11:14\nDireção: ↓ Sul (179°)\nAltitude: 89°
+ \n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=25&m
+ onth=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_
+ meus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https:
+ //www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\
+ nID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Mercúrio ⚬ 11:14
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251125T064104Z
+DTSTAMP:20251122T192246Z
+UID:471c5017-2c93-ed5f-28c0-d9a00ceebb9d
+URL:https://in-the-sky.org/whatsup_times.php?day=25&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Júpiter\nTrânsito: 03:41\nDireção: ↑ Norte (0°)\nAltitude: 52°\
+ n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=25&mo
+ nth=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_m
+ eus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https:/
+ /www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\n
+ ID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Júpiter ⚬ 03:41
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251122T230310Z
+DTSTAMP:20251122T192246Z
+UID:499cf4a3-4c0d-693b-7135-2689c00f283e
+URL:https://in-the-sky.org/whatsup_times.php?day=22&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Netuno\nTrânsito: 20:03\nDireção: ↑ Norte (0°)\nAltitude: 75°\n
+ \nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=22&mon
+ th=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_me
+ us_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://
+ www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nI
+ D de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Netuno ⚬ 20:03
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251126T224718Z
+DTSTAMP:20251122T192246Z
+UID:9e3df37c-ad4f-dd15-c253-19de71166239
+URL:https://in-the-sky.org/whatsup_times.php?day=26&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Netuno\nTrânsito: 19:47\nDireção: ↑ Norte (0°)\nAltitude: 75°\n
+ \nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=26&mon
+ th=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_me
+ us_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://
+ www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nI
+ D de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Netuno ⚬ 19:47
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251122T141417Z
+DTSTAMP:20251122T192246Z
+UID:15be8de9-0b4c-9071-a120-24fcc3e17ab2
+URL:https://in-the-sky.org/whatsup_times.php?day=22&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Vênus\nTrânsito: 11:14\nDireção: ↓ Sul (179°)\nAltitude: 89°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=22&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Vênus ⚬ 11:14
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251128T154612Z
+DTSTAMP:20251122T192246Z
+UID:57492d89-6731-df1e-0937-7a44ae41d361
+URL:https://in-the-sky.org/whatsup_times.php?day=28&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Marte\nTrânsito: 12:46\nDireção: ↓ Sul (179°)\nAltitude: 82°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=28&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Marte ⚬ 12:46
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251124T224511Z
+DTSTAMP:20251122T192246Z
+UID:d762ff6b-2250-f680-2d09-a81ba0fd6d02
+URL:https://in-the-sky.org/whatsup_times.php?day=23&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Saturno\nTrânsito: 19:45\nDireção: ↑ Norte (355°)\nAltitude: 78
+ °\n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=23&
+ month=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os
+ _meus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https
+ ://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n
+ \nID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Saturno ⚬ 19:45
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251126T023856Z
+DTSTAMP:20251122T192246Z
+UID:58636a7a-088a-2621-0253-1092c1b2d4bf
+URL:https://in-the-sky.org/whatsup_times.php?day=26&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Urano\nTrânsito: 23:38\nDireção: ↑ Norte (0°)\nAltitude: 54°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=26&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Urano ⚬ 23:38
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251128T135705Z
+DTSTAMP:20251122T192246Z
+UID:8cd5d9aa-8933-c45f-08d8-ad7758a4771d
+URL:https://in-the-sky.org/whatsup_times.php?day=28&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Mercúrio\nTrânsito: 10:57\nDireção: ↑ Norte (1°)\nAltitude: 89°
+ \n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=28&m
+ onth=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_
+ meus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https:
+ //www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\
+ nID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Mercúrio ⚬ 10:57
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251125T141736Z
+DTSTAMP:20251122T192246Z
+UID:da203e79-d1a9-1043-9072-7cf0968f68b7
+URL:https://in-the-sky.org/whatsup_times.php?day=25&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Vênus\nTrânsito: 11:17\nDireção: ↓ Sul (179°)\nAltitude: 88°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=25&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Vênus ⚬ 11:17
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251128T062839Z
+DTSTAMP:20251122T192246Z
+UID:40c8077d-c666-1163-dc37-ea48a15aac64
+URL:https://in-the-sky.org/whatsup_times.php?day=28&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Júpiter\nTrânsito: 03:28\nDireção: ↑ Norte (0°)\nAltitude: 52°\
+ n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=28&mo
+ nth=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_m
+ eus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https:/
+ /www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\n
+ ID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Júpiter ⚬ 03:28
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251127T023450Z
+DTSTAMP:20251122T192246Z
+UID:33c65e1c-4940-9741-4ba4-97aca402dd05
+URL:https://in-the-sky.org/whatsup_times.php?day=27&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Urano\nTrânsito: 23:34\nDireção: ↑ Norte (0°)\nAltitude: 54°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=27&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Urano ⚬ 23:34
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251123T064917Z
+DTSTAMP:20251122T192246Z
+UID:fe4d0ab4-c03c-4d9f-2d1b-dc1d178a4044
+URL:https://in-the-sky.org/whatsup_times.php?day=23&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Júpiter\nTrânsito: 03:49\nDireção: ↑ Norte (0°)\nAltitude: 52°\
+ n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=23&mo
+ nth=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_m
+ eus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https:/
+ /www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\n
+ ID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Júpiter ⚬ 03:49
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251123T225912Z
+DTSTAMP:20251122T192246Z
+UID:298790f4-a184-56ea-c701-332b362dedca
+URL:https://in-the-sky.org/whatsup_times.php?day=23&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Netuno\nTrânsito: 19:59\nDireção: ↑ Norte (0°)\nAltitude: 75°\n
+ \nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=23&mon
+ th=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_me
+ us_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://
+ www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nI
+ D de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Netuno ⚬ 19:59
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251126T140754Z
+DTSTAMP:20251122T192246Z
+UID:6a7c031e-65b6-70a4-c03c-e973811f039a
+URL:https://in-the-sky.org/whatsup_times.php?day=26&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Mercúrio\nTrânsito: 11:07\nDireção: ↓ Sul (179°)\nAltitude: 89°
+ \n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=26&m
+ onth=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_
+ meus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https:
+ //www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\
+ nID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Mercúrio ⚬ 11:07
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251124T142136Z
+DTSTAMP:20251122T192246Z
+UID:face0ee4-b857-d39a-c61f-b09cfe82741e
+URL:https://in-the-sky.org/whatsup_times.php?day=24&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Mercúrio\nTrânsito: 11:21\nDireção: ↓ Sul (179°)\nAltitude: 88°
+ \n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=24&m
+ onth=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_
+ meus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https:
+ //www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\
+ nID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Mercúrio ⚬ 11:21
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251125T224113Z
+DTSTAMP:20251122T192246Z
+UID:5c4211dc-997b-b743-0c81-5711c066558d
+URL:https://in-the-sky.org/whatsup_times.php?day=24&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Saturno\nTrânsito: 19:41\nDireção: ↑ Norte (355°)\nAltitude: 78
+ °\n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=24&
+ month=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os
+ _meus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https
+ ://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n
+ \nID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Saturno ⚬ 19:41
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251127T140207Z
+DTSTAMP:20251122T192246Z
+UID:628e63d2-bcda-382f-d761-1b7333ccde91
+URL:https://in-the-sky.org/whatsup_times.php?day=27&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Mercúrio\nTrânsito: 11:02\nDireção: ↘ Sudeste (125°)\nAltitude:
+  89°\n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=
+ 27&month=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR
+ /os_meus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru ht
+ tps://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +000
+ 0\n\nID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Mercúrio ⚬ 11:02
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251126T063657Z
+DTSTAMP:20251122T192246Z
+UID:5cfdfa28-e37d-45f9-b346-c5e5f2de4d1b
+URL:https://in-the-sky.org/whatsup_times.php?day=26&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Júpiter\nTrânsito: 03:36\nDireção: ↑ Norte (0°)\nAltitude: 52°\
+ n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=26&mo
+ nth=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_m
+ eus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https:/
+ /www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\n
+ ID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Júpiter ⚬ 03:36
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251123T025115Z
+DTSTAMP:20251122T192246Z
+UID:3ae03a15-3a3e-9c6d-f947-70c4118ade72
+URL:https://in-the-sky.org/whatsup_times.php?day=23&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Urano\nTrânsito: 23:51\nDireção: ↑ Norte (0°)\nAltitude: 54°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=23&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Urano ⚬ 23:51
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251125T024302Z
+DTSTAMP:20251122T192246Z
+UID:40f14242-ffa0-16a9-d0d6-08f9c3aa42fd
+URL:https://in-the-sky.org/whatsup_times.php?day=25&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Urano\nTrânsito: 23:43\nDireção: ↑ Norte (0°)\nAltitude: 54°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=25&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Urano ⚬ 23:43
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251127T224321Z
+DTSTAMP:20251122T192246Z
+UID:8240f3ff-e7da-2c44-5af5-6aa5d138efb5
+URL:https://in-the-sky.org/whatsup_times.php?day=27&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Netuno\nTrânsito: 19:43\nDireção: ↑ Norte (0°)\nAltitude: 75°\n
+ \nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=27&mon
+ th=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_me
+ us_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://
+ www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nI
+ D de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Netuno ⚬ 19:43
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251127T141955Z
+DTSTAMP:20251122T192246Z
+UID:35cc6921-f426-a654-4dfa-5c80cf650c03
+URL:https://in-the-sky.org/whatsup_times.php?day=27&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Vênus\nTrânsito: 11:19\nDireção: ↓ Sul (179°)\nAltitude: 87°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=27&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Vênus ⚬ 11:19
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251122T025521Z
+DTSTAMP:20251122T192246Z
+UID:471a3057-8ea5-5bcc-f407-f4c61351f23e
+URL:https://in-the-sky.org/whatsup_times.php?day=22&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Urano\nTrânsito: 23:55\nDireção: ↑ Norte (0°)\nAltitude: 54°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=22&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Urano ⚬ 23:55
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251123T142926Z
+DTSTAMP:20251122T192246Z
+UID:4327b65a-38d2-19ee-39fe-7d1debbd187f
+URL:https://in-the-sky.org/whatsup_times.php?day=23&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Mercúrio\nTrânsito: 11:29\nDireção: ↓ Sul (179°)\nAltitude: 88°
+ \n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=23&m
+ onth=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_
+ meus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https:
+ //www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\
+ nID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Mercúrio ⚬ 11:29
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251125T154826Z
+DTSTAMP:20251122T192246Z
+UID:c0be3825-24bd-da13-f52b-afaea01f7a34
+URL:https://in-the-sky.org/whatsup_times.php?day=25&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Marte\nTrânsito: 12:48\nDireção: ↓ Sul (179°)\nAltitude: 82°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=25&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Marte ⚬ 12:48
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251122T065322Z
+DTSTAMP:20251122T192246Z
+UID:0b47a95b-9f76-2506-217e-c9f32931b888
+URL:https://in-the-sky.org/whatsup_times.php?day=22&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Júpiter\nTrânsito: 03:53\nDireção: ↑ Norte (0°)\nAltitude: 52°\
+ n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=22&mo
+ nth=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_m
+ eus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https:/
+ /www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\n
+ ID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Júpiter ⚬ 03:53
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251126T141845Z
+DTSTAMP:20251122T192246Z
+UID:a24d7210-6361-0104-c194-e7ab7f5a1889
+URL:https://in-the-sky.org/whatsup_times.php?day=26&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Vênus\nTrânsito: 11:18\nDireção: ↓ Sul (179°)\nAltitude: 87°\n\
+ nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=26&mont
+ h=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meu
+ s_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://w
+ ww.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n\nID
+  de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Vênus ⚬ 11:18
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251128T222922Z
+DTSTAMP:20251122T192246Z
+UID:c20b26e5-2bb2-a9a5-cdc7-3b4c2e360abd
+URL:https://in-the-sky.org/whatsup_times.php?day=27&month=11&year=2025
+CLASS:PUBLIC
+CREATED:20251122T005840Z
+DESCRIPTION:Saturno\nTrânsito: 19:29\nDireção: ↑ Norte (355°)\nAltitude: 78
+ °\n\nInformação adicional\nhttps://in-the-sky.org/whatsup_times.php?day=27&
+ month=11&year=2025\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os
+ _meus_calend%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https
+ ://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 00:58:39 +0000\n
+ \nID de Inscrição\n0cf028c48537a4fea3a27696b6655976
+LAST-MODIFIED:20251122T005840Z
+SEQUENCE:2518
+STATUS:CONFIRMED
+SUMMARY:Saturno ⚬ 19:29
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-FUNAMBOL-ALLDAY:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+END:VCALENDAR
