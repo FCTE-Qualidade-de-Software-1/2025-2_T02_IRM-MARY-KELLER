@@ -204,7 +204,7 @@ O video da execução do teste está disponível a seguir:
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
     <iframe
-        src="https://www.youtube.com/watch?v=9jLINYBFCZw"
+        src="https://www.youtube.com/embed/9jLINYBFCZw?si=C1zRf0DeIY4yrWhX"
         style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
         allowfullscreen>
     </iframe>
@@ -260,7 +260,7 @@ O sistema entregou 100% das notificações geradas. O usuário recebeu os e-mail
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
     <iframe
-        src="https://youtu.be/KFnzUSq2q5I"
+        src="https://www.youtube.com/embed/KFnzUSq2q5I?si=U0nBsFvnui4WKgg-"
         style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
         allowfullscreen>
     </iframe>
@@ -441,7 +441,7 @@ O vídeo a seguir apresenta a **execução completa do teste**, mostrando a comp
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
     <iframe
-        src="https://youtu.be/Nz8FJW_gg-w?si=T5MFM9ilrOiQgmVp"
+        src="https://www.youtube.com/embed/Nz8FJW_gg-w?si=ftPSr5NlJqEfJkHH"
         style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
         allowfullscreen>
     </iframe>
