@@ -113,14 +113,14 @@ Avaliar se operações de **upload e sincronização de arquivos** na área **�
 - **Questão GQM:** Q2 (Recursos do Navegador)  
 - **Métrica Associada:** Métrica 2.1 – Consumo Médio de RAM por Navegador  
 - **Hipótese Relacionada:** H2.1 – Consumo de RAM maior em um navegador específico prejudicando o uso do discente  
-- **Perfil Principal:** Técnico/Equipe de Avaliação
+- **Perfil Principal:** Discente
 
 **Objetivo:**  
 Medir e comparar o **consumo médio de memória RAM** do Aprender 3 em diferentes navegadores (Chrome, Firefox, Edge) para um cenário de uso padrão.
 
 **Pré-condições:**
 
-- Um computador com SO definido (Windows ou Linux) e registrado no relatório.
+- Um computador com Windows 11 Pro.
 - Navegadores instalados: **Chrome**, **Firefox** e **Edge**, nas versões estáveis mais recentes.
 - Conta de estudante de teste com acesso a um curso com conteúdo (tópicos, fóruns, tarefas).
 
@@ -134,11 +134,10 @@ Medir e comparar o **consumo médio de memória RAM** do Aprender 3 em diferente
 2. Abrir apenas o **Navegador A** (por exemplo, Chrome).
 3. Executar o **cenário de teste padrão** no Aprender 3.
 4. Utilizar o **gerenciador de tarefas** do sistema ou do próprio navegador para registrar o consumo de RAM (em MB) do processo principal do navegador.
-5. Anotar o valor em planilha.
-6. Fechar o navegador A por completo.
-7. Repetir os passos 2 a 6 **ao menos N vezes** para o Navegador A (por exemplo, 3 repetições) e registrar todos os valores.
-8. Repetir o mesmo procedimento para o **Navegador B** (Firefox) e para o **Navegador C** (Edge), mantendo o mesmo cenário e número de repetições.
-9. Calcular, em planilha, o **consumo médio de RAM** para cada navegador (A, B, C).
+5. Fechar o navegador A por completo.
+6. Repetir os passos 2 a 5 **ao menos 3 vezes** para o Navegador A e registrar todos os valores.
+7. Repetir o mesmo procedimento para o **Navegador B** (Firefox) e para o **Navegador C** (Edge), mantendo o mesmo cenário e número de repetições.
+8. Calcular o **consumo médio de RAM** para cada navegador (A, B, C).
 
 **Resultado Esperado:**
 

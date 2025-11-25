@@ -85,7 +85,117 @@ O video da execução do teste está disponível a seguir:
     </iframe>
 </div>
 
+# CT-COMP-03: Consumo Médio de RAM por Navegador
 
+## Informações do Teste
+- **Questão GQM:** Q2 – Recursos do Navegador
+- **Métrica:** 2.1 – Consumo Médio de RAM por Navegador
+- **Hipótese:** H2.1 – Consumo de RAM maior em um navegador específico prejudicando o uso do discente
+- **Perfil:** Discente
+
+## Execução
+O teste seguiu o **cenário de teste padrão** definido no plano. O consumo de memória (RAM) do processo principal foi monitorado via Gerenciador de Tarefas após a estabilização da página. Foram realizadas **3 repetições** para cada navegador.
+
+## Resultados
+
+| Navegador | Tentativa 1 (MB) | Tentativa 2 (MB) | Tentativa 3 (MB) | Média (MB) |
+| :--- | :--- | :--- | :--- | :--- |
+| Chrome | 443 | 414 | 396 | **417.67** |
+| Firefox | 651 | 707 | 641 | **666.33** |
+| Edge | 810 | 702 | 702 | **738.00** |
+
+### Comparativo de Consumo
+
+| Navegador | Média de RAM | Diferença vs Mais Leve (Chrome) |
+| :--- | :--- | :--- |
+| Chrome | 417.67 MB | - |
+| Firefox | 666.33 MB | + 59.53% |
+| Edge | 738.00 MB | + 76.69% |
+
+## Classificação da Métrica 2.1
+
+Critérios (Definidos na Fase 2):
+- Variação < 10%: Excelente
+- Variação 10% - 30%: Bom
+- Variação 30% - 50%: Regular
+- Variação > 50%: Insatisfatório
+
+**Resultado Final:**
+A maior variação registrada foi de **76.69%** (Edge em relação ao Chrome).
+
+**Classificação:** **INSATISFATÓRIO**
+
+## Validação da Hipótese
+
+**H2.1: VALIDADA**
+
+A hipótese foi confirmada. O navegador Microsoft Edge apresentou um consumo de memória significativamente superior (+76%) ao navegador de referência (Chrome) no mesmo cenário de uso. Essa discrepância elevada valida a preocupação de que a escolha do navegador pode impactar o desempenho do dispositivo do discente, especialmente em hardwares com recursos limitados.
+
+O video da execução do teste está disponível a seguir:
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube.com/watch?v=9jLINYBFCZw"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allowfullscreen>
+    </iframe>
+</div>
+
+---
+
+# CT-COMP-04: Entrega de Notificações de Fórum por E-mail
+
+## Informações do Teste
+- **Questão GQM:** Q3 – Notificações de Fórum
+- **Métrica:** 3.1 – Taxa de Falha de Entrega de Notificação
+- **Hipótese:** H3.1 – Discente não recebe e-mails de novas mensagens em fóruns subscritos
+- **Perfil:** Discente (Visão do Usuário)
+
+## Execução
+Foram realizadas 4 respostas distintas no fórum para conta A e 3 respostas distintas para conta B. A caixa de entrada e a pasta de Spam da Conta A e B foram monitoradas.
+
+## Resultados
+
+| ID Postagem | Recebeu Notificação A? | Recebeu Notificação B? |Local de Recebimento |
+| :--- | :--- | :--- | :--- | 
+| Post 1 | Sim | Não enviado | Caixa de Entrada | 
+| Post 2 | Sim | Sim | Caixa de Entrada | 
+| Post 3 | Sim | Sim | Caixa de Entrada | 
+| Post 4 | Sim | Sim | Caixa de Entrada | 
+
+
+
+### Estatísticas de Entrega
+- **Total de Envios:** 4
+- **Recebidos na Entrada:** 4
+- **Recebidos no Spam:** 0
+- **Não Recebidos:** 0
+
+## Cálculo da Métrica 3.1 e Classificação
+
+**Fórmula:**
+Taxa de Falha = (Nº de Não Recebidos / Total de Postagens) x 100
+Taxa de Falha = (0 / 4) x 100 = **0%**
+
+Critérios:
+- 0% Falha: Excelente
+- < 10% Falha: Bom
+
+**Classificação:** **EXCELENTE**
+
+## Validação da Hipótese
+
+**H3.1: REFUTADA**
+
+O sistema entregou 100% das notificações geradas. O usuário recebeu os e-mails correspondentes a todas as mensagens.
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://youtu.be/KFnzUSq2q5I"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allowfullscreen>
+    </iframe>
+</div>
 
 
 # CT-COMP-05: Subscrição de Calendário via URL
@@ -332,6 +442,8 @@ Todos os navegadores apresentaram taxa de sucesso igual ou superior a 85%, com d
 | ------------- | ----------------------------------------------- | ------------------ | ------------- |
 | **CT-COMP-01**| Sincronia de Status de Conclusão                | 0% discrepâncias   | **Excelente** |
 | **CT-COMP-02**| Sincronização Bidirecional de Arquivos          | 100% sincronização | **Excelente** |
+| **CT-COMP-03**| Consumo Médio de RAM por Navegador              | Variação > 50%     | **Insatisfatório** |
+| **CT-COMP-04**| Entrega de Notificações de Fórum por E-mail     | 0 falhas           | **Excelente** |
 | **CT-COMP-05**| Taxa de Falha de Subscrição de URL              | 1 falha (Yahoo)    | **Parcial**   |
 | **CT-COMP-06**| Diferencial de Sucesso (ICS vs URL)             | 28,57% dif.        | **Validada (H4.2)** |
 | **CT-COMP-07**| Sucesso de Drag-and-Drop                        | > 90% sucesso      | **Bom/Excelente** |
@@ -346,4 +458,5 @@ Todos os navegadores apresentaram taxa de sucesso igual ou superior a 85%, com d
 | `1.1`  | 23/11/2025 | Adição do CT-COM-01 e CT-COM-02 | [Thales Germano](https://github.com/thalesgvl) |
 | `1.2`  | 24/11/2025 | Adição do CT-COM-05 e CT-COM-06 | [Pedro Sampaio](https://github.com/PedroSampaioDias) |
 | `1.3`  | 25/11/2025 | Adição do CT-COMP-07 e Reorganização | [Patrick Anderson Carvalho dos Santos](http://github.com/patrickacs) |
+| `1.4`  | 25/11/2025 | Adição do CT-COM-03 e CT-COM-04 | [Taynara Vitorino](http://github.com/taybalau) |
 
