@@ -3,79 +3,65 @@
 Esta seção descreve os testes realizados e resultados obtidos com base nos **Casos de Teste (CTs)** projetados para avaliar a característica de **Compatibilidade** do Aprender 3, conforme planejamento realizado na Fase 3.
 
 ---
-
 # CT-COMP-01: Sincronia de Status de Conclusão
 
-## Informações do Teste
-- **Questão GQM:** Q1 – Sincronia de Dados  
-- **Métrica:** 1.1 – Percentual de Discrepância  
-- **Hipótese:** H1.1 – Possível inconsistência Web × App  
-- **Perfil:** Discente  
-
-## Ambiente
-- **Web:** Aprender 3 (Linux Ubuntu 24.04)  
-- **App:** Moodle 5.0.0 – S24 (Android 16)  
-- **Conexão:** Dados móveis (emulado)
-
-## Execução
-Foram avaliadas **atividades** com rastreamento de conclusão.  
-Passos: marcar na Web → sincronizar App → comparar status.
-
-## Resultados
-
-| Atividades | Discrepâncias | Percentual |
-|------------|---------------|------------|
-| 10         | 0             | **0%**     |
-
-### Fórmula
-
-Discrepância = (0 / 10) × 100 = 0%
-
-
-### Classificação (Métrica 1.1)
-**EXCELENTE** (0% a 5%)
+## Detalhamento do Caso de Teste  
+**Questão GQM:** Q1, *Qual é a consistência dos dados do discente entre o Aprender 3 (Web) e o App Moodle?*  
+**Métrica Associada:** 1.1, Percentual de Discrepância de Status de Conclusão  
+**Hipótese Avaliada:** H1.1, *O status de conclusão de atividades (marcar como "feita") fica inconsistente entre a plataforma Web e o aplicativo móvel.*  
+**Perfil:** Discente  
 
 ---
 
-# CT-COMP-02: Sincronização Bidirecional de Arquivos
+## Resultados Obtidos  
 
-## Informações do Teste
-- **Questão GQM:** Q1 – Sincronia de Dados  
-- **Métrica:** 1.2 – Taxa de Sucesso de Sincronização  
-- **Hipótese:** H1.2 – Possíveis falhas na sincronização Web ↔ App  
-- **Perfil:** Discente  
+| Atividades avaliadas | Discrepâncias | Percentual de Discrepância |
+|----------------------|--------------|-----------------------------|
+| 10                   | 0            | 0%                          |
 
-## Ambiente
-- Mesmo do CT-COMP-01  
-- Arquivos: PDF, MD
+**Total de atividades testadas:** 10  
+**Total de discrepâncias:** 0  
 
-## Execução
+### Cálculo da Métrica 1.1  
+**Percentual de Discrepância** = (Nº de atividades com discrepância / Nº total de atividades avaliadas) x 100  
 
-### Web → App
-- **1 arquivo enviados via Web**
-- Resultado: **1/1 sincronizados**
+Aplicando os valores obtidos:  
+**Percentual de Discrepância** = (0 / 10) x 100 = **0%**
 
-### App → Web
-- **1 arquivo enviados via App**
-- Resultado: **1/1 sincronizados**
+**Classificação segundo os critérios da Fase 2:** **EXCELENTE**  
+(0% de discrepância encontra-se na melhor faixa de avaliação da métrica.)
 
-## Resultados Consolidados
+---
 
-| Direção     | Sucesso | Total | Taxa  |
-|-------------|---------|-------|-------|
-| Web → App   | 1       | 1     | 100%  |
-| App → Web   | 1       | 1     | 100%  |
+## Análise e Resposta à Questão GQM  
 
-### Fórmula
+> **Q1, Qual é a consistência dos dados do discente entre o Aprender 3 (Web) e o App Moodle?**
 
-Taxa de Sucesso = (2/2) × 100 = 100%
+Os resultados indicam que, para o conjunto de 10 atividades analisadas, **não houve qualquer discrepância** entre o status de conclusão exibido na interface Web e o status exibido pelo App Moodle. Sempre que uma atividade foi marcada como concluída na Web, o mesmo estado foi refletido corretamente no aplicativo após a sincronização.
 
+Isso demonstra um **nível máximo de consistência** para o cenário testado, já que o discente pode alternar entre Web e App sem risco de confusão quanto ao que já foi concluído. Do ponto de vista da Questão GQM 1, conclui-se que o Aprender 3 apresentou **consistência total** dos dados de conclusão de atividades entre as duas plataformas, no contexto do teste realizado.
 
-### Classificação (Métrica 1.2)
-**EXCELENTE** (> 90%)
+---
 
+## Avaliação da Hipótese H1.1  
 
-O video da execução do teste está disponível a seguir:
+> **H1.1, O status de conclusão de atividades (marcar como "feita") fica inconsistente entre a plataforma Web e o aplicativo móvel.**
+
+A hipótese H1.1 pressupõe que existam diferenças perceptíveis entre os estados de conclusão mostrados na Web e no App, sugerindo problemas de sincronização. No entanto, os dados coletados mostram que:
+
+- 10 atividades foram avaliadas;  
+- 0 discrepâncias foram encontradas;  
+- Percentual de discrepância: 0%.
+
+Não houve qualquer evidência que apoiasse a existência de inconsistências de status de conclusão. Pelo contrário, o comportamento observado foi totalmente coerente entre Web e App.
+
+Diante disso, conclui-se que a hipótese **não é validada** para o cenário testado, pois o comportamento esperado de falha (inconsistência Web × App) **não se manifestou** durante a execução do caso de teste.
+
+---
+
+## Demonstração em Vídeo  
+
+A seguir encontra-se o vídeo que demonstra a execução completa do teste de sincronia de status de conclusão entre o Aprender 3 (Web) e o App Moodle:
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
     <iframe
@@ -85,8 +71,88 @@ O video da execução do teste está disponível a seguir:
     </iframe>
 </div>
 
+---
 
+# CT-COMP-02: Sincronização Bidirecional de Arquivos
 
+## Detalhamento do Caso de Teste  
+**Questão GQM:** Q1, *Qual é a consistência dos dados do discente entre o Aprender 3 (Web) e o App Moodle?*  
+**Métrica Associada:** 1.2, Taxa de Sucesso de Sincronização Bidirecional de Arquivos  
+**Hipótese Avaliada:** H1.2, *Os arquivos na área "Arquivos privados" não são sincronizados corretamente entre a versão Web e o App.*  
+**Perfil:** Discente  
+
+---
+
+## Resultados Obtidos  
+
+### Web → App  
+- Arquivos enviados via Web: **1**  
+- Arquivos recebidos no App: **1**  
+
+### App → Web  
+- Arquivos enviados via App: **1**  
+- Arquivos recebidos na Web: **1**  
+
+### Resultados Consolidados  
+
+| Direção     | Sucessos | Total | Taxa de Sucesso |
+|-------------|----------|-------|-----------------|
+| Web → App   | 1        | 1     | 100%            |
+| App → Web   | 1        | 1     | 100%            |
+
+**Total de sincronizações testadas (ambas as direções):** 2  
+**Total de sucessos:** 2  
+
+---
+
+## Cálculo da Métrica 1.2  
+
+A Métrica 1.2 mede a **Taxa de Sucesso de Sincronização Bidirecional de Arquivos** entre Web e App (Web → App e App → Web).
+
+**Taxa de Sucesso** = (Nº de sincronizações bem-sucedidas / Nº total de sincronizações realizadas) x 100  
+
+Aplicando os valores coletados:  
+
+- Nº de sincronizações bem-sucedidas: 2  
+- Nº total de sincronizações realizadas: 2  
+
+**Taxa de Sucesso** = (2 / 2) x 100 = **100%**
+
+**Classificação segundo os critérios da Fase 2:** **EXCELENTE**  
+(Valor acima de 90%, dentro da melhor faixa de classificação para a métrica.)
+
+---
+
+## Análise e Resposta à Questão GQM  
+
+> **Q1, Qual é a consistência dos dados do discente entre o Aprender 3 (Web) e o App Moodle?**
+
+Os resultados do CT-COMP-02 mostram que as operações de envio de arquivos na área **"Arquivos privados"** foram sincronizadas corretamente em ambas as direções:
+
+- O arquivo enviado pela interface Web foi encontrado no App Moodle após a sincronização;  
+- O arquivo enviado pelo App foi exibido corretamente na interface Web.
+
+Com 100% de sucesso nas duas direções, não foram observadas perdas de arquivo, inconsistências na listagem ou falhas aparentes de atualização. Isso indica que, no cenário testado, o Aprender 3 oferece **consistência total** dos dados de arquivos privados entre Web e App, reforçando a percepção de integridade do ambiente para o discente que alterna entre as plataformas.
+
+Assim, em resposta à Questão GQM 1, conclui-se que o Aprender 3 mantém, neste caso de uso, um **altíssimo nível de consistência** dos dados de arquivos entre Web e App.
+
+---
+
+## Avaliação da Hipótese H1.2  
+
+> **H1.2, Os arquivos na área "Arquivos privados" não são sincronizados corretamente entre a versão Web e o App.**
+
+A hipótese H1.2 supõe a existência de falhas no processo de sincronização dos arquivos privados entre Web e App, o que se manifestaria na forma de arquivos ausentes em um dos lados após o envio. No entanto, os resultados mostram que:
+
+- Web → App: 1 de 1 arquivos sincronizado com sucesso;  
+- App → Web: 1 de 1 arquivos sincronizado com sucesso;  
+- Taxa de sucesso global: 100%.
+
+Não foram registradas falhas ou inconsistências nas operações testadas. Portanto, **não há evidências**, neste contexto, que sustentem a hipótese de falha sistemática na sincronização de arquivos.
+
+Dessa forma, conclui-se que a hipótese **não é validada**, uma vez que o comportamento observado foi exatamente o oposto do que a hipótese previa: a sincronização funcionou corretamente em ambas as direções.
+
+---
 
 # CT-COMP-05: Subscrição de Calendário via URL
 
