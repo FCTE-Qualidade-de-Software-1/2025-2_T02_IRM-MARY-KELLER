@@ -295,14 +295,15 @@ Verificar se o funcionamento básico do Aprender 3 exige a instalação de qualq
 1. Abrir o navegador recém-instalado (Chrome, Firefox ou Edge) em sua configuração padrão.
 2. Acessar o endereço do Aprender 3.
 3. Executar o seguinte checklist mínimo de funcionalidades:
-   - Realizar login com usuário de teste.
-   - Visualizar a lista de disciplinas.
-   - Acessar um curso.
-   - Visualizar conteúdo (página, arquivo PDF básico, página de fórum).
-   - Enviar uma tarefa com upload simples de arquivo.
+     - Login com usuário;
+     - Visualizar a lista de disciplinas;
+     - Acessar um curso;
+     - Visualizar conteúdo arquivo PDF básico;
+     - Visualizar página de fórum;
+     - Enviar uma tarefa com upload simples de arquivo.
 4. Verificar se, durante qualquer uma das funcionalidades, o sistema:
-   - Solicita instalação de plugins, extensões ou software adicional;
-   - Exige componentes proprietários (fora dos padrões HTML5, por exemplo).
+      - Solicita instalação de plugins, extensões ou software adicional;
+      - Exige componentes proprietários (fora dos padrões HTML5, por exemplo).
 5. Registrar o resultado da verificação.
 
 

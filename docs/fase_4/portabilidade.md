@@ -298,10 +298,17 @@ O teste consiste em verificar a capacidade dos usuários de configurar o app Moo
 
 ## Resultados dos Testes
 
-Os resultados dos testes mostraram que 100% dos usuários conseguiram configurar o app Moodle sem assistência técnica. A seguir estão linkados os vídeos da gravação de tela dos smartphones realizados durante os testes. Um vídeo foi realizado em um aparelho android e o outro em um aparelho iOS. O terceiro teste também foi realizado em um smartphone iOS e como obteve o mesmo resultado não se fez necessário adicionar seu vídeo, por já possuir um video praticamente igual
+Os resultados dos testes mostraram que 100% dos usuários conseguiram configurar o app Moodle sem assistência técnica. A seguir está linkado o vídeo da gravação de tela dos smartphones realizados durante os testes. Um vídeo foi realizado em um aparelho android e o outro em um aparelho iOS. O terceiro teste também foi realizado em um smartphone iOS e como obteve o mesmo resultado não se fez necessário adicionar seu vídeo, por já possuir um video praticamente igual
 
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/CemC_KH0Jc0"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allowfullscreen>
+    </iframe>
+</div>
 
-## Classificação da Métrica
+## Cálculo da Métrica
 Taxa de Sucesso na Configuração do App por Novos Usuários = (3 / 3) x 100 = 100%. Como todos os testes foram bem-sucedidos por usuários que não estão acostumados com a tecnologia e em diferentes dispositivos, a portabilidade do app é considerada excelente.
 
 Classificação Obtida: **Excelente**
@@ -316,7 +323,15 @@ O teste consistiu em verificar se o Aprender 3 funciona corretamente em um naveg
 
 ## Resultados dos Testes
 
-Os resultados dos testes mostraram que as funções listadas no teste funcionam corretamente no Aprender 3 em um navegador limpo, sem a necessidade da instalação de plugins adicionais ou de configurações específicas, demonstrando alta portabilidade.
+Os resultados dos testes mostraram que as funções listadas no teste funcionam corretamente no Aprender 3 em um navegador limpo, sem a necessidade da instalação de plugins adicionais ou de configurações específicas, demonstrando alta portabilidade. O teste foi realizado em uma guia anônima do Google Chrome e realizou todas as funcionalidades listadas na fase 3. O vídeo do teste encontra-se disponível abaixo.
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/GZV3IjGjVUo"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allowfullscreen>
+    </iframe>
+</div>
 
 ## Cálculo da Métrica
 
@@ -347,4 +362,5 @@ De acordo com a métrica binária definida, como nenhuma plugin ou extensão adi
 | `1.1`  | 23/11/2025 | Adição do CT-POR-03                     | [Yago Amin](https://github.com/yagoas) |
 | `1.2`  | 24/11/2025 | Adição do CT-POR-04 e CT-POR-05         | [Felipe Hansen](https://github.com/FHansen98) |
 | `1.3`  | 25/11/2025 | Adição do CT-POR-01                     | [Patrick Anderson Carvalho dos Santos](http://github.com/patrickacs) |
+| `1.4`  | 25/11/2025 | Adição dos vídeos dos testes CT-POR-04 e CT-POR-05 | [Felipe Hansen](https://github.com/FHansen98) |
 
