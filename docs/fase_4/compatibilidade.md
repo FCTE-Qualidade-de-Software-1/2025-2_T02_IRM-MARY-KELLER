@@ -86,16 +86,7 @@ O video da execução do teste está disponível a seguir:
 </div>
 
 
-## Resumo dos Resultados
 
-### Métricas Avaliadas
-
-| Métrica       | Descrição                                       | Resultado          | Classificação |
-| ------------- | ----------------------------------------------- | ------------------ | ------------- |
-| **CT-COMP-01**| Sincronia de Status de Conclusão                | 0% discrepâncias   | **Excelente** |
-| **CT-COMP-02**| Sincronização Bidirecional de Arquivos          | 100% sincronização | **Excelente** |
-
----
 
 # CT-COMP-05: Subscrição de Calendário via URL
 
@@ -277,6 +268,76 @@ O vídeo a seguir apresenta a **execução completa do teste**, mostrando a comp
 </div>
 
 
+---
+
+# CT-COMP-07: Sucesso da Funcionalidade Drag-and-Drop (D&D) por Navegador
+
+## Informações do Teste
+- **Métrica:** 5.1 - Compatibilidade de Drag-and-Drop
+- **Objetivo:** Avaliar a taxa de sucesso da funcionalidade drag-and-drop em diferentes navegadores.
+- **Hipótese:** H5.1: A funcionalidade de drag-and-drop apresenta taxa de sucesso superior a 85% em navegadores modernos.
+
+## Ambiente de Teste
+- **Funcionalidades Testadas:** Fóruns (anexo de arquivos), Blocos laterais (reorganização), Calendário (arrastar eventos).
+- **Método:** 10 tentativas totais por navegador (distribuídas entre as funcionalidades).
+- **Arquivos teste:** PDF (2.5MB), DOCX (1.8MB), PNG (3.2MB).
+
+## Resultados dos Testes
+
+| Navegador | Tentativas | Sucessos | Falhas | Taxa de Sucesso |
+| :--- | :--- | :--- | :--- | :--- |
+| Chrome | 10 | 9 | 1 | 90% |
+| Firefox | 10 | 10 | 0 | 100% |
+| Edge | 10 | 9 | 1 | 90% |
+
+### Detalhamento por Funcionalidade
+
+| Funcionalidade | Chrome | Firefox | Edge |
+| :--- | :--- | :--- | :--- |
+| Fóruns (4 tentativas) | 4/4 | 4/4 | 3/4 |
+| Blocos Laterais (3 tentativas) | 2/3 | 3/3 | 3/3 |
+| Calendário (3 tentativas) | 3/3 | 3/3 | 3/3 |
+
+### Falhas Identificadas
+- **Chrome (1 falha):** Blocos Laterais: Elemento não posicionou corretamente, retornou à posição original sem mensagem de erro.
+- **Firefox (0 falhas):** Nenhuma falha registrada.
+- **Edge (1 falha):** Fóruns: Arquivo não foi reconhecido imediatamente na área de drop, necessitou segunda tentativa.
+
+## Classificação da Métrica 5.1
+
+Critérios (ISO/IEC 25010):
+- ≥ 95%: Excelente
+- 85-94%: Bom
+- 70-84%: Regular
+- < 70%: Insatisfatório
+
+**Resultados:**
+- Chrome: 90% - **BOM**
+- Firefox: 100% - **EXCELENTE**
+- Edge: 90% - **BOM**
+
+## Validação da Hipótese
+
+**H5.1: CONFIRMADA**
+
+Todos os navegadores apresentaram taxa de sucesso igual ou superior a 85%, com desempenho satisfatório. As falhas identificadas foram pontuais e não caracterizam problemas sistemáticos de compatibilidade.
+
+---
+
+## Resumo dos Resultados
+
+### Métricas Avaliadas
+
+| Métrica       | Descrição                                       | Resultado          | Classificação |
+| ------------- | ----------------------------------------------- | ------------------ | ------------- |
+| **CT-COMP-01**| Sincronia de Status de Conclusão                | 0% discrepâncias   | **Excelente** |
+| **CT-COMP-02**| Sincronização Bidirecional de Arquivos          | 100% sincronização | **Excelente** |
+| **CT-COMP-05**| Taxa de Falha de Subscrição de URL              | 1 falha (Yahoo)    | **Parcial**   |
+| **CT-COMP-06**| Diferencial de Sucesso (ICS vs URL)             | 28,57% dif.        | **Validada (H4.2)** |
+| **CT-COMP-07**| Sucesso de Drag-and-Drop                        | > 90% sucesso      | **Bom/Excelente** |
+
+---
+
 ## Histórico de Versões
 
 | Versão | Data       | Descrição                               | Autor                                  |
@@ -284,4 +345,5 @@ O vídeo a seguir apresenta a **execução completa do teste**, mostrando a comp
 | `1.0`  | 24/11/2025 | Criação da página | [Felipe Hansen](https://github.com/FHansen98) |
 | `1.1`  | 23/11/2025 | Adição do CT-COM-01 e CT-COM-02 | [Thales Germano](https://github.com/thalesgvl) |
 | `1.2`  | 24/11/2025 | Adição do CT-COM-05 e CT-COM-06 | [Pedro Sampaio](https://github.com/PedroSampaioDias) |
+| `1.3`  | 25/11/2025 | Adição do CT-COMP-07 e Reorganização | [Patrick Anderson Carvalho dos Santos](http://github.com/patrickacs) |
 

@@ -4,6 +4,100 @@ Esta seção descreve os testes realizados e resultados obtidos com base nos **C
 
 ---
 
+# CT-POR-01: Conformidade de Layout Responsivo (Web – Desktop, Tablet e Smartphone)
+
+## Informações do Teste
+- **Métrica:** 1.1 - Conformidade de Layout Responsivo
+- **Objetivo:** Verificar se as páginas mantêm layout funcional em diferentes resoluções.
+- **Hipótese:** H1.1: O layout responsivo se ajusta adequadamente em desktop, tablet e smartphone.
+
+## Ambiente de Teste
+- **Resoluções Testadas:**
+    - Desktop: 1920x1080px
+    - Tablet: 768x1024px
+    - Smartphone: 375x667px
+- **Páginas Avaliadas:** Página de Login, Página Inicial do Curso, Visualização de Tópico, Fórum - Lista de Discussões, Calendário.
+- **Método:** Teste via Inspecionar Elemento (Device Toolbar) em 3 navegadores.
+
+## Testes Realizados
+
+O video da execução do teste está disponível a seguir:
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/e6U-lpBli9U"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allowfullscreen>
+    </iframe>
+</div>
+
+---
+
+## Resultados dos Testes
+
+### Resultados por Resolução
+
+**Desktop (1920x1080px):**
+- **Conformidade:** 15/15 (100%)
+- Todas as páginas funcionaram perfeitamente.
+
+**Tablet (768x1024px):**
+- **Conformidade:** 11/15 (73,33%)
+- **Não conformidades:**
+    - Página Inicial (Chrome): Blocos laterais sobrepostos ao conteúdo.
+    - Fórum (Firefox): Imagens de avatar colapsadas, texto sobreposto.
+    - Fórum (Edge): Tabela não responsiva, informações cortadas.
+    - Calendário (Edge): Eventos com texto cortado.
+
+**Smartphone (375x667px):**
+- **Conformidade:** 6/15 (40%)
+- **Não conformidades:**
+    - Página Inicial (todos navegadores): Blocos laterais não colapsam, scroll horizontal necessário.
+    - Visualização de Tópico (Chrome, Edge): Imagens excedem largura da tela.
+    - Fórum (todos navegadores): Tabela não responsiva, colunas sobrepostas, avatares distorcidos.
+    - Calendário (Chrome, Firefox): Grade completamente ilegível, eventos não clicáveis.
+
+### Resultados Consolidados
+
+- **Total de Combinações:** 45
+- **Conformes:** 32
+- **Não Conformes:** 13
+- **Taxa de Conformidade Geral:** 71,11%
+
+### Análise por Navegador
+
+| Navegador | Conformidade | Classificação |
+| :--- | :--- | :--- |
+| Chrome | 11/15 (73,33%) | Regular |
+| Firefox | 11/15 (73,33%) | Regular |
+| Edge | 10/15 (66,67%) | Regular |
+
+## Problemas Principais Identificados
+
+1. **Página Inicial - Mobile:** Blocos laterais não colapsam, conteúdo empurrado, scroll horizontal, menu não converte.
+2. **Fórum - Mobile/Tablet:** Tabela não responsiva, avatares distorcidos, imagens excedem viewport, sobreposição de texto.
+3. **Calendário - Mobile/Tablet:** Grade não responsiva, eventos cortados, navegação difícil, área de clique pequena.
+4. **Visualização de Tópico - Mobile:** Imagens não ajustam à largura, scroll horizontal, colapso de textos.
+5. **Página Inicial - Tablet Edge:** Blocos laterais sobrepõem conteúdo.
+
+## Classificação da Métrica 1.1
+
+Critérios (ISO/IEC 25010):
+- 90%: Excelente
+- 75-90%: Bom
+- 60-74%: Regular
+- < 60%: Insatisfatório
+
+**Resultado: 71,11% - REGULAR**
+
+## Validação da Hipótese
+
+**H1.1: REFUTADA**
+
+O layout se ajusta adequadamente apenas em desktop (100%). Em tablet apresentou conformidade regular (73,33%) e em smartphone foi insatisfatória (40%). A plataforma não atende adequadamente aos requisitos de responsividade, especialmente para dispositivos móveis, onde imagens e textos colapsam ou se sobrepõem frequentemente.
+
+---
+
 # CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle
 
 ## Ambiente de Teste
@@ -237,6 +331,7 @@ De acordo com a métrica binária definida, como nenhuma plugin ou extensão adi
 
 | Métrica       | Descrição                                       | Resultado  | Classificação |
 | ------------- | ----------------------------------------------- | ---------- | ------------- |
+| **CT-POR-01** | Taxa de Conformidade de Layout Responsivo       | 71,11%     | **Regular**   |
 | **CT-POR-02** | Taxa de Sucesso em Funcionalidades no App Móvel | 97,14%     | **Excelente** |
 | **CT-POR-03** | Verificação de Histórico de Migração            | Confirmado | **Sim**       |
 | **CT-POR-04** | Compatibilidade de Plugins e Temas na Atualização do Moodle | 100% | **Excelente** |
@@ -251,4 +346,5 @@ De acordo com a métrica binária definida, como nenhuma plugin ou extensão adi
 | `1.0`  | 23/11/2025 | Criação da página e Adição do CT-POR-02 | [Yago Amin](https://github.com/yagoas) |
 | `1.1`  | 23/11/2025 | Adição do CT-POR-03                     | [Yago Amin](https://github.com/yagoas) |
 | `1.2`  | 24/11/2025 | Adição do CT-POR-04 e CT-POR-05         | [Felipe Hansen](https://github.com/FHansen98) |
+| `1.3`  | 25/11/2025 | Adição do CT-POR-01                     | [Patrick Anderson Carvalho dos Santos](http://github.com/patrickacs) |
 
