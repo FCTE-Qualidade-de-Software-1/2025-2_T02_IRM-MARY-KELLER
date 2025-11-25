@@ -6,7 +6,7 @@ Esta página documenta os artefatos desenvolvidos pelo Grupo Irmã Mary Kenneth 
 
 O projeto tem como objetivo aplicar técnicas, normas e boas práticas de qualidade de software, realizando uma análise do **Aprender 3** com base em critérios estabelecidos pela norma ISO/IEC 25010 (SQuaRE).
 
-## Figura 1 — Irmã Mary Kenneth Keller
+## Figura 1 - Irmã Mary Kenneth Keller
 
 <div align="center">
   <img src="assets/img/mary_keller.png" alt="Irmã Mary Kenneth Keller" style="max-width: 80%; height: auto; margin-bottom: 12px;">
@@ -33,11 +33,11 @@ Keller foi defensora do acesso democrático à computação, especialmente na ed
 
 ## Referências
 
-[1] On Wisconsin Magazine. *On, Alumnae: Mary Kenneth Keller*. University of Wisconsin Madison Alumni Magazine, 2019.  
-[2] Wikipedia (en). *Mary Kenneth Keller* dados biográficos, tese e contexto histórico.  
-[3] Clarke University. *Quick Facts* histórico do programa de Computação e menções ao legado de Keller.  
-[4] Head, J., O’Leary, D. P. *The Legacy of Mary Kenneth Keller, First U.S. Ph.D. in Computer Science*. *IEEE Annals of the History of Computing*, 45(1), 55-63, 2023.  
-[5] DePaul University. *Sister Mary Kenneth Keller, Faces of DePaul*, formação de graduação e mestrado.  
+> [1] On Wisconsin Magazine. *On, Alumnae: Mary Kenneth Keller*. University of Wisconsin Madison Alumni Magazine, 2019.  
+> [2] Wikipedia (en). *Mary Kenneth Keller* dados biográficos, tese e contexto histórico.  
+> [3] Clarke University. *Quick Facts* histórico do programa de Computação e menções ao legado de Keller.  
+> [4] Head, J., O’Leary, D. P. *The Legacy of Mary Kenneth Keller, First U.S. Ph.D. in Computer Science*. *IEEE Annals of the History of Computing*, 45(1), 55-63, 2023.  
+> [5] DePaul University. *Sister Mary Kenneth Keller, Faces of DePaul*, formação de graduação e mestrado.  
 
 ---
 

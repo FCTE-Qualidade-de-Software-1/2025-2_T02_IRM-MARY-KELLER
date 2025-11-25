@@ -43,10 +43,10 @@ As setas indicam a relação hierárquica: uma única **Meta** pode ser desdobra
 
 ### **Referências Bibliográficas sobre o GQM**
 
-[1] Basili, V. R., Caldiera, G., & Rombach, H. D. (1994). **The Goal Question Metric Approach**. Em *Encyclopedia of Software Engineering*. John Wiley & Sons.
+> [1] Basili, V. R., Caldiera, G., & Rombach, H. D. (1994). **The Goal Question Metric Approach**. Em *Encyclopedia of Software Engineering*. John Wiley & Sons.
 
-[2] ISO/IEC 25010. (2011). **Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models**. International Organization for Standardization.
+> [2] ISO/IEC 25010. (2011). **Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models**. International Organization for Standardization.
 
-[3] Universidade Federal de Pernambuco (UFPE) - Centro de Informática. **GQM: Goal-Question-Metric** (Texto de Seminário). Disponível em: https://www.cin.ufpe.br/~scbs/metricas/seminarios/GQM_texto.pdf
+> [3] Universidade Federal de Pernambuco (UFPE) - Centro de Informática. **GQM: Goal-Question-Metric** (Texto de Seminário). Disponível em: https://www.cin.ufpe.br/~scbs/metricas/seminarios/GQM_texto.pdf
 
-[4] Universidade de Brasília (UnB) - Faculdade do Gama (FGA). **Gerência: Goal Question Metric (GQM)**. (2019). Disponível em: https://fga-eps-mds.github.io/2019.1-Aix/gerencia/2019/04/19/gqm/
+> [4] Universidade de Brasília (UnB) - Faculdade do Gama (FGA). **Gerência: Goal Question Metric (GQM)**. (2019). Disponível em: https://fga-eps-mds.github.io/2019.1-Aix/gerencia/2019/04/19/gqm/
