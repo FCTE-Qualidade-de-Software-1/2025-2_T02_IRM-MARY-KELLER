@@ -6,7 +6,7 @@ Esta página documenta os artefatos desenvolvidos pelo Grupo Irmã Mary Kenneth 
 
 O projeto tem como objetivo aplicar técnicas, normas e boas práticas de qualidade de software, realizando uma análise do **Aprender 3** com base em critérios estabelecidos pela norma ISO/IEC 25010 (SQuaRE).
 
-## Figura 1 — Irmã Mary Kenneth Keller
+## Figura 1 - Irmã Mary Kenneth Keller
 
 <div align="center">
   <img src="assets/img/mary_keller.png" alt="Irmã Mary Kenneth Keller" style="max-width: 80%; height: auto; margin-bottom: 12px;">

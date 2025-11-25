@@ -86,8 +86,8 @@ Embora o público principal do Aprender3 seja composto por professores e estudan
 
 | Foco | Descrição |
 | --- | --- |
-| Portabilidade (Cross-Platform) | Analisar a capacidade do sistema de ser executado de forma consistente em diferentes ambientes computacionais, verificando sua funcionalidade e layout em diversos navegadores (Chrome, Firefox, Edge, Safari) e dispositivos (desktop, tablet, mobile), assegurando uma boa experiência em todos os dispositivos. |
-| Compatibilidade e Interoperabilidade | Avaliar a coexistência do software dentro do ecossistema Moodle e a sua capacidade de interoperar e trocar dados com sucesso com sistemas externos da UnB (como o SIGAA para dados acadêmicos e o sistema de e-mail institucional para notificações), garantindo um fluxo de trabalho integrado e sem conflitos. |
+| Portabilidade | Analisar a capacidade do sistema de ser executado de forma consistente em diferentes ambientes computacionais, verificando sua funcionalidade e layout em diversos navegadores (Chrome, Firefox, Edge, Safari) e dispositivos (desktop, tablet, mobile), assegurando uma boa experiência em todos os dispositivos. |
+| Compatibilidade | Avaliar a coexistência do software dentro do ecossistema Moodle e a sua capacidade de interoperar e trocar dados com sucesso com sistemas externos da UnB (como o SIGAA para dados acadêmicos e o sistema de e-mail institucional para notificações), garantindo um fluxo de trabalho integrado e sem conflitos. |
 
 ## Especificação do Modelo de Qualidade
 
