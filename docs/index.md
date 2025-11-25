@@ -33,11 +33,11 @@ Keller foi defensora do acesso democrático à computação, especialmente na ed
 
 ## Referências
 
-[1] On Wisconsin Magazine. *On, Alumnae: Mary Kenneth Keller*. University of Wisconsin Madison Alumni Magazine, 2019.  
-[2] Wikipedia (en). *Mary Kenneth Keller* dados biográficos, tese e contexto histórico.  
-[3] Clarke University. *Quick Facts* histórico do programa de Computação e menções ao legado de Keller.  
-[4] Head, J., O’Leary, D. P. *The Legacy of Mary Kenneth Keller, First U.S. Ph.D. in Computer Science*. *IEEE Annals of the History of Computing*, 45(1), 55-63, 2023.  
-[5] DePaul University. *Sister Mary Kenneth Keller, Faces of DePaul*, formação de graduação e mestrado.  
+> [1] On Wisconsin Magazine. *On, Alumnae: Mary Kenneth Keller*. University of Wisconsin Madison Alumni Magazine, 2019.  
+> [2] Wikipedia (en). *Mary Kenneth Keller* dados biográficos, tese e contexto histórico.  
+> [3] Clarke University. *Quick Facts* histórico do programa de Computação e menções ao legado de Keller.  
+> [4] Head, J., O’Leary, D. P. *The Legacy of Mary Kenneth Keller, First U.S. Ph.D. in Computer Science*. *IEEE Annals of the History of Computing*, 45(1), 55-63, 2023.  
+> [5] DePaul University. *Sister Mary Kenneth Keller, Faces of DePaul*, formação de graduação e mestrado.  
 
 ---
 
