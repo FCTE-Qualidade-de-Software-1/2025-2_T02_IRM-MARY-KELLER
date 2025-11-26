@@ -42,7 +42,7 @@
 
 ---
 
-### Critérios de Julgamento da Característica (Compatibilidade)
+### Critérios de Julgamento da Compatibilidade
 
 Em conformidade com o Estabelecimento de Critérios de Julgamento, são definidos os critérios para o julgamento final da característica **Compatibilidade** como um todo. Os níveis de pontuação das métricas individuais (Excelente, Bom, Regular, Insatisfatório) serão agregados para fornecer um veredito final, conforme a tabela abaixo:
 
@@ -61,12 +61,6 @@ Em conformidade com o Estabelecimento de Critérios de Julgamento, são definido
 * **Métrica 1.1: Percentual de Discrepância de Status de Conclusão**
     * **Definição:** A porcentagem de atividades que, após serem marcadas como "concluídas" em uma plataforma (Web ou App) e a ação de sincronização ser executada, não refletem essa mudança na outra plataforma.
     * **Fórmula:** (% Discrepância) = (Nº de atividades com status diferente / Nº total de atividades testadas) x 100
-    * **Coleta:**
-        1. Selecionar uma amostra de N atividades para o teste.
-        2. Na plataforma A (ex: Web), marcar a atividade como "concluída".
-        3. Executar a ação de sincronização na plataforma B (ex: App).
-        4. Verificar se o status da atividade na plataforma B foi atualizado para "concluída".
-        5. Registrar o resultado (sucesso ou discrepância) e repetir para N atividades.
     * **Propósito:** Medir a compatibilidade da sincronização do progresso do aluno entre os dois ambientes.
     * **Critérios de Julgamento:**
     
@@ -77,12 +71,6 @@ Em conformidade com o Estabelecimento de Critérios de Julgamento, são definido
 * **Métrica 1.2: Taxa de Sucesso de Sincronização Bidirecional de Arquivos**
     * **Definição:** A taxa de sucesso de operações de arquivo (criar, enviar, deletar) na área privada do usuário, testadas em ambas as direções (da Web para o App e do App para a Web).
     * **Fórmula:** Média ( (Sucesso Web-para-App / Total) , (Sucesso App-para-Web / Total) ) x 100
-    * **Coleta:**
-        1. (Web-para-App): Fazer upload de N arquivos na área "Arquivos Privados" via Web.
-        2. (Web-para-App): Sincronizar o App e verificar se os N arquivos estão visíveis.
-        3. (App-para-Web): Fazer upload de M arquivos na área "Arquivos Privados" via App.
-        4. (App-para-Web): Atualizar a página Web e verificar se os M arquivos estão visíveis.
-        5. Registrar o número de sucessos em cada direção.
     * **Propósito:** Garantir que os arquivos do usuário estejam consistentes e acessíveis em ambos os locais.
     * **Critérios de Julgamento:**
 
@@ -95,13 +83,6 @@ Em conformidade com o Estabelecimento de Critérios de Julgamento, são definido
 * **Métrica 2.1: Consumo Médio de RAM por Navegador**
     * **Definição:** A média de memória RAM (em Megabytes) usada pelo navegador após executar um cenário de teste padrão (ex: logar, abrir um curso, rolar a página).
     * **Fórmula:** Média(RAM)_Browser A vs Média(RAM)_Browser B vs Média(RAM)_Browser C
-    * **Coleta:**
-        1. Definir um cenário de teste padrão (ex: login, abrir curso X, rolar a página até o fim).
-        2. Abrir o Navegador A (ex: Chrome) em um estado "limpo" (sem outras abas).
-        3. Executar o cenário de teste padrão.
-        4. Usar o gerenciador de tarefas do navegador para medir a RAM (em MB) usada pelo processo.
-        5. Fechar, reabrir e repetir N vezes para o Navegador A para obter a média.
-        6. Repetir todos os passos para o Navegador B (ex: Firefox) e C (ex: Safari).
     * **Propósito:** Avaliar o impacto de desempenho da plataforma em diferentes navegadores.
     * **Critérios de Julgamento:** (Baseado na variação entre o navegador mais leve e o mais pesado)
 
@@ -114,12 +95,6 @@ Em conformidade com o Estabelecimento de Critérios de Julgamento, são definido
 * **Métrica 3.1: Taxa de Falha de Entrega de Notificação**
     * **Definição:** A porcentagem de novas postagens em fóruns que não geraram um e-mail de notificação para o usuário após a execução do serviço de envio de mensagens do Moodle.
     * **Fórmula:** (Nº de postagens que NÃO geraram e-mail / Nº total de postagens de teste) x 100
-    * **Coleta:**
-        1. Configurar um usuário de teste subscrito em um Fórum A.
-        2. Criar N postagens de teste no Fórum A.
-        3. Executar manualmente o serviço agendado ("cron") de notificações do Moodle.
-        4. Verificar a caixa de entrada do usuário de teste e os logs do servidor de e-mail.
-        5. Contar quantos dos N e-mails esperados não foram recebidos.
     * **Propósito:** Verificar a compatibilidade do sistema de alertas por e-mail, que é vital para a comunicação.
     * **Critérios de Julgamento:**
 
@@ -132,12 +107,6 @@ Em conformidade com o Estabelecimento de Critérios de Julgamento, são definido
 * **Métrica 4.1: Taxa de Falha de Subscrição de URL (Interoperabilidade)**
     * **Definição:** A taxa de falha ao tentar adicionar o calendário do Aprender 3 em serviços de terceiros (Google, Outlook) usando o link de subscrição dinâmico (URL).
     * **Fórmula:** (Nº de tentativas de subscrição que falharam / Nº total de tentativas) x 100
-    * **Coleta:**
-        1. Gerar o link (URL) de subscrição de calendário no Aprender 3.
-        2. Acessar uma conta de teste no Google Calendar.
-        3. Tentar adicionar o calendário "a partir do URL" usando o link gerado.
-        4. Registrar se a operação inicial foi bem-sucedida.
-        5. Repetir o processo para o Outlook Calendar.
     * **Propósito:** Validar se o link de calendário automático é compatível com os serviços mais populares.
     * **Critérios de Julgamento:** (Baseado no % de serviços testados que falharam)
 
@@ -148,12 +117,6 @@ Em conformidade com o Estabelecimento de Critérios de Julgamento, são definido
 * **Métrica 4.2: Diferencial de Sucesso (Importação Estática vs. Dinâmica)**
     * **Definição:** Uma métrica que compara a taxa de sucesso da importação manual (arquivo .ics) com a taxa de sucesso da subscrição automática (link URL).
     * **Fórmula:** (% Sucesso Importação Manual .ics) - (% Sucesso Subscrição URL)
-    * **Coleta:**
-        1. Executar o teste da Métrica 4.1 (Subscrição de URL) e registrar a taxa de sucesso (% Sucesso URL).
-        2. No Aprender 3, exportar o mesmo calendário como um arquivo estático `.ics`.
-        3. No Google Calendar (e Outlook), usar a opção "Importar" para o arquivo `.ics`.
-        4. Registrar a taxa de sucesso da importação manual (% Sucesso Manual).
-        5. Calcular a diferença (Fórmula).
     * **Propósito:** Diagnosticar se as falhas (H4.2) estão na geração dos dados (no arquivo .ics) ou no mecanismo que fornece o link dinâmico.
     * **Critérios de Julgamento:** (Resultado binário que valida ou refuta a H4.2)
 
@@ -166,12 +129,6 @@ Em conformidade com o Estabelecimento de Critérios de Julgamento, são definido
 * **Métrica 5.1: Taxa de Sucesso de Drag-and-Drop (D&D) por Navegador**
     * **Definição:** A porcentagem de tentativas de "arrastar e soltar" arquivos que funcionam corretamente na área de envio de tarefas, medida para cada navegador.
     * **Fórmula:** (% Sucesso D&D) = (Nº de uploads via D&D bem-sucedidos / Nº total de tentativas D&D) x 100
-    * **Coleta:**
-        1. Abrir o Navegador A (ex: Chrome) em uma página de envio de tarefa.
-        2. Arrastar um arquivo do explorador de arquivos local para a caixa de upload designada.
-        3. Verificar se o arquivo foi reconhecido e carregado com sucesso.
-        4. Repetir N vezes para garantir consistência.
-        5. Repetir todos os passos para o Navegador B (Firefox) e C (Safari).
     * **Propósito:** Medir a consistência da interface de usuário, garantindo que formas de interação essenciais funcionem para todos.
     * **Critérios de Julgamento:**
 

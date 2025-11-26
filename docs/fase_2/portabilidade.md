@@ -35,7 +35,7 @@
 
 ---
 
-### Critérios de Julgamento da Característica (Portabilidade)
+### Critérios de Julgamento da Portabilidade
 
 Em conformidade com Estabelecimento de Critérios de Julgamento, são definidos os critérios para o julgamento final da característica **Portabilidade** como um todo. Os níveis de pontuação das métricas individuais (Excelente, Bom, Regular, Insatisfatório) serão agregados para fornecer um veredito final, conforme a tabela abaixo:
 
@@ -54,10 +54,6 @@ Em conformidade com Estabelecimento de Critérios de Julgamento, são definidos 
 * **Métrica 1.1: Taxa de Conformidade de Layout Responsivo**
     * **Definição:** A porcentagem de páginas e funcionalidades essenciais que são renderizadas corretamente, sem quebras de layout ou perda de funcionalidade, em diferentes resoluções de tela e navegadores.
     * **Fórmula:** (% Conformidade) = (Nº de páginas/funcionalidades conformes / Nº total de páginas/funcionalidades testadas) x 100
-    * **Coleta:**
-        1. Definir uma lista de N páginas e funcionalidades críticas (ex: login, página inicial do curso, fórum, envio de tarefa).
-        2. Definir os ambientes de teste: Navegadores (Chrome, Firefox, Safari) e Resoluções (Desktop, Tablet, Smartphone).
-        3. Para cada ambiente, executar o checklist de funcionalidades, registrando sucesso ou falha (ex: elemento sobreposto, botão inacessível).
     * **Propósito:** Garantir que a experiência do usuário seja consistente e funcional, independentemente do dispositivo ou navegador utilizado.
     * **Critérios de Julgamento:**
 
@@ -68,10 +64,6 @@ Em conformidade com Estabelecimento de Critérios de Julgamento, são definidos 
 * **Métrica 1.2: Taxa de Sucesso em Funcionalidades no App Móvel**
     * **Definição:** A porcentagem de tarefas essenciais que podem ser concluídas com sucesso através do aplicativo oficial do Moodle.
     * **Fórmula:** (% Sucesso no App) = (Nº de tarefas bem-sucedidas no App / Nº total de tarefas testadas) x 100
-    * **Coleta:**
-        1. Definir um checklist de tarefas críticas (ex: visualizar notas, enviar uma mensagem, responder a um fórum).
-        2. Instalar o App Moodle em um dispositivo de teste (Android ou iOS).
-        3. Tentar executar cada tarefa do checklist, registrando sucesso ou falha.
     * **Propósito:** Validar se o aplicativo móvel é uma alternativa viável e funcional ao navegador, confirmando a portabilidade para o ecossistema móvel.
     * **Critérios de Julgamento:**
 
@@ -84,9 +76,6 @@ Em conformidade com Estabelecimento de Critérios de Julgamento, são definidos 
 * **Métrica 2.1: Verificação de Histórico de Migração**
     * **Definição:** Uma métrica binária (Sim/Não) que verifica se a plataforma já passou por um processo de atualização de versão majoritária com sucesso.
     * **Fórmula:** N/A (Verificação qualitativa)
-    * **Coleta:**
-        1. Pesquisar em notícias, comunicados da UnB ou documentação interna sobre a transição de sistemas anteriores (ex: Aprender 2) para o Aprender 3.
-        2. Registrar a existência (Sim) ou ausência (Não) de evidências de uma migração bem-sucedida.
     * **Propósito:** Confirmar, com base em evidências passadas, a capacidade da plataforma de ser substituída por versões mais novas.
     * **Critérios de Julgamento:**
 
@@ -113,10 +102,6 @@ Em conformidade com Estabelecimento de Critérios de Julgamento, são definidos 
 * **Métrica 3.1: Taxa de Sucesso na Configuração do App por Novos Usuários**
     * **Definição:** A porcentagem de usuários sem experiência prévia que conseguem instalar e configurar o aplicativo Moodle para acessar o Aprender 3 sem assistência.
     * **Fórmula:** (% Sucesso na Configuração) = (Nº de usuários bem-sucedidos / Nº total de usuários testados) x 100
-    * **Coleta:**
-        1. Selecionar um grupo de N usuários de teste sem conhecimento prévio do processo.
-        2. Fornecer a instrução: "Instale o aplicativo Moodle e acesse sua conta do Aprender 3".
-        3. Observar o processo e registrar se o usuário conseguiu completar a tarefa sem ajuda.
     * **Propósito:** Medir a complexidade real do processo de configuração inicial para um usuário comum, avaliando a portabilidade da instalação.
     * **Critérios de Julgamento:**
 
@@ -127,10 +112,6 @@ Em conformidade com Estabelecimento de Critérios de Julgamento, são definidos 
 * **Métrica 3.2: Verificação de Dependências de Navegador**
     * **Definição:** Uma métrica binária (Sim/Não) que verifica se o funcionamento básico do Aprender 3 requer a instalação de qualquer software, plugin ou extensão de navegador de terceiros.
     * **Fórmula:** N/A (Verificação qualitativa)
-    * **Coleta:**
-        1. Utilizar um navegador em sua configuração padrão ("limpa"), sem extensões.
-        2. Executar um checklist de funcionalidades essenciais (ex: login, visualização de conteúdo, envio de tarefa).
-        3. Registrar se alguma funcionalidade exigiu a instalação de um componente adicional (Não) ou se tudo funcionou nativamente (Sim).
     * **Propósito:** Garantir que a plataforma seja facilmente portável entre diferentes computadores (pessoais, laboratórios, etc.) sem barreiras de instalação.
     * **Critérios de Julgamento:**
 
