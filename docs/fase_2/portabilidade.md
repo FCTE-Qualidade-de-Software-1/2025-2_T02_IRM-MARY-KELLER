@@ -24,7 +24,7 @@
 **Questão 2: (Substituibilidade)**
 > A arquitetura do Aprender 3 facilita a evolução do sistema, como a migração de dados de versões anteriores e a atualização de seus componentes?
 
-* **Hipótese 2.1 (H2.1):** A migração bem-sucedida do Aprender 2 para o Aprender 3 evidencia a capacidade da plataforma de ser substituída por versões mais novas, mantendo a continuidade dos serviços.
+* **Hipótese 2.1 (H2.1):** A migração bem-sucedida do Aprender para o Aprender 3 evidencia a capacidade da plataforma de ser substituída por versões mais novas, mantendo a continuidade dos serviços.
 <!-- * **Hipótese 2.2 (H2.2):** A natureza modular do Moodle permite a atualização e substituição de componentes (plugins e temas), garantindo sua evolução tecnológica e funcional. -->
 
 **Questão 3: (Instalabilidade)**

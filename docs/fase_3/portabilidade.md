@@ -143,7 +143,7 @@ Ou seja, dividir o número de tarefas concluídas com sucesso pelo número total
 
 ---
 
-## CT-POR-03: Verificação de Histórico de Migração (Aprender 2 → Aprender 3)
+## CT-POR-03: Verificação de Histórico de Migração (Aprender → Aprender 3)
 
 - **Questão GQM:** Q2 (Substituibilidade)  
 - **Métrica Associada:** Métrica 2.1 – Verificação de Histórico de Migração  

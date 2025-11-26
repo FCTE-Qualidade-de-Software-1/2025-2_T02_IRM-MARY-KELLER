@@ -158,7 +158,7 @@ O video da execução do teste está disponível a seguir:
 
 Total de Funcionalidades Testadas: **5**
 
-### 1.6 Taxa de Sucesso
+## Taxa de Sucesso
 
 - **Login:** 100% (1/1)
 - **Visualização de Conteúdos:** 85,7% (6/7)
@@ -172,7 +172,7 @@ Taxa de Sucesso = (100% + 85,7% + 100% + 100% + 100%) ÷ 5 = 97,14%
 
 ---
 
-### 1.7 Classificação da Métrica 1.1
+## Classificação da Métrica 1.1
 
 Conforme critérios definidos na Fase 2:
 
@@ -184,6 +184,14 @@ Conforme critérios definidos na Fase 2:
 | < 60%              | Insatisfatório |
 
 Classificação Obtida: **Excelente**
+
+---
+
+## Validação da Hipótese
+
+**H1.2: VALIDADA**
+
+O acesso via aplicativo oficial do Moodle é uma alternativa viável e funcional ao navegador, ampliando a portabilidade para o ecossistema móvel.
 
 ---
 
@@ -246,10 +254,15 @@ Assim como a futura atualização planejada para o Moodle 4.0, essas mudanças i
 
 ## Cálculo da Métrica 2.1
 
-O teste realizado encontrou pelo menos 2 fontes documentadas que confirmam a evolução e migração da plataforma. Então de acordo com a métrica o teste teve sua hipótese validada:
-
 - **Sim:** foi encontrada evidência clara de migração bem-sucedida
 
+---
+
+## Validação da Hipótese
+
+**H2.1: VALIDADA**
+
+O Aprender 3 demonstra capacidade de substituição e evolução, com evidências documentadas de migração bem-sucedida ao longo do tempo evidenciando a capacidade da plataforma de ser substituída por versões mais novas, mantendo a continuidade dos serviços.
 
 ---
 
