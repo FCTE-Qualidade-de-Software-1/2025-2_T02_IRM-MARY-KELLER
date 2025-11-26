@@ -21,6 +21,7 @@ nav:
   - Fase 4 - Execução da Avaliação:
     - Execução da Compatibilidade: "fase_4/compatibilidade.md"
     - Execução da Portabilidade: "fase_4/portabilidade.md"
+    - Resumo dos Resultados: "fase_4/resultados.md"
   - Declaração de uso de IA: declaracao_ia.md
   - Tabelas de contribuição: contribuicoes.md
 
