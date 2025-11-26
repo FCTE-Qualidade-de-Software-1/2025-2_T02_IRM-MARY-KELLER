@@ -4,14 +4,14 @@ Esta seção descreve os testes realizados e resultados obtidos com base nos **C
 
 ---
 
-# CT-POR-01: Conformidade de Layout Responsivo (Web – Desktop, Tablet e Smartphone)
+## CT-POR-01: Conformidade de Layout Responsivo (Web – Desktop, Tablet e Smartphone)
 
-## Informações do Teste
+### Informações do Teste
 - **Métrica:** 1.1 - Conformidade de Layout Responsivo
 - **Objetivo:** Verificar se as páginas mantêm layout funcional em diferentes resoluções.
 - **Hipótese:** H1.1: O layout responsivo se ajusta adequadamente em desktop, tablet e smartphone.
 
-## Ambiente de Teste
+### Ambiente de Teste
 - **Resoluções Testadas:**
     - Desktop: 1920x1080px
     - Tablet: 768x1024px
@@ -19,7 +19,7 @@ Esta seção descreve os testes realizados e resultados obtidos com base nos **C
 - **Páginas Avaliadas:** Página de Login, Página Inicial do Curso, Visualização de Tópico, Fórum - Lista de Discussões, Calendário.
 - **Método:** Teste via Inspecionar Elemento (Device Toolbar) em 3 navegadores.
 
-## Testes Realizados
+### Testes Realizados
 
 O video da execução do teste está disponível a seguir:
 
@@ -33,9 +33,9 @@ O video da execução do teste está disponível a seguir:
 
 ---
 
-## Resultados dos Testes
+### Resultados dos Testes
 
-### Resultados por Resolução
+#### Resultados por Resolução
 
 **Desktop (1920x1080px):**
 - **Conformidade:** 15/15 (100%)
@@ -57,14 +57,14 @@ O video da execução do teste está disponível a seguir:
     - Fórum (todos navegadores): Tabela não responsiva, colunas sobrepostas, avatares distorcidos.
     - Calendário (Chrome, Firefox): Grade completamente ilegível, eventos não clicáveis.
 
-### Resultados Consolidados
+#### Resultados Consolidados
 
 - **Total de Combinações:** 45
 - **Conformes:** 32
 - **Não Conformes:** 13
 - **Taxa de Conformidade Geral:** 71,11%
 
-### Análise por Navegador
+#### Análise por Navegador
 
 | Navegador | Conformidade | Classificação |
 | :--- | :--- | :--- |
@@ -72,7 +72,7 @@ O video da execução do teste está disponível a seguir:
 | Firefox | 11/15 (73,33%) | Regular |
 | Edge | 10/15 (66,67%) | Regular |
 
-## Problemas Principais Identificados
+### Problemas Principais Identificados
 
 1. **Página Inicial - Mobile:** Blocos laterais não colapsam, conteúdo empurrado, scroll horizontal, menu não converte.
 2. **Fórum - Mobile/Tablet:** Tabela não responsiva, avatares distorcidos, imagens excedem viewport, sobreposição de texto.
@@ -80,7 +80,7 @@ O video da execução do teste está disponível a seguir:
 4. **Visualização de Tópico - Mobile:** Imagens não ajustam à largura, scroll horizontal, colapso de textos.
 5. **Página Inicial - Tablet Edge:** Blocos laterais sobrepõem conteúdo.
 
-## Classificação da Métrica 1.1
+### Classificação da Métrica 1.1
 
 Critérios (ISO/IEC 25010):
 - 90%: Excelente
@@ -90,7 +90,7 @@ Critérios (ISO/IEC 25010):
 
 **Resultado: 71,11% - REGULAR**
 
-## Validação da Hipótese
+### Validação da Hipótese
 
 **H1.1: REFUTADA**
 
@@ -98,16 +98,16 @@ O layout se ajusta adequadamente apenas em desktop (100%). Em tablet apresentou 
 
 ---
 
-# CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle
+## CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle
 
-## Ambiente de Teste
+### Ambiente de Teste
 
 - **Dispositivo:** Pixel 9 Pro (Emulado)
 - **Sistema Operacional:** Android 16.0 ("Baklava")
 - **Versão do App Moodle:** 5.0.0 (atualizado em 27/06/2025)
 - **Conexão:** Dados móveis (emulado)
 
-## Testes Realizados
+### Testes Realizados
 
 O video da execução do teste está disponível a seguir:
 
@@ -121,7 +121,7 @@ O video da execução do teste está disponível a seguir:
 
 ---
 
-## Resultados dos Testes
+### Resultados dos Testes
 
 | Categoria                  | Funcionalidade/Item       | Status  | Observações                                                      |
 | -------------------------- | ------------------------- | ------- | ---------------------------------------------------------------- |
@@ -146,7 +146,7 @@ O video da execução do teste está disponível a seguir:
 
 ---
 
-## Cálculo da Métrica 1.2
+### Cálculo da Métrica 1.2
 
 | Funcionalidade            | Status  | Considerada no Cálculo |
 | ------------------------- | ------- | ---------------------- |
@@ -158,7 +158,7 @@ O video da execução do teste está disponível a seguir:
 
 Total de Funcionalidades Testadas: **5**
 
-## Taxa de Sucesso
+### Taxa de Sucesso
 
 - **Login:** 100% (1/1)
 - **Visualização de Conteúdos:** 85,7% (6/7)
@@ -172,7 +172,7 @@ Taxa de Sucesso = (100% + 85,7% + 100% + 100% + 100%) ÷ 5 = 97,14%
 
 ---
 
-## Classificação da Métrica 1.1
+### Classificação da Métrica 1.1
 
 Conforme critérios definidos na Fase 2:
 
@@ -187,7 +187,7 @@ Classificação Obtida: **Excelente**
 
 ---
 
-## Validação da Hipótese
+### Validação da Hipótese
 
 **H1.2: VALIDADA**
 
@@ -195,9 +195,9 @@ O acesso via aplicativo oficial do Moodle é uma alternativa viável e funcional
 
 ---
 
-# CT-POR-03: Verificação de Histórico de Migração
+## CT-POR-03: Verificação de Histórico de Migração
 
-## Resultados da Pesquisa
+### Resultados da Pesquisa
 
 **Tabela de Fontes de Evidência**
 
@@ -208,7 +208,7 @@ O acesso via aplicativo oficial do Moodle é uma alternativa viável e funcional
 
 ---
 
-## Análise dos Resultados
+### Análise dos Resultados
 
 **Linha do Tempo da Evolução do Moodle na UnB**
 
@@ -252,13 +252,13 @@ Assim como a futura atualização planejada para o Moodle 4.0, essas mudanças i
 
 ---
 
-## Cálculo da Métrica 2.1
+### Cálculo da Métrica 2.1
 
 - **Sim:** foi encontrada evidência clara de migração bem-sucedida
 
 ---
 
-## Validação da Hipótese
+### Validação da Hipótese
 
 **H2.1: VALIDADA**
 
@@ -300,16 +300,16 @@ Classificação Obtida: **Excelente** -->
 
 ---
 
-# CT-POR-04: Sucesso na Configuração do App Moodle por Novos Usuários
+## CT-POR-04: Sucesso na Configuração do App Moodle por Novos Usuários
 
-## Testes Realizados
+### Testes Realizados
 
 - Grupo de 3 usuários de teste sem experiência prévia com o app Moodle e que não são estudantes da UnB.
 - Dispositivos móveis (Android/iOS), um por participante.
 
 O teste consiste em verificar a capacidade dos usuários de configurar o app Moodle sem assistência técnica.
 
-## Resultados dos Testes
+### Resultados dos Testes
 
 Os resultados dos testes mostraram que 100% dos usuários conseguiram configurar o app Moodle sem assistência técnica. A seguir está linkado o vídeo da gravação de tela dos smartphones realizados durante os testes. Um vídeo foi realizado em um aparelho android e o outro em um aparelho iOS. O terceiro teste também foi realizado em um smartphone iOS e como obteve o mesmo resultado não se fez necessário adicionar seu vídeo, por já possuir um video praticamente igual
 
@@ -321,20 +321,20 @@ Os resultados dos testes mostraram que 100% dos usuários conseguiram configurar
     </iframe>
 </div>
 
-## Cálculo da Métrica
+### Cálculo da Métrica
 Taxa de Sucesso na Configuração do App por Novos Usuários = (3 / 3) x 100 = 100%. Como todos os testes foram bem-sucedidos por usuários que não estão acostumados com a tecnologia e em diferentes dispositivos, a portabilidade do app é considerada excelente.
 
 Classificação Obtida: **Excelente**
 
 ---
 
-# CT-POR-05: Verificação de Dependências de Navegador (Navegador Limpo)
+## CT-POR-05: Verificação de Dependências de Navegador (Navegador Limpo)
 
-## Testes Realizados
+### Testes Realizados
 
 O teste consistiu em verificar se o Aprender 3 funciona corretamente em um navegador limpo, simulado a partir de uma guia anônima, sem extensões ou dados de sessão.
 
-## Resultados dos Testes
+### Resultados dos Testes
 
 Os resultados dos testes mostraram que as funções listadas no teste funcionam corretamente no Aprender 3 em um navegador limpo, sem a necessidade da instalação de plugins adicionais ou de configurações específicas, demonstrando alta portabilidade. O teste foi realizado em uma guia anônima do Google Chrome e realizou todas as funcionalidades listadas na fase 3. O vídeo do teste encontra-se disponível abaixo.
 
@@ -346,7 +346,7 @@ Os resultados dos testes mostraram que as funções listadas no teste funcionam 
     </iframe>
 </div>
 
-## Cálculo da Métrica
+### Cálculo da Métrica
 
 De acordo com a métrica binária definida, como nenhuma plugin ou extensão adicional foi necessária para o funcionamento correto, a verificação de dependências de navegador foi bem-sucedida e o sistema foi classificado com **Excelente (Portável)**, por não exigir dependências adicionais em nenhuma das tarefas de teste descritas.
 
