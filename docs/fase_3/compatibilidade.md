@@ -10,10 +10,7 @@ Cada CT está explicitamente associado a:
 
 O cálculo numérico de cada métrica e a classificação dos resultados **devem seguir exatamente as fórmulas e critérios de julgamento definidos na Fase 2** (Excelente, Bom, Regular, Insatisfatório).
 
-> **Ambiente de teste (padrão):**  
-> - Sistema Operacional: **Windows 10/11** ou **Linux (Ubuntu 22.04 LTS ou equivalente)**, desde que o **SO utilizado seja explicitamente registrado** nos resultados.  
-> - Navegadores: **Google Chrome**, **Mozilla Firefox**, **Microsoft Edge**, em suas versões estáveis mais recentes.  
-> - Aplicativo: **App Moodle** (Android, versão mais recente).
+> Todas as ferramentas, ambientes e recursos utilizados na realização dos testes de compatibilidade estão disponíveis na página específica destinada a essa documentação: [Ferramentas](../ferramentas).
 
 ---
 
@@ -43,11 +40,7 @@ Verificar se o status de **conclusão de atividades** marcado na interface **Web
 5. [App] Abrir o **App Moodle** no dispositivo Android, acessar a mesma conta de estudante e o mesmo curso.
 6. Forçar a sincronização/atualização do curso (puxar para atualizar ou usar opção de sincronização do app).
 7. Verificar, para cada uma das N atividades da amostra, se o status exibido no App Moodle corresponde ao status exibido na Web.
-8. Registrar, em planilha, para cada atividade:  
-   - ID da atividade  
-   - Status na Web  
-   - Status no App  
-   - Indicador de **coerência** (Sim/Não).
+8. Registrar, em planilha
 
 **Resultado Esperado:**
 
@@ -116,7 +109,7 @@ Avaliar se operações de **upload e sincronização de arquivos** na área **�
 - **Perfil Principal:** Discente
 
 **Objetivo:**  
-Medir e comparar o **consumo médio de memória RAM** do Aprender 3 em diferentes navegadores (Chrome, Firefox, Edge) para um cenário de uso padrão.
+Medir e comparar o **consumo médio de memória RAM** do Aprender 3 em diferentes navegadores para um cenário de uso padrão.
 
 **Pré-condições:**
 
@@ -176,13 +169,6 @@ Verificar se o Aprender 3 envia corretamente **e-mails de notificação** para u
 5. Caso não esteja na caixa de entrada, verificar obrigatoriamente a pasta de **Spam/Lixo Eletrônico**.
 6. Registrar os resultados na planilha de teste.
 
-**Registros (Planilha de Teste):**
-Para cada postagem, registrar:
-- Data/Hora da Postagem (Conta A)
-- Recebeu notificação? (Sim/Não)
-- Local de recebimento (Caixa de Entrada ou Spam)
-- Data/Hora do Recebimento (para cálculo de latência)
-
 **Resultado Esperado:**
 - A Conta B deve receber um e-mail individual contendo o texto da postagem feita pela Conta A.
 - O recebimento deve ocorrer após o tempo de edição (30 min), dentro de um limite aceitável (ex: até 2 horas no total).
@@ -199,30 +185,29 @@ Para cada postagem, registrar:
 - **Perfil Principal:** Discente / Equipe de Avaliação
 
 **Objetivo:**  
-Testar se o calendário do Aprender 3 pode ser corretamente **assinado via URL** em serviços externos, como **Google Calendar** e **Outlook Calendar**.
+Testar se o calendário do Aprender 3 pode ser corretamente **assinado via URL** em serviços externos, como **Google Calendar**, **Outlook Calendar** ou **Yahoo Calendar**.
 
 **Pré-condições:**
 
 - Conta de estudante de teste no Aprender 3, com calendário acadêmico configurado (atividades com datas, prazos).
-- Conta de teste no **Google Calendar**.
-- Conta de teste no **Outlook Calendar**.
+- Conta de teste nos serviços externos.
 - Acesso à funcionalidade do Aprender 3 que gera o **link de subscrição (URL)** do calendário.
 
 **Passos de Execução:**
 
 1. [Aprender 3] Fazer login como estudante de teste e acessar a área de **Calendário**.
 2. Gerar/copiar o **link de subscrição (URL)** fornecido pelo Aprender 3 para integração com calendários externos.
-3. [Google Calendar] Acessar a conta de teste e usar a opção **“Adicionar calendário a partir de URL”**.
+3. [Serviço externo 1] Acessar a conta de teste e usar a opção **“Adicionar calendário a partir de URL”**.
 4. Colar o link gerado pelo Aprender 3 e confirmar.
 5. Verificar se o calendário é adicionado com sucesso e se os eventos aparecem (após eventual tempo de sincronização).
 6. Registrar o resultado da tentativa (Sucesso/Falha) em planilha.
-7. [Outlook Calendar] Repetir o procedimento na conta de teste do Outlook (adicionar calendário a partir de URL).
+7. [Serviço externo N] Repetir o procedimento na conta de teste para cada serviço externo(adicionar calendário a partir de URL).
 8. Verificar se o calendário é adicionado e sincroniza corretamente; registrar o resultado (Sucesso/Falha).
 9. Ao final, contabilizar o número total de tentativas e o número de falhas por serviço.
 
 **Resultado Esperado:**
 
-- O calendário do Aprender 3 é subscrito corretamente em todos os serviços testados (Google e Outlook).
+- O calendário do Aprender 3 é subscrito corretamente em todos os serviços testados.
 
 **Cálculo da Métrica e Classificação:**
 
@@ -240,7 +225,7 @@ Testar se o calendário do Aprender 3 pode ser corretamente **assinado via URL**
 
 **Objetivo:**  
 Comparar a **taxa de sucesso** entre:
-- a **subscrição automática via URL** (já testada no CT-COMP-05)  
+- a **subscrição automática via URL**
 e
 - a **importação manual via arquivo `.ics`**,
 
@@ -248,8 +233,8 @@ identificando se há diferença significativa entre os dois métodos.
 
 **Pré-condições:**
 
-- Mesmas contas e configurações utilizadas no CT-COMP-05 (Aprender 3, Google Calendar, Outlook Calendar).
-- Acesso à funcionalidade do Aprender 3 que permite **exportar o calendário como arquivo `.ics`**.
+- Mesmas contas e configurações utilizadas no CT-COMP-05.
+- Acesso à funcionalidade do Aprender 3 que permite **importar o calendário como arquivo `.ics`**.
 
 **Passos de Execução:**
 

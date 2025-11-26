@@ -1,4 +1,4 @@
-O cronograma foi estruturado para permitir a coleta paralela dos dados de **Compatibilidade** e **Portabilidade**, garantindo maior eficiência no processo de avaliação. As métricas foram distribuídas em pares, seguindo a ordem definida pelo grupo, e finalizando com uma etapa conjunta de consolidação e análise.
+O cronograma foi estruturado para permitir a coleta paralela dos dados de **Compatibilidade** e **Portabilidade**, garantindo maior eficiência no processo de avaliação. As métricas foram distribuídas em pares, de modo que cada integrante ficou responsável por duas delas, seguindo a ordem previamente definida pelo grupo. Após a execução individual, os resultados foram reunidos em uma etapa conjunta de consolidação e análise.
 
 | Etapa (Agrupada por Característica) | Métricas Coletadas | Responsável(eis) | Prazo Estimado |
 | :--- | :--- | :--- | :--- |

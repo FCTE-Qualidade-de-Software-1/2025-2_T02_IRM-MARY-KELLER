@@ -10,6 +10,8 @@ Cada CT está explicitamente associado a:
 
 O cálculo numérico de cada métrica e a classificação dos resultados **devem seguir exatamente as fórmulas e critérios de julgamento definidos na Fase 2** (Excelente, Bom, Regular, Insatisfatório).
 
+> Todas as ferramentas, ambientes e recursos utilizados na realização dos testes de portabilidade estão disponíveis na página específica destinada a essa documentação: [Ferramentas](../ferramentas).
+
 ---
 ## CT-POR-01: Conformidade de Layout Responsivo (Web – Desktop, Tablet e Smartphone)
 
