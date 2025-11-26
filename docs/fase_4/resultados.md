@@ -26,3 +26,30 @@ A Tabela a seguir resume, para cada **caso de teste de Portabilidade**, a **ques
 | **Portabilidade** | CT-POR-04 – Q2: Compatibilidade de plugins e temas na atualização do Moodle                          | Métrica 2.2: Taxa de Compatibilidade de Plugins na Atualização      | 100% dos plugins/temas considerados compatíveis               | **Excelente**; H2.2 (*natureza modular permite atualização de componentes*) **validada** | *(seção de plugins, quando inserida)* |
 | **Portabilidade** | CT-POR-04 (execução prática) – Q3: Configuração do App Moodle por novos usuários                     | Métrica 3.1: Taxa de Sucesso na Configuração do App por Novos Usuários | 3/3 usuários configuraram com sucesso (100%)                  | **Excelente**; H3.1 (*configuração é complexa para usuários não técnicos*) **refutada** | [Ver resultados](#ct-por-04-sucesso-na-configuração-do-app-moodle-por-novos-usuários) |
 | **Portabilidade** | CT-POR-05 – Q3: Dependências de navegador para funcionamento básico (navegador “limpo”)              | Métrica 3.2: Verificação de Dependências de Navegador               | Nenhum plugin/extensão adicional necessário                   | **Excelente (Portável)**; H3.2 (*não exige instalação de plugins específicos*) **validada** | [Ver resultados](#ct-por-05-verificação-de-dependências-de-navegador-navegador-limpo) |
+
+
+## Resumo textual dos Resultados de Compatibilidade
+
+Os resultados de Compatibilidade mostram que o Aprender 3 apresenta desempenho sólido em quase todos os cenários avaliados, com exceções pontuais. No caso **CT-COMP-01**, a sincronização do status de conclusão entre Web e App foi perfeita: não houve discrepâncias em nenhuma das 10 atividades avaliadas, classificando a métrica como **Excelente** e refutando totalmente a hipótese de inconsistência. Da mesma forma, no **CT-COMP-02**, a sincronização bidirecional de arquivos também obteve **100% de sucesso**, demonstrando funcionamento consistente da área “Arquivos privados” e refutando a hipótese de falhas nesse processo.
+
+O **CT-COMP-03**, por outro lado, revelou uma limitação importante: a variação de consumo de RAM entre navegadores chegou a aproximadamente **76,69%**, especialmente no Edge, o que classificou a métrica como **Insatisfatória**. Esse resultado confirma a hipótese de que um dos navegadores consome significativamente mais memória, indicando um problema de compatibilidade de desempenho.
+
+No **CT-COMP-04**, avaliando notificações de fórum por e-mail, o desempenho foi impecável: todas as 4 notificações foram entregues corretamente, resultando em classificação **Excelente** e refutando a hipótese de falha no recebimento de e-mails. Resultados positivos também apareceram no **CT-COMP-05**, onde a integração via URL com calendários externos funcionou em 5 dos 6 serviços. Apesar da falha isolada no Yahoo Calendar, a métrica recebe classificação **Parcial**, e a hipótese de que Google e Outlook falhariam foi refutada.
+
+O **CT-COMP-06** comparou a exportação dinâmica (URL) com a exportação estática (.ics) e identificou um diferencial de **28,57 p.p.**, com desempenho muito superior do método .ics. Esse achado confirma a hipótese de que a importação estática é mais confiável que a subscrição via URL. Por fim, o **CT-COMP-07** avaliou a funcionalidade de *drag-and-drop*: Firefox atingiu **100%**, enquanto Chrome e Edge registraram **90%**. Assim, a métrica foi classificada como **Excelente/Bom**, confirmando a hipótese de alta taxa de sucesso nos navegadores modernos.
+
+Em conjunto, os resultados mostram que o Aprender 3 é amplamente compatível entre plataformas e funcionalidades essenciais, com limitações técnicas específicas em consumo de RAM e subscrição dinâmica de calendários.
+
+---
+
+## Resumo textual dos Resultados de Portabilidade
+
+Os resultados de Portabilidade revelam uma distinção clara entre os testes de interface Web e o desempenho do aplicativo móvel. No **CT-POR-01**, que avaliou a conformidade do layout responsivo em diferentes resoluções e navegadores, apenas **71,11%** das combinações foram consideradas conformes. Esse percentual classifica a métrica como **Regular** e refuta a hipótese de que o layout se ajustaria adequadamente em todos os dispositivos. O principal problema identificado refere-se ao mau desempenho da interface em tablets e smartphones.
+
+Em contraste, o **CT-POR-02** demonstrou que o aplicativo Moodle apresenta excelente portabilidade, com uma taxa média de sucesso nas funcionalidades avaliadas de **97,14%**, validando a hipótese de que o app é uma alternativa viável ao acesso por navegador. No **CT-POR-03**, verificou-se evidência documental consistente de evolução e substituição da plataforma ao longo do tempo, validando a hipótese de migração bem-sucedida e capacidade de evolução tecnológica.
+
+O **CT-POR-04** também apresentou resultados amplamente positivos: todos os plugins e temas analisados foram considerados compatíveis com a versão-alvo de atualização do Moodle, classificando a métrica como **Excelente** e validando a hipótese de modularidade. Na execução prática do mesmo caso de teste (configuração do app Moodle por novos usuários), os três participantes conseguiram completar o processo sem dificuldades, resultando em **100% de sucesso** e refutando a hipótese de que a configuração seria complexa.
+
+Finalmente, no **CT-POR-05**, a verificação de dependências de navegador confirmou que o Aprender 3 funciona plenamente em um navegador “limpo”, sem necessidade de extensões adicionais, o que classifica a métrica como **Excelente (Portável)** e valida a hipótese correspondente.
+
+De forma geral, os testes de Portabilidade indicam que a maior fragilidade do Aprender 3 encontra-se no layout responsivo da versão Web, enquanto o aplicativo Moodle e a arquitetura modular demonstram alta maturidade e excelente capacidade de adaptação a diferentes ambientes e usuários.
