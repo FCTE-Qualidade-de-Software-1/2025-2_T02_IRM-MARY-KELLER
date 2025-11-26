@@ -107,57 +107,7 @@ O Aprender 3, como ambiente virtual de aprendizagem institucional da UnB constru
 | ODS 10 – Redução das Desigualdades | Possibilita acesso a estudantes geograficamente distantes ou com restrições de deslocamento; pode incorporar recursos de acessibilidade (legendas, leitores de tela, design responsivo) para inclusão de diferentes perfis de usuários. |
 | ODS 17 – Parcerias e Meios de Implementação | Facilita colaboração entre universidades e órgãos públicos, compartilhamento de recursos digitais, oferta de cursos e eventos on-line, e intercâmbio de boas práticas, fortalecendo redes de cooperação. |
 
-## Tabela de Contribuição
-
-Na Tabela 1, apresenta-se a contribuição dos membros da equipe na construção do artefato.
-
-<font size="3"><p style="text-align: center">Tabela 1 - Tabela de contribuição</p></font>
-
-<div align="center">
-  <table border="1">
-    <thead>
-      <tr>
-        <th>Matrícula</th>
-        <th>Nome completo</th>
-        <th>Contribuição (%)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>222032810</td>
-        <td><a href="https://github.com/Fhansen98">Felipe Aguiar Hansen</a></td>
-        <td>16,66</td>
-      </tr>
-      <tr>
-        <td>211030620</td>
-        <td><a href="https://github.com/patrickacs">Patrick Anderson Carvalho dos Santos</a></td>
-        <td>16,66</td>
-      </tr>
-      <tr>
-        <td>211043745</td>
-        <td><a href="https://github.com/PedroSampaioDias">Pedro Sampaio Dias Rocha</a></td>
-        <td>16,66</td>
-      </tr>
-      <tr>
-        <td>211030264</td>
-        <td><a href="https://github.com/taybalau">Taynara Gabrielle Vitorino</a></td>
-        <td>16,66</td>
-      </tr>
-      <tr>
-        <td>202017147</td>
-        <td><a href="https://github.com/thalesgvl">Thales Germano Vargas Lima</a></td>
-        <td>16,66</td>
-      </tr>
-      <tr>
-        <td>190101091</td>
-        <td><a href="https://github.com/yagoas">Yago Amin Santos</a></td>
-        <td>16,66</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<font size="3"><p style="text-align: center"><b>Autores: Grupo Irmã Mary Keller, 2025</p></font>
+---
 
 ## Referências Bibliográficas
 
