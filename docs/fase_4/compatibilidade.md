@@ -3,9 +3,9 @@
 Esta seção descreve os testes realizados e resultados obtidos com base nos **Casos de Teste (CTs)** projetados para avaliar a característica de **Compatibilidade** do Aprender 3, conforme planejamento realizado na Fase 3.
 
 ---
-# CT-COMP-01: Sincronia de Status de Conclusão
+## CT-COMP-01: Sincronia de Status de Conclusão
 
-## Detalhamento do Caso de Teste  
+### Detalhamento do Caso de Teste  
 **Questão GQM:** Q1, *Qual é a consistência dos dados do discente entre o Aprender 3 (Web) e o App Moodle?*  
 **Métrica Associada:** 1.1, Percentual de Discrepância de Status de Conclusão  
 **Hipótese Avaliada:** H1.1, *O status de conclusão de atividades (marcar como "feita") fica inconsistente entre a plataforma Web e o aplicativo móvel.*  
@@ -13,7 +13,7 @@ Esta seção descreve os testes realizados e resultados obtidos com base nos **C
 
 ---
 
-## Resultados Obtidos  
+### Resultados Obtidos  
 
 | Atividades avaliadas | Discrepâncias | Percentual de Discrepância |
 |----------------------|--------------|-----------------------------|
@@ -22,7 +22,7 @@ Esta seção descreve os testes realizados e resultados obtidos com base nos **C
 **Total de atividades testadas:** 10  
 **Total de discrepâncias:** 0  
 
-### Cálculo da Métrica 1.1  
+#### Cálculo da Métrica 1.1  
 **Percentual de Discrepância** = (Nº de atividades com discrepância / Nº total de atividades avaliadas) x 100  
 
 Aplicando os valores obtidos:  
@@ -33,7 +33,7 @@ Aplicando os valores obtidos:
 
 ---
 
-## Análise e Resposta à Questão GQM  
+### Análise e Resposta à Questão GQM  
 
 > **Q1, Qual é a consistência dos dados do discente entre o Aprender 3 (Web) e o App Moodle?**
 
@@ -43,7 +43,7 @@ Isso demonstra um **nível máximo de consistência** para o cenário testado, j
 
 ---
 
-## Avaliação da Hipótese H1.1  
+### Avaliação da Hipótese H1.1  
 
 > **H1.1, O status de conclusão de atividades (marcar como "feita") fica inconsistente entre a plataforma Web e o aplicativo móvel.**
 
@@ -59,7 +59,7 @@ Diante disso, conclui-se que a hipótese **não é validada** para o cenário te
 
 ---
 
-## Demonstração em Vídeo  
+### Demonstração em Vídeo  
 
 A seguir encontra-se o vídeo que demonstra a execução completa do teste de sincronia de status de conclusão entre o Aprender 3 (Web) e o App Moodle:
 
@@ -73,9 +73,9 @@ A seguir encontra-se o vídeo que demonstra a execução completa do teste de si
 
 ---
 
-# CT-COMP-02: Sincronização Bidirecional de Arquivos
+## CT-COMP-02: Sincronização Bidirecional de Arquivos
 
-## Detalhamento do Caso de Teste  
+### Detalhamento do Caso de Teste  
 **Questão GQM:** Q1, *Qual é a consistência dos dados do discente entre o Aprender 3 (Web) e o App Moodle?*  
 **Métrica Associada:** 1.2, Taxa de Sucesso de Sincronização Bidirecional de Arquivos  
 **Hipótese Avaliada:** H1.2, *Os arquivos na área "Arquivos privados" não são sincronizados corretamente entre a versão Web e o App.*  
@@ -83,13 +83,13 @@ A seguir encontra-se o vídeo que demonstra a execução completa do teste de si
 
 ---
 
-## Resultados Obtidos  
+### Resultados Obtidos  
 
-### Web → App  
+#### Web → App  
 - Arquivos enviados via Web: **1**  
 - Arquivos recebidos no App: **1**  
 
-### App → Web  
+#### App → Web  
 - Arquivos enviados via App: **1**  
 - Arquivos recebidos na Web: **1**  
 
@@ -105,7 +105,7 @@ A seguir encontra-se o vídeo que demonstra a execução completa do teste de si
 
 ---
 
-## Cálculo da Métrica 1.2  
+### Cálculo da Métrica 1.2  
 
 A Métrica 1.2 mede a **Taxa de Sucesso de Sincronização Bidirecional de Arquivos** entre Web e App (Web → App e App → Web).
 
@@ -123,7 +123,7 @@ Aplicando os valores coletados:
 
 ---
 
-## Análise e Resposta à Questão GQM  
+### Análise e Resposta à Questão GQM  
 
 > **Q1, Qual é a consistência dos dados do discente entre o Aprender 3 (Web) e o App Moodle?**
 
@@ -138,7 +138,7 @@ Assim, em resposta à Questão GQM 1, conclui-se que o Aprender 3 mantém, neste
 
 ---
 
-## Avaliação da Hipótese H1.2  
+### Avaliação da Hipótese H1.2  
 
 > **H1.2, Os arquivos na área "Arquivos privados" não são sincronizados corretamente entre a versão Web e o App.**
 
@@ -154,18 +154,18 @@ Dessa forma, conclui-se que a hipótese **não é validada**, uma vez que o comp
 
 ---
 
-# CT-COMP-03: Consumo Médio de RAM por Navegador
+## CT-COMP-03: Consumo Médio de RAM por Navegador
 
-## Informações do Teste
+### Informações do Teste
 - **Questão GQM:** Q2 – Recursos do Navegador
 - **Métrica:** 2.1 – Consumo Médio de RAM por Navegador
 - **Hipótese:** H2.1 – O consumo de memória RAM do Aprender 3 é visivelmente maior em um navegador (ex: Chrome) comparado a outro (ex: Firefox), atrapalhando o uso de outros programas pelo discente
 - **Perfil:** Discente
 
-## Execução
+### Execução
 O teste seguiu o **cenário de teste padrão** definido no plano. O consumo de memória (RAM) do processo principal foi monitorado via Gerenciador de Tarefas após a estabilização da página. Foram realizadas **3 repetições** para cada navegador.
 
-## Resultados
+### Resultados
 
 | Navegador | Tentativa 1 (MB) | Tentativa 2 (MB) | Tentativa 3 (MB) | Média (MB) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -181,7 +181,7 @@ O teste seguiu o **cenário de teste padrão** definido no plano. O consumo de m
 | Firefox | 666.33 MB | + 59.53% |
 | Edge | 738.00 MB | + 76.69% |
 
-## Classificação da Métrica 2.1
+### Classificação da Métrica 2.1
 
 Critérios (Definidos na Fase 2):
 - Variação < 10%: Excelente
@@ -194,7 +194,7 @@ A maior variação registrada foi de **76.69%** (Edge em relação ao Chrome).
 
 **Classificação:** **INSATISFATÓRIO**
 
-## Validação da Hipótese
+### Validação da Hipótese
 
 **H2.1: VALIDADA**
 
@@ -212,18 +212,18 @@ O video da execução do teste está disponível a seguir:
 
 ---
 
-# CT-COMP-04: Entrega de Notificações de Fórum por E-mail
+## CT-COMP-04: Entrega de Notificações de Fórum por E-mail
 
-## Informações do Teste
+### Informações do Teste
 - **Questão GQM:** Q3 – Notificações de Fórum
 - **Métrica:** 3.1 – Taxa de Falha de Entrega de Notificação
 - **Hipótese:** H3.1 – Discente não recebe e-mails de novas mensagens em fóruns subscritos
 - **Perfil:** Discente (Visão do Usuário)
 
-## Execução
+### Execução
 Foram realizadas 4 respostas distintas no fórum para conta A e 3 respostas distintas para conta B. A caixa de entrada e a pasta de Spam da Conta A e B foram monitoradas.
 
-## Resultados
+### Resultados
 
 | ID Postagem | Recebeu Notificação A? | Recebeu Notificação B? |Local de Recebimento |
 | :--- | :--- | :--- | :--- | 
@@ -234,13 +234,13 @@ Foram realizadas 4 respostas distintas no fórum para conta A e 3 respostas dist
 
 
 
-### Estatísticas de Entrega
+#### Estatísticas de Entrega
 - **Total de Envios:** 4
 - **Recebidos na Entrada:** 4
 - **Recebidos no Spam:** 0
 - **Não Recebidos:** 0
 
-## Cálculo da Métrica 3.1 e Classificação
+### Cálculo da Métrica 3.1 e Classificação
 
 **Fórmula:**
 Taxa de Falha = (Nº de Não Recebidos / Total de Postagens) x 100
@@ -252,7 +252,7 @@ Critérios:
 
 **Classificação:** **EXCELENTE**
 
-## Validação da Hipótese
+### Validação da Hipótese
 
 **H3.1: REFUTADA**
 
@@ -268,9 +268,9 @@ O sistema entregou 100% das notificações geradas. O usuário recebeu os e-mail
 
 ---
 
-# CT-COMP-05: Subscrição de Calendário via URL
+## CT-COMP-05: Subscrição de Calendário via URL
 
-## Detalhamento do Caso de Teste  
+### Detalhamento do Caso de Teste  
 **Questão GQM:** Q4, *Em que medida o Aprender 3 permite a exportação para calendários externos?*  
 **Métrica Associada:** 4.1, Taxa de Falha de Subscrição de URL  
 **Hipótese Avaliada:** H4.1, *Os principais serviços de calendário (Google, Outlook) falham ao tentar importar o calendário via URL.*  
@@ -278,7 +278,7 @@ O sistema entregou 100% das notificações geradas. O usuário recebeu os e-mail
 
 ---
 
-## Resultados Obtidos  
+### Resultados Obtidos  
 
 | Serviço de Calendário | Resultado |
 |----------------------|-----------|
@@ -292,7 +292,7 @@ O sistema entregou 100% das notificações geradas. O usuário recebeu os e-mail
 **Total de serviços testados:** 6  
 **Total de falhas:** 1  
 
-### Cálculo da Métrica 4.1  
+#### Cálculo da Métrica 4.1  
 **Taxa de Falha** = (Nº de tentativas de subscrição que falharam / Nº total de tentativas) x 100
 
 **Classificação segundo os critérios da Fase 2:** **PARCIAL**  
@@ -300,7 +300,7 @@ O sistema entregou 100% das notificações geradas. O usuário recebeu os e-mail
 
 ---
 
-## Análise e Resposta à Questão GQM  
+### Análise e Resposta à Questão GQM  
 
 > **Q4, Em que medida o Aprender 3 permite a exportação para calendários externos?**
 
@@ -312,7 +312,7 @@ Dessa forma, conclui-se que o Aprender 3 permite de maneira consistente a export
 
 ---
 
-## Avaliação da Hipótese H4.1  
+### Avaliação da Hipótese H4.1  
 
 > **H4.1, Os principais serviços de calendário, Google e Outlook, falham ao tentar importar o calendário via URL.**
 
@@ -324,7 +324,7 @@ Com base nesses resultados, conclui-se que a hipótese **não é validada**, uma
 
 ---
 
-## Demonstração em Vídeo  
+### Demonstração em Vídeo  
 A seguir encontra-se o vídeo que demonstra a execução completa do teste de subscrição do calendário via URL:
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
@@ -337,9 +337,9 @@ A seguir encontra-se o vídeo que demonstra a execução completa do teste de su
 
 ---
 
-# CT-COMP-06: Importação Estática (.ics) vs Subscrição Dinâmica (URL)
+## CT-COMP-06: Importação Estática (.ics) vs Subscrição Dinâmica (URL)
 
-## Detalhamento do Caso de Teste  
+### Detalhamento do Caso de Teste  
 **Questão GQM:** Q4, *Em que medida o Aprender 3 permite a exportação para calendários externos?*  
 **Métrica Associada:** 4.2, Diferencial de Sucesso entre Importação Manual (.ics) e Subscrição Automática (URL)  
 **Hipótese Avaliada:** H4.2, *A importação manual do arquivo .ics funciona, mas a subscrição automática via URL falha, indicando problema específico no mecanismo dinâmico.*  
@@ -347,7 +347,7 @@ A seguir encontra-se o vídeo que demonstra a execução completa do teste de su
 
 ---
 
-## Resultados Obtidos  
+### Resultados Obtidos  
 
 | Nome do Calendário | Resultado URL | Resultado ICS |
 |--------------------|--------------|----------------|
@@ -392,7 +392,7 @@ A seguir encontra-se o vídeo que demonstra a execução completa do teste de su
 
 ---
 
-## Cálculo da Métrica 4.2  
+### Cálculo da Métrica 4.2  
 A Métrica 4.2 compara diretamente o sucesso da importação manual (.ics) com o sucesso da subscrição automática (URL).
 
 Diferencial de Sucesso = % Sucesso ICS - % Sucesso URL
@@ -412,7 +412,7 @@ Segundo os critérios definidos na Fase 2:
 
 ---
 
-## Análise e Resposta à Questão GQM  
+### Análise e Resposta à Questão GQM  
 
 > **Q4, Em que medida o Aprender 3 permite a exportação para calendários externos?**
 
@@ -424,7 +424,7 @@ Assim, ao responder à Questão GQM, conclui-se que o Aprender 3 **permite a exp
 
 ---
 
-## Avaliação da Hipótese H4.2  
+### Avaliação da Hipótese H4.2  
 
 > **H4.2, A importação manual do arquivo .ics funciona, mas a importação automática via link falha, indicando problema específico no mecanismo de atualização automática.**
 
@@ -436,7 +436,7 @@ Assim, a hipótese **é validada**, pois a importação manual demonstrou confia
 
 ---
 
-## Demonstração em Vídeo  
+### Demonstração em Vídeo  
 O vídeo a seguir apresenta a **execução completa do teste**, mostrando a comparação entre a importação via URL e a importação manual via arquivo .ics:
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
@@ -450,19 +450,19 @@ O vídeo a seguir apresenta a **execução completa do teste**, mostrando a comp
 
 ---
 
-# CT-COMP-07: Sucesso da Funcionalidade Drag-and-Drop (D&D) por Navegador
+## CT-COMP-07: Sucesso da Funcionalidade Drag-and-Drop (D&D) por Navegador
 
-## Informações do Teste
+### Informações do Teste
 - **Métrica:** 5.1 - Compatibilidade de Drag-and-Drop
 - **Objetivo:** Avaliar a taxa de sucesso da funcionalidade drag-and-drop em diferentes navegadores.
 - **Hipótese:** H5.1: A funcionalidade de drag-and-drop apresenta taxa de sucesso superior a 85% em navegadores modernos.
 
-## Ambiente de Teste
+### Ambiente de Teste
 - **Funcionalidades Testadas:** Fóruns (anexo de arquivos), Blocos laterais (reorganização), Calendário (arrastar eventos).
 - **Método:** 10 tentativas totais por navegador (distribuídas entre as funcionalidades).
 - **Arquivos teste:** PDF (2.5MB), DOCX (1.8MB), PNG (3.2MB).
 
-## Resultados dos Testes
+### Resultados dos Testes
 
 | Navegador | Tentativas | Sucessos | Falhas | Taxa de Sucesso |
 | :--- | :--- | :--- | :--- | :--- |
@@ -470,7 +470,7 @@ O vídeo a seguir apresenta a **execução completa do teste**, mostrando a comp
 | Firefox | 10 | 10 | 0 | 100% |
 | Edge | 10 | 9 | 1 | 90% |
 
-### Detalhamento por Funcionalidade
+#### Detalhamento por Funcionalidade
 
 | Funcionalidade | Chrome | Firefox | Edge |
 | :--- | :--- | :--- | :--- |
@@ -478,12 +478,12 @@ O vídeo a seguir apresenta a **execução completa do teste**, mostrando a comp
 | Blocos Laterais (3 tentativas) | 2/3 | 3/3 | 3/3 |
 | Calendário (3 tentativas) | 3/3 | 3/3 | 3/3 |
 
-### Falhas Identificadas
+#### Falhas Identificadas
 - **Chrome (1 falha):** Blocos Laterais: Elemento não posicionou corretamente, retornou à posição original sem mensagem de erro.
 - **Firefox (0 falhas):** Nenhuma falha registrada.
 - **Edge (1 falha):** Fóruns: Arquivo não foi reconhecido imediatamente na área de drop, necessitou segunda tentativa.
 
-## Classificação da Métrica 5.1
+### Classificação da Métrica 5.1
 
 Critérios (ISO/IEC 25010):
 - ≥ 95%: Excelente
@@ -496,7 +496,7 @@ Critérios (ISO/IEC 25010):
 - Firefox: 100% - **EXCELENTE**
 - Edge: 90% - **BOM**
 
-## Validação da Hipótese
+### Validação da Hipótese
 
 **H5.1: CONFIRMADA**
 
@@ -504,9 +504,9 @@ Todos os navegadores apresentaram taxa de sucesso igual ou superior a 85%, com d
 
 ---
 
-## Resumo dos Resultados
+### Resumo dos Resultados
 
-### Métricas Avaliadas
+#### Métricas Avaliadas
 
 | Métrica       | Descrição                                       | Resultado          | Classificação |
 | ------------- | ----------------------------------------------- | ------------------ | ------------- |
@@ -520,7 +520,7 @@ Todos os navegadores apresentaram taxa de sucesso igual ou superior a 85%, com d
 
 ---
 
-## Histórico de Versões
+### Histórico de Versões
 
 | Versão | Data       | Descrição                               | Autor                                  |
 | :----: | ---------- | --------------------------------------- | -------------------------------------- |
