@@ -5,13 +5,13 @@ site_name: Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)
 site_description: Documentação do projeto do grupo IRMA-MARY-KELLER de Qualidade de Software (2024.2), Turma 2
 
 nav:
-  - Home: index.md
-  - Fase 1: fase_1/fase_1.md
+  - Início: index.md
+  - Fase 1 - Definição dos Requisitos: fase_1/fase_1.md
   - Fase 2 - Especificação da Avaliação:
     - Abordagem GQM: "fase_2/GQM.md"
     - Medição 1 - Compatibilidade: "fase_2/compatibilidade.md"
     - Medição 2 - Portabilidade: "fase_2/portabilidade.md"
-    - Conclusão: "fase_2/conclusao.md"
+    #- Conclusão: "fase_2/conclusao.md"
   - Fase 3 - Projeto de Avaliação:
     - Planejamento da Avaliação: "fase_3/planejamento.md"
     - Testes de Compatibilidade: "fase_3/compatibilidade.md"
@@ -21,6 +21,8 @@ nav:
   - Fase 4 - Execução da Avaliação:
     - Compatibilidade: "fase_4/compatibilidade.md"
     - Portabilidade: "fase_4/portabilidade.md"
+  - Declaração de uso de IA: declaracao_ia.md
+  - Tabelas de contribuição: contribuicoes.md
 
 theme:
   name: material
