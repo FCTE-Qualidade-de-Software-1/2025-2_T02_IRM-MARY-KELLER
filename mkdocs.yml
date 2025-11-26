@@ -9,8 +9,8 @@ nav:
   - Fase 1 - Definição dos Requisitos: fase_1/fase_1.md
   - Fase 2 - Especificação da Avaliação:
     - Abordagem GQM: "fase_2/GQM.md"
-    - Medição 1 - Compatibilidade: "fase_2/compatibilidade.md"
-    - Medição 2 - Portabilidade: "fase_2/portabilidade.md"
+    - Medição de Compatibilidade: "fase_2/compatibilidade.md"
+    - Medição de Portabilidade: "fase_2/portabilidade.md"
     #- Conclusão: "fase_2/conclusao.md"
   - Fase 3 - Projeto de Avaliação:
     - Planejamento da Avaliação: "fase_3/planejamento.md"

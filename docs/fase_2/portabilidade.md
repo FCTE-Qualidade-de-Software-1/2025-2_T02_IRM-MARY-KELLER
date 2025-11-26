@@ -1,5 +1,3 @@
-# Portabilidade
-
 ## Objetivo de Medição 2: Portabilidade
 
 **Tabela 2** - Objetivo de Medição 2: Portabilidade.

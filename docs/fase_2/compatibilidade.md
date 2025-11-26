@@ -1,13 +1,13 @@
 ## Objetivo de Medição 1: Compatibilidade
 
+**Tabela 2** - Objetivo de Medição 1: Compatibilidade.
+
 | Analisar | Descrição |
 | :--- | :--- |
 | **Para o propósito de** | Avaliar |
 | **Com respeito a** | Compatibilidade |
 | **Do ponto de vista da** | Comunidade discente |
 | **No contexto da** | Operação em produção |
-
-**Tabela 2** - Objetivo de Medição 1: Compatibilidade.
 
 ---
 
