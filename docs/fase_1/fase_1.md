@@ -116,7 +116,7 @@ Com base nesse processo, a classificação final das características de qualida
 | **Manutenibilidade** | **1 – nenhum interesse** | A manutenibilidade é considerada uma responsabilidade da equipe técnica encarregada do desenvolvimento e manutenção do Moodle na UnB, não sendo um foco desta avaliação. |
 | **Usabilidade** | **0 – fora da votação** | A característica foi explicitamente vetada pela professora para esta fase do projeto, por isso não participou da votação nem da priorização. |
 
-*(Esta seção é mantida integralmente por ser parte do processo histórico de escolha, embora apenas Portabilidade e Compatibilidade sejam realmente utilizadas no modelo de qualidade desta fase.)*
+Obs: *(Esta seção é mantida integralmente por ser parte do processo histórico de escolha, embora apenas Portabilidade e Compatibilidade sejam realmente utilizadas no modelo de qualidade desta fase.)*
 
 ---
 
