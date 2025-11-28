@@ -1,0 +1,1593 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto do grupo IRMA-MARY-KELLER de Qualidade de Software (2024.2), Turma 2">
+      
+      
+      
+      
+        <link rel="prev" href="../planejamento/">
+      
+      
+        <link rel="next" href="../portabilidade/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Testes de Compatibilidade - Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#casos-de-teste-compatibilidade" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" class="md-header__button md-logo" aria-label="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" data-md-component="logo">
+      
+  <img src="../../assets/img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Testes de Compatibilidade
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="high-contrast" data-md-color-primary="black" data-md-color-accent="yellow"  aria-label="Switch to high contrast"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to high contrast" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 19a5 5 0 0 1-5-5 5 5 0 0 1 5-5c1-2.35 3.3-4 6-4 3.43 0 6.24 2.66 6.5 6.03L19 11a4 4 0 0 1 4 4 4 4 0 0 1-4 4zm13-6h-2v-1a5 5 0 0 0-5-5c-2.5 0-4.55 1.82-4.94 4.19C6.73 11.07 6.37 11 6 11a3 3 0 0 0-3 3 3 3 0 0 0 3 3h13a2 2 0 0 0 2-2 2 2 0 0 0-2-2m-6-1h-2V8h2zm0 4h-2v-2h2"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_IRM-MARY-KELLER" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025-2_T02_IRM-MARY-KELLER
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../fase_1/fase_1/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Fase 1 - Definição dos Requisitos
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase_2/GQM/" class="md-tabs__link">
+          
+  
+  
+  Fase 2 - Especificação da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../planejamento/" class="md-tabs__link">
+          
+  
+  
+  Fase 3 - Projeto de Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase_4/compatibilidade/" class="md-tabs__link">
+          
+  
+  
+  Fase 4 - Execução da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../declaracao_ia/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Declaração de uso de IA
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../contribuicoes/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tabelas de contribuição
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" class="md-nav__button md-logo" aria-label="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" data-md-component="logo">
+      
+  <img src="../../assets/img/logo.png" alt="logo">
+
+    </a>
+    Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_IRM-MARY-KELLER" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025-2_T02_IRM-MARY-KELLER
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_1/fase_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 1 - Definição dos Requisitos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 2 - Especificação da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 2 - Especificação da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_2/GQM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Abordagem GQM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_2/compatibilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medição de Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_2/portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medição de Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 3 - Projeto de Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 3 - Projeto de Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planejamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testes de Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testes de Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-01-sincronia-de-status-de-conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-01: Sincronia de Status de Conclusão
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-02-sincronizacao-bidirecional-de-arquivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-02: Sincronização Bidirecional de Arquivos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-03-consumo-medio-de-ram-por-navegador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-03: Consumo Médio de RAM por Navegador
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-04-entrega-de-notificacoes-de-forum-por-e-mail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-04: Entrega de Notificações de Fórum por E-mail
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-05-subscricao-de-calendario-via-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-05: Subscrição de Calendário via URL
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-06-importacao-estatica-ics-vs-subscricao-dinamica-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-06: Importação Estática (.ics) vs Subscrição Dinâmica (URL)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-07-sucesso-da-funcionalidade-drag-and-drop-dd-por-navegador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-07: Sucesso da Funcionalidade Drag-and-Drop (D&amp;D) por Navegador
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testes de Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma de ações
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas e Ambiente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 4 - Execução da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 4 - Execução da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_4/compatibilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execução da Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_4/portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execução da Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_4/resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resumo dos Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../declaracao_ia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Declaração de uso de IA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contribuicoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tabelas de contribuição
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-01-sincronia-de-status-de-conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-01: Sincronia de Status de Conclusão
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-02-sincronizacao-bidirecional-de-arquivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-02: Sincronização Bidirecional de Arquivos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-03-consumo-medio-de-ram-por-navegador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-03: Consumo Médio de RAM por Navegador
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-04-entrega-de-notificacoes-de-forum-por-e-mail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-04: Entrega de Notificações de Fórum por E-mail
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-05-subscricao-de-calendario-via-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-05: Subscrição de Calendário via URL
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-06-importacao-estatica-ics-vs-subscricao-dinamica-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-06: Importação Estática (.ics) vs Subscrição Dinâmica (URL)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-07-sucesso-da-funcionalidade-drag-and-drop-dd-por-navegador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-07: Sucesso da Funcionalidade Drag-and-Drop (D&amp;D) por Navegador
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="casos-de-teste-compatibilidade">Casos de Teste – Compatibilidade</h1>
+<p>Esta seção descreve os <strong>Casos de Teste (CTs)</strong> projetados para avaliar a característica de <strong>Compatibilidade</strong> do Aprender 3, de acordo com o modelo <strong>GQM</strong> definido na Fase 2.</p>
+<p>Cada CT está explicitamente associado a:</p>
+<ul>
+<li>uma <strong>Questão GQM</strong>,  </li>
+<li>uma <strong>Métrica</strong> (conforme definido na Fase 2),  </li>
+<li>e, quando aplicável, às <strong>Hipóteses</strong> correspondentes.</li>
+</ul>
+<p>O cálculo numérico de cada métrica e a classificação dos resultados <strong>devem seguir exatamente as fórmulas e critérios de julgamento definidos na Fase 2</strong> (Excelente, Bom, Regular, Insatisfatório).</p>
+<blockquote>
+<p>Todas as ferramentas, ambientes e recursos utilizados na realização dos testes de compatibilidade estão disponíveis na página específica destinada a essa documentação: <a href="../ferramentas">Ferramentas</a>.</p>
+</blockquote>
+<hr />
+<h2 id="ct-comp-01-sincronia-de-status-de-conclusao">CT-COMP-01: Sincronia de Status de Conclusão</h2>
+<ul>
+<li><strong>Questão GQM:</strong> Q1 (Sincronia de Dados)  </li>
+<li><strong>Métrica Associada:</strong> Métrica 1.1 – Percentual de Discrepância de Status de Conclusão  </li>
+<li><strong>Hipótese Relacionada:</strong> H1.1 – Inconsistência de status “concluída” entre Web e App  </li>
+<li><strong>Perfil Principal:</strong> Discente (conta de estudante de teste)</li>
+</ul>
+<p><strong>Objetivo:</strong><br />
+Verificar se o status de <strong>conclusão de atividades</strong> marcado na interface <strong>Web</strong> é corretamente refletido no <strong>App Moodle</strong>, medindo a discrepância entre os dois ambientes.</p>
+<p><strong>Pré-condições:</strong></p>
+<ul>
+<li>Conta de estudante de teste cadastrada no Aprender 3.</li>
+<li>Curso de teste com pelo menos <strong>N atividades</strong> configuradas com <strong>rastreamento de conclusão</strong>.</li>
+<li>Acesso ao Aprender 3 via navegador (Web) e ao <strong>App Moodle</strong> no Android.</li>
+<li>SO utilizado (Windows ou Linux) registrado no plano de execução.</li>
+</ul>
+<p><strong>Passos de Execução:</strong></p>
+<ol>
+<li>[Web] Acessar o Aprender 3 (<code>https://aprender3.unb.br/</code>) com a conta de estudante de teste.</li>
+<li>Entrar no curso de teste que contém as atividades com conclusão configurada.</li>
+<li>Selecionar uma amostra de <strong>N atividades</strong> (por exemplo, tarefas, questionários, páginas).</li>
+<li>Para cada uma das N atividades, marcar manualmente como <strong>“concluída”</strong> na interface Web (por meio de checkboxes, critérios automáticos ou botão “Marcar como concluída”, conforme configuração).</li>
+<li>[App] Abrir o <strong>App Moodle</strong> no dispositivo Android, acessar a mesma conta de estudante e o mesmo curso.</li>
+<li>Forçar a sincronização/atualização do curso (puxar para atualizar ou usar opção de sincronização do app).</li>
+<li>Verificar, para cada uma das N atividades da amostra, se o status exibido no App Moodle corresponde ao status exibido na Web.</li>
+<li>Registrar, em planilha</li>
+</ol>
+<p><strong>Resultado Esperado:</strong></p>
+<ul>
+<li>Idealmente, <strong>todas</strong> as atividades apresentam o mesmo status de conclusão em ambos os ambientes (0 discrepâncias).</li>
+<li>Eventuais discrepâncias devem ser quantificadas e descritas (ex.: atividades marcadas como concluídas na Web mas não no App).</li>
+</ul>
+<p><strong>Cálculo da Métrica e Classificação:</strong></p>
+<ul>
+<li>Aplicar, sobre os dados coletados, a <strong>fórmula da Métrica 1.1</strong> definida na Fase 2.  </li>
+<li>Classificar o resultado conforme os <strong>critérios de julgamento da Métrica 1.1</strong> (Excelente, Bom, Regular, Insatisfatório) estabelecidos na Fase 2.</li>
+</ul>
+<hr />
+<h2 id="ct-comp-02-sincronizacao-bidirecional-de-arquivos">CT-COMP-02: Sincronização Bidirecional de Arquivos</h2>
+<ul>
+<li><strong>Questão GQM:</strong> Q1 (Sincronia de Dados)  </li>
+<li><strong>Métrica Associada:</strong> Métrica 1.2 – Taxa de Sucesso de Sincronização Bidirecional de Arquivos  </li>
+<li><strong>Hipótese Relacionada:</strong> H1.2 – Problemas de sincronização de “Arquivos privados” entre Web e App  </li>
+<li><strong>Perfil Principal:</strong> Discente</li>
+</ul>
+<p><strong>Objetivo:</strong><br />
+Avaliar se operações de <strong>upload e sincronização de arquivos</strong> na área <strong>“Arquivos privados”</strong> são bem-sucedidas tanto da <strong>Web para o App</strong> quanto do <strong>App para a Web</strong>.</p>
+<p><strong>Pré-condições:</strong></p>
+<ul>
+<li>Conta de estudante de teste com acesso à área <strong>“Arquivos privados”</strong>.</li>
+<li>Conjunto de arquivos de teste (por exemplo: PDF, DOCX, imagens).</li>
+<li>Acesso Web (navegador) e App Moodle (Android).</li>
+<li>SO utilizado (Windows ou Linux) registrado nos resultados.</li>
+</ul>
+<p><strong>Passos de Execução (Web → App):</strong></p>
+<ol>
+<li>[Web] Fazer login no Aprender 3 como estudante de teste.</li>
+<li>Acessar a área <strong>“Arquivos privados”</strong>.</li>
+<li>Fazer upload de <strong>N arquivos de teste</strong> (registrar nomes e tipos).</li>
+<li>Salvar as alterações (se aplicável).</li>
+<li>[App] Abrir o App Moodle, acessar a mesma conta e navegar até a área equivalente de arquivos.</li>
+<li>Sincronizar/atualizar o app.</li>
+<li>Verificar se <strong>todos os N arquivos</strong> aparecem corretamente no App (nome, tipo e possibilidade de download/visualização).</li>
+<li>Registrar, em planilha, quantos arquivos foram sincronizados com sucesso na direção <strong>Web → App</strong>.</li>
+</ol>
+<p><strong>Passos de Execução (App → Web):</strong></p>
+<ol>
+<li>[App] Na área de arquivos, enviar <strong>M novos arquivos</strong> (diferentes dos anteriores, se possível).</li>
+<li>Sincronizar o App (se necessário).</li>
+<li>[Web] Reabrir o Aprender 3 no navegador e acessar a área <strong>“Arquivos privados”</strong>.</li>
+<li>Verificar se <strong>todos os M arquivos</strong> enviados via App aparecem corretamente na Web.</li>
+<li>Registrar, em planilha, quantos arquivos foram sincronizados com sucesso na direção <strong>App → Web</strong>.</li>
+</ol>
+<p><strong>Resultado Esperado:</strong></p>
+<ul>
+<li>A sincronização deve ser bem-sucedida em <strong>ambas as direções</strong>, sem perda de arquivos ou inconsistência de visualização.</li>
+</ul>
+<p><strong>Cálculo da Métrica e Classificação:</strong></p>
+<ul>
+<li>Aplicar, aos dados Web → App e App → Web, a <strong>fórmula da Métrica 1.2</strong> definida na Fase 2.  </li>
+<li>Classificar a taxa de sucesso resultante conforme os <strong>critérios de julgamento da Métrica 1.2</strong> na Fase 2.</li>
+</ul>
+<hr />
+<h2 id="ct-comp-03-consumo-medio-de-ram-por-navegador">CT-COMP-03: Consumo Médio de RAM por Navegador</h2>
+<ul>
+<li><strong>Questão GQM:</strong> Q2 (Recursos do Navegador)  </li>
+<li><strong>Métrica Associada:</strong> Métrica 2.1 – Consumo Médio de RAM por Navegador  </li>
+<li><strong>Hipótese Relacionada:</strong> H2.1 – Consumo de RAM maior em um navegador específico prejudicando o uso do discente  </li>
+<li><strong>Perfil Principal:</strong> Discente</li>
+</ul>
+<p><strong>Objetivo:</strong><br />
+Medir e comparar o <strong>consumo médio de memória RAM</strong> do Aprender 3 em diferentes navegadores para um cenário de uso padrão.</p>
+<p><strong>Pré-condições:</strong></p>
+<ul>
+<li>Um computador com Windows 11 Pro.</li>
+<li>Navegadores instalados: <strong>Chrome</strong>, <strong>Firefox</strong> e <strong>Edge</strong>, nas versões estáveis mais recentes.</li>
+<li>Conta de estudante de teste com acesso a um curso com conteúdo (tópicos, fóruns, tarefas).</li>
+</ul>
+<p><strong>Cenário de Teste Padrão:</strong></p>
+<ul>
+<li>Login no Aprender 3, abertura de um curso, navegação por tópicos, abertura de fórum e tarefa, rolagem até o fim da página.</li>
+</ul>
+<p><strong>Passos de Execução:</strong></p>
+<ol>
+<li>Fechar todos os navegadores e aguardar alguns segundos para estabilizar o uso de RAM.</li>
+<li>Abrir apenas o <strong>Navegador A</strong> (por exemplo, Chrome).</li>
+<li>Executar o <strong>cenário de teste padrão</strong> no Aprender 3.</li>
+<li>Utilizar o <strong>gerenciador de tarefas</strong> do sistema ou do próprio navegador para registrar o consumo de RAM (em MB) do processo principal do navegador.</li>
+<li>Fechar o navegador A por completo.</li>
+<li>Repetir os passos 2 a 5 <strong>ao menos 3 vezes</strong> para o Navegador A e registrar todos os valores.</li>
+<li>Repetir o mesmo procedimento para o <strong>Navegador B</strong> (Firefox) e para o <strong>Navegador C</strong> (Edge), mantendo o mesmo cenário e número de repetições.</li>
+<li>Calcular o <strong>consumo médio de RAM</strong> para cada navegador (A, B, C).</li>
+</ol>
+<p><strong>Resultado Esperado:</strong></p>
+<ul>
+<li>Espera-se que a variação de consumo médio de RAM entre navegadores não seja excessiva a ponto de comprometer o uso do Aprender 3 para os alunos.</li>
+</ul>
+<p><strong>Cálculo da Métrica e Classificação:</strong></p>
+<ul>
+<li>A partir das médias calculadas por navegador, aplicar a <strong>definição da Métrica 2.1</strong> e a forma de comparação estabelecida na Fase 2.  </li>
+<li>Classificar a variação percentual entre o navegador mais leve e o mais pesado conforme os <strong>critérios de julgamento da Métrica 2.1</strong> definidos na Fase 2.</li>
+</ul>
+<hr />
+<h2 id="ct-comp-04-entrega-de-notificacoes-de-forum-por-e-mail">CT-COMP-04: Entrega de Notificações de Fórum por E-mail</h2>
+<ul>
+<li><strong>Questão GQM:</strong> Q3 (Notificações de Fórum)</li>
+<li><strong>Métrica Associada:</strong> Métrica 3.1 – Taxa de Falha de Entrega de Notificação</li>
+<li><strong>Hipótese Relacionada:</strong> H3.1 – Discente não recebe e-mails de novas mensagens em fóruns subscritos</li>
+<li><strong>Perfil Principal:</strong> Discente (Visão do Usuário)</li>
+</ul>
+<p><strong>Objetivo:</strong>
+Verificar se o Aprender 3 envia corretamente <strong>e-mails de notificação</strong> para um discente subscrito em um fórum, garantindo que configurações de perfil do usuário não estejam impedindo o recebimento.</p>
+<p><strong>Pré-condições:</strong>
+- <strong>Duas contas de usuário distintas:</strong>
+    - <strong>Conta A (Autor):</strong> Para realizar a postagem.
+    - <strong>Conta B (Destinatário):</strong> Para receber a notificação.
+- Curso de teste com um <strong>fórum acessível</strong> a ambas as contas.
+- <strong>Configuração Obrigatória (Conta B):</strong> Nas "Preferências do Fórum" (Menu do usuário &gt; Preferências), o campo <strong>Tipo de resumo de e-mail</strong> deve estar marcado como: <strong>"Sem resumo (um e-mail para cada nova mensagem do fórum)"</strong>.</p>
+<p><strong>Passos de Execução:</strong></p>
+<ol>
+<li><strong>[Conta B - Destinatário]</strong> Acessar o fórum de teste e garantir que a opção <strong>"Assinar este fórum"</strong> esteja ativa.</li>
+<li><strong>[Conta A - Autor]</strong> Criar uma nova postagem (tópico ou resposta) no fórum.</li>
+<li>Aguardar o período de processamento.</li>
+<li><strong>[Conta B - Destinatário]</strong> Monitorar a caixa de entrada do e-mail.</li>
+<li>Caso não esteja na caixa de entrada, verificar obrigatoriamente a pasta de <strong>Spam/Lixo Eletrônico</strong>.</li>
+<li>Registrar os resultados na planilha de teste.</li>
+</ol>
+<p><strong>Resultado Esperado:</strong>
+- A Conta B deve receber um e-mail individual contendo o texto da postagem feita pela Conta A.
+- O recebimento deve ocorrer após o tempo de edição (30 min), dentro de um limite aceitável (ex: até 2 horas no total).</p>
+<p><strong>Cálculo da Métrica e Classificação:</strong>
+- Aplicar a <strong>fórmula da Métrica 3.1</strong>, conforme definida na Fase 2, sobre o número de notificações esperadas versus recebidas.
+- Se o e-mail cair no <strong>Spam</strong>, considera-se sucesso de entrega do Moodle, mas deve ser anotado como alerta de qualidade.</p>
+<h2 id="ct-comp-05-subscricao-de-calendario-via-url">CT-COMP-05: Subscrição de Calendário via URL</h2>
+<ul>
+<li><strong>Questão GQM:</strong> Q4 (Calendário Externo)  </li>
+<li><strong>Métrica Associada:</strong> Métrica 4.1 – Taxa de Falha de Subscrição de URL  </li>
+<li><strong>Hipótese Relacionada:</strong> H4.1 – Falhas na subscrição do calendário do Aprender 3 por serviços externos  </li>
+<li><strong>Perfil Principal:</strong> Discente / Equipe de Avaliação</li>
+</ul>
+<p><strong>Objetivo:</strong><br />
+Testar se o calendário do Aprender 3 pode ser corretamente <strong>assinado via URL</strong> em serviços externos, como <strong>Google Calendar</strong>, <strong>Outlook Calendar</strong> ou <strong>Yahoo Calendar</strong>.</p>
+<p><strong>Pré-condições:</strong></p>
+<ul>
+<li>Conta de estudante de teste no Aprender 3, com calendário acadêmico configurado (atividades com datas, prazos).</li>
+<li>Conta de teste nos serviços externos.</li>
+<li>Acesso à funcionalidade do Aprender 3 que gera o <strong>link de subscrição (URL)</strong> do calendário.</li>
+</ul>
+<p><strong>Passos de Execução:</strong></p>
+<ol>
+<li>[Aprender 3] Fazer login como estudante de teste e acessar a área de <strong>Calendário</strong>.</li>
+<li>Gerar/copiar o <strong>link de subscrição (URL)</strong> fornecido pelo Aprender 3 para integração com calendários externos.</li>
+<li>[Serviço externo 1] Acessar a conta de teste e usar a opção <strong>“Adicionar calendário a partir de URL”</strong>.</li>
+<li>Colar o link gerado pelo Aprender 3 e confirmar.</li>
+<li>Verificar se o calendário é adicionado com sucesso e se os eventos aparecem (após eventual tempo de sincronização).</li>
+<li>Registrar o resultado da tentativa (Sucesso/Falha) em planilha.</li>
+<li>[Serviço externo N] Repetir o procedimento na conta de teste para cada serviço externo(adicionar calendário a partir de URL).</li>
+<li>Verificar se o calendário é adicionado e sincroniza corretamente; registrar o resultado (Sucesso/Falha).</li>
+<li>Ao final, contabilizar o número total de tentativas e o número de falhas por serviço.</li>
+</ol>
+<p><strong>Resultado Esperado:</strong></p>
+<ul>
+<li>O calendário do Aprender 3 é subscrito corretamente em todos os serviços testados.</li>
+</ul>
+<p><strong>Cálculo da Métrica e Classificação:</strong></p>
+<ul>
+<li>Calcular, com base nas tentativas realizadas, a taxa conforme a <strong>Métrica 4.1</strong> definida na Fase 2.  </li>
+<li>Classificar a situação (0%, 50%, 100% de falha) conforme os <strong>critérios de julgamento da Métrica 4.1</strong> estabelecidos na Fase 2.</li>
+</ul>
+<hr />
+<h2 id="ct-comp-06-importacao-estatica-ics-vs-subscricao-dinamica-url">CT-COMP-06: Importação Estática (.ics) vs Subscrição Dinâmica (URL)</h2>
+<ul>
+<li><strong>Questão GQM:</strong> Q4 (Calendário Externo)  </li>
+<li><strong>Métrica Associada:</strong> Métrica 4.2 – Diferencial de Sucesso (Importação Estática vs Dinâmica)  </li>
+<li><strong>Hipótese Relacionada:</strong> H4.2 – Problema específico na subscrição automática, com importação manual funcionando melhor  </li>
+<li><strong>Perfil Principal:</strong> Discente / Equipe de Avaliação</li>
+</ul>
+<p><strong>Objetivo:</strong><br />
+Comparar a <strong>taxa de sucesso</strong> entre:
+- a <strong>subscrição automática via URL</strong>
+e
+- a <strong>importação manual via arquivo <code>.ics</code></strong>,</p>
+<p>identificando se há diferença significativa entre os dois métodos.</p>
+<p><strong>Pré-condições:</strong></p>
+<ul>
+<li>Mesmas contas e configurações utilizadas no CT-COMP-05.</li>
+<li>Acesso à funcionalidade do Aprender 3 que permite <strong>importar o calendário como arquivo <code>.ics</code></strong>.</li>
+</ul>
+<p><strong>Passos de Execução:</strong></p>
+<ol>
+<li>Reutilizar os resultados de subscrição por URL obtidos no <strong>CT-COMP-05</strong> (não é necessário repetir).</li>
+<li>[Aprender 3] Acessar o calendário do estudante de teste e exportar o calendário em formato <strong><code>.ics</code></strong>.</li>
+<li>[Google Calendar] Acessar a conta de teste e usar a opção <strong>“Importar”</strong> para carregar o arquivo <code>.ics</code>.</li>
+<li>Verificar se os eventos são importados corretamente (sem erros de arquivo).</li>
+<li>Registrar o resultado (Sucesso/Falha) em planilha.</li>
+<li>[Outlook Calendar] Repetir o procedimento de importação manual do arquivo <code>.ics</code> na conta de teste.</li>
+<li>Verificar se o calendário é importado corretamente; registrar o resultado.</li>
+<li>Ao final, contabilizar a taxa de sucesso da <strong>importação manual</strong> e comparar com a taxa de sucesso da <strong>subscrição via URL</strong> obtida no CT-COMP-05.</li>
+</ol>
+<p><strong>Resultado Esperado:</strong></p>
+<ul>
+<li>Idealmente, não deve haver diferença de sucesso entre método manual (.ics) e método dinâmico (URL).</li>
+</ul>
+<p><strong>Cálculo da Métrica e Classificação:</strong></p>
+<ul>
+<li>Aplicar a <strong>definição da Métrica 4.2</strong> (diferencial entre taxas) conforme estabelecida na Fase 2.  </li>
+<li>Avaliar se o resultado <strong>valida ou refuta a hipótese H4.2</strong>, seguindo a interpretação indicada nos <strong>critérios da Métrica 4.2</strong> na Fase 2.</li>
+</ul>
+<hr />
+<h2 id="ct-comp-07-sucesso-da-funcionalidade-drag-and-drop-dd-por-navegador">CT-COMP-07: Sucesso da Funcionalidade Drag-and-Drop (D&amp;D) por Navegador</h2>
+<ul>
+<li><strong>Questão GQM:</strong> Q5 (Compatibilidade de Interação)  </li>
+<li><strong>Métrica Associada:</strong> Métrica 5.1 – Taxa de Sucesso de Drag-and-Drop (D&amp;D) por Navegador  </li>
+<li><strong>Hipótese Relacionada:</strong> H5.1 – Falhas concentradas em navegadores específicos na funcionalidade de arrastar e soltar  </li>
+<li><strong>Perfil Principal:</strong> Discente</li>
+</ul>
+<p><strong>Objetivo:</strong><br />
+Medir a <strong>taxa de sucesso</strong> da funcionalidade de <strong>“arrastar e soltar” (drag-and-drop)</strong> de arquivos na área de envio de tarefas do Aprender 3 para diferentes navegadores (Chrome, Firefox, Edge).</p>
+<p><strong>Pré-condições:</strong></p>
+<ul>
+<li>Conta de estudante de teste matriculada em um curso que possua uma atividade de <strong>envio de tarefa</strong> com upload de arquivos habilitado.</li>
+<li>Conjunto de arquivos de teste (PDF, DOCX, imagens).</li>
+<li>Navegadores Chrome, Firefox e Edge instalados, em suas versões estáveis mais recentes.</li>
+<li>SO utilizado (Windows ou Linux) registrado nos resultados.</li>
+</ul>
+<p><strong>Passos de Execução:</strong></p>
+<ol>
+<li>Selecionar uma atividade de <strong>envio de tarefa</strong> no curso de teste (a mesma atividade será usada em todos os navegadores).</li>
+<li>Definir o número de tentativas <strong>N</strong> por navegador (por exemplo, N = 10 tentativas).</li>
+<li>Para o <strong>Navegador A</strong> (por exemplo, Chrome):</li>
+<li>Abrir o Aprender 3 e acessar a tarefa de envio de arquivos.</li>
+<li>Para cada uma das N tentativas:<ul>
+<li>Arrastar um arquivo do explorador de arquivos até a área de upload da tarefa.</li>
+<li>Verificar se o arquivo é reconhecido e enviado corretamente (aparece na listagem de arquivos da tarefa).</li>
+<li>Registrar <strong>Sucesso</strong> ou <strong>Falha</strong> em planilha.</li>
+</ul>
+</li>
+<li>Ao final, contabilizar o número de sucessos no Navegador A.</li>
+<li>Repetir o mesmo procedimento para o <strong>Navegador B</strong> (Firefox) e para o <strong>Navegador C</strong> (Edge), utilizando os mesmos arquivos ou conjunto equivalente.</li>
+<li>Ao final de todos os testes, registrar em planilha:</li>
+<li>Nº de tentativas por navegador  </li>
+<li>Nº de sucessos por navegador  </li>
+<li>Comentários sobre falhas observadas (mensagens de erro, comportamento da interface, etc.).</li>
+</ol>
+<p><strong>Resultado Esperado:</strong></p>
+<ul>
+<li>Idealmente, a taxa de sucesso do D&amp;D é <strong>alta e consistente</strong> em todos os navegadores, sem falhas recorrentes em um navegador específico.</li>
+</ul>
+<p><strong>Cálculo da Métrica e Classificação:</strong></p>
+<ul>
+<li>A partir das contagens de sucessos e tentativas, aplicar a <strong>Métrica 5.1</strong> definida na Fase 2 para cada navegador.  </li>
+<li>Classificar os resultados de acordo com os <strong>critérios de julgamento da Métrica 5.1</strong> (Excelente, Bom, Regular, Insatisfatório) estabelecidos na Fase 2, verificando se a hipótese H5.1 é suportada ou refutada.</li>
+</ul>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2279 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto do grupo IRMA-MARY-KELLER de Qualidade de Software (2024.2), Turma 2">
+      
+      
+      
+      
+        <link rel="prev" href="../compatibilidade/">
+      
+      
+        <link rel="next" href="../cronograma/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Testes de Portabilidade - Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#casos-de-teste-portabilidade" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" class="md-header__button md-logo" aria-label="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" data-md-component="logo">
+      
+  <img src="../../assets/img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Testes de Portabilidade
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="high-contrast" data-md-color-primary="black" data-md-color-accent="yellow"  aria-label="Switch to high contrast"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to high contrast" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 19a5 5 0 0 1-5-5 5 5 0 0 1 5-5c1-2.35 3.3-4 6-4 3.43 0 6.24 2.66 6.5 6.03L19 11a4 4 0 0 1 4 4 4 4 0 0 1-4 4zm13-6h-2v-1a5 5 0 0 0-5-5c-2.5 0-4.55 1.82-4.94 4.19C6.73 11.07 6.37 11 6 11a3 3 0 0 0-3 3 3 3 0 0 0 3 3h13a2 2 0 0 0 2-2 2 2 0 0 0-2-2m-6-1h-2V8h2zm0 4h-2v-2h2"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_IRM-MARY-KELLER" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025-2_T02_IRM-MARY-KELLER
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../fase_1/fase_1/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Fase 1 - Definição dos Requisitos
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase_2/GQM/" class="md-tabs__link">
+          
+  
+  
+  Fase 2 - Especificação da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../planejamento/" class="md-tabs__link">
+          
+  
+  
+  Fase 3 - Projeto de Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase_4/compatibilidade/" class="md-tabs__link">
+          
+  
+  
+  Fase 4 - Execução da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../declaracao_ia/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Declaração de uso de IA
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../contribuicoes/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tabelas de contribuição
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" class="md-nav__button md-logo" aria-label="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" data-md-component="logo">
+      
+  <img src="../../assets/img/logo.png" alt="logo">
+
+    </a>
+    Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_IRM-MARY-KELLER" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025-2_T02_IRM-MARY-KELLER
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_1/fase_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 1 - Definição dos Requisitos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 2 - Especificação da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 2 - Especificação da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_2/GQM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Abordagem GQM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_2/compatibilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medição de Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_2/portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medição de Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 3 - Projeto de Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 3 - Projeto de Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planejamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../compatibilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testes de Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testes de Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testes de Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-01-conformidade-de-layout-responsivo-web-desktop-tablet-e-smartphone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-01: Conformidade de Layout Responsivo (Web – Desktop, Tablet e Smartphone)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-01: Conformidade de Layout Responsivo (Web – Desktop, Tablet e Smartphone)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-condicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pré-condições
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-de-teste" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ambiente de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passos-de-execucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passos de Execução
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultado-esperado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultado Esperado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 1.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classificacao-metrica-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Classificação (Métrica 1.1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-02-sucesso-em-funcionalidades-essenciais-no-app-moodle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivo_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-condicoes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pré-condições
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-de-teste_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ambiente de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passos-de-execucao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passos de Execução
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultado-esperado_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultado Esperado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 1.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classificacao-metrica-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Classificação (Métrica 1.2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-03-verificacao-de-historico-de-migracao-aprender-aprender-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-03: Verificação de Histórico de Migração (Aprender → Aprender 3)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-03: Verificação de Histórico de Migração (Aprender → Aprender 3)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivo_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-condicoes_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pré-condições
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passos-de-execucao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passos de Execução
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultado-esperado_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultado Esperado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 2.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classificacao-metrica-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Classificação (Métrica 2.1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-04-sucesso-na-configuracao-do-app-moodle-por-novos-usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-04: Sucesso na Configuração do App Moodle por Novos Usuários
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-04: Sucesso na Configuração do App Moodle por Novos Usuários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivo_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-condicoes_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pré-condições
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passos-de-execucao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passos de Execução
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultado-esperado_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultado Esperado
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-05-verificacao-de-dependencias-de-navegador-navegador-limpo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-05: Verificação de Dependências de Navegador (Navegador Limpo)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-05: Verificação de Dependências de Navegador (Navegador Limpo)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivo_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-condicoes_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pré-condições
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passos-de-execucao_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passos de Execução
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultado-esperado_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultado Esperado
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma de ações
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas e Ambiente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 4 - Execução da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 4 - Execução da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_4/compatibilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execução da Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_4/portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execução da Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_4/resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resumo dos Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../declaracao_ia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Declaração de uso de IA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contribuicoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tabelas de contribuição
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-01-conformidade-de-layout-responsivo-web-desktop-tablet-e-smartphone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-01: Conformidade de Layout Responsivo (Web – Desktop, Tablet e Smartphone)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-01: Conformidade de Layout Responsivo (Web – Desktop, Tablet e Smartphone)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-condicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pré-condições
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-de-teste" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ambiente de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passos-de-execucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passos de Execução
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultado-esperado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultado Esperado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 1.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classificacao-metrica-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Classificação (Métrica 1.1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-02-sucesso-em-funcionalidades-essenciais-no-app-moodle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivo_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-condicoes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pré-condições
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-de-teste_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ambiente de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passos-de-execucao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passos de Execução
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultado-esperado_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultado Esperado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 1.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classificacao-metrica-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Classificação (Métrica 1.2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-03-verificacao-de-historico-de-migracao-aprender-aprender-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-03: Verificação de Histórico de Migração (Aprender → Aprender 3)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-03: Verificação de Histórico de Migração (Aprender → Aprender 3)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivo_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-condicoes_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pré-condições
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passos-de-execucao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passos de Execução
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultado-esperado_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultado Esperado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 2.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classificacao-metrica-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Classificação (Métrica 2.1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-04-sucesso-na-configuracao-do-app-moodle-por-novos-usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-04: Sucesso na Configuração do App Moodle por Novos Usuários
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-04: Sucesso na Configuração do App Moodle por Novos Usuários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivo_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-condicoes_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pré-condições
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passos-de-execucao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passos de Execução
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultado-esperado_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultado Esperado
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-05-verificacao-de-dependencias-de-navegador-navegador-limpo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-05: Verificação de Dependências de Navegador (Navegador Limpo)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-05: Verificação de Dependências de Navegador (Navegador Limpo)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivo_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pre-condicoes_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pré-condições
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passos-de-execucao_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passos de Execução
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultado-esperado_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultado Esperado
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="casos-de-teste-portabilidade">Casos de Teste – Portabilidade</h1>
+<p>Esta seção descreve os <strong>Casos de Teste (CTs)</strong> projetados para avaliar a característica de <strong>Portabilidade</strong> do Aprender 3, de acordo com o modelo <strong>GQM</strong> definido na Fase 2.</p>
+<p>Cada CT está explicitamente associado a:</p>
+<ul>
+<li>uma <strong>Questão GQM</strong>;</li>
+<li>uma <strong>Métrica</strong> (conforme definido na Fase 2);</li>
+<li>e, quando aplicável, às <strong>Hipóteses</strong> correspondentes.</li>
+</ul>
+<p>O cálculo numérico de cada métrica e a classificação dos resultados <strong>devem seguir exatamente as fórmulas e critérios de julgamento definidos na Fase 2</strong> (Excelente, Bom, Regular, Insatisfatório).</p>
+<blockquote>
+<p>Todas as ferramentas, ambientes e recursos utilizados na realização dos testes de portabilidade estão disponíveis na página específica destinada a essa documentação: <a href="../ferramentas">Ferramentas</a>.</p>
+</blockquote>
+<hr />
+<h2 id="ct-por-01-conformidade-de-layout-responsivo-web-desktop-tablet-e-smartphone">CT-POR-01: Conformidade de Layout Responsivo (Web – Desktop, Tablet e Smartphone)</h2>
+<ul>
+<li><strong>Questão GQM:</strong> Q1 (Adaptabilidade)  </li>
+<li><strong>Métrica Associada:</strong> Métrica 1.1 – Taxa de Conformidade de Layout Responsivo  </li>
+<li><strong>Hipótese Relacionada:</strong> H1.1 – Layout responsivo se ajusta adequadamente  </li>
+<li><strong>Perfil Principal:</strong> Discente / Equipe Técnica</li>
+</ul>
+<h4 id="objetivo">Objetivo</h4>
+<p>Verificar se as principais páginas e funcionalidades do Aprender 3 mantêm layout funcional, sem quebras ou perda de elementos, em diferentes navegadores e resoluções (desktop, tablet, smartphone).</p>
+<h4 id="pre-condicoes">Pré-condições</h4>
+<ul>
+<li>Navegadores instalados (versões estáveis mais recentes):  </li>
+<li>Google Chrome  </li>
+<li>Mozilla Firefox  </li>
+<li>Microsoft Edge (ou Safari, se aplicável)</li>
+<li>Possibilidade de testar nas seguintes resoluções:</li>
+<li><strong>Desktop:</strong> largura &gt; 1200 px  </li>
+<li><strong>Tablet:</strong> ~768 px  </li>
+<li><strong>Smartphone:</strong> ~375–480 px</li>
+<li>Conta de estudante ativa no Aprender 3.</li>
+<li>Lista de <strong>N</strong> páginas/funcionalidades críticas, por exemplo:</li>
+<li>Página de login</li>
+<li>Página inicial do curso</li>
+<li>Visualização de tópico</li>
+<li>Fórum (lista e visualização de discussão)</li>
+<li>Envio de tarefa (tela de upload)</li>
+<li>Calendário</li>
+</ul>
+<h4 id="ambiente-de-teste">Ambiente de Teste</h4>
+<ul>
+<li><strong>Sistema Operacional:</strong> Windows 10/11 ou Linux (Ubuntu 22.04 LTS ou equivalente) – registrar qual foi utilizado.  </li>
+<li><strong>Navegadores:</strong> Chrome, Firefox, Edge.  </li>
+<li><strong>Resoluções:</strong> Desktop / Tablet / Smartphone (via redimensionamento ou ferramentas de desenvolvedor).</li>
+</ul>
+<h4 id="passos-de-execucao">Passos de Execução</h4>
+<ol>
+<li>Selecionar a lista de <strong>N</strong> páginas/funcionalidades críticas.</li>
+<li>Para o <strong>Navegador A</strong> (por exemplo, Chrome):</li>
+<li>Ajustar para resolução <strong>Desktop</strong>.</li>
+<li>Acessar cada página da lista e verificar:<ul>
+<li>Elementos não sobrepostos;</li>
+<li>Botões acessíveis;</li>
+<li>Formulários utilizáveis.</li>
+</ul>
+</li>
+<li>Registrar <strong>Conforme / Não Conforme</strong> para cada página.</li>
+<li>Repetir os passos para resolução <strong>Tablet</strong>.</li>
+<li>Repetir os passos para resolução <strong>Smartphone</strong>.</li>
+<li>Repetir o mesmo procedimento para os Navegadores B (Firefox) e C (Edge).</li>
+<li>Registrar todos os resultados em planilha.</li>
+</ol>
+<h4 id="resultado-esperado">Resultado Esperado</h4>
+<p>Idealmente, a grande maioria das combinações (página × navegador × resolução) apresenta layout conforme, sem perda de elementos essenciais.</p>
+<h4 id="calculo-da-metrica-11">Cálculo da Métrica 1.1</h4>
+<p>Calcular a porcentagem de combinações que ficaram conformes em relação ao total de combinações testadas.<br />
+Ou seja, dividir o número de combinações conformes pelo número total de combinações avaliadas e multiplicar o resultado por 100 para obter o valor em percentual de conformidade.</p>
+<h4 id="classificacao-metrica-11">Classificação (Métrica 1.1)</h4>
+<table>
+<thead>
+<tr>
+<th>Faixa de Resultado</th>
+<th>Classificação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&gt; 90% de conformidade</td>
+<td>Excelente</td>
+</tr>
+<tr>
+<td>75% a 90% de conformidade</td>
+<td>Bom</td>
+</tr>
+<tr>
+<td>60% a 74% de conformidade</td>
+<td>Regular</td>
+</tr>
+<tr>
+<td>&lt; 60% de conformidade</td>
+<td>Insatisfatório</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="ct-por-02-sucesso-em-funcionalidades-essenciais-no-app-moodle">CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle</h2>
+<ul>
+<li><strong>Questão GQM:</strong> Q1 (Adaptabilidade)  </li>
+<li><strong>Métrica Associada:</strong> Métrica 1.2 – Taxa de Sucesso em Funcionalidades no App Móvel  </li>
+<li><strong>Hipótese Relacionada:</strong> H1.2 – App Moodle é alternativa viável ao navegador  </li>
+<li><strong>Perfil Principal:</strong> Discente</li>
+</ul>
+<h4 id="objetivo_1">Objetivo</h4>
+<p>Avaliar se o aplicativo oficial do Moodle permite a execução bem-sucedida de tarefas essenciais realizadas normalmente via navegador.</p>
+<h4 id="pre-condicoes_1">Pré-condições</h4>
+<ul>
+<li>App Moodle instalado em dispositivo Android ou iOS (versão atual).</li>
+<li>Conta de estudante de teste cadastrada no Aprender 3.</li>
+<li>Checklist de tarefas críticas, por exemplo:</li>
+<li>Visualizar disciplinas matriculadas.</li>
+<li>Visualizar notas.</li>
+<li>Acessar um fórum e responder a uma discussão.</li>
+<li>Enviar uma tarefa com upload de arquivo.</li>
+<li>Visualizar calendário com eventos.</li>
+<li>Enviar mensagem a um professor/colega.</li>
+</ul>
+<h4 id="ambiente-de-teste_1">Ambiente de Teste</h4>
+<ul>
+<li><strong>Dispositivo:</strong> Smartphone Android ou iOS.</li>
+<li><strong>Conectividade:</strong> Wi-Fi estável ou rede móvel – registrar condição.</li>
+</ul>
+<h4 id="passos-de-execucao_1">Passos de Execução</h4>
+<ol>
+<li>Abrir o App Moodle no dispositivo de teste.</li>
+<li>Configurar a conexão com o Aprender 3 (aprender3.unb.br), se ainda não estiver configurado.</li>
+<li>Acessar a conta de estudante de teste.</li>
+<li>Executar cada item do checklist de tarefas, registrando:</li>
+<li><strong>Sucesso (S)</strong>: tarefa concluída sem erros que impeçam o uso.</li>
+<li><strong>Falha (F)</strong>: não foi possível concluir a tarefa ou houve erro impeditivo.</li>
+<li>Registrar as observações relevantes (mensagens de erro, lentidão anormal etc.).</li>
+</ol>
+<h4 id="resultado-esperado_1">Resultado Esperado</h4>
+<ul>
+<li>A maioria das tarefas críticas deve ser concluída com sucesso pelo App.</li>
+</ul>
+<h4 id="calculo-da-metrica-12">Cálculo da Métrica 1.2</h4>
+<p>Calcular a porcentagem de tarefas bem-sucedidas no aplicativo em relação ao total de tarefas testadas.<br />
+Ou seja, dividir o número de tarefas concluídas com sucesso pelo número total de tarefas avaliadas e multiplicar o resultado por 100 para obter o percentual de sucesso no app.</p>
+<h4 id="classificacao-metrica-12">Classificação (Métrica 1.2)</h4>
+<table>
+<thead>
+<tr>
+<th>Faixa de Resultado</th>
+<th>Classificação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&gt; 90% de sucesso</td>
+<td>Excelente</td>
+</tr>
+<tr>
+<td>75% a 90% de sucesso</td>
+<td>Bom</td>
+</tr>
+<tr>
+<td>60% a 74% de sucesso</td>
+<td>Regular</td>
+</tr>
+<tr>
+<td>&lt; 60% de sucesso</td>
+<td>Insatisfatório</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="ct-por-03-verificacao-de-historico-de-migracao-aprender-aprender-3">CT-POR-03: Verificação de Histórico de Migração (Aprender → Aprender 3)</h2>
+<ul>
+<li><strong>Questão GQM:</strong> Q2 (Substituibilidade)  </li>
+<li><strong>Métrica Associada:</strong> Métrica 2.1 – Verificação de Histórico de Migração  </li>
+<li><strong>Hipótese Relacionada:</strong> H2.1 – Migração bem-sucedida entre versões  </li>
+<li><strong>Perfil Principal:</strong> Equipe Técnica / Avaliação Documental</li>
+</ul>
+<h4 id="objetivo_2">Objetivo</h4>
+<p>Verificar se há evidências concretas de que o Aprender 3 resultou de uma migração bem-sucedida a partir de versões anteriores (ex.: Aprender 2), mantendo a continuidade dos serviços e dados.</p>
+<h4 id="pre-condicoes_2">Pré-condições</h4>
+<ul>
+<li>Acesso:</li>
+<li>a documentos institucionais (atas, relatórios, comunicados oficiais da UnB);</li>
+<li>a páginas informativas sobre o projeto Aprender 3;</li>
+<li>a possíveis registros de migração técnica.</li>
+</ul>
+<h4 id="passos-de-execucao_2">Passos de Execução</h4>
+<ol>
+<li>Pesquisar, em fontes oficiais da UnB, comunicados sobre a migração:</li>
+<li>Site da UnB;</li>
+<li>Comunicados da STI;</li>
+<li>Documentação interna da equipe responsável.</li>
+<li>Procurar evidências de:</li>
+<li>Migração de dados (disciplinas, usuários, históricos etc.);</li>
+<li>Período de transição entre Aprender 2 e Aprender 3;</li>
+<li>Relatos de conclusão bem-sucedida da transição.</li>
+<li>Registrar:</li>
+<li>Se existe evidência explícita de migração bem-sucedida (<strong>Sim/Não</strong>).</li>
+<li>Referências das fontes (data, link, documento).</li>
+</ol>
+<h4 id="resultado-esperado_2">Resultado Esperado</h4>
+<ul>
+<li>Deve existir, ao menos, uma evidência clara de que a migração foi realizada com sucesso e o sistema se manteve operacional.</li>
+</ul>
+<h4 id="calculo-da-metrica-21">Cálculo da Métrica 2.1</h4>
+<p>Métrica qualitativa/binária:</p>
+<ul>
+<li><strong>Sim (S):</strong> foi encontrada evidência clara de migração bem-sucedida.  </li>
+<li><strong>Não (N):</strong> não foi encontrada evidência suficiente.</li>
+</ul>
+<h4 id="classificacao-metrica-21">Classificação (Métrica 2.1)</h4>
+<table>
+<thead>
+<tr>
+<th>Valor</th>
+<th>Interpretação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sim</td>
+<td>Hipótese validada</td>
+</tr>
+<tr>
+<td>Não</td>
+<td>Hipótese refutada</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<!-- ## CT-POR-04: Compatibilidade de Plugins e Temas na Atualização do Moodle
+
+- **Questão GQM:** Q2 (Substituibilidade)  
+- **Métrica Associada:** Métrica 2.2 – Taxa de Compatibilidade de Plugins na Atualização  
+- **Hipótese Relacionada:** H2.2 – Natureza modular permite atualização de componentes  
+- **Perfil Principal:** Equipe Técnica / Administração do Moodle
+
+#### Objetivo
+
+Avaliar o grau de dependência do Aprender 3 em relação a plugins e temas que não sejam compatíveis com a versão mais recente/planejada do Moodle.
+
+#### Pré-condições
+
+- Acesso à lista completa de plugins e temas do Aprender 3:
+  - Plugins de atividade;
+  - Blocos;
+  - Temas;
+  - Outros tipos de extensões.
+- Versão atual do Moodle e versão-alvo de atualização (se houver).
+- Acesso ao diretório oficial de plugins do Moodle.
+
+#### Passos de Execução
+
+1. Exportar/listar todos os plugins e temas instalados no Aprender 3.
+2. Para cada plugin/tema:
+   1. Buscar no diretório oficial de plugins do Moodle.
+   2. Verificar se é compatível com a versão-alvo (ou com versões recentes).
+   3. Registrar como:
+      - **Compatível**;
+      - **Não compatível**;
+      - **Não encontrado** (se aplicável).
+3. Contabilizar o total de plugins e o total de plugins compatíveis.
+
+
+#### Resultado Esperado
+
+- A maioria dos plugins e temas deve ser compatível com a versão-alvo, permitindo evolução da plataforma sem grandes impedimentos. -->
+
+<hr />
+<h2 id="ct-por-04-sucesso-na-configuracao-do-app-moodle-por-novos-usuarios">CT-POR-04: Sucesso na Configuração do App Moodle por Novos Usuários</h2>
+<ul>
+<li><strong>Questão GQM:</strong> Q3 (Instalabilidade)  </li>
+<li><strong>Métrica Associada:</strong> Métrica 3.1 – Taxa de Sucesso na Configuração do App por Novos Usuários  </li>
+<li><strong>Hipótese Relacionada:</strong> H3.1 – Processo complexo para usuários não técnicos  </li>
+<li><strong>Perfil Principal:</strong> Discentes sem experiência prévia com o app</li>
+</ul>
+<h4 id="objetivo_3">Objetivo</h4>
+<p>Medir a dificuldade real que novos usuários encontram para instalar e configurar o aplicativo Moodle a fim de acessar o Aprender 3.</p>
+<h4 id="pre-condicoes_3">Pré-condições</h4>
+<ul>
+<li>Grupo de <strong>N</strong> usuários de teste sem experiência prévia com o app Moodle.</li>
+<li>Dispositivos móveis (Android/iOS), um por participante.</li>
+<li>A mesma instrução para todos:  <blockquote>
+<p>“Instale o aplicativo Moodle no seu celular e acesse sua conta do Aprender 3 (link: https://aprender3.unb.br).”
+"Será passado usuário e senha de uma conta de um estudante cadastrada previamente."</p>
+</blockquote>
+</li>
+</ul>
+<h4 id="passos-de-execucao_3">Passos de Execução</h4>
+<ol>
+<li>Entregar a instrução aos participantes, sem qualquer orientação adicional.</li>
+<li>Observar o processo, sem interferir, até um tempo máximo pré-definido (por exemplo, 20–30 minutos).</li>
+<li>Para cada participante, registrar:</li>
+<li>Se conseguiu configurar e acessar o Aprender 3 sozinho (<strong>Sucesso</strong>);</li>
+<li>Se não conseguiu sem ajuda (<strong>Falha</strong>);</li>
+<li>Principais dificuldades relatadas (ex.: não encontrou o servidor, erro na URL, dúvidas de login).</li>
+</ol>
+<h4 id="resultado-esperado_3">Resultado Esperado</h4>
+<ul>
+<li>Calcular a porcentagem de usuários que conseguiram configurar o aplicativo com sucesso em relação ao total de usuários testados.  </li>
+<li>A maior parte dos usuários deve obter <strong>Sucesso (S)</strong> sem auxílio técnico, indicando boa instalabilidade.</li>
+</ul>
+<hr />
+<h2 id="ct-por-05-verificacao-de-dependencias-de-navegador-navegador-limpo">CT-POR-05: Verificação de Dependências de Navegador (Navegador Limpo)</h2>
+<ul>
+<li><strong>Questão GQM:</strong> Q3 (Instalabilidade)  </li>
+<li><strong>Métrica Associada:</strong> Métrica 3.2 – Verificação de Dependências de Navegador  </li>
+<li><strong>Hipótese Relacionada:</strong> H3.2 – Não exige instalação de plugins específicos  </li>
+<li><strong>Perfil Principal:</strong> Equipe Técnica</li>
+</ul>
+<h4 id="objetivo_4">Objetivo</h4>
+<p>Verificar se o funcionamento básico do Aprender 3 exige a instalação de qualquer software, plugin ou extensão adicional no navegador, o que impactaria negativamente a portabilidade.</p>
+<h4 id="pre-condicoes_4">Pré-condições</h4>
+<ul>
+<li>Navegador recém-instalado, em estado “limpo” (sem extensões de terceiros).</li>
+<li>Acesso ao Aprender 3.</li>
+</ul>
+<h4 id="passos-de-execucao_4">Passos de Execução</h4>
+<ol>
+<li>Abrir o navegador recém-instalado (Chrome, Firefox ou Edge) em sua configuração padrão.</li>
+<li>Acessar o endereço do Aprender 3.</li>
+<li>Executar o seguinte checklist mínimo de funcionalidades:<ul>
+<li>Login com usuário;</li>
+<li>Visualizar a lista de disciplinas;</li>
+<li>Acessar um curso;</li>
+<li>Visualizar conteúdo arquivo PDF básico;</li>
+<li>Visualizar página de fórum;</li>
+<li>Enviar uma tarefa com upload simples de arquivo.</li>
+</ul>
+</li>
+<li>Verificar se, durante qualquer uma das funcionalidades, o sistema:<ul>
+<li>Solicita instalação de plugins, extensões ou software adicional;</li>
+<li>Exige componentes proprietários (fora dos padrões HTML5, por exemplo).</li>
+</ul>
+</li>
+<li>Registrar o resultado da verificação.</li>
+</ol>
+<h4 id="resultado-esperado_4">Resultado Esperado</h4>
+<ul>
+<li>Saber se o Aprender 3 funciona completamente com navegadores padrão.</li>
+<li>Nenhuma funcionalidade básica deve exigir instalação de plugins/extensões adicionais.</li>
+</ul>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

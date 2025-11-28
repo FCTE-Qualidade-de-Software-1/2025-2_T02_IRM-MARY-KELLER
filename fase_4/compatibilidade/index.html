@@ -1,0 +1,3607 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto do grupo IRMA-MARY-KELLER de Qualidade de Software (2024.2), Turma 2">
+      
+      
+      
+      
+        <link rel="prev" href="../../fase_3/ferramentas/">
+      
+      
+        <link rel="next" href="../portabilidade/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Execução da Compatibilidade - Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#resultados-dos-testes-de-compatibilidade" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" class="md-header__button md-logo" aria-label="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" data-md-component="logo">
+      
+  <img src="../../assets/img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Execução da Compatibilidade
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="high-contrast" data-md-color-primary="black" data-md-color-accent="yellow"  aria-label="Switch to high contrast"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to high contrast" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 19a5 5 0 0 1-5-5 5 5 0 0 1 5-5c1-2.35 3.3-4 6-4 3.43 0 6.24 2.66 6.5 6.03L19 11a4 4 0 0 1 4 4 4 4 0 0 1-4 4zm13-6h-2v-1a5 5 0 0 0-5-5c-2.5 0-4.55 1.82-4.94 4.19C6.73 11.07 6.37 11 6 11a3 3 0 0 0-3 3 3 3 0 0 0 3 3h13a2 2 0 0 0 2-2 2 2 0 0 0-2-2m-6-1h-2V8h2zm0 4h-2v-2h2"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_IRM-MARY-KELLER" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025-2_T02_IRM-MARY-KELLER
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../fase_1/fase_1/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Fase 1 - Definição dos Requisitos
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase_2/GQM/" class="md-tabs__link">
+          
+  
+  
+  Fase 2 - Especificação da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase_3/planejamento/" class="md-tabs__link">
+          
+  
+  
+  Fase 3 - Projeto de Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+  Fase 4 - Execução da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../declaracao_ia/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Declaração de uso de IA
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../contribuicoes/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tabelas de contribuição
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" class="md-nav__button md-logo" aria-label="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" data-md-component="logo">
+      
+  <img src="../../assets/img/logo.png" alt="logo">
+
+    </a>
+    Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_IRM-MARY-KELLER" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025-2_T02_IRM-MARY-KELLER
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_1/fase_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 1 - Definição dos Requisitos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 2 - Especificação da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 2 - Especificação da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_2/GQM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Abordagem GQM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_2/compatibilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medição de Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_2/portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medição de Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 3 - Projeto de Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 3 - Projeto de Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_3/planejamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_3/compatibilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testes de Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_3/portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testes de Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_3/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma de ações
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_3/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas e Ambiente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 4 - Execução da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 4 - Execução da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execução da Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execução da Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-01-sincronia-de-status-de-conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-01: Sincronia de Status de Conclusão
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-COMP-01: Sincronia de Status de Conclusão">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 1.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H1.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-02-sincronizacao-bidirecional-de-arquivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-02: Sincronização Bidirecional de Arquivos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-COMP-02: Sincronização Bidirecional de Arquivos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultados Obtidos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#web-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Web → App
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#app-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        App → Web
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-consolidados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Consolidados
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 1.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H1.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-03-consumo-medio-de-ram-por-navegador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-03: Consumo Médio de RAM por Navegador
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-COMP-03: Consumo Médio de RAM por Navegador">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultados Obtidos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#medidas-de-consumo-por-navegador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Medidas de Consumo por Navegador
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparativo-de-consumo-medio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparativo de Consumo Médio
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-21-e-classificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 2.1 e Classificação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H2.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-04-entrega-de-notificacoes-de-forum-por-e-mail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-04: Entrega de Notificações de Fórum por E-mail
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-COMP-04: Entrega de Notificações de Fórum por E-mail">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultados Obtidos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estatisticas-de-entrega" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estatísticas de Entrega
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-31-e-classificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 3.1 e Classificação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H3.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-05-subscricao-de-calendario-via-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-05: Subscrição de Calendário via URL
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-COMP-05: Subscrição de Calendário via URL">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 4.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H4.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-06-importacao-estatica-ics-vs-subscricao-dinamica-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-06: Importação Estática (.ics) vs Subscrição Dinâmica (URL)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-COMP-06: Importação Estática (.ics) vs Subscrição Dinâmica (URL)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 4.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H4.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-07-sucesso-da-funcionalidade-drag-and-drop-dd-por-navegador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-07: Sucesso da Funcionalidade Drag-and-Drop (D&amp;D) por Navegador
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-COMP-07: Sucesso da Funcionalidade Drag-and-Drop (D&amp;D) por Navegador">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultados Obtidos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resultados-gerais-por-navegador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Gerais por Navegador
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-por-funcionalidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento por Funcionalidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#falhas-identificadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Falhas Identificadas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-51-e-classificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 5.1 e Classificação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h51" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H5.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumo-dos-resultados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resumo dos Resultados
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resumo dos Resultados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metricas-avaliadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Métricas Avaliadas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusao-gqm-da-dimensao-compatibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusão GQM da Dimensão Compatibilidade
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conclusão GQM da Dimensão Compatibilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execução da Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resumo dos Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../declaracao_ia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Declaração de uso de IA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contribuicoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tabelas de contribuição
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-01-sincronia-de-status-de-conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-01: Sincronia de Status de Conclusão
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-COMP-01: Sincronia de Status de Conclusão">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 1.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H1.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-02-sincronizacao-bidirecional-de-arquivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-02: Sincronização Bidirecional de Arquivos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-COMP-02: Sincronização Bidirecional de Arquivos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultados Obtidos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#web-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Web → App
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#app-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        App → Web
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-consolidados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Consolidados
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 1.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H1.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-03-consumo-medio-de-ram-por-navegador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-03: Consumo Médio de RAM por Navegador
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-COMP-03: Consumo Médio de RAM por Navegador">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultados Obtidos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#medidas-de-consumo-por-navegador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Medidas de Consumo por Navegador
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparativo-de-consumo-medio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparativo de Consumo Médio
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-21-e-classificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 2.1 e Classificação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H2.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-04-entrega-de-notificacoes-de-forum-por-e-mail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-04: Entrega de Notificações de Fórum por E-mail
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-COMP-04: Entrega de Notificações de Fórum por E-mail">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultados Obtidos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estatisticas-de-entrega" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estatísticas de Entrega
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-31-e-classificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 3.1 e Classificação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H3.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-05-subscricao-de-calendario-via-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-05: Subscrição de Calendário via URL
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-COMP-05: Subscrição de Calendário via URL">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 4.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H4.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-06-importacao-estatica-ics-vs-subscricao-dinamica-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-06: Importação Estática (.ics) vs Subscrição Dinâmica (URL)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-COMP-06: Importação Estática (.ics) vs Subscrição Dinâmica (URL)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 4.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H4.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-comp-07-sucesso-da-funcionalidade-drag-and-drop-dd-por-navegador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-COMP-07: Sucesso da Funcionalidade Drag-and-Drop (D&amp;D) por Navegador
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-COMP-07: Sucesso da Funcionalidade Drag-and-Drop (D&amp;D) por Navegador">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultados Obtidos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resultados-gerais-por-navegador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Gerais por Navegador
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-por-funcionalidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento por Funcionalidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#falhas-identificadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Falhas Identificadas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-51-e-classificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 5.1 e Classificação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h51" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H5.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumo-dos-resultados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resumo dos Resultados
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resumo dos Resultados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metricas-avaliadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Métricas Avaliadas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusao-gqm-da-dimensao-compatibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusão GQM da Dimensão Compatibilidade
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conclusão GQM da Dimensão Compatibilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="resultados-dos-testes-de-compatibilidade">Resultados dos Testes de Compatibilidade</h1>
+<p>Esta seção descreve os testes realizados e resultados obtidos com base nos <strong>Casos de Teste (CTs)</strong> projetados para avaliar a característica de <strong>Compatibilidade</strong> do Aprender 3, conforme planejamento realizado na Fase 3.</p>
+<hr />
+<h2 id="ct-comp-01-sincronia-de-status-de-conclusao">CT-COMP-01: Sincronia de Status de Conclusão</h2>
+<h3 id="detalhamento-do-caso-de-teste">Detalhamento do Caso de Teste</h3>
+<p><strong>Questão GQM:</strong> Q1, <em>Qual é a consistência dos dados do discente entre o Aprender 3 (Web) e o App Moodle?</em><br />
+<strong>Métrica Associada:</strong> 1.1, Percentual de Discrepância de Status de Conclusão<br />
+<strong>Hipótese Avaliada:</strong> H1.1, <em>O status de conclusão de atividades (marcar como "feita") fica inconsistente entre a plataforma Web e o aplicativo móvel.</em><br />
+<strong>Perfil:</strong> Discente  </p>
+<hr />
+<h3 id="resultados-obtidos">Resultados Obtidos</h3>
+<table>
+<thead>
+<tr>
+<th>Atividades avaliadas</th>
+<th>Discrepâncias</th>
+<th>Percentual de Discrepância</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total de atividades testadas:</strong> 10<br />
+<strong>Total de discrepâncias:</strong> 0  </p>
+<hr />
+<h3 id="calculo-da-metrica-11">Cálculo da Métrica 1.1</h3>
+<p>A Métrica 1.1 mede o <strong>Percentual de Discrepância de Status de Conclusão</strong> entre Web e App.  </p>
+<p><strong>Fórmula utilizada:</strong><br />
+Percentual de Discrepância = (Número de atividades com discrepância / Número total de atividades avaliadas) x 100  </p>
+<p>Aplicando os valores obtidos:<br />
+Percentual de Discrepância = (0 / 10) x 100 = <strong>0%</strong></p>
+<p><strong>Classificação segundo os critérios da Fase 2:</strong> <strong>EXCELENTE</strong><br />
+(0% de discrepância encontra-se na melhor faixa de avaliação da métrica.)</p>
+<hr />
+<h3 id="analise-e-resposta-a-questao-gqm">Análise e Resposta à Questão GQM</h3>
+<blockquote>
+<p><strong>Q1, Qual é a consistência dos dados do discente entre o Aprender 3 (Web) e o App Moodle?</strong></p>
+</blockquote>
+<p>Os resultados indicam que, para o conjunto de 10 atividades analisadas, <strong>não houve qualquer discrepância</strong> entre o status de conclusão exibido na interface Web e o status exibido pelo App Moodle. Sempre que uma atividade foi marcada como concluída na Web, o mesmo estado foi refletido corretamente no aplicativo após a sincronização.</p>
+<p>Isso demonstra um <strong>nível máximo de consistência</strong> para o cenário testado, já que o discente pode alternar entre Web e App sem risco de confusão quanto ao que já foi concluído. Do ponto de vista da Questão GQM 1, conclui-se que o Aprender 3 apresentou <strong>consistência total</strong> dos dados de conclusão de atividades entre as duas plataformas, no contexto do teste realizado.</p>
+<hr />
+<h3 id="avaliacao-da-hipotese-h11">Avaliação da Hipótese H1.1</h3>
+<blockquote>
+<p><strong>H1.1, O status de conclusão de atividades (marcar como "feita") fica inconsistente entre a plataforma Web e o aplicativo móvel.</strong></p>
+</blockquote>
+<p>A hipótese H1.1 pressupõe que existam diferenças perceptíveis entre os estados de conclusão mostrados na Web e no App, sugerindo problemas de sincronização. No entanto, os dados coletados mostram que:</p>
+<ul>
+<li>10 atividades foram avaliadas;  </li>
+<li>0 discrepâncias foram encontradas;  </li>
+<li>Percentual de discrepância: 0%.</li>
+</ul>
+<p>Não houve qualquer evidência que apoiasse a existência de inconsistências de status de conclusão. Pelo contrário, o comportamento observado foi totalmente coerente entre Web e App.</p>
+<p>Diante disso, conclui-se que a hipótese <strong>não é validada</strong> para o cenário testado, pois o comportamento esperado de falha, inconsistência Web e App, <strong>não se manifestou</strong> durante a execução do caso de teste.</p>
+<hr />
+<h3 id="demonstracao-em-video">Demonstração em Vídeo</h3>
+<p>A seguir encontra-se o vídeo que demonstra a execução completa do teste de sincronia de status de conclusão entre o Aprender 3 (Web) e o App Moodle:</p>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/IcZVN-WvuPE"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<hr />
+<h2 id="ct-comp-02-sincronizacao-bidirecional-de-arquivos">CT-COMP-02: Sincronização Bidirecional de Arquivos</h2>
+<h3 id="detalhamento-do-caso-de-teste_1">Detalhamento do Caso de Teste</h3>
+<p><strong>Questão GQM:</strong> Q1, <em>Qual é a consistência dos dados do discente entre o Aprender 3 (Web) e o App Moodle?</em><br />
+<strong>Métrica Associada:</strong> 1.2, Taxa de Sucesso de Sincronização Bidirecional de Arquivos<br />
+<strong>Hipótese Avaliada:</strong> H1.2, <em>Os arquivos na área "Arquivos privados" não são sincronizados corretamente entre a versão Web e o App.</em><br />
+<strong>Perfil:</strong> Discente  </p>
+<hr />
+<h3 id="resultados-obtidos_1">Resultados Obtidos</h3>
+<h4 id="web-app">Web → App</h4>
+<ul>
+<li>Arquivos enviados via Web: <strong>1</strong>  </li>
+<li>Arquivos recebidos no App: <strong>1</strong>  </li>
+</ul>
+<h4 id="app-web">App → Web</h4>
+<ul>
+<li>Arquivos enviados via App: <strong>1</strong>  </li>
+<li>Arquivos recebidos na Web: <strong>1</strong>  </li>
+</ul>
+<h4 id="resultados-consolidados">Resultados Consolidados</h4>
+<table>
+<thead>
+<tr>
+<th>Direção</th>
+<th>Sucessos</th>
+<th>Total</th>
+<th>Taxa de Sucesso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Web → App</td>
+<td>1</td>
+<td>1</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>App → Web</td>
+<td>1</td>
+<td>1</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total de sincronizações testadas, ambas as direções:</strong> 2<br />
+<strong>Total de sucessos:</strong> 2  </p>
+<hr />
+<h3 id="calculo-da-metrica-12">Cálculo da Métrica 1.2</h3>
+<p>A Métrica 1.2 mede a <strong>Taxa de Sucesso de Sincronização Bidirecional de Arquivos</strong> entre Web e App.</p>
+<p><strong>Fórmula utilizada:</strong><br />
+Taxa de Sucesso = (Número de sincronizações bem-sucedidas / Número total de sincronizações realizadas) x 100  </p>
+<p>Aplicando os valores coletados:  </p>
+<ul>
+<li>Número de sincronizações bem-sucedidas: 2  </li>
+<li>Número total de sincronizações realizadas: 2  </li>
+</ul>
+<p>Taxa de Sucesso = (2 / 2) x 100 = <strong>100%</strong></p>
+<p><strong>Classificação segundo os critérios da Fase 2:</strong> <strong>EXCELENTE</strong><br />
+(Valor acima de 90%, dentro da melhor faixa de classificação para a métrica.)</p>
+<hr />
+<h3 id="analise-e-resposta-a-questao-gqm_1">Análise e Resposta à Questão GQM</h3>
+<blockquote>
+<p><strong>Q1, Qual é a consistência dos dados do discente entre o Aprender 3 (Web) e o App Moodle?</strong></p>
+</blockquote>
+<p>Os resultados do CT-COMP-02 mostram que as operações de envio de arquivos na área <strong>"Arquivos privados"</strong> foram sincronizadas corretamente em ambas as direções:</p>
+<ul>
+<li>O arquivo enviado pela interface Web foi encontrado no App Moodle após a sincronização;  </li>
+<li>O arquivo enviado pelo App foi exibido corretamente na interface Web.</li>
+</ul>
+<p>Com 100% de sucesso nas duas direções, não foram observadas perdas de arquivo, inconsistências na listagem ou falhas aparentes de atualização. Isso indica que, no cenário testado, o Aprender 3 oferece <strong>consistência total</strong> dos dados de arquivos privados entre Web e App, reforçando a percepção de integridade do ambiente para o discente que alterna entre as plataformas.</p>
+<p>Assim, em resposta à Questão GQM 1, conclui-se que o Aprender 3 mantém, neste caso de uso, um <strong>altíssimo nível de consistência</strong> dos dados de arquivos entre Web e App.</p>
+<hr />
+<h3 id="avaliacao-da-hipotese-h12">Avaliação da Hipótese H1.2</h3>
+<blockquote>
+<p><strong>H1.2, Os arquivos na área "Arquivos privados" não são sincronizados corretamente entre a versão Web e o App.</strong></p>
+</blockquote>
+<p>A hipótese H1.2 supõe a existência de falhas no processo de sincronização dos arquivos privados entre Web e App, o que se manifestaria na forma de arquivos ausentes em um dos lados após o envio. No entanto, os resultados mostram que:</p>
+<ul>
+<li>Web → App: 1 de 1 arquivos sincronizado com sucesso;  </li>
+<li>App → Web: 1 de 1 arquivos sincronizado com sucesso;  </li>
+<li>Taxa de sucesso global: 100%.</li>
+</ul>
+<p>Não foram registradas falhas ou inconsistências nas operações testadas. Portanto, <strong>não há evidências</strong>, neste contexto, que sustentem a hipótese de falha sistemática na sincronização de arquivos.</p>
+<p>Dessa forma, conclui-se que a hipótese <strong>não é validada</strong>, uma vez que o comportamento observado foi exatamente o oposto do que a hipótese previa, a sincronização funcionou corretamente em ambas as direções.</p>
+<hr />
+<h3 id="demonstracao-em-video_1">Demonstração em Vídeo</h3>
+<p>O vídeo da execução do teste está disponível a seguir:</p>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/IcZVN-WvuPE"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<hr />
+<h2 id="ct-comp-03-consumo-medio-de-ram-por-navegador">CT-COMP-03: Consumo Médio de RAM por Navegador</h2>
+<h3 id="detalhamento-do-caso-de-teste_2">Detalhamento do Caso de Teste</h3>
+<p><strong>Questão GQM:</strong> Q2, <em>Qual é a variação no consumo de recursos, CPU e RAM, do Aprender 3 entre diferentes navegadores?</em><br />
+<strong>Métrica Associada:</strong> 2.1, Consumo Médio de RAM por Navegador<br />
+<strong>Hipótese Avaliada:</strong> H2.1, <em>O consumo de memória RAM do Aprender 3 é visivelmente maior em um navegador, por exemplo Chrome, comparado a outro, por exemplo Firefox, atrapalhando o uso de outros programas pelo discente.</em><br />
+<strong>Perfil:</strong> Discente  </p>
+<hr />
+<h3 id="resultados-obtidos_2">Resultados Obtidos</h3>
+<p>O teste seguiu o <strong>cenário de teste padrão</strong> definido no plano, com login no Aprender 3, abertura de curso, navegação por tópicos e visualização de atividades. O consumo de memória RAM do processo principal do navegador foi monitorado via Gerenciador de Tarefas, após a estabilização da página. Foram realizadas <strong>3 repetições</strong> para cada navegador.</p>
+<h4 id="medidas-de-consumo-por-navegador">Medidas de Consumo por Navegador</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Navegador</th>
+<th style="text-align: left;">Tentativa 1 (MB)</th>
+<th style="text-align: left;">Tentativa 2 (MB)</th>
+<th style="text-align: left;">Tentativa 3 (MB)</th>
+<th style="text-align: left;">Média (MB)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Chrome</td>
+<td style="text-align: left;">443</td>
+<td style="text-align: left;">414</td>
+<td style="text-align: left;">396</td>
+<td style="text-align: left;"><strong>417,67</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">Firefox</td>
+<td style="text-align: left;">651</td>
+<td style="text-align: left;">707</td>
+<td style="text-align: left;">641</td>
+<td style="text-align: left;"><strong>666,33</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">Edge</td>
+<td style="text-align: left;">810</td>
+<td style="text-align: left;">702</td>
+<td style="text-align: left;">702</td>
+<td style="text-align: left;"><strong>738,00</strong></td>
+</tr>
+</tbody>
+</table>
+<h4 id="comparativo-de-consumo-medio">Comparativo de Consumo Médio</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Navegador</th>
+<th style="text-align: left;">Média de RAM</th>
+<th style="text-align: left;">Diferença em relação ao mais leve, Chrome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Chrome</td>
+<td style="text-align: left;">417,67 MB</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;">Firefox</td>
+<td style="text-align: left;">666,33 MB</td>
+<td style="text-align: left;">+ 59,53%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Edge</td>
+<td style="text-align: left;">738,00 MB</td>
+<td style="text-align: left;">+ 76,69%</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="calculo-da-metrica-21-e-classificacao">Cálculo da Métrica 2.1 e Classificação</h3>
+<p>A Métrica 2.1 avalia a <strong>variação de consumo médio de RAM</strong> entre os navegadores, tomando como referência o navegador mais leve. A variação percentual é calculada comparando o consumo médio do navegador mais pesado com o mais leve.</p>
+<p>No cenário medido:</p>
+<ul>
+<li>Navegador mais leve: <strong>Chrome</strong>, 417,67 MB  </li>
+<li>Navegador mais pesado: <strong>Edge</strong>, 738,00 MB  </li>
+<li>Variação aproximada: <strong>76,69%</strong> acima do consumo do Chrome  </li>
+</ul>
+<p>Os critérios definidos para a Métrica 2.1 foram:</p>
+<ul>
+<li>Variação menor que 10%: Excelente  </li>
+<li>Variação entre 10% e 30%: Bom  </li>
+<li>Variação entre 30% e 50%: Regular  </li>
+<li>Variação maior que 50%: Insatisfatório  </li>
+</ul>
+<p>A maior variação registrada foi de <strong>76,69%</strong> entre o navegador mais pesado e o mais leve.</p>
+<p><strong>Classificação:</strong> <strong>INSATISFATÓRIO</strong></p>
+<hr />
+<h3 id="analise-e-resposta-a-questao-gqm_2">Análise e Resposta à Questão GQM</h3>
+<blockquote>
+<p><strong>Q2, Qual é a variação no consumo de recursos, CPU e RAM, do Aprender 3 entre diferentes navegadores?</strong></p>
+</blockquote>
+<p>Os resultados do CT-COMP-03 mostram que há uma diferença significativa no consumo de memória RAM do Aprender 3 entre os navegadores analisados. O Chrome apresentou o menor consumo médio, enquanto o Edge foi o mais pesado, com um acréscimo superior a 70% em relação ao Chrome. O Firefox também exibiu um consumo consideravelmente maior que o Chrome, com variação de aproximadamente 60%.</p>
+<p>Essa disparidade indica que, embora o Aprender 3 seja acessível em múltiplos navegadores, o impacto sobre os recursos de hardware pode variar de forma expressiva dependendo do navegador escolhido pelo discente. Em equipamentos com memória limitada, o uso dos navegadores mais pesados pode prejudicar a execução simultânea de outras aplicações, o que afeta a experiência de uso e a eficiência no contexto acadêmico.</p>
+<p>Portanto, em resposta à Questão GQM 2, conclui-se que a <strong>variação no consumo de RAM entre navegadores é alta</strong>, o que caracteriza uma situação de compatibilidade apenas parcial sob a ótica de recursos, com risco de impacto negativo para usuários em dispositivos mais modestos.</p>
+<hr />
+<h3 id="avaliacao-da-hipotese-h21">Avaliação da Hipótese H2.1</h3>
+<blockquote>
+<p><strong>H2.1, O consumo de memória RAM do Aprender 3 é visivelmente maior em um navegador, por exemplo Chrome, comparado a outro, por exemplo Firefox, atrapalhando o uso de outros programas pelo discente.</strong></p>
+</blockquote>
+<p>Os dados coletados mostram que a hipótese H2.1 é <strong>validada</strong>, com uma nuance importante. A hipótese previa que um navegador apresentaria consumo visivelmente maior, comprometendo potencialmente o uso de outros programas. Isso foi de fato observado, ainda que com um resultado diferente do exemplo dado na formulação da hipótese.</p>
+<p>Embora a hipótese cite Chrome e Firefox como exemplo, os testes demonstraram que o <strong>Edge</strong> foi o navegador com maior consumo médio de RAM, seguido pelo Firefox, ambos significativamente mais pesados que o Chrome. A variação superior a 50% em relação ao navegador mais leve confirma que o consumo de recursos pode ser bastante desigual, e que a escolha do navegador influencia diretamente o desempenho percebido pelo discente.</p>
+<p>Dessa forma, a hipótese é <strong>validada</strong> quanto ao seu conteúdo essencial, uma vez que foi comprovada a existência de um navegador com consumo de RAM visivelmente maior, com potencial de afetar o uso paralelo de outras aplicações.</p>
+<hr />
+<h3 id="demonstracao-em-video_2">Demonstração em Vídeo</h3>
+<p>O vídeo da execução do teste de consumo de RAM por navegador está disponível a seguir:</p>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/9jLINYBFCZw?si=C1zRf0DeIY4yrWhX"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<hr />
+<h2 id="ct-comp-04-entrega-de-notificacoes-de-forum-por-e-mail">CT-COMP-04: Entrega de Notificações de Fórum por E-mail</h2>
+<h3 id="detalhamento-do-caso-de-teste_3">Detalhamento do Caso de Teste</h3>
+<p><strong>Questão GQM:</strong> Q3, <em>Em que medida o discente recebe notificações por e-mail sobre novas postagens em fóruns de discussão subscritos?</em><br />
+<strong>Métrica Associada:</strong> 3.1, Taxa de Falha de Entrega de Notificação<br />
+<strong>Hipótese Avaliada:</strong> H3.1, <em>O discente não recebe os e-mails de notificação de novas mensagens em fóruns que acompanha, mesmo com a opção ativada.</em><br />
+<strong>Perfil:</strong> Discente, visão do usuário  </p>
+<hr />
+<h3 id="resultados-obtidos_3">Resultados Obtidos</h3>
+<p>No teste foram utilizadas duas contas, uma para postar, Conta A, e outra para receber notificações, Conta B, conforme definido na Fase 3. Foram realizadas <strong>4 postagens</strong> com monitoramento da caixa de entrada e da pasta de spam.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ID Postagem</th>
+<th style="text-align: left;">Recebeu Notificação A?</th>
+<th style="text-align: left;">Recebeu Notificação B?</th>
+<th style="text-align: left;">Local de Recebimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Post 1</td>
+<td style="text-align: left;">Sim</td>
+<td style="text-align: left;">Não enviado</td>
+<td style="text-align: left;">Caixa de Entrada</td>
+</tr>
+<tr>
+<td style="text-align: left;">Post 2</td>
+<td style="text-align: left;">Sim</td>
+<td style="text-align: left;">Sim</td>
+<td style="text-align: left;">Caixa de Entrada</td>
+</tr>
+<tr>
+<td style="text-align: left;">Post 3</td>
+<td style="text-align: left;">Sim</td>
+<td style="text-align: left;">Sim</td>
+<td style="text-align: left;">Caixa de Entrada</td>
+</tr>
+<tr>
+<td style="text-align: left;">Post 4</td>
+<td style="text-align: left;">Sim</td>
+<td style="text-align: left;">Sim</td>
+<td style="text-align: left;">Caixa de Entrada</td>
+</tr>
+</tbody>
+</table>
+<h4 id="estatisticas-de-entrega">Estatísticas de Entrega</h4>
+<ul>
+<li><strong>Total de envios:</strong> 4  </li>
+<li><strong>Recebidos na caixa de entrada:</strong> 4  </li>
+<li><strong>Recebidos no spam:</strong> 0  </li>
+<li><strong>Não recebidos:</strong> 0  </li>
+</ul>
+<hr />
+<h3 id="calculo-da-metrica-31-e-classificacao">Cálculo da Métrica 3.1 e Classificação</h3>
+<p>A Métrica 3.1 mede a <strong>Taxa de Falha de Entrega de Notificação</strong>.</p>
+<p><strong>Fórmula utilizada:</strong><br />
+Taxa de Falha = (Número de notificações não recebidas / Número total de postagens) x 100  </p>
+<p>Aplicando os valores:</p>
+<ul>
+<li>Número de notificações não recebidas: 0  </li>
+<li>Número total de postagens: 4  </li>
+</ul>
+<p>Taxa de Falha = (0 / 4) x 100 = <strong>0%</strong></p>
+<p>Critérios considerados:</p>
+<ul>
+<li>0% de falha: Excelente  </li>
+<li>Menos de 10% de falha: Bom  </li>
+</ul>
+<p><strong>Classificação:</strong> <strong>EXCELENTE</strong></p>
+<hr />
+<h3 id="analise-e-resposta-a-questao-gqm_3">Análise e Resposta à Questão GQM</h3>
+<blockquote>
+<p><strong>Q3, Em que medida o discente recebe notificações por e-mail sobre novas postagens em fóruns de discussão subscritos?</strong></p>
+</blockquote>
+<p>Os resultados do CT-COMP-04 indicam que, no cenário testado, o mecanismo de notificações por e-mail do Aprender 3 funcionou de forma totalmente confiável. Todas as postagens realizadas no fórum geraram notificações correspondentes, que chegaram corretamente à caixa de entrada dos usuários envolvidos, sem registros de mensagens extraviadas ou enviadas para a pasta de spam.</p>
+<p>Essa evidência mostra que o discente que subscreve um fórum pode confiar que será avisado sobre novas mensagens, desde que suas preferências de notificação estejam configuradas adequadamente. Do ponto de vista da Questão GQM 3, conclui-se que o Aprender 3 apresenta <strong>alta efetividade na entrega de notificações de fórum por e-mail</strong>, garantindo que a comunicação assíncrona seja mantida de forma consistente.</p>
+<hr />
+<h3 id="avaliacao-da-hipotese-h31">Avaliação da Hipótese H3.1</h3>
+<blockquote>
+<p><strong>H3.1, O discente não recebe os e-mails de notificação de novas mensagens em fóruns que acompanha, mesmo com a opção ativada.</strong></p>
+</blockquote>
+<p>A hipótese H3.1 descreve um cenário em que as notificações de fórum deixariam de ser entregues, mesmo com o usuário corretamente subscrito e com as configurações ajustadas. No entanto, os dados coletados mostram uma <strong>taxa de falha igual a 0%</strong>, com todas as notificações esperadas sendo efetivamente entregues.</p>
+<p>Não houve qualquer evidência de problemas de envio, rejeição de mensagens ou comportamento inesperado na rota de entrega dos e-mails. Portanto, a hipótese <strong>é refutada</strong> no contexto deste teste, já que o comportamento observado é oposto ao problema descrito, o Aprender 3 enviou corretamente todas as notificações, e as contas de teste as receberam sem incidentes.</p>
+<hr />
+<h3 id="demonstracao-em-video_3">Demonstração em Vídeo</h3>
+<p>O vídeo da execução do teste de notificações de fórum está disponível a seguir:</p>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/KFnzUSq2q5I?si=U0nBsFvnui4WKgg-"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<hr />
+<h2 id="ct-comp-05-subscricao-de-calendario-via-url">CT-COMP-05: Subscrição de Calendário via URL</h2>
+<h3 id="detalhamento-do-caso-de-teste_4">Detalhamento do Caso de Teste</h3>
+<p><strong>Questão GQM:</strong> Q4, <em>Em que medida o Aprender 3 permite a exportação para calendários externos?</em><br />
+<strong>Métrica Associada:</strong> 4.1, Taxa de Falha de Subscrição de URL<br />
+<strong>Hipótese Avaliada:</strong> H4.1, <em>Os principais serviços de calendário, Google e Outlook, falham ao tentar importar o calendário via URL.</em><br />
+<strong>Perfil:</strong> Discente, Equipe de Avaliação  </p>
+<hr />
+<h3 id="resultados-obtidos_4">Resultados Obtidos</h3>
+<table>
+<thead>
+<tr>
+<th>Serviço de Calendário</th>
+<th>Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Google Calendar</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Outlook Calendar</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Yahoo Calendar</td>
+<td>Falha</td>
+</tr>
+<tr>
+<td>Zoho Calendar</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Open Web Calendar</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Calendar Web</td>
+<td>Sucesso</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total de serviços testados:</strong> 6<br />
+<strong>Total de falhas:</strong> 1  </p>
+<hr />
+<h3 id="calculo-da-metrica-41">Cálculo da Métrica 4.1</h3>
+<p>A Métrica 4.1 mede a <strong>Taxa de Falha de Subscrição de URL</strong> ao tentar adicionar o calendário do Aprender 3 em serviços externos.</p>
+<p><strong>Fórmula utilizada:</strong><br />
+Taxa de Falha = (Número de tentativas de subscrição que falharam / Número total de tentativas) x 100  </p>
+<p>Aplicando os valores:</p>
+<ul>
+<li>Número de falhas: 1  </li>
+<li>Número total de tentativas: 6  </li>
+</ul>
+<p>Taxa de Falha = (1 / 6) x 100 ≈ <strong>16,67%</strong></p>
+<p><strong>Classificação segundo os critérios da Fase 2:</strong> <strong>PARCIAL</strong><br />
+(Existe falha em parte dos serviços testados, mas não em todos.)</p>
+<hr />
+<h3 id="analise-e-resposta-a-questao-gqm_4">Análise e Resposta à Questão GQM</h3>
+<blockquote>
+<p><strong>Q4, Em que medida o Aprender 3 permite a exportação para calendários externos?</strong></p>
+</blockquote>
+<p>A Questão 4 tem como objetivo avaliar a capacidade de interoperabilidade do Aprender 3 com plataformas externas de calendário, utilizando o mecanismo de subscrição via URL. A análise dos resultados demonstra que o sistema apresenta um nível elevado de compatibilidade, já que cinco dos seis serviços avaliados conseguiram importar corretamente os eventos disponibilizados pela plataforma.</p>
+<p>Os dois serviços de maior relevância institucional, <strong>Google Calendar</strong> e <strong>Outlook Calendar</strong>, processaram o link com sucesso, o que evidencia que o Aprender 3 atende adequadamente às necessidades da comunidade acadêmica que depende desses sistemas para organização pessoal e acompanhamento de atividades. A falha isolada observada no <strong>Yahoo Calendar</strong> não compromete essa avaliação, pois se trata de um serviço menos utilizado e que não representa impacto significativo para o público da universidade.</p>
+<p>Dessa forma, conclui-se que o Aprender 3 permite de maneira consistente a exportação de seu calendário para serviços externos, apresentando <strong>interoperabilidade satisfatória</strong> e desempenho alinhado ao esperado pela métrica associada à Questão GQM 4.</p>
+<hr />
+<h3 id="avaliacao-da-hipotese-h41">Avaliação da Hipótese H4.1</h3>
+<blockquote>
+<p><strong>H4.1, Os principais serviços de calendário, Google e Outlook, falham ao tentar importar o calendário via URL.</strong></p>
+</blockquote>
+<p>Os resultados obtidos demonstram que os serviços considerados principais, <strong>Google Calendar</strong> e <strong>Outlook Calendar</strong>, foram capazes de importar o calendário do Aprender 3 sem qualquer impedimento. Ambos interpretaram a URL corretamente e exibiram os eventos conforme configurados na plataforma, contrariando diretamente o que previa a hipótese.</p>
+<p>A falha registrada ocorreu apenas no <strong>Yahoo Calendar</strong> e não se estendeu aos serviços centrais citados na hipótese. Assim, não existem evidências que corroborem a afirmação de que haveria incompatibilidade nos sistemas mais utilizados pelos estudantes.</p>
+<p>Com base nesses resultados, conclui-se que a hipótese <strong>não é validada</strong>, uma vez que o comportamento esperado de falha nos serviços principais não foi observado durante o teste.</p>
+<hr />
+<h3 id="demonstracao-em-video_4">Demonstração em Vídeo</h3>
+<p>A seguir encontra-se o vídeo que demonstra a execução completa do teste de subscrição do calendário via URL:</p>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/3xOpbAHUyNA"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<hr />
+<h2 id="ct-comp-06-importacao-estatica-ics-vs-subscricao-dinamica-url">CT-COMP-06: Importação Estática (.ics) vs Subscrição Dinâmica (URL)</h2>
+<h3 id="detalhamento-do-caso-de-teste_5">Detalhamento do Caso de Teste</h3>
+<p><strong>Questão GQM:</strong> Q4, <em>Em que medida o Aprender 3 permite a exportação para calendários externos?</em><br />
+<strong>Métrica Associada:</strong> 4.2, Diferencial de Sucesso entre Importação Manual (.ics) e Subscrição Automática (URL)<br />
+<strong>Hipótese Avaliada:</strong> H4.2, <em>A importação manual do arquivo .ics funciona, mas a subscrição automática via URL falha, indicando problema específico no mecanismo dinâmico.</em><br />
+<strong>Perfil:</strong> Discente, Equipe de Avaliação  </p>
+<hr />
+<h3 id="resultados-obtidos_5">Resultados Obtidos</h3>
+<table>
+<thead>
+<tr>
+<th>Nome do Calendário</th>
+<th>Resultado URL</th>
+<th>Resultado ICS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Atlanta Hawks</td>
+<td>Falha</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Boston Celtics</td>
+<td>Falha</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Chicago Bulls</td>
+<td>Falha</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Dallas Mavericks</td>
+<td>Falha</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Golden State Warriors</td>
+<td>Falha</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Los Angeles Lakers</td>
+<td>Falha</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Miami Heat</td>
+<td>Falha</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>New York Knicks</td>
+<td>Falha</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Orlando Magic</td>
+<td>Falha</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>San Antonio Spurs</td>
+<td>Falha</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>NBA, Todos os jogos 2025</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>UFC</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Campeonato Brasiliense</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Fases da Lua</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Chuvas de Meteoros</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Eventos Relacionados a Planetas</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Lançamento de Foguetes</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Eventos Históricos</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Curiosidades Históricas</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Estreias de Filmes</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Previsões de Fim do Mundo</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Feriados Brasil</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Feriados Angola</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Feriados Benin</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Feriados Cabo Verde</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Feriados Honduras</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Feriados Macau</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Feriados Moçambique</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Feriados Portugal</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Feriados Colômbia</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Feriados Cristãos</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Feriados Hinduístas</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Feriados Judaicos</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Feriados Muçulmanos</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+<tr>
+<td>Feriados Cristãos Ortodoxos</td>
+<td>Sucesso</td>
+<td>Sucesso</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Taxa de Sucesso via URL:</strong> 71,43%<br />
+<strong>Taxa de Sucesso via ICS:</strong> 100,00%  </p>
+<hr />
+<h3 id="calculo-da-metrica-42">Cálculo da Métrica 4.2</h3>
+<p>A Métrica 4.2 compara diretamente o sucesso da importação manual (.ics) com o sucesso da subscrição automática via URL.</p>
+<p>Diferencial de Sucesso = Percentual de Sucesso ICS menos Percentual de Sucesso URL</p>
+<p><strong>Aplicando os valores coletados:</strong></p>
+<p>100,00% menos 71,43% = 28,57%</p>
+<p><strong>Diferencial obtido:</strong> <strong>28,57%</strong></p>
+<p>Segundo os critérios definidos na Fase 2:</p>
+<ul>
+<li>Diferencial igual a 0% indica hipótese refutada;  </li>
+<li>Diferencial maior que 0% indica hipótese validada.  </li>
+</ul>
+<p><strong>Classificação final:</strong> O resultado <strong>valida a hipótese H4.2</strong>, pois a importação via arquivo .ics supera a subscrição via URL.</p>
+<hr />
+<h3 id="analise-e-resposta-a-questao-gqm_5">Análise e Resposta à Questão GQM</h3>
+<blockquote>
+<p><strong>Q4, Em que medida o Aprender 3 permite a exportação para calendários externos?</strong></p>
+</blockquote>
+<p>A Questão 4 procura avaliar de forma abrangente a capacidade do Aprender 3 de interoperar com serviços externos de calendário, considerando tanto a exportação manual quanto a automática. Os resultados mostram que a plataforma é plenamente capaz de gerar arquivos .ics válidos, que foram importados com sucesso em todos os calendários testados. Isso indica que o formato exportado pelo Aprender 3 é compatível e segue corretamente o padrão iCalendar.</p>
+<p>Por outro lado, os resultados da subscrição dinâmica via URL apresentam limitações importantes. Embora diversos calendários tenham sido capazes de interpretar e atualizar o conteúdo da URL de forma satisfatória, houve falhas concentradas em calendários específicos, especialmente aqueles que dependem de validações rígidas ou mecanismos próprios de atualização. A diferença de desempenho entre os dois métodos revela que, apesar de o Aprender 3 suportar exportação automática, esse mecanismo ainda não apresenta a mesma confiabilidade assegurada pela exportação estática.</p>
+<p>Assim, ao responder à Questão GQM, conclui-se que o Aprender 3 <strong>permite a exportação de calendários para sistemas externos de forma consistente pelo método estático (.ics)</strong>, mas apresenta <strong>restrições claras no método dinâmico (URL)</strong>, que afetam a garantia de interoperabilidade completa entre os serviços testados.</p>
+<hr />
+<h3 id="avaliacao-da-hipotese-h42">Avaliação da Hipótese H4.2</h3>
+<blockquote>
+<p><strong>H4.2, A importação manual do arquivo .ics funciona, mas a importação automática via link falha, indicando problema específico no mecanismo de atualização automática.</strong></p>
+</blockquote>
+<p>Os resultados obtidos oferecem evidências diretas que confirmam a hipótese H4.2. O fato de que <strong>100%</strong> das importações manuais via arquivo .ics foram bem-sucedidas demonstra que o Aprender 3 produz corretamente os dados do calendário. Em contraste, o mecanismo de subscrição automática via URL apresentou um conjunto de falhas que afetaram aproximadamente <strong>28%</strong> dos calendários testados, incluindo diversos sistemas que não conseguiram interpretar ou atualizar os eventos adequadamente.</p>
+<p>Essa diferença significativa entre os métodos revela que não há um problema na geração do conteúdo do calendário, e sim no mecanismo de disponibilização dinâmica via URL. A validação da hipótese reforça a necessidade de ajustes no serviço responsável por fornecer atualizações contínuas ao calendário externo, enquanto confirma a robustez do arquivo estático gerado pela plataforma.</p>
+<p>Assim, a hipótese <strong>é validada</strong>, pois a importação manual demonstrou confiabilidade total, ao passo que a subscrição automática evidenciou inconsistências que limitam sua eficácia.</p>
+<hr />
+<h3 id="demonstracao-em-video_5">Demonstração em Vídeo</h3>
+<p>O vídeo a seguir apresenta a <strong>execução completa do teste</strong>, mostrando a comparação entre a importação via URL e a importação manual via arquivo .ics:</p>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/Nz8FJW_gg-w?si=ftPSr5NlJqEfJkHH"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<hr />
+<h2 id="ct-comp-07-sucesso-da-funcionalidade-drag-and-drop-dd-por-navegador">CT-COMP-07: Sucesso da Funcionalidade Drag-and-Drop (D&amp;D) por Navegador</h2>
+<h3 id="detalhamento-do-caso-de-teste_6">Detalhamento do Caso de Teste</h3>
+<p><strong>Questão GQM:</strong> Q5, <em>Qual é a consistência da funcionalidade drag-and-drop entre os navegadores suportados?</em><br />
+<strong>Métrica Associada:</strong> 5.1, Taxa de Sucesso de Drag-and-Drop por Navegador<br />
+<strong>Hipótese Avaliada:</strong> H5.1, <em>A funcionalidade de drag-and-drop apresenta taxa de sucesso superior a 85% em navegadores modernos.</em><br />
+<strong>Perfil:</strong> Discente  </p>
+<hr />
+<h3 id="resultados-obtidos_6">Resultados Obtidos</h3>
+<p>O teste avaliou a taxa de sucesso da funcionalidade drag-and-drop em diferentes contextos do Aprender 3, como anexar arquivos em fóruns, reorganizar blocos laterais e arrastar eventos no calendário. Foram realizadas <strong>10 tentativas</strong> por navegador, distribuídas entre essas funcionalidades, utilizando arquivos de teste do tipo PDF, DOCX e PNG.</p>
+<h4 id="resultados-gerais-por-navegador">Resultados Gerais por Navegador</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Navegador</th>
+<th style="text-align: left;">Tentativas</th>
+<th style="text-align: left;">Sucessos</th>
+<th style="text-align: left;">Falhas</th>
+<th style="text-align: left;">Taxa de Sucesso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Chrome</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">90%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Firefox</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">100%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Edge</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">90%</td>
+</tr>
+</tbody>
+</table>
+<h4 id="detalhamento-por-funcionalidade">Detalhamento por Funcionalidade</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Funcionalidade</th>
+<th style="text-align: left;">Chrome</th>
+<th style="text-align: left;">Firefox</th>
+<th style="text-align: left;">Edge</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Fóruns, 4 tentativas</td>
+<td style="text-align: left;">4/4</td>
+<td style="text-align: left;">4/4</td>
+<td style="text-align: left;">3/4</td>
+</tr>
+<tr>
+<td style="text-align: left;">Blocos Laterais, 3 tentativas</td>
+<td style="text-align: left;">2/3</td>
+<td style="text-align: left;">3/3</td>
+<td style="text-align: left;">3/3</td>
+</tr>
+<tr>
+<td style="text-align: left;">Calendário, 3 tentativas</td>
+<td style="text-align: left;">3/3</td>
+<td style="text-align: left;">3/3</td>
+<td style="text-align: left;">3/3</td>
+</tr>
+</tbody>
+</table>
+<h4 id="falhas-identificadas">Falhas Identificadas</h4>
+<ul>
+<li><strong>Chrome, 1 falha:</strong> na reorganização de blocos laterais, o elemento retornou à posição original sem mensagem de erro.  </li>
+<li><strong>Firefox, 0 falhas:</strong> todas as tentativas foram bem-sucedidas.  </li>
+<li><strong>Edge, 1 falha:</strong> ao anexar arquivo em fórum, o arquivo não foi reconhecido na primeira tentativa, exigindo nova ação do usuário.</li>
+</ul>
+<hr />
+<h3 id="calculo-da-metrica-51-e-classificacao">Cálculo da Métrica 5.1 e Classificação</h3>
+<p>A Métrica 5.1 mede a <strong>Taxa de Sucesso de Drag-and-Drop por Navegador</strong>, considerando a proporção de tentativas bem-sucedidas em relação ao total de tentativas.</p>
+<p><strong>Fórmula utilizada:</strong><br />
+Taxa de Sucesso = (Número de tentativas bem-sucedidas / Número total de tentativas) x 100  </p>
+<p>Aplicando para cada navegador:</p>
+<ul>
+<li>Chrome: 9 sucessos em 10 tentativas, taxa de sucesso de 90%.  </li>
+<li>Firefox: 10 sucessos em 10 tentativas, taxa de sucesso de 100%.  </li>
+<li>Edge: 9 sucessos em 10 tentativas, taxa de sucesso de 90%.  </li>
+</ul>
+<p>Critérios considerados:</p>
+<ul>
+<li>Percentual maior ou igual a 95%: Excelente  </li>
+<li>Percentual entre 85% e 94%: Bom  </li>
+<li>Percentual entre 70% e 84%: Regular  </li>
+<li>Percentual menor que 70%: Insatisfatório  </li>
+</ul>
+<p><strong>Classificação por navegador:</strong></p>
+<ul>
+<li>Chrome, 90% de sucesso, <strong>BOM</strong>  </li>
+<li>Firefox, 100% de sucesso, <strong>EXCELENTE</strong>  </li>
+<li>Edge, 90% de sucesso, <strong>BOM</strong>  </li>
+</ul>
+<hr />
+<h3 id="analise-e-resposta-a-questao-gqm_6">Análise e Resposta à Questão GQM</h3>
+<blockquote>
+<p><strong>Q5, Qual é a consistência da funcionalidade drag-and-drop entre os navegadores suportados?</strong></p>
+</blockquote>
+<p>Os resultados demonstram que a funcionalidade de drag-and-drop do Aprender 3 se mantém <strong>altamente consistente</strong> entre os navegadores modernos avaliados. Todas as combinações de navegador e contexto de uso, fóruns, blocos laterais e calendário, atingiram taxas de sucesso iguais ou superiores a 90%, com destaque para o Firefox, que obteve 100% de sucesso em todas as tentativas.</p>
+<p>As falhas observadas foram pontuais e não caracterizaram um padrão de incompatibilidade, mas sim pequenos comportamentos isolados, como a necessidade de repetir a tentativa de arraste em casos específicos. Isso indica que, do ponto de vista da experiência do usuário, o recurso é confiável e pode ser utilizado de forma natural pelos discentes na maior parte das situações.</p>
+<p>Assim, em resposta à Questão GQM 5, conclui-se que a funcionalidade de drag-and-drop do Aprender 3 apresenta <strong>boa consistência entre os navegadores testados</strong>, com desempenho que varia entre bom e excelente de acordo com a métrica adotada.</p>
+<hr />
+<h3 id="avaliacao-da-hipotese-h51">Avaliação da Hipótese H5.1</h3>
+<blockquote>
+<p><strong>H5.1, A funcionalidade de drag-and-drop apresenta taxa de sucesso superior a 85% em navegadores modernos.</strong></p>
+</blockquote>
+<p>Os dados coletados confirmam diretamente a hipótese H5.1. Em todos os navegadores testados, Chrome, Firefox e Edge, a taxa de sucesso foi igual ou superior a 90%, superando o limiar de 85% estabelecido na formulação da hipótese. Além disso, o comportamento observado reforça a ideia de que as pequenas falhas pontuais não comprometem o uso prático da funcionalidade.</p>
+<p>Dessa forma, a hipótese H5.1 é <strong>confirmada</strong>, uma vez que a taxa de sucesso do drag-and-drop mostrou-se consistentemente elevada em todos os navegadores modernos avaliados, compatível com as expectativas de compatibilidade de interação definidas para o Aprender 3.</p>
+<hr />
+<h3 id="demonstracao-em-video_6">Demonstração em Vídeo</h3>
+<p>O vídeo a seguir apresenta a <strong>execução completa do teste</strong>.</p>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/GpKkZoH8YnY?si=gllkdZWWyihxXz2Z"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<hr />
+<h2 id="resumo-dos-resultados">Resumo dos Resultados</h2>
+<h3 id="metricas-avaliadas">Métricas Avaliadas</h3>
+<table>
+<thead>
+<tr>
+<th>Métrica</th>
+<th>Descrição</th>
+<th>Resultado</th>
+<th>Classificação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CT-COMP-01</strong></td>
+<td>Sincronia de Status de Conclusão</td>
+<td>0% discrepâncias</td>
+<td><strong>Excelente</strong></td>
+</tr>
+<tr>
+<td><strong>CT-COMP-02</strong></td>
+<td>Sincronização Bidirecional de Arquivos</td>
+<td>100% sincronização</td>
+<td><strong>Excelente</strong></td>
+</tr>
+<tr>
+<td><strong>CT-COMP-03</strong></td>
+<td>Consumo Médio de RAM por Navegador</td>
+<td>Variação &gt; 50%</td>
+<td><strong>Insatisfatório</strong></td>
+</tr>
+<tr>
+<td><strong>CT-COMP-04</strong></td>
+<td>Entrega de Notificações de Fórum por E-mail</td>
+<td>0 falhas</td>
+<td><strong>Excelente</strong></td>
+</tr>
+<tr>
+<td><strong>CT-COMP-05</strong></td>
+<td>Taxa de Falha de Subscrição de URL</td>
+<td>1 falha, 16,67%</td>
+<td><strong>Parcial</strong></td>
+</tr>
+<tr>
+<td><strong>CT-COMP-06</strong></td>
+<td>Diferencial de Sucesso, ICS vs URL</td>
+<td>28,57% diferencial</td>
+<td><strong>Hipótese H4.2 validada</strong></td>
+</tr>
+<tr>
+<td><strong>CT-COMP-07</strong></td>
+<td>Sucesso de Drag-and-Drop</td>
+<td>90% a 100%</td>
+<td><strong>Bom/Excelente</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="conclusao-gqm-da-dimensao-compatibilidade">Conclusão GQM da Dimensão Compatibilidade</h2>
+<p>Todas as métricas definidas na Fase 2 foram calculadas, classificadas e utilizadas para responder às cinco Questões GQM previstas para Compatibilidade.<br />
+As respostas fornecidas em cada CT atendem integralmente às Questões correspondentes, permitindo concluir que a análise está completa e alinhada aos Objetivos de Medição definidos na Fase 2.</p>
+<hr />
+<h3 id="historico-de-versoes">Histórico de Versões</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td>24/11/2025</td>
+<td>Criação da página</td>
+<td><a href="https://github.com/FHansen98">Felipe Hansen</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.1</code></td>
+<td>23/11/2025</td>
+<td>Adição do CT-COM-01 e CT-COM-02</td>
+<td><a href="https://github.com/thalesgvl">Thales Germano</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.2</code></td>
+<td>24/11/2025</td>
+<td>Adição do CT-COM-05 e CT-COM-06</td>
+<td><a href="https://github.com/PedroSampaioDias">Pedro Sampaio</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.3</code></td>
+<td>25/11/2025</td>
+<td>Adição do CT-COMP-07 e Reorganização</td>
+<td><a href="http://github.com/patrickacs">Patrick Anderson Carvalho dos Santos</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.4</code></td>
+<td>25/11/2025</td>
+<td>Adição do CT-COM-03 e CT-COM-04</td>
+<td><a href="http://github.com/taybalau">Taynara Vitorino</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

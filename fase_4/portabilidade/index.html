@@ -1,0 +1,3028 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto do grupo IRMA-MARY-KELLER de Qualidade de Software (2024.2), Turma 2">
+      
+      
+      
+      
+        <link rel="prev" href="../compatibilidade/">
+      
+      
+        <link rel="next" href="../resultados/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Execução da Portabilidade - Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#resultados-dos-testes-de-portabilidade" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" class="md-header__button md-logo" aria-label="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" data-md-component="logo">
+      
+  <img src="../../assets/img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Execução da Portabilidade
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="high-contrast" data-md-color-primary="black" data-md-color-accent="yellow"  aria-label="Switch to high contrast"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to high contrast" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 19a5 5 0 0 1-5-5 5 5 0 0 1 5-5c1-2.35 3.3-4 6-4 3.43 0 6.24 2.66 6.5 6.03L19 11a4 4 0 0 1 4 4 4 4 0 0 1-4 4zm13-6h-2v-1a5 5 0 0 0-5-5c-2.5 0-4.55 1.82-4.94 4.19C6.73 11.07 6.37 11 6 11a3 3 0 0 0-3 3 3 3 0 0 0 3 3h13a2 2 0 0 0 2-2 2 2 0 0 0-2-2m-6-1h-2V8h2zm0 4h-2v-2h2"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_IRM-MARY-KELLER" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025-2_T02_IRM-MARY-KELLER
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../fase_1/fase_1/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Fase 1 - Definição dos Requisitos
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase_2/GQM/" class="md-tabs__link">
+          
+  
+  
+  Fase 2 - Especificação da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase_3/planejamento/" class="md-tabs__link">
+          
+  
+  
+  Fase 3 - Projeto de Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../compatibilidade/" class="md-tabs__link">
+          
+  
+  
+  Fase 4 - Execução da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../declaracao_ia/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Declaração de uso de IA
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../contribuicoes/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tabelas de contribuição
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" class="md-nav__button md-logo" aria-label="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" data-md-component="logo">
+      
+  <img src="../../assets/img/logo.png" alt="logo">
+
+    </a>
+    Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_IRM-MARY-KELLER" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025-2_T02_IRM-MARY-KELLER
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_1/fase_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 1 - Definição dos Requisitos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 2 - Especificação da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 2 - Especificação da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_2/GQM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Abordagem GQM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_2/compatibilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medição de Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_2/portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medição de Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 3 - Projeto de Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 3 - Projeto de Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_3/planejamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_3/compatibilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testes de Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_3/portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testes de Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_3/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma de ações
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_3/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas e Ambiente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 4 - Execução da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 4 - Execução da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../compatibilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execução da Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execução da Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execução da Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-01-conformidade-de-layout-responsivo-web-desktop-tablet-e-smartphone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-01: Conformidade de Layout Responsivo, Web, Desktop, Tablet e Smartphone
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-01: Conformidade de Layout Responsivo, Web, Desktop, Tablet e Smartphone">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultados Obtidos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-de-teste" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ambiente de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-por-resolucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados por Resolução
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-consolidados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Consolidados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-por-navegador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise por Navegador
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problemas-principais-identificados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problemas Principais Identificados
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 1.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H1.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-02-sucesso-em-funcionalidades-essenciais-no-app-moodle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultados Obtidos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-de-teste_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ambiente de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidades-avaliadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funcionalidades Avaliadas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Funcionalidades Avaliadas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-de-resultados-detalhados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Resultados Detalhados
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 1.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classificacao-segundo-os-criterios-da-fase-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Classificação segundo os Critérios da Fase 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H1.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-03-verificacao-de-historico-de-migracao-aprender-para-aprender-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-03: Verificação de Histórico de Migração, Aprender para Aprender 3
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-03: Verificação de Histórico de Migração, Aprender para Aprender 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultados Obtidos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-de-fontes-de-evidencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Fontes de Evidência
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linha-do-tempo-resumida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linha do Tempo Resumida
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diferencas-entre-aprender-2-e-aprender-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diferenças entre Aprender 2 e Aprender 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 2.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H2.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-04-sucesso-na-configuracao-do-app-moodle-por-novos-usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-04: Sucesso na Configuração do App Moodle por Novos Usuários
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-04: Sucesso na Configuração do App Moodle por Novos Usuários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 3.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H3.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-05-verificacao-de-dependencias-de-navegador-navegador-limpo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-05: Verificação de Dependências de Navegador, Navegador Limpo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-05: Verificação de Dependências de Navegador, Navegador Limpo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 3.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H3.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumo-dos-resultados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resumo dos Resultados
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resumo dos Resultados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metricas-avaliadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Métricas Avaliadas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusao-gqm-da-dimensao-portabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusão GQM da Dimensão Portabilidade
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resumo dos Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../declaracao_ia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Declaração de uso de IA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contribuicoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tabelas de contribuição
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-01-conformidade-de-layout-responsivo-web-desktop-tablet-e-smartphone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-01: Conformidade de Layout Responsivo, Web, Desktop, Tablet e Smartphone
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-01: Conformidade de Layout Responsivo, Web, Desktop, Tablet e Smartphone">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultados Obtidos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-de-teste" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ambiente de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-por-resolucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados por Resolução
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-consolidados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Consolidados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-por-navegador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise por Navegador
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problemas-principais-identificados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problemas Principais Identificados
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 1.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H1.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-02-sucesso-em-funcionalidades-essenciais-no-app-moodle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultados Obtidos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-de-teste_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ambiente de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidades-avaliadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Funcionalidades Avaliadas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Funcionalidades Avaliadas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-de-resultados-detalhados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Resultados Detalhados
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 1.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classificacao-segundo-os-criterios-da-fase-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Classificação segundo os Critérios da Fase 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H1.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-03-verificacao-de-historico-de-migracao-aprender-para-aprender-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-03: Verificação de Histórico de Migração, Aprender para Aprender 3
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-03: Verificação de Histórico de Migração, Aprender para Aprender 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultados Obtidos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-de-fontes-de-evidencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Fontes de Evidência
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linha-do-tempo-resumida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linha do Tempo Resumida
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diferencas-entre-aprender-2-e-aprender-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diferenças entre Aprender 2 e Aprender 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 2.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H2.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-04-sucesso-na-configuracao-do-app-moodle-por-novos-usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-04: Sucesso na Configuração do App Moodle por Novos Usuários
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-04: Sucesso na Configuração do App Moodle por Novos Usuários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 3.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H3.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ct-por-05-verificacao-de-dependencias-de-navegador-navegador-limpo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CT-POR-05: Verificação de Dependências de Navegador, Navegador Limpo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CT-POR-05: Verificação de Dependências de Navegador, Navegador Limpo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-do-caso-de-teste_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detalhamento do Caso de Teste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados-obtidos_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados Obtidos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculo-da-metrica-32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cálculo da Métrica 3.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-resposta-a-questao-gqm_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análise e Resposta à Questão GQM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-da-hipotese-h32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avaliação da Hipótese H3.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstracao-em-video_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstração em Vídeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumo-dos-resultados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resumo dos Resultados
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resumo dos Resultados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metricas-avaliadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Métricas Avaliadas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusao-gqm-da-dimensao-portabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusão GQM da Dimensão Portabilidade
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="resultados-dos-testes-de-portabilidade">Resultados dos Testes de Portabilidade</h1>
+<p>Esta seção descreve os testes realizados e resultados obtidos com base nos <strong>Casos de Teste, CTs</strong> projetados para avaliar a característica de <strong>Portabilidade</strong> do Aprender 3, conforme planejamento realizado na Fase 3.</p>
+<hr />
+<h2 id="ct-por-01-conformidade-de-layout-responsivo-web-desktop-tablet-e-smartphone">CT-POR-01: Conformidade de Layout Responsivo, Web, Desktop, Tablet e Smartphone</h2>
+<h3 id="detalhamento-do-caso-de-teste">Detalhamento do Caso de Teste</h3>
+<p><strong>Questão GQM:</strong> Q1, <em>O layout do Aprender 3 adapta-se adequadamente a diferentes dispositivos e resoluções, mantendo a usabilidade e o acesso às funcionalidades principais?</em><br />
+<strong>Métrica Associada:</strong> 1.1, Taxa de Conformidade de Layout Responsivo<br />
+<strong>Hipótese Avaliada:</strong> H1.1, <em>O layout responsivo se ajusta adequadamente em desktop, tablet e smartphone, sem causar perda de acesso a conteúdo ou sobreposição de elementos.</em><br />
+<strong>Perfil:</strong> Discente</p>
+<hr />
+<h3 id="resultados-obtidos">Resultados Obtidos</h3>
+<h4 id="ambiente-de-teste">Ambiente de Teste</h4>
+<ul>
+<li><strong>Resoluções testadas:</strong></li>
+<li>Desktop: 1920 x 1080 px  </li>
+<li>Tablet: 768 x 1024 px  </li>
+<li>Smartphone: 375 x 667 px  </li>
+<li><strong>Páginas avaliadas:</strong> Página de Login, Página Inicial do Curso, Visualização de Tópico, Fórum, Lista de Discussões, Calendário  </li>
+<li><strong>Método:</strong> Utilização da ferramenta de desenvolvimento, Device Toolbar, em três navegadores, Chrome, Firefox e Edge, simulando as diferentes resoluções.</li>
+</ul>
+<h4 id="resultados-por-resolucao">Resultados por Resolução</h4>
+<p><strong>Desktop, 1920 x 1080 px</strong><br />
+- <strong>Conformidade:</strong> 15 de 15 combinações, 100%<br />
+- Todas as páginas funcionaram adequadamente, sem sobreposição de elementos, sem perda de conteúdo e com navegação fluida.</p>
+<p><strong>Tablet, 768 x 1024 px</strong><br />
+- <strong>Conformidade:</strong> 11 de 15 combinações, 73,33%<br />
+- <strong>Não conformidades identificadas:</strong>
+  - Página Inicial, Chrome: blocos laterais sobrepostos ao conteúdo principal.<br />
+  - Fórum, Firefox: imagens de avatar colapsadas e texto sobreposto em determinadas linhas.<br />
+  - Fórum, Edge: tabela não responsiva, com informações cortadas nas laterais.<br />
+  - Calendário, Edge: eventos com texto cortado, dificultando a leitura.</p>
+<p><strong>Smartphone, 375 x 667 px</strong><br />
+- <strong>Conformidade:</strong> 6 de 15 combinações, 40%<br />
+- <strong>Não conformidades identificadas:</strong>
+  - Página Inicial, em todos os navegadores: blocos laterais não colapsam, gerando rolagem horizontal e poluição visual.<br />
+  - Visualização de Tópico, Chrome e Edge: imagens excedem a largura da tela, causando rolagem horizontal.<br />
+  - Fórum, em todos os navegadores: tabela não responsiva, colunas sobrepostas, avatares distorcidos e dificuldade de leitura.<br />
+  - Calendário, Chrome e Firefox: grade praticamente ilegível, eventos cortados e área de clique reduzida para interação.</p>
+<h4 id="resultados-consolidados">Resultados Consolidados</h4>
+<ul>
+<li><strong>Total de combinações avaliadas, página x navegador x resolução:</strong> 45  </li>
+<li><strong>Conformes:</strong> 32  </li>
+<li><strong>Não conformes:</strong> 13  </li>
+<li><strong>Taxa de Conformidade Geral:</strong> 71,11%  </li>
+</ul>
+<h4 id="analise-por-navegador">Análise por Navegador</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Navegador</th>
+<th style="text-align: left;">Conformidade</th>
+<th style="text-align: left;">Classificação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Chrome</td>
+<td style="text-align: left;">11 de 15, 73,33%</td>
+<td style="text-align: left;">Regular</td>
+</tr>
+<tr>
+<td style="text-align: left;">Firefox</td>
+<td style="text-align: left;">11 de 15, 73,33%</td>
+<td style="text-align: left;">Regular</td>
+</tr>
+<tr>
+<td style="text-align: left;">Edge</td>
+<td style="text-align: left;">10 de 15, 66,67%</td>
+<td style="text-align: left;">Regular</td>
+</tr>
+</tbody>
+</table>
+<h4 id="problemas-principais-identificados">Problemas Principais Identificados</h4>
+<ol>
+<li><strong>Página Inicial em dispositivos móveis:</strong> blocos laterais não colapsam, empurrando o conteúdo principal e exigindo rolagem horizontal.  </li>
+<li><strong>Fórum em mobile e tablet:</strong> tabelas não responsivas, avatares distorcidos, imagens que excedem o viewport e texto sobreposto.  </li>
+<li><strong>Calendário em mobile e tablet:</strong> grade pouco responsiva, eventos cortados e navegação pouco intuitiva, com baixa área de clique.  </li>
+<li><strong>Visualização de Tópico em mobile:</strong> imagens que não se ajustam à largura, resultando em rolagem horizontal e leitura prejudicada.  </li>
+<li><strong>Página Inicial em tablet, Edge:</strong> blocos laterais sobrepondo o conteúdo principal.</li>
+</ol>
+<hr />
+<h3 id="calculo-da-metrica-11">Cálculo da Métrica 1.1</h3>
+<p>A Métrica 1.1 mede a <strong>Taxa de Conformidade de Layout Responsivo</strong>, isto é, a proporção de combinações página, navegador, resolução que mantêm layout adequado, sem perda de conteúdo ou problemas graves de usabilidade.</p>
+<p><strong>Fórmula utilizada:</strong><br />
+Taxa de Conformidade = (Número de combinações conformes / Número total de combinações avaliadas) x 100  </p>
+<p>Aplicando os valores obtidos:  </p>
+<ul>
+<li>Combinações conformes: 32  </li>
+<li>Total de combinações: 45  </li>
+</ul>
+<p>Taxa de Conformidade = 32 dividido por 45, multiplicado por 100, resultando em <strong>71,11%</strong></p>
+<p><strong>Classificação segundo critérios da Fase 2:</strong></p>
+<ul>
+<li>Maior que 90%: Excelente  </li>
+<li>Entre 75% e 90%: Bom  </li>
+<li>Entre 60% e 74%: Regular  </li>
+<li>Menor que 60%: Insatisfatório  </li>
+</ul>
+<p>Com 71,11% de conformidade, a classificação global da métrica é <strong>REGULAR</strong>.</p>
+<hr />
+<h3 id="analise-e-resposta-a-questao-gqm">Análise e Resposta à Questão GQM</h3>
+<blockquote>
+<p><strong>Q1, O layout do Aprender 3 adapta-se adequadamente a diferentes dispositivos e resoluções, mantendo a usabilidade e o acesso às funcionalidades principais?</strong></p>
+</blockquote>
+<p>Os resultados obtidos mostram que o Aprender 3 apresenta um comportamento claramente distinto entre cenários de uso. Em ambientes <strong>desktop</strong>, o layout se mostra totalmente adequado, com 100% de conformidade nas páginas e navegadores avaliados. Nessa condição, a organização dos elementos é preservada e não são observadas quebras visuais significativas.</p>
+<p>No entanto, à medida que se reduzem as resoluções para contextos de <strong>tablet</strong> e especialmente de <strong>smartphone</strong>, as limitações do layout responsivo ficam evidentes. No tablet, a taxa de conformidade já cai para aproximadamente 73%, com problemas de sobreposição de blocos, tabelas pouco responsivas e cortes de conteúdo em diferentes páginas. Em dispositivos móveis, o cenário é mais crítico, com apenas 40% de conformidade, presença de rolagem horizontal em várias telas, avatares e imagens distorcidos e dificuldades significativas de leitura e interação, sobretudo no fórum e no calendário.</p>
+<p>Assim, em resposta à Questão GQM 1, conclui-se que o Aprender 3 <strong>adapta-se bem a dispositivos desktop</strong>, mas apresenta <strong>limitações importantes em tablets e, principalmente, em smartphones</strong>, o que compromete a experiência de portabilidade plena para dispositivos móveis.</p>
+<hr />
+<h3 id="avaliacao-da-hipotese-h11">Avaliação da Hipótese H1.1</h3>
+<blockquote>
+<p><strong>H1.1, O layout responsivo se ajusta adequadamente em desktop, tablet e smartphone, sem causar perda de acesso a conteúdo ou sobreposição de elementos.</strong></p>
+</blockquote>
+<p>Os dados analisados indicam que a hipótese H1.1 <strong>não se sustenta</strong> quando se observam todos os dispositivos. Embora o comportamento em desktop seja plenamente satisfatório, com 100% de conformidade, a queda de desempenho em tablets e, sobretudo, em smartphones é significativa. Foram identificadas diversas situações de sobreposição de conteúdo, necessidade de rolagem horizontal, distorção de avatares e imagens, além de tabelas e grades, como a do calendário, que não se adaptam corretamente a telas menores.</p>
+<p>Portanto, a hipótese é <strong>refutada</strong>, pois o layout responsivo do Aprender 3 <strong>não se ajusta de forma adequada em todas as plataformas</strong>, apresentando problemas relevantes em dispositivos móveis, justamente onde a portabilidade deveria ser mais favorecida.</p>
+<hr />
+<h3 id="demonstracao-em-video">Demonstração em Vídeo</h3>
+<p>A seguir encontra-se o vídeo que demonstra a execução dos testes de layout responsivo em diferentes resoluções, desktop, tablet e smartphone:</p>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/e6U-lpBli9U"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<hr />
+<h2 id="ct-por-02-sucesso-em-funcionalidades-essenciais-no-app-moodle">CT-POR-02: Sucesso em Funcionalidades Essenciais no App Moodle</h2>
+<h3 id="detalhamento-do-caso-de-teste_1">Detalhamento do Caso de Teste</h3>
+<p><strong>Questão GQM:</strong> Q1, <em>Em que medida o aplicativo oficial do Moodle permite que os discentes realizem, em ambiente móvel, as principais tarefas acadêmicas realizadas no Aprender 3 via navegador?</em><br />
+<strong>Métrica Associada:</strong> 1.2, Taxa de Sucesso em Funcionalidades Essenciais no App Móvel<br />
+<strong>Hipótese Avaliada:</strong> H1.2, <em>O app Moodle é uma alternativa viável ao uso via navegador, permitindo que as principais funcionalidades sejam executadas com sucesso no contexto móvel.</em><br />
+<strong>Perfil:</strong> Discente  </p>
+<hr />
+<h3 id="resultados-obtidos_1">Resultados Obtidos</h3>
+<h4 id="ambiente-de-teste_1">Ambiente de Teste</h4>
+<ul>
+<li><strong>Dispositivo:</strong> Pixel 9 Pro, emulado  </li>
+<li><strong>Sistema Operacional:</strong> Android 16, Baklava  </li>
+<li><strong>Versão do App Moodle:</strong> 5.0.0, atualizado em 27/06/2025  </li>
+<li><strong>Conexão:</strong> Dados móveis emulados  </li>
+</ul>
+<h4 id="funcionalidades-avaliadas">Funcionalidades Avaliadas</h4>
+<p>O conjunto de testes contemplou tarefas essenciais para o uso acadêmico cotidiano, incluindo login, visualização de conteúdos, envio de tarefas, participação em fóruns e acesso offline a materiais previamente baixados.</p>
+<h5 id="tabela-de-resultados-detalhados">Tabela de Resultados Detalhados</h5>
+<table>
+<thead>
+<tr>
+<th>Categoria</th>
+<th>Funcionalidade ou Item</th>
+<th>Status</th>
+<th>Observações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Login e Autenticação</strong></td>
+<td>Login completo</td>
+<td>Sucesso</td>
+<td>Autenticação com credenciais institucionais funcionou plenamente</td>
+</tr>
+<tr>
+<td><strong>Visualização</strong></td>
+<td>Cursos</td>
+<td>Sucesso</td>
+<td>Listagem e acesso aos cursos funcionando</td>
+</tr>
+<tr>
+<td></td>
+<td>PDF</td>
+<td>Sucesso</td>
+<td>Visualização e download funcionando</td>
+</tr>
+<tr>
+<td></td>
+<td>Áudio</td>
+<td>Sucesso</td>
+<td>Reprodução funcionando</td>
+</tr>
+<tr>
+<td></td>
+<td>Link externo</td>
+<td>Sucesso</td>
+<td>Abertura em navegador funcionando</td>
+</tr>
+<tr>
+<td></td>
+<td>Notas</td>
+<td>Sucesso</td>
+<td>Notas exibidas corretamente</td>
+</tr>
+<tr>
+<td></td>
+<td>Notificações e mensagens</td>
+<td>Sucesso</td>
+<td>Acesso e leitura funcionando</td>
+</tr>
+<tr>
+<td></td>
+<td>Conteúdo H5P</td>
+<td>Falha</td>
+<td>Erro: "Site not configured properly for mobile H5P content"</td>
+</tr>
+<tr>
+<td><strong>Envio de Tarefas</strong></td>
+<td>Acesso à tarefa</td>
+<td>Sucesso</td>
+<td>Listagem e abertura funcionando</td>
+</tr>
+<tr>
+<td></td>
+<td>Adicionar texto</td>
+<td>Sucesso</td>
+<td>Editor de texto funcional</td>
+</tr>
+<tr>
+<td></td>
+<td>Envio de tarefa</td>
+<td>Sucesso</td>
+<td>Confirmação de envio recebida</td>
+</tr>
+<tr>
+<td></td>
+<td>Edição de envio</td>
+<td>Sucesso</td>
+<td>Possível editar antes do prazo</td>
+</tr>
+<tr>
+<td></td>
+<td>Exclusão de envio</td>
+<td>Sucesso</td>
+<td>Remoção de envio funcionando</td>
+</tr>
+<tr>
+<td><strong>Participação em Fóruns</strong></td>
+<td>Acesso ao fórum</td>
+<td>Sucesso</td>
+<td>Navegação entre fóruns funcionando</td>
+</tr>
+<tr>
+<td></td>
+<td>Leitura de discussões</td>
+<td>Sucesso</td>
+<td>Visualização completa das postagens</td>
+</tr>
+<tr>
+<td></td>
+<td>Resposta a postagens</td>
+<td>Sucesso</td>
+<td>Envio de respostas funcionando</td>
+</tr>
+<tr>
+<td></td>
+<td>Anexos</td>
+<td>Sucesso</td>
+<td>Anexar arquivos em respostas funcionando</td>
+</tr>
+<tr>
+<td><strong>Acesso Offline</strong></td>
+<td>Download e acesso offline</td>
+<td>Sucesso</td>
+<td>Conteúdos previamente baixados acessíveis sem conexão</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="calculo-da-metrica-12">Cálculo da Métrica 1.2</h3>
+<p>A Métrica 1.2 mede a <strong>Taxa de Sucesso em Funcionalidades Essenciais no App Móvel</strong>, considerando grupos de funcionalidades como login, visualização de conteúdos, envio de tarefas, participação em fóruns e acesso offline.</p>
+<p>Para o cálculo, foram consideradas cinco categorias principais, cada uma com seu percentual de sucesso:</p>
+<ul>
+<li>Login: 100%, 1 de 1 funcionalidade bem-sucedida  </li>
+<li>Visualização de conteúdos: 85,7%, 6 de 7 itens, falha apenas no conteúdo H5P  </li>
+<li>Envio de tarefas: 100%, 5 de 5  </li>
+<li>Participação em fóruns: 100%, 4 de 4  </li>
+<li>Acesso offline: 100%, 1 de 1  </li>
+</ul>
+<p>A Taxa de Sucesso global foi calculada como a média dos percentuais de cada categoria:</p>
+<p>Taxa de Sucesso = soma dos percentuais por grupo dividida pelo número de grupos  </p>
+<p>Taxa de Sucesso = (100% + 85,7% + 100% + 100% + 100%) dividido por 5  </p>
+<p>Taxa de Sucesso ≈ <strong>97,14%</strong></p>
+<hr />
+<h3 id="classificacao-segundo-os-criterios-da-fase-2">Classificação segundo os Critérios da Fase 2</h3>
+<table>
+<thead>
+<tr>
+<th>Faixa de Resultado</th>
+<th>Classificação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maior que 90%</td>
+<td>Excelente</td>
+</tr>
+<tr>
+<td>75% a 90%</td>
+<td>Bom</td>
+</tr>
+<tr>
+<td>60% a 74%</td>
+<td>Regular</td>
+</tr>
+<tr>
+<td>Menor que 60%</td>
+<td>Insatisfatório</td>
+</tr>
+</tbody>
+</table>
+<p>Com uma taxa de sucesso aproximada de <strong>97,14%</strong>, a classificação obtida pela Métrica 1.2 é <strong>EXCELENTE</strong>.</p>
+<hr />
+<h3 id="analise-e-resposta-a-questao-gqm_1">Análise e Resposta à Questão GQM</h3>
+<blockquote>
+<p><strong>Q1, Em que medida o aplicativo oficial do Moodle permite que os discentes realizem, em ambiente móvel, as principais tarefas acadêmicas realizadas no Aprender 3 via navegador?</strong></p>
+</blockquote>
+<p>Os resultados evidenciam que o app Moodle oferece suporte robusto à maior parte das tarefas essenciais do discente. O login com credenciais institucionais funciona sem problemas, o acesso às disciplinas é fluido e a visualização de documentos, como PDFs e áudios, ocorre de forma satisfatória. Além disso, o envio de tarefas, com inclusão, edição e exclusão de envios, é realizado com sucesso, assim como a participação em fóruns, leitura e resposta a postagens e anexos.</p>
+<p>O único ponto crítico identificado foi o conteúdo H5P, que apresentou erro relacionado à configuração do site para uso móvel. Esse problema, embora relevante, não compromete a percepção geral de portabilidade, já que se trata de um tipo específico de recurso e não de uma funcionalidade básica do app.</p>
+<p>Dessa forma, em resposta à Questão GQM 1, conclui-se que o aplicativo oficial do Moodle <strong>suporta de maneira ampla e eficiente as principais funcionalidades acadêmicas</strong> associadas ao Aprender 3, configurando-se como uma alternativa viável e de alta qualidade ao acesso via navegador.</p>
+<hr />
+<h3 id="avaliacao-da-hipotese-h12">Avaliação da Hipótese H1.2</h3>
+<blockquote>
+<p><strong>H1.2, O app Moodle é uma alternativa viável ao uso via navegador, permitindo que as principais funcionalidades sejam executadas com sucesso no contexto móvel.</strong></p>
+</blockquote>
+<p>Com uma taxa de sucesso global superior a 97% nas funcionalidades avaliadas, a hipótese H1.2 é <strong>validada</strong>. O app Moodle demonstrou capacidade de atender às necessidades essenciais do discente, incluindo autenticação, navegação por cursos, consumo de conteúdos, envio de tarefas, interação em fóruns e acesso offline.</p>
+<p>Embora exista uma limitação pontual relacionada ao conteúdo H5P, o conjunto de evidências mostra que, no contexto geral, o aplicativo é plenamente funcional e oferece uma experiência de uso satisfatória no dispositivo móvel, fortalecendo a portabilidade da solução.</p>
+<hr />
+<h3 id="demonstracao-em-video_1">Demonstração em Vídeo</h3>
+<p>O vídeo a seguir ilustra a execução dos testes das funcionalidades essenciais no app Moodle, incluindo navegação pelos cursos, visualização de conteúdos e envio de atividades:</p>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/-wHRkMZcDag"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<hr />
+<h2 id="ct-por-03-verificacao-de-historico-de-migracao-aprender-para-aprender-3">CT-POR-03: Verificação de Histórico de Migração, Aprender para Aprender 3</h2>
+<h3 id="detalhamento-do-caso-de-teste_2">Detalhamento do Caso de Teste</h3>
+<p><strong>Questão GQM:</strong> Q2, <em>Há evidências de que o Aprender 3 resulta de um processo de evolução e substituição bem-sucedida de versões anteriores, garantindo continuidade de serviço e preservação do contexto institucional?</em><br />
+<strong>Métrica Associada:</strong> 2.1, Verificação de Histórico de Migração<br />
+<strong>Hipótese Avaliada:</strong> H2.1, <em>A migração e evolução entre versões do Aprender, por exemplo Aprender, Aprender 2 e Aprender 3, foi bem-sucedida, demonstrando capacidade de substituição e continuidade da plataforma.</em><br />
+<strong>Perfil:</strong> Equipe Técnica, Avaliação Documental  </p>
+<hr />
+<h3 id="resultados-obtidos_2">Resultados Obtidos</h3>
+<p>A investigação se concentrou em <strong>fontes oficiais da Universidade de Brasília</strong>, incluindo comunicados do CEAD e notícias institucionais, com o objetivo de identificar evidências de evolução e substituição entre versões da plataforma Aprender.</p>
+<h4 id="tabela-de-fontes-de-evidencia">Tabela de Fontes de Evidência</h4>
+<table>
+<thead>
+<tr>
+<th>Fonte</th>
+<th>Acesso ou Publicação</th>
+<th>URL ou Referência</th>
+<th>Observações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Comunicado CEAD</strong></td>
+<td>Novembro de 2025</td>
+<td><em>Ambientes Virtuais de Aprendizagem</em></td>
+<td>Histórico resumido do Moodle na UnB desde 2004</td>
+</tr>
+<tr>
+<td><strong>Comunicado UnB</strong></td>
+<td>03/08/2020</td>
+<td><em>Descubra os ambientes disponíveis no Moodle para públicos diversos</em></td>
+<td>Notícia oficial sobre diferenças entre ambientes</td>
+</tr>
+</tbody>
+</table>
+<p>A partir dessas e de outras referências, foi possível reconstruir uma linha do tempo da evolução dos ambientes Moodle na UnB.</p>
+<h4 id="linha-do-tempo-resumida">Linha do Tempo Resumida</h4>
+<ul>
+<li><strong>2004:</strong> Primeiro contato da UnB com o Moodle, inicialmente no Departamento de Matemática.  </li>
+<li><strong>2009:</strong> O sistema passa a ser gerenciado pelo CEAD/UnB sob o nome "Aprender".  </li>
+<li><strong>2011:</strong> A gestão é transferida para a UAB, DEGD.  </li>
+<li><strong>2018:</strong> Junção do DEGD e CEAD/UnB, com o Aprender retornando à gestão do CEAD/UnB.  </li>
+<li><strong>Agosto de 2020:</strong> Oficialização de três ambientes Moodle distintos, Aprender 1, Aprender 2 e Aprender 3, para públicos e finalidades diferentes.  </li>
+<li><strong>Atualmente, 2025:</strong> Coexistência de Aprender 2 e Aprender 3, ambos na versão Moodle 3.11.  </li>
+<li><strong>Futuro próximo:</strong> Planejamento de atualização para Moodle 4.0, com expectativa de melhoria na experiência de uso.</li>
+</ul>
+<h4 id="diferencas-entre-aprender-2-e-aprender-3">Diferenças entre Aprender 2 e Aprender 3</h4>
+<p>A análise mostrou que <strong>não houve uma migração direta única</strong> entre Aprender 2 e Aprender 3, e sim a <strong>configuração de ambientes paralelos</strong> com finalidades distintas:</p>
+<ul>
+<li><strong>Aprender 2:</strong>  </li>
+<li>Foco em cursos de extensão.  </li>
+<li>Público formado por alunos UAB/UnB e ações de formação vinculadas ao CEAD e UAB.  </li>
+<li>
+<p>Versão do Moodle: 3.11.  </p>
+</li>
+<li>
+<p><strong>Aprender 3:</strong>  </p>
+</li>
+<li>Foco em graduação e pós-graduação.  </li>
+<li>Público formado principalmente por alunos de cursos presenciais de graduação e pós-graduação.  </li>
+<li>Versão do Moodle: 3.11.  </li>
+</ul>
+<p>Apesar dessa separação por público, as fontes analisadas destacam a <strong>continuidade da plataforma Moodle ao longo do tempo</strong> e a evolução da infraestrutura para suportar públicos distintos, sempre mantendo a base tecnológica e pedagógica.</p>
+<hr />
+<h3 id="calculo-da-metrica-21">Cálculo da Métrica 2.1</h3>
+<p>A Métrica 2.1 é <strong>qualitativa e binária</strong>, indicando se há ou não evidência de migração e evolução bem-sucedida.</p>
+<ul>
+<li>Resultado da investigação: foram encontradas evidências claras de evolução e manutenção da plataforma Moodle na UnB, desde 2004 até o Aprender 3, com planejamento de futuras atualizações.  </li>
+</ul>
+<p>Dessa forma, o valor atribuído à métrica é:</p>
+<ul>
+<li><strong>Sim</strong>, foi encontrada evidência de histórico de migração e evolução bem-sucedida.</li>
+</ul>
+<hr />
+<h3 id="analise-e-resposta-a-questao-gqm_2">Análise e Resposta à Questão GQM</h3>
+<blockquote>
+<p><strong>Q2, Há evidências de que o Aprender 3 resulta de um processo de evolução e substituição bem-sucedida de versões anteriores, garantindo continuidade de serviço e preservação do contexto institucional?</strong></p>
+</blockquote>
+<p>Os documentos institucionais analisados apontam que o Aprender 3 não surgiu de forma isolada, mas sim como parte de um <strong>processo contínuo de evolução</strong> dos ambientes Moodle na UnB. Há registros desde a adoção inicial da plataforma em 2004, passando por mudanças de gestão, reestruturações e criação de ambientes específicos para diferentes públicos, até a configuração atual com Aprender 2 e Aprender 3 em operação.</p>
+<p>Embora não haja um relato detalhado de uma única migração técnica entre Aprender 2 e Aprender 3, existe uma <strong>trajetória clara de substituição e expansão de ambientes</strong> que garante a continuidade dos serviços aos diversos públicos atendidos. Além disso, o planejamento de migração para o Moodle 4.0 reforça o caráter evolutivo da solução, indicando que a universidade mantém uma política ativa de atualização tecnológica.</p>
+<p>Assim, em resposta à Questão GQM 2, conclui-se que há <strong>evidências suficientes de evolução e substituição bem-sucedida da plataforma</strong>, ainda que distribuídas em diferentes fases e ambientes, o que comprova a capacidade de portabilidade e adaptabilidade do Aprender 3 dentro do contexto institucional.</p>
+<hr />
+<h3 id="avaliacao-da-hipotese-h21">Avaliação da Hipótese H2.1</h3>
+<blockquote>
+<p><strong>H2.1, A migração e evolução entre versões do Aprender, por exemplo Aprender, Aprender 2 e Aprender 3, foi bem-sucedida, demonstrando capacidade de substituição e continuidade da plataforma.</strong></p>
+</blockquote>
+<p>Com base nas evidências coletadas, a hipótese H2.1 é <strong>validada</strong>. As informações mostram que a UnB mantém, há anos, um processo de evolução controlada dos ambientes Moodle, preservando dados, atendendo a diferentes públicos e planejando novas atualizações. Ainda que os ambientes coexistam em determinadas fases, isso faz parte de uma estratégia de transição gradual e segmentação por público, ao invés de uma migração abrupta e única.</p>
+<p>Portanto, a trajetória histórica indica que a plataforma tem sido capaz de se <strong>substituir e evoluir ao longo do tempo</strong>, sem perda de continuidade acadêmica, o que está alinhado com a visão de portabilidade e substituibilidade prevista na hipótese.</p>
+<!-- CT-POR-04: Compatibilidade de Plugins e Temas na Atualização do Moodle
+
+### Informações do Teste  
+
+- **Questão GQM:** Q2, Substituibilidade  
+- **Métrica Associada:** 2.2, Taxa de Compatibilidade de Plugins na Atualização  
+- **Hipótese Relacionada:** H2.2, Natureza modular permite atualização de componentes  
+- **Perfil Principal:** Equipe Técnica, Administração do Moodle  
+
+### Ambiente de Teste  
+
+- Acesso à lista completa de plugins e temas do Aprender 3.  
+- Versão atual do Moodle e versão alvo de atualização.  
+- Acesso ao diretório oficial de plugins do Moodle.  
+
+### Testes Realizados  
+
+O teste consistiu em verificar a compatibilidade de plugins e temas do Aprender 3 com a versão atual do Moodle e com a versão alvo de atualização, analisando o quanto a natureza modular da plataforma facilita esse processo.  
+
+### Resultados dos Testes  
+
+Os resultados mostraram que aproximadamente 90% dos plugins e temas do Aprender 3 são compatíveis com as versões consideradas, o que indica alto potencial de atualização sem grandes impedimentos técnicos.  
+
+### Classificação da Métrica  
+
+Diante da alta taxa de compatibilidade, a classificação obtida foi considerada **Excelente**. -->
+
+<hr />
+<h2 id="ct-por-04-sucesso-na-configuracao-do-app-moodle-por-novos-usuarios">CT-POR-04: Sucesso na Configuração do App Moodle por Novos Usuários</h2>
+<h3 id="detalhamento-do-caso-de-teste_3">Detalhamento do Caso de Teste</h3>
+<p><strong>Questão GQM:</strong> Q3, <em>Quão difícil é para um novo usuário, sem experiência prévia com o aplicativo Moodle, instalar e configurar o app para acessar o Aprender 3?</em><br />
+<strong>Métrica Associada:</strong> 3.1, Taxa de Sucesso na Configuração do App por Novos Usuários<br />
+<strong>Hipótese Avaliada:</strong> H3.1, <em>O processo de instalação e configuração do app Moodle é complexo para usuários não técnicos, gerando uma taxa significativa de insucesso sem apoio externo.</em><br />
+<strong>Perfil:</strong> Discentes sem experiência prévia com o app Moodle  </p>
+<hr />
+<h3 id="resultados-obtidos_3">Resultados Obtidos</h3>
+<p>Foram selecionados <strong>3 usuários de teste</strong> sem experiência prévia com o aplicativo Moodle e que não são estudantes da UnB. Cada participante utilizou um <strong>dispositivo móvel próprio</strong>, Android ou iOS, e recebeu a seguinte instrução padronizada:</p>
+<blockquote>
+<p>"Instale o aplicativo Moodle no seu celular e acesse sua conta do Aprender 3, link https://aprender3.unb.br. Será fornecido usuário e senha de uma conta de estudante cadastrada previamente."</p>
+</blockquote>
+<p>O objetivo foi verificar se os participantes conseguiriam realizar todo o processo <strong>sem assistência técnica direta</strong>.</p>
+<p>Os resultados mostraram que <strong>100% dos usuários conseguiram configurar o app Moodle com sucesso</strong>, acessando o ambiente Aprender 3 de forma autônoma. Foram feitas gravações de tela durante o procedimento:</p>
+<ul>
+<li>Um vídeo em aparelho Android.  </li>
+<li>Um vídeo em aparelho iOS.  </li>
+<li>Um terceiro teste, também em iOS, com o mesmo resultado dos anteriores, não teve o vídeo incorporado por redundância, já que o comportamento foi praticamente idêntico.</li>
+</ul>
+<hr />
+<h3 id="calculo-da-metrica-31">Cálculo da Métrica 3.1</h3>
+<p>A Métrica 3.1 avalia a <strong>Taxa de Sucesso na Configuração do App por Novos Usuários</strong>, medindo a proporção de usuários que conseguem concluir todo o processo de configuração sem ajuda.</p>
+<p><strong>Fórmula utilizada:</strong><br />
+Taxa de Sucesso = (Número de usuários que configuraram com sucesso / Número total de usuários testados) x 100  </p>
+<p>Aplicando os valores:</p>
+<ul>
+<li>Usuários bem-sucedidos: 3  </li>
+<li>Total de usuários testados: 3  </li>
+</ul>
+<p>Taxa de Sucesso = 3 dividido por 3, multiplicado por 100, resultando em <strong>100%</strong></p>
+<p>Dado que todos os participantes, mesmo sem familiaridade prévia com o app ou com o ambiente institucional, concluíram a configuração com êxito, a métrica indica um nível máximo de instalabilidade no cenário testado.</p>
+<hr />
+<h3 id="analise-e-resposta-a-questao-gqm_3">Análise e Resposta à Questão GQM</h3>
+<blockquote>
+<p><strong>Q3, Quão difícil é para um novo usuário, sem experiência prévia com o aplicativo Moodle, instalar e configurar o app para acessar o Aprender 3?</strong></p>
+</blockquote>
+<p>Os resultados indicam que, no contexto analisado, o processo de instalação e configuração do app Moodle para acesso ao Aprender 3 é <strong>bastante acessível</strong>. Todos os usuários, mesmo sem serem estudantes da UnB e sem experiência anterior com o aplicativo, conseguiram concluir as etapas necessárias, localizando o app nas lojas oficiais, inserindo a URL correta do servidor e autenticando com as credenciais fornecidas.</p>
+<p>A ausência de relatos de dificuldades graves, combinada com a taxa de sucesso de 100%, sugere que o fluxo de configuração é suficientemente claro e não exige conhecimentos técnicos avançados. Isso reforça a percepção de que a barreira de entrada para o uso do Aprender 3 via aplicativo móvel é baixa, o que é positivo do ponto de vista da portabilidade e da instalabilidade.</p>
+<hr />
+<h3 id="avaliacao-da-hipotese-h31">Avaliação da Hipótese H3.1</h3>
+<blockquote>
+<p><strong>H3.1, O processo de instalação e configuração do app Moodle é complexo para usuários não técnicos, gerando uma taxa significativa de insucesso sem apoio externo.</strong></p>
+</blockquote>
+<p>Os dados coletados <strong>refutam a hipótese H3.1</strong>. Em vez de uma taxa significativa de insucesso, o teste revelou que todos os participantes concluíram o processo com sucesso e sem necessidade de assistência técnica adicional. Isso contraria diretamente a suposição de que o procedimento seria complexo para usuários não técnicos.</p>
+<p>Dessa forma, conclui-se que a hipótese é <strong>não validada</strong>, e que o processo de instalação e configuração do app Moodle, pelo menos nas condições testadas, pode ser considerado <strong>simples e acessível</strong>, contribuindo positivamente para a portabilidade do Aprender 3 em dispositivos móveis.</p>
+<hr />
+<h3 id="demonstracao-em-video_2">Demonstração em Vídeo</h3>
+<p>A seguir encontra-se o vídeo que registra a configuração do app Moodle por um dos usuários de teste, ilustrando o processo de instalação, configuração do servidor e acesso ao Aprender 3:</p>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/CemC_KH0Jc0"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<hr />
+<h2 id="ct-por-05-verificacao-de-dependencias-de-navegador-navegador-limpo">CT-POR-05: Verificação de Dependências de Navegador, Navegador Limpo</h2>
+<h3 id="detalhamento-do-caso-de-teste_4">Detalhamento do Caso de Teste</h3>
+<p><strong>Questão GQM:</strong> Q3, <em>O uso básico do Aprender 3, via navegador, depende de plugins, extensões ou softwares adicionais, ou basta um navegador padrão, em estado limpo, para acessar as funcionalidades essenciais?</em><br />
+<strong>Métrica Associada:</strong> 3.2, Verificação de Dependências de Navegador<br />
+<strong>Hipótese Avaliada:</strong> H3.2, <em>O Aprender 3 não exige a instalação de plugins ou extensões específicas no navegador para executar suas funcionalidades básicas, o que favorece a portabilidade.</em><br />
+<strong>Perfil:</strong> Equipe Técnica  </p>
+<hr />
+<h3 id="resultados-obtidos_4">Resultados Obtidos</h3>
+<p>O teste foi realizado em um <strong>navegador em estado limpo</strong>, simulando a experiência de um navegador recém-instalado, utilizando uma guia anônima do Google Chrome sem extensões ativas ou dados de sessão. O objetivo foi verificar se o Aprender 3 solicita qualquer instalação adicional ou se funciona apenas com recursos nativos do navegador.</p>
+<p>Durante o teste, foram executadas as funcionalidades previstas na Fase 3, incluindo:</p>
+<ul>
+<li>Acesso à página inicial do Aprender 3.  </li>
+<li>Login com usuário de teste.  </li>
+<li>Visualização da lista de disciplinas.  </li>
+<li>Abertura de um curso e navegação entre tópicos.  </li>
+<li>Visualização de um arquivo PDF simples.  </li>
+<li>Visualização da página de fórum.  </li>
+<li>Envio de uma tarefa com upload básico de arquivo.  </li>
+</ul>
+<p>Em nenhuma dessas etapas foi apresentado pedido de instalação de plugins, extensões ou softwares adicionais, nem foram detectadas mensagens de erro relacionadas a dependências específicas.</p>
+<hr />
+<h3 id="calculo-da-metrica-32">Cálculo da Métrica 3.2</h3>
+<p>A Métrica 3.2 também é <strong>qualitativa e binária</strong>, verificando se há ou não dependências adicionais.</p>
+<ul>
+<li>Resultado do teste: todas as funcionalidades básicas puderam ser executadas no navegador limpo, sem necessidade de complementos.  </li>
+</ul>
+<p>Portanto, o valor atribuído é:</p>
+<ul>
+<li><strong>Sim</strong>, o Aprender 3 funciona corretamente em navegador padrão, sem exigir plugins adicionais.</li>
+</ul>
+<p>Em termos de classificação, o sistema é considerado <strong>Excelente, Portável</strong>, pois não introduz requisitos extras que possam comprometer o uso em diferentes ambientes e dispositivos.</p>
+<hr />
+<h3 id="analise-e-resposta-a-questao-gqm_4">Análise e Resposta à Questão GQM</h3>
+<blockquote>
+<p><strong>Q3, O uso básico do Aprender 3, via navegador, depende de plugins, extensões ou softwares adicionais, ou basta um navegador padrão, em estado limpo, para acessar as funcionalidades essenciais?</strong></p>
+</blockquote>
+<p>Os resultados mostram que um navegador em estado limpo é suficiente para acessar e utilizar as funcionalidades básicas do Aprender 3. O fluxo de login, navegação por cursos, acesso a conteúdos, participação em fóruns e envio de tarefas ocorre sem que o sistema exija componentes externos, como plugins proprietários ou extensões específicas.</p>
+<p>Do ponto de vista da portabilidade, isso significa que o Aprender 3 pode ser utilizado em diferentes máquinas e contextos apenas com navegadores padrões modernos, reduzindo a necessidade de suporte técnico e facilitando o acesso em laboratórios, computadores compartilhados e dispositivos pessoais.</p>
+<hr />
+<h3 id="avaliacao-da-hipotese-h32">Avaliação da Hipótese H3.2</h3>
+<blockquote>
+<p><strong>H3.2, O Aprender 3 não exige a instalação de plugins ou extensões específicas no navegador para executar suas funcionalidades básicas, o que favorece a portabilidade.</strong></p>
+</blockquote>
+<p>Os resultados <strong>validam a hipótese H3.2</strong>. Não foram detectadas dependências adicionais para as tarefas básicas avaliadas, o que confirma que a plataforma é projetada para operar com recursos nativos do navegador, alinhada às boas práticas de portabilidade e acessibilidade.</p>
+<p>Esse comportamento reduz barreiras técnicas e reforça a capacidade do Aprender 3 de ser executado em ampla variedade de ambientes, incluindo máquinas institucionais com restrições de instalação de software.</p>
+<hr />
+<h3 id="demonstracao-em-video_3">Demonstração em Vídeo</h3>
+<p>O vídeo a seguir ilustra a execução do teste em navegador limpo, mostrando o acesso ao Aprender 3 e a utilização das funcionalidades básicas sem a necessidade de qualquer instalação adicional:</p>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/GZV3IjGjVUo"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<hr />
+<h2 id="resumo-dos-resultados">Resumo dos Resultados</h2>
+<h3 id="metricas-avaliadas">Métricas Avaliadas</h3>
+<table>
+<thead>
+<tr>
+<th>Métrica</th>
+<th>Descrição</th>
+<th>Resultado</th>
+<th>Classificação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CT-POR-01</strong></td>
+<td>Taxa de Conformidade de Layout Responsivo</td>
+<td>71,11%</td>
+<td><strong>Regular</strong></td>
+</tr>
+<tr>
+<td><strong>CT-POR-02</strong></td>
+<td>Taxa de Sucesso em Funcionalidades no App Móvel</td>
+<td>97,14%</td>
+<td><strong>Excelente</strong></td>
+</tr>
+<tr>
+<td><strong>CT-POR-03</strong></td>
+<td>Verificação de Histórico de Migração</td>
+<td>Sim</td>
+<td><strong>Hipótese H2.1 validada</strong></td>
+</tr>
+<tr>
+<td><strong>CT-POR-04</strong></td>
+<td>Sucesso na Configuração do App Moodle por Novos Usuários</td>
+<td>100%</td>
+<td><strong>Excelente</strong></td>
+</tr>
+<tr>
+<td><strong>CT-POR-05</strong></td>
+<td>Verificação de Dependências de Navegador, Navegador Limpo</td>
+<td>100%</td>
+<td><strong>Excelente, Portável, Hipótese H3.2 validada</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="conclusao-gqm-da-dimensao-portabilidade">Conclusão GQM da Dimensão Portabilidade</h2>
+<p>As métricas planejadas foram corretamente processadas e a comparação com as faixas de classificação da Fase 2 permitiu responder, de forma clara e completa, às três Questões GQM da dimensão Portabilidade.<br />
+Assim, todos os Objetivos de Medição dessa dimensão foram devidamente atendidos.</p>
+<hr />
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td>23/11/2025</td>
+<td>Criação da página e adição do CT-POR-02</td>
+<td><a href="https://github.com/yagoas">Yago Amin</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.1</code></td>
+<td>23/11/2025</td>
+<td>Adição do CT-POR-03</td>
+<td><a href="https://github.com/yagoas">Yago Amin</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.2</code></td>
+<td>24/11/2025</td>
+<td>Adição do CT-POR-04 e CT-POR-05</td>
+<td><a href="https://github.com/FHansen98">Felipe Hansen</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.3</code></td>
+<td>25/11/2025</td>
+<td>Adição do CT-POR-01</td>
+<td><a href="http://github.com/patrickacs">Patrick Anderson Carvalho dos Santos</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.4</code></td>
+<td>25/11/2025</td>
+<td>Adição dos vídeos dos testes CT-POR-04 e CT-POR-05</td>
+<td><a href="https://github.com/FHansen98">Felipe Hansen</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

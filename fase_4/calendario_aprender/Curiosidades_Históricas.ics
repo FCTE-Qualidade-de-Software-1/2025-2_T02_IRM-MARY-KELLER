@@ -1,0 +1,1284 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:É Bom Saber
+X-WR-TIMEZONE:UTC
+X-WR-CALDESC:Eventos notáveis que não são feriados de verdade. Boa adição a
+ o calendário de feriados. Inclui eventos que têm relevância para a maioria 
+ das pessoas.
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DTSTAMP:20251122T192243Z
+UID:69b46a43-51f3-031e-cbba-719fa26b90a6
+URL:https://pt.wikipedia.org/wiki/Ter%C3%A7a-feira_gorda
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:A terça-feira gorda\, ou terça-feira de carnaval\, é o dia de f
+ evereiro ou março que precede a quarta-feira de cinzas. Portanto\, é o últi
+ mo dia que antecede a Quaresma\, e é comemorado em alguns países com o cons
+ umo de panquecas. Este feriado móvel é determinado pela Páscoa. Em outros p
+ aíses\, especialmente aqueles em que é chamado de Mardi Gras ou alguma trad
+ ução\, este é o último dia de Carnaval\, sendo\, para os católicos\, também
+  o último dia de "comer gordura" antes do período de jejum da Quaresma.\n\n
+ Informação adicional\nhttps://pt.wikipedia.org/wiki/Ter%C3%A7a-feira_gorda\
+ n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1r
+ ios\n\nWikipedia content re-released under CC-BY-SA.\nhttps://creativecommo
+ ns.org/licenses/by-sa/3.0/\n\nEste calendário é fornecido por WebCal.Guru h
+ ttps://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +00
+ 00\n\nID de Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Terça-feira gorda
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251111
+DTEND;VALUE=DATE:20251112
+DTSTAMP:20251122T192243Z
+UID:ad8ba030-8dc3-06e4-20f4-4fa1f4263b9c
+URL:https://pt.wikipedia.org/wiki/Dia_do_Armist%C3%ADcio
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Com base no evento 107 anos atrás (1918).\n\nO Dia do Armistíci
+ o é uma comemoração do fim simbólico da Primeira Guerra Mundial em 11 de no
+ vembro de 1918. A data comemora o Armistício de Compiègne\, assinado entre 
+ os Aliados e o Império Alemão em Compiègne\, na França\, pelo fim das hosti
+ lidades na Frente Ocidental\, o qual teve efeito às 11 horas da manhã — a "
+ undécima hora do undécimo dia do undécimo mês". Apesar de esta data oficial
+  ter marcado o fim da guerra\, refletindo no cessar-fogo na Frente Ocidenta
+ l\, as hostilidades continuaram em outras regiões\, especialmente por entre
+  o Império Russo e partes do antigo Império Otomano.\n\nInformação adiciona
+ l\nhttps://pt.wikipedia.org/wiki/Dia_do_Armist%C3%ADcio\n\nOs meus calendár
+ ios\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia co
+ ntent re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-
+ sa/3.0/\n\nEste calendário é fornecido por WebCal.Guru https://www.webcal.g
+ uru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscriç
+ ão\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:🌸 Dia do Armistício
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251119
+DTEND;VALUE=DATE:20251120
+DTSTAMP:20251122T192243Z
+UID:13bd6a64-74f2-da91-36ad-893a8b44bb0a
+URL:https://pt.wikipedia.org/wiki/Dia_Internacional_do_Homem
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:O Dia Internacional do Homem é um evento celebrado no dia 19 de
+  novembro de cada ano em diversos países do mundo\, desde 1999. No Brasil\,
+  é comemorado em 15 de julho\, desde 1992.\n\nInformação adicional\nhttps:/
+ /pt.wikipedia.org/wiki/Dia_Internacional_do_Homem\n\nOs meus calendários\nh
+ ttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia content 
+ re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3.0
+ /\n\nEste calendário é fornecido por WebCal.Guru https://www.webcal.guru/.\
+ n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\nb6
+ 85b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:👨 Dia Internacional do Homem
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251120
+DTEND;VALUE=DATE:20251121
+DTSTAMP:20251122T192243Z
+UID:eedb48db-8c6e-00e4-fec5-e24c64b3c28a
+URL:https://pt.wikipedia.org/wiki/Dia_da_Consci%C3%AAncia_Negra
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:O Dia Nacional da Consciência Negra é celebrado\, no Brasil\, e
+ m 20 de novembro. Foi criado em 2003 como efeméride incluída no calendário 
+ escolar — até ser oficialmente instituído em âmbito nacional mediante a lei
+  nº 12 519\, de 10 de novembro de 2011\, sendo feriado em cerca de mil cida
+ des em todo o país e nos estados de Alagoas\, Amazonas\, Amapá\, Mato Gross
+ o e Rio de Janeiro através de decretos estaduais. Em estados que não aderir
+ am à lei a responsabilidade é de cada câmara de vereadores\, que decide se 
+ haverá o feriado no município.\n\nInformação adicional\nhttps://pt.wikipedi
+ a.org/wiki/Dia_da_Consci%C3%AAncia_Negra\n\nOs meus calendários\nhttps://ww
+ w.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia content re-releas
+ ed under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3.0/\n\nEste
+  calendário é fornecido por WebCal.Guru https://www.webcal.guru/.\n\nConteú
+ do criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\nb685b306913
+ 36f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Dia da Consciência Negra
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260213
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20251122T192243Z
+UID:ceabfc88-cc56-e021-ed81-3637e882eea7
+URL:https://pt.wikipedia.org/wiki/Carnaval
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Carnaval é um festival do cristianismo ocidental que ocorre ant
+ es da estação litúrgica da Quaresma. Os principais eventos ocorrem tipicame
+ nte durante fevereiro ou início de março\, durante o período historicamente
+  conhecido como Tempo da Septuagésima. O Carnaval normalmente envolve uma f
+ esta pública e/ou desfile combinando alguns elementos circenses\, máscaras 
+ e uma festa de rua pública. As pessoas usam trajes durante muitas dessas ce
+ lebrações\, permitindo-lhes perder a sua individualidade cotidiana e experi
+ mentar um sentido elevado de unidade social.\n\nInformação adicional\nhttps
+ ://pt.wikipedia.org/wiki/Carnaval\n\nOs meus calendários\nhttps://www.webca
+ l.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia content re-released unde
+ r CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3.0/\n\nEste calend
+ ário é fornecido por WebCal.Guru https://www.webcal.guru/.\n\nConteúdo cria
+ do\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\nb685b30691336f5620
+ e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Carnaval
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+DTSTAMP:20251122T192243Z
+UID:818ab0c7-9795-a84b-f2a5-d1c32ddab160
+URL:https://pt.wikipedia.org/wiki/Dia_do_Armist%C3%ADcio
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Com base no evento 108 anos atrás (1918).\n\nO Dia do Armistíci
+ o é uma comemoração do fim simbólico da Primeira Guerra Mundial em 11 de no
+ vembro de 1918. A data comemora o Armistício de Compiègne\, assinado entre 
+ os Aliados e o Império Alemão em Compiègne\, na França\, pelo fim das hosti
+ lidades na Frente Ocidental\, o qual teve efeito às 11 horas da manhã — a "
+ undécima hora do undécimo dia do undécimo mês". Apesar de esta data oficial
+  ter marcado o fim da guerra\, refletindo no cessar-fogo na Frente Ocidenta
+ l\, as hostilidades continuaram em outras regiões\, especialmente por entre
+  o Império Russo e partes do antigo Império Otomano.\n\nInformação adiciona
+ l\nhttps://pt.wikipedia.org/wiki/Dia_do_Armist%C3%ADcio\n\nOs meus calendár
+ ios\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia co
+ ntent re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-
+ sa/3.0/\n\nEste calendário é fornecido por WebCal.Guru https://www.webcal.g
+ uru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscriç
+ ão\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:🌸 Dia do Armistício
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20251122T192243Z
+UID:87445abb-0e66-9ad7-052d-2f9aad7f3e8b
+URL:https://pt.wikipedia.org/wiki/Quarta-feira_de_cinzas
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:A quarta-feira de cinzas é o primeiro dia da Quaresma no calend
+ ário Cristão ocidental (Católico). As cinzas que os Cristãos Católicos rece
+ bem neste dia são um símbolo para a reflexão sobre o dever da conversão\, d
+ a mudança de vida\, recordando a passageira\, transitória\, efêmera fragili
+ dade da vida humana\, sujeita à morte.\n\nInformação adicional\nhttps://pt.
+ wikipedia.org/wiki/Quarta-feira_de_cinzas\n\nOs meus calendários\nhttps://w
+ ww.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia content re-relea
+ sed under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3.0/\n\nEst
+ e calendário é fornecido por WebCal.Guru https://www.webcal.guru/.\n\nConte
+ údo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\nb685b30691
+ 336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Quarta-feira de cinzas
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251221
+DTEND;VALUE=DATE:20251222
+DTSTAMP:20251122T192243Z
+UID:c5b0fdfd-61fa-5790-f3d9-d6e6df83645a
+URL:https://pt.wikipedia.org/wiki/Solst%C3%ADcio_de_inverno
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Solstício de inverno é um fenómeno astronómico que marca o iníc
+ io do inverno. Ocorre normalmente por volta do dia 21 de junho no hemisféri
+ o sul e\n21 de dezembro no hemisfério norte.\n\nInformação adicional\nhttps
+ ://pt.wikipedia.org/wiki/Solst%C3%ADcio_de_inverno\n\nOs meus calendários\n
+ https://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia content
+  re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3.
+ 0/\n\nEste calendário é fornecido por WebCal.Guru https://www.webcal.guru/.
+ \n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\nb
+ 685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:☀️ Solstício de inverno
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260101
+DTSTAMP:20251122T192243Z
+UID:8048d6dc-d589-d374-a7d7-e3d78fc056e8
+URL:https://pt.wikipedia.org/wiki/V%C3%A9spera_de_ano-novo
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:A véspera de Ano-novo\, também chamada de réveillon (em francês
+  pronuncia-se [ʁevɛjɔ̃])\, termo da língua francesa que significa "reanimar
+ "\, "despertar"\, virada de ano\, ou passagem de ano refere-se ao dia 31 de
+  dezembro\, precedente ao Dia de Ano-Novo nos países que seguem o calendári
+ o gregoriano.\n\nInformação adicional\nhttps://pt.wikipedia.org/wiki/V%C3%A
+ 9spera_de_ano-novo\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os
+ _meus_calend%C3%A1rios\n\nWikipedia content re-released under CC-BY-SA.\nht
+ tps://creativecommons.org/licenses/by-sa/3.0/\n\nEste calendário é fornecid
+ o por WebCal.Guru https://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 No
+ v 2025 01:05:50 +0000\n\nID de Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:🎆 Véspera de ano-novo
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20251202
+DTSTAMP:20251122T192243Z
+UID:c569fb72-c63c-19cb-cff3-ba5c12cafc23
+URL:https://pt.wikipedia.org/wiki/Cyber_Monday
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Cyber ​​Monday ou segunda-feira cibernética é um termo de marke
+ ting para a segunda-feira após o Dia de Ação de Graças nos Estados Unidos. 
+ Empresas de marketing criaram o termo "Cyber ​​Monday" para convencer as pe
+ ssoas a fazerem compras online. O termo estreou em 28 de novembro de 2005\,
+  em um comunicado de imprensa da Shop.org intitulado "Cyber ​​Monday rapida
+ mente se tornando um dos maiores dias de compras em linha do ano".\n\nInfor
+ mação adicional\nhttps://pt.wikipedia.org/wiki/Cyber_Monday\n\nOs meus cale
+ ndários\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedi
+ a content re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses
+ /by-sa/3.0/\n\nEste calendário é fornecido por WebCal.Guru https://www.webc
+ al.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Ins
+ crição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Cyber Monday
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+DTSTAMP:20251122T192243Z
+UID:88f3936b-fd74-7239-b175-88df4abc9ba6
+URL:https://pt.wikipedia.org/wiki/Solst%C3%ADcio_de_ver%C3%A3o
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:O solstício de verão\, também conhecido como solstício estival 
+ ou solstício de verão\, ocorre quando um dos pólos da Terra tem sua inclina
+ ção máxima em direção ao sol. Isso acontece duas vezes por ano\, uma vez em
+  cada hemisfério. Para esse hemisfério\, o solstício de verão é quando o So
+ l atinge sua posição mais alta no céu e é o dia com o maior período de luz 
+ do dia. Dentro do círculo ártico ou do círculo antártico\, há luz do dia co
+ ntínua ao redor do solstício de verão. No solstício de verão\, a inclinação
+  axial máxima da Terra em direção ao Sol é de 23\,44 °. Da mesma forma\, a 
+ declinação do Sol do equador celeste é de 23\,44 °.\n\nInformação adicional
+ \nhttps://pt.wikipedia.org/wiki/Solst%C3%ADcio_de_ver%C3%A3o\n\nOs meus cal
+ endários\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikiped
+ ia content re-released under CC-BY-SA.\nhttps://creativecommons.org/license
+ s/by-sa/3.0/\n\nEste calendário é fornecido por WebCal.Guru https://www.web
+ cal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de In
+ scrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:☀️ Solstício de verão
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260308
+DTEND;VALUE=DATE:20260309
+DTSTAMP:20251122T192243Z
+UID:2261f677-a971-7e1e-6ba8-05cb52092070
+URL:https://pt.wikipedia.org/wiki/Dia_Internacional_da_Mulher
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:O Dia Internacional das Mulheres é celebrado\, anualmente\, no 
+ dia 8 de março.\n\nInformação adicional\nhttps://pt.wikipedia.org/wiki/Dia_
+ Internacional_da_Mulher\n\nOs meus calendários\nhttps://www.webcal.guru/pt-
+ BR/os_meus_calend%C3%A1rios\n\nWikipedia content re-released under CC-BY-SA
+ .\nhttps://creativecommons.org/licenses/by-sa/3.0/\n\nEste calendário é for
+ necido por WebCal.Guru https://www.webcal.guru/.\n\nConteúdo criado\nSat\, 
+ 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\nb685b30691336f5620e07462ae35
+ 921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:👩 Dia Internacional da Mulher
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+DTSTAMP:20251122T192243Z
+UID:c96e1e68-43c6-b558-e443-0e3c4e5f7f01
+URL:https://pt.wikipedia.org/wiki/Dia_Internacional_do_Homem
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:O Dia Internacional do Homem é um evento celebrado no dia 19 de
+  novembro de cada ano em diversos países do mundo\, desde 1999. No Brasil\,
+  é comemorado em 15 de julho\, desde 1992.\n\nInformação adicional\nhttps:/
+ /pt.wikipedia.org/wiki/Dia_Internacional_do_Homem\n\nOs meus calendários\nh
+ ttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia content 
+ re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3.0
+ /\n\nEste calendário é fornecido por WebCal.Guru https://www.webcal.guru/.\
+ n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\nb6
+ 85b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:👨 Dia Internacional do Homem
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+DTSTAMP:20251122T192243Z
+UID:2bff746d-8261-fcd8-2dd7-d568e3858715
+URL:https://pt.wikipedia.org/wiki/Dia_das_Bruxas
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Dia das Bruxas ou Halloween\, é uma celebração observada em vár
+ ios países\, principalmente no mundo anglófono\, em 31 de outubro\, véspera
+  da festa cristã ocidental do Dia de Todos os Santos. Ela começa com a vigí
+ lia de três dias do Allhallowtide\, o tempo do ano litúrgico dedicado a lem
+ brar os mortos\, incluindo santos (hallows)\, mártires e todos os fiéis fal
+ ecidos.\n\nInformação adicional\nhttps://pt.wikipedia.org/wiki/Dia_das_Brux
+ as\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%
+ A1rios\n\nWikipedia content re-released under CC-BY-SA.\nhttps://creativeco
+ mmons.org/licenses/by-sa/3.0/\n\nEste calendário é fornecido por WebCal.Gur
+ u https://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 
+ +0000\n\nID de Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:🎃 Dia das Bruxas
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+DTSTAMP:20251122T192243Z
+UID:8496601c-85dc-59fa-4942-09bc692851cc
+URL:https://www.un.org/en/observances/un-day
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:UN Day marks the anniversary of the entry into force in 1945 of
+  the UN Charter.\n\nInformação adicional\nhttps://www.un.org/en/observances
+ /un-day\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meus_calen
+ d%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://www.webc
+ al.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Ins
+ crição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:🇺🇳 Dia das Nações Unidas
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+DTSTAMP:20251122T192243Z
+UID:aac9a504-d88c-0091-6e93-e86b82e2b1ec
+URL:https://pt.wikipedia.org/wiki/Sexta-feira_13
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:A Sexta-feira no dia 13 de qualquer mês é considerada popularme
+ nte como um dia de azar.\n\nInformação adicional\nhttps://pt.wikipedia.org/
+ wiki/Sexta-feira_13\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/o
+ s_meus_calend%C3%A1rios\n\nWikipedia content re-released under CC-BY-SA.\nh
+ ttps://creativecommons.org/licenses/by-sa/3.0/\n\nEste calendário é forneci
+ do por WebCal.Guru https://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 N
+ ov 2025 01:05:50 +0000\n\nID de Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:🤞 Sexta-feira 13
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+DTSTAMP:20251122T192243Z
+UID:45daa70a-aae8-2f58-f0a6-d0cf336100a2
+URL:https://pt.wikipedia.org/wiki/Equin%C3%B3cio
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Na astronomia\, o equinócio é definido como o instante em que o
+  Sol\, em sua órbita aparente\, cruza o equador celeste.\n\nInformação adic
+ ional\nhttps://pt.wikipedia.org/wiki/Equin%C3%B3cio\n\nOs meus calendários\
+ nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia conten
+ t re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3
+ .0/\n\nEste calendário é fornecido por WebCal.Guru https://www.webcal.guru/
+ .\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\n
+ b685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:☀️ Equinócio de outono
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+DTSTAMP:20251122T192243Z
+UID:996f4c92-76e4-ac3d-e4db-82fe44cb1ec4
+URL:https://pt.wikipedia.org/wiki/Noite_de_Santa_Valburga
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:A Noite de Santa Valburga ou Santa Valpurga é uma festa tradici
+ onal cristã cujas origens remontam em parte ao paganismo\, celebrada na noi
+ te de 30 de abril para 1 de maio. Hoje em dia é celebrada igualmente quer p
+ or comunidades cristãs quer por não cristãs\, em diversos países do norte e
+  centro da Europa.. Em alemão\, principalmente na região da Baviera\, é tam
+ bém chamada de Hexennächt.\n\nInformação adicional\nhttps://pt.wikipedia.or
+ g/wiki/Noite_de_Santa_Valburga\n\nOs meus calendários\nhttps://www.webcal.g
+ uru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia content re-released under C
+ C-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3.0/\n\nEste calendári
+ o é fornecido por WebCal.Guru https://www.webcal.guru/.\n\nConteúdo criado\
+ nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\nb685b30691336f5620e07
+ 462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Noite de Santa Valburga
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+DTSTAMP:20251122T192243Z
+UID:aea2ba29-9802-4420-3c8e-759baca692d5
+URL:https://pt.wikipedia.org/wiki/Quinta-feira_Santa
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Quinta-feira Santa\, Quinta-feira de Endoenças ou Grande e Sagr
+ ada Quinta-feira é a quinta-feira que antecede a celebração da morte e ress
+ urreição de Jesus. É o quinto dia da Semana Santa no cristianismo ocidental
+  e o sexto no cristianismo oriental. É neste dia que se comemora o lava-pés
+  e a Última Ceia de Jesus com seus apóstolos segundo o relato dos evangelho
+ s canônicos.\n\nInformação adicional\nhttps://pt.wikipedia.org/wiki/Quinta-
+ feira_Santa\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meus_c
+ alend%C3%A1rios\n\nWikipedia content re-released under CC-BY-SA.\nhttps://c
+ reativecommons.org/licenses/by-sa/3.0/\n\nEste calendário é fornecido por W
+ ebCal.Guru https://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 
+ 01:05:50 +0000\n\nID de Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Quinta-feira Santa
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+DTSTAMP:20251122T192243Z
+UID:daf4b67f-e7d0-78ff-87fc-ef36ba35e307
+URL:https://pt.wikipedia.org/wiki/Equin%C3%B3cio
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Na astronomia\, o equinócio é definido como o instante em que o
+  Sol\, em sua órbita aparente\, cruza o equador celeste.\n\nInformação adic
+ ional\nhttps://pt.wikipedia.org/wiki/Equin%C3%B3cio\n\nOs meus calendários\
+ nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia conten
+ t re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3
+ .0/\n\nEste calendário é fornecido por WebCal.Guru https://www.webcal.guru/
+ .\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\n
+ b685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:☀️ Equinócio de primavera
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251224
+DTEND;VALUE=DATE:20251225
+DTSTAMP:20251122T192243Z
+UID:aeb20d31-d8a4-9204-ea0d-757ea83efbdc
+URL:https://pt.wikipedia.org/wiki/V%C3%A9spera_de_Natal
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Véspera de Natal refere-se à noite ou todo dia que precede o di
+ a de Natal e é amplamente vista como um feriado\, total ou parcial\, em ant
+ ecipação ao dia de Natal\, festival que comemora o nascimento de Jesus de N
+ azaré. Juntos\, os dois dias são considerados uma das celebrações culturalm
+ ente mais significativas da cristandade e do mundo ocidental.\n\nInformação
+  adicional\nhttps://pt.wikipedia.org/wiki/V%C3%A9spera_de_Natal\n\nOs meus 
+ calendários\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWiki
+ pedia content re-released under CC-BY-SA.\nhttps://creativecommons.org/lice
+ nses/by-sa/3.0/\n\nEste calendário é fornecido por WebCal.Guru https://www.
+ webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de
+  Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:🎄 Véspera de Natal
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251128
+DTEND;VALUE=DATE:20251129
+DTSTAMP:20251122T192243Z
+UID:803e04ff-0f33-57c5-f18d-cbb011b290f5
+URL:https://pt.wikipedia.org/wiki/Black_Friday
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Black Friday é o dia que inaugura a temporada de compras natalí
+ cias com significativas promoções em muitas lojas retalhistas e grandes arm
+ azéns. É um dia depois do Dia de Ação de Graças nos Estados Unidos\, ou sej
+ a\, celebra-se no dia seguinte à quarta quinta-feira do mês de novembro.\nE
+ sta festividade começou nos Estados Unidos e com a ajuda das novas tecnolog
+ ias e a promoção deste dia por parte das diversas empresas vem-se estendend
+ o pelo resto dos países do mundo.\n\nInformação adicional\nhttps://pt.wikip
+ edia.org/wiki/Black_Friday\n\nOs meus calendários\nhttps://www.webcal.guru/
+ pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia content re-released under CC-BY
+ -SA.\nhttps://creativecommons.org/licenses/by-sa/3.0/\n\nEste calendário é 
+ fornecido por WebCal.Guru https://www.webcal.guru/.\n\nConteúdo criado\nSat
+ \, 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\nb685b30691336f5620e07462a
+ e35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:🛍️ Black Friday
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+DTSTAMP:20251122T192243Z
+UID:4e6cef9a-3912-e7bc-f63e-48db72acd5b3
+URL:https://pt.wikipedia.org/wiki/Dia_da_Consci%C3%AAncia_Negra
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:O Dia Nacional da Consciência Negra é celebrado\, no Brasil\, e
+ m 20 de novembro. Foi criado em 2003 como efeméride incluída no calendário 
+ escolar — até ser oficialmente instituído em âmbito nacional mediante a lei
+  nº 12 519\, de 10 de novembro de 2011\, sendo feriado em cerca de mil cida
+ des em todo o país e nos estados de Alagoas\, Amazonas\, Amapá\, Mato Gross
+ o e Rio de Janeiro através de decretos estaduais. Em estados que não aderir
+ am à lei a responsabilidade é de cada câmara de vereadores\, que decide se 
+ haverá o feriado no município.\n\nInformação adicional\nhttps://pt.wikipedi
+ a.org/wiki/Dia_da_Consci%C3%AAncia_Negra\n\nOs meus calendários\nhttps://ww
+ w.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia content re-releas
+ ed under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3.0/\n\nEste
+  calendário é fornecido por WebCal.Guru https://www.webcal.guru/.\n\nConteú
+ do criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\nb685b306913
+ 36f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Dia da Consciência Negra
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260313
+DTEND;VALUE=DATE:20260314
+DTSTAMP:20251122T192243Z
+UID:0f49d026-1ade-68df-898a-c7f40b4aa1be
+URL:https://pt.wikipedia.org/wiki/Sexta-feira_13
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:A Sexta-feira no dia 13 de qualquer mês é considerada popularme
+ nte como um dia de azar.\n\nInformação adicional\nhttps://pt.wikipedia.org/
+ wiki/Sexta-feira_13\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/o
+ s_meus_calend%C3%A1rios\n\nWikipedia content re-released under CC-BY-SA.\nh
+ ttps://creativecommons.org/licenses/by-sa/3.0/\n\nEste calendário é forneci
+ do por WebCal.Guru https://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 N
+ ov 2025 01:05:50 +0000\n\nID de Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:🤞 Sexta-feira 13
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251026
+DTEND;VALUE=DATE:20251027
+DTSTAMP:20251122T192243Z
+UID:f5fcbdf1-8c6b-28d7-4518-c13a4a68d603
+URL:https://pt.wikipedia.org/wiki/Hor%C3%A1rio_de_ver%C3%A3o
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Horário de verão é a prática de adiantar os relógios uma hora d
+ urante os meses da primavera e do verão\, com o alegado objetivo de economi
+ zar energia nas regiões que mais recebem luminosidade solar nesse período d
+ o ano. Normalmente\, os países que adotam essa medida avançam uma hora no i
+ nício da primavera e retornam para o horário padrão no outono.\n\nInformaçã
+ o adicional\nhttps://pt.wikipedia.org/wiki/Hor%C3%A1rio_de_ver%C3%A3o\n\nOs
+  meus calendários\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n
+ \nWikipedia content re-released under CC-BY-SA.\nhttps://creativecommons.or
+ g/licenses/by-sa/3.0/\n\nEste calendário é fornecido por WebCal.Guru https:
+ //www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\
+ nID de Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:🕒 Fim do verão na Europa
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260407
+DTSTAMP:20251122T192243Z
+UID:2ac7a120-69e2-4e1c-dd2f-aade0fc0d117
+URL:https://en.wikipedia.org/wiki/Easter_Monday
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Easter Monday is the day after Easter Sunday and a public holid
+ ay in some countries. It is the second day of Eastertide. In Western Christ
+ ianity\, it is also the second day of the Octave of Easter\, and in Eastern
+  Christianity\, it is also the second day of Bright Week.\n\nInformação adi
+ cional\nhttps://en.wikipedia.org/wiki/Easter_Monday\n\nOs meus calendários\
+ nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia conten
+ t re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3
+ .0/\n\nEste calendário é fornecido por WebCal.Guru https://www.webcal.guru/
+ .\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\n
+ b685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Segunda-feira de Páscoa
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251130
+DTEND;VALUE=DATE:20251201
+DTSTAMP:20251122T192243Z
+UID:5c8ea1b6-973a-a3a3-c9f4-442d94da6a1d
+URL:https://en.wikipedia.org/wiki/Advent_Sunday
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Advent Sunday\, also called the First Sunday of Advent or First
+  Advent Sunday\, among the Western Christian Churches\, is the first day of
+  the liturgical year and the start of the season of Advent.\n\nInformação a
+ dicional\nhttps://en.wikipedia.org/wiki/Advent_Sunday\n\nOs meus calendário
+ s\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia cont
+ ent re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa
+ /3.0/\n\nEste calendário é fornecido por WebCal.Guru https://www.webcal.gur
+ u/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição
+ \nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Domingo do Advento
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+DTSTAMP:20251122T192243Z
+UID:a6687bb4-65ac-5648-2434-8bb898abe479
+URL:https://pt.wikipedia.org/wiki/Pentecostes
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Pentecostes é uma das celebrações mais importantes do calendári
+ o cristão e comemora a descida do Espírito Santo sobre os apóstolos de Jesu
+ s Cristo\, sua mãe Maria e outros seguidores. O Pentecostes é celebrado 50 
+ dias depois do domingo de Páscoa\, e ocorre no décimo dia depois da celebra
+ ção da Ascensão de Jesus. Isto porque ele ficou quarenta dias\, após Sua re
+ ssurreição\, dando os últimos ensinamentos a seus discípulos.E para os cinq
+ uenta dias que se completam da Páscoa até o último dia da grande festa de P
+ entecostes\, sobram dez dias. Foram estes os dias em que os discípulos perm
+ aneceram no cenáculo até a descida do Espírito Santo no dia de Pentecostes.
+ \n\nInformação adicional\nhttps://pt.wikipedia.org/wiki/Pentecostes\n\nOs m
+ eus calendários\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\n
+ Wikipedia content re-released under CC-BY-SA.\nhttps://creativecommons.org/
+ licenses/by-sa/3.0/\n\nEste calendário é fornecido por WebCal.Guru https://
+ www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nI
+ D de Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Pentecostes
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251228
+DTEND;VALUE=DATE:20251229
+DTSTAMP:20251122T192243Z
+UID:b04d9aec-f1bf-3625-ee91-4659ac248ca7
+URL:https://pt.wikipedia.org/wiki/Massacre_dos_Inocentes
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:O Massacre dos Inocentes é um episódio de infanticídio pelo rei
+  da Judeia\, Herodes\, o Grande\, que aparece no Evangelho de Mateus. O aut
+ or\, tradicionalmente Mateus\, reporta que Herodes teria ordenado a execuçã
+ o de todos os meninos da vila de Belém para evitar perder o trono para o re
+ cém-nascido "Rei dos Judeus"\, cujo nascimento fora revelado para ele pelos
+  Três Reis Magos. O incidente\, como outros descritos em Mateus\, é descrit
+ o como a realização de uma passagem no Antigo Testamento\, entendida como u
+ ma profecia de Jeremias:\n\nInformação adicional\nhttps://pt.wikipedia.org/
+ wiki/Massacre_dos_Inocentes\n\nOs meus calendários\nhttps://www.webcal.guru
+ /pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia content re-released under CC-B
+ Y-SA.\nhttps://creativecommons.org/licenses/by-sa/3.0/\n\nEste calendário é
+  fornecido por WebCal.Guru https://www.webcal.guru/.\n\nConteúdo criado\nSa
+ t\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\nb685b30691336f5620e07462
+ ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Massacre dos Inocentes
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
+DTSTAMP:20251122T192243Z
+UID:64d78b5d-cef9-d559-ef72-253068d63df7
+URL:https://pt.wikipedia.org/wiki/Dia_dos_Pais
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Dia dos Pais (Brasil) ou Dia do Pai (Portugal) é uma data comem
+ orativa que homenageia anualmente os pais. A data varia de acordo com os pa
+ íses. No Brasil é celebrado no segundo domingo de agosto\, em Portugal é no
+  dia 19 de março\, nos Estados Unidos e Inglaterra é celebrado no terceiro 
+ domingo de junho\, nos países ocidentais geralmente coincide com o dia cris
+ tão em que se comemora dia de São José\, pai adotivo de Jesus Cristo.\n\nIn
+ formação adicional\nhttps://pt.wikipedia.org/wiki/Dia_dos_Pais\n\nOs meus c
+ alendários\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikip
+ edia content re-released under CC-BY-SA.\nhttps://creativecommons.org/licen
+ ses/by-sa/3.0/\n\nEste calendário é fornecido por WebCal.Guru https://www.w
+ ebcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de 
+ Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:👨 Dia dos Pais
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+DTSTAMP:20251122T192243Z
+UID:f2c75541-4b12-cef2-c6dc-2b1ce8e81ddf
+URL:https://en.wikipedia.org/wiki/Ascension_of_Jesus_Christ
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:The Ascension of Jesus is the Christian teaching that Christ ph
+ ysically departed from Earth by rising into Heaven\, in the presence of ele
+ ven of his apostles. According to the New Testament narrative\, the Ascensi
+ on occurred on the fortieth day counting from the resurrection. In the Chri
+ stian tradition\, reflected in the major Christian creeds and confessional 
+ statements\, God exalted Jesus after his death\, raising him from the dead 
+ and taking him to Heaven\, where Jesus took his seat at the right hand of G
+ od.\n\nInformação adicional\nhttps://en.wikipedia.org/wiki/Ascension_of_Jes
+ us_Christ\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meus_cal
+ end%C3%A1rios\n\nWikipedia content re-released under CC-BY-SA.\nhttps://cre
+ ativecommons.org/licenses/by-sa/3.0/\n\nEste calendário é fornecido por Web
+ Cal.Guru https://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01
+ :05:50 +0000\n\nID de Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Dia a seguir à Ascensão
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260106
+DTEND;VALUE=DATE:20260107
+DTSTAMP:20251122T192243Z
+UID:665ad133-7042-3653-e325-6676a9aaa42f
+URL:https://pt.wikipedia.org/wiki/Epifania_do_Senhor
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:A Epifania do Senhor ou Teofania é uma festa religiosa cristã q
+ ue comemora a manifestação de Jesus Cristo como Deus encarnado.\n\nInformaç
+ ão adicional\nhttps://pt.wikipedia.org/wiki/Epifania_do_Senhor\n\nOs meus c
+ alendários\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikip
+ edia content re-released under CC-BY-SA.\nhttps://creativecommons.org/licen
+ ses/by-sa/3.0/\n\nEste calendário é fornecido por WebCal.Guru https://www.w
+ ebcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de 
+ Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Epifania do Senhor
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+DTSTAMP:20251122T192243Z
+UID:43aa8822-c53d-141c-1c7b-434de2cd0359
+URL:https://pt.wikipedia.org/wiki/Hor%C3%A1rio_de_ver%C3%A3o
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Horário de verão é a prática de adiantar os relógios uma hora d
+ urante os meses da primavera e do verão\, com o alegado objetivo de economi
+ zar energia nas regiões que mais recebem luminosidade solar nesse período d
+ o ano. Normalmente\, os países que adotam essa medida avançam uma hora no i
+ nício da primavera e retornam para o horário padrão no outono.\n\nInformaçã
+ o adicional\nhttps://pt.wikipedia.org/wiki/Hor%C3%A1rio_de_ver%C3%A3o\n\nOs
+  meus calendários\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n
+ \nWikipedia content re-released under CC-BY-SA.\nhttps://creativecommons.or
+ g/licenses/by-sa/3.0/\n\nEste calendário é fornecido por WebCal.Guru https:
+ //www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\
+ nID de Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:🕒 Fim do verão na Europa
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251031
+DTEND;VALUE=DATE:20251101
+DTSTAMP:20251122T192243Z
+UID:2c9d0211-2da2-d1df-070e-67d91a903f52
+URL:https://pt.wikipedia.org/wiki/Dia_das_Bruxas
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Dia das Bruxas ou Halloween\, é uma celebração observada em vár
+ ios países\, principalmente no mundo anglófono\, em 31 de outubro\, véspera
+  da festa cristã ocidental do Dia de Todos os Santos. Ela começa com a vigí
+ lia de três dias do Allhallowtide\, o tempo do ano litúrgico dedicado a lem
+ brar os mortos\, incluindo santos (hallows)\, mártires e todos os fiéis fal
+ ecidos.\n\nInformação adicional\nhttps://pt.wikipedia.org/wiki/Dia_das_Brux
+ as\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%
+ A1rios\n\nWikipedia content re-released under CC-BY-SA.\nhttps://creativeco
+ mmons.org/licenses/by-sa/3.0/\n\nEste calendário é fornecido por WebCal.Gur
+ u https://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 
+ +0000\n\nID de Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:🎃 Dia das Bruxas
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251024
+DTEND;VALUE=DATE:20251025
+DTSTAMP:20251122T192243Z
+UID:0a6fe8c4-e1be-0f22-3995-fa8d239cb1a2
+URL:https://www.un.org/en/observances/un-day
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:UN Day marks the anniversary of the entry into force in 1945 of
+  the UN Charter.\n\nInformação adicional\nhttps://www.un.org/en/observances
+ /un-day\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meus_calen
+ d%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://www.webc
+ al.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Ins
+ crição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:🇺🇳 Dia das Nações Unidas
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+DTSTAMP:20251122T192243Z
+UID:395c2593-981e-fa89-7434-f946582d89a7
+URL:https://pt.wikipedia.org/wiki/Festa_da_Ascens%C3%A3o
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:A Festa da Ascensão\, conhecida também como Quinta-Feira da Asc
+ ensão ou apenas como Ascensão comemora a Ascensão de Jesus ao céu. É uma da
+ s festas ecumênicas\, ou seja\, uma das que são comemoradas por todas as ig
+ rejas cristãs\, juntamente com as celebrações da Semana da Paixão\, a Pásco
+ a e o Pentecostes. Na Igreja Católica é conhecida também como Solenidade da
+  Ascensão do Senhor. A Ascensão é tradicionalmente celebrada numa quinta-fe
+ ira\, a décima-quarta da Páscoa\, embora algumas províncias tenham mudado a
+  observância para o domingo seguinte.\n\nInformação adicional\nhttps://pt.w
+ ikipedia.org/wiki/Festa_da_Ascens%C3%A3o\n\nOs meus calendários\nhttps://ww
+ w.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia content re-releas
+ ed under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3.0/\n\nEste
+  calendário é fornecido por WebCal.Guru https://www.webcal.guru/.\n\nConteú
+ do criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\nb685b306913
+ 36f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Quinta-feira da Ascensão
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+DTSTAMP:20251122T192243Z
+UID:d15b137f-9ae9-71f5-efc7-fb02d42cd0df
+URL:https://pt.wikipedia.org/wiki/Dia_do_Amigo
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Dia do Amigo é uma data proposta para celebrar a amizade entre 
+ as pessoas. No Brasil\, Uruguai\, Argentina e Moçambique a data mais difund
+ ida para esta celebração é 20 de julho\, aniversário da chegada do homem a 
+ lua. Em 27 de abril de 2011\, a Assembleia Geral das Nações Unidas resolveu
+  convidar todos os países membros a celebrarem o Dia Internacional da Amiza
+ de em 30 de julho.\n\nInformação adicional\nhttps://pt.wikipedia.org/wiki/D
+ ia_do_Amigo\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meus_c
+ alend%C3%A1rios\n\nWikipedia content re-released under CC-BY-SA.\nhttps://c
+ reativecommons.org/licenses/by-sa/3.0/\n\nEste calendário é fornecido por W
+ ebCal.Guru https://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 
+ 01:05:50 +0000\n\nID de Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Dia do Amigo
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260102
+DTEND;VALUE=DATE:20260103
+DTSTAMP:20251122T192243Z
+UID:20ba825e-919f-10a3-0faf-36e5bf693152
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Os meus calendários\nhttps://www.webcal.guru/pt-BR/os_meus_cale
+ nd%C3%A1rios\n\nEste calendário é fornecido por WebCal.Guru https://www.web
+ cal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de In
+ scrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Dia seguinte ao Ano Novo
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260213
+DTEND;VALUE=DATE:20260214
+DTSTAMP:20251122T192243Z
+UID:609e7044-7147-ec54-d835-3c4f48ed353e
+URL:https://pt.wikipedia.org/wiki/Sexta-feira_13
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:A Sexta-feira no dia 13 de qualquer mês é considerada popularme
+ nte como um dia de azar.\n\nInformação adicional\nhttps://pt.wikipedia.org/
+ wiki/Sexta-feira_13\n\nOs meus calendários\nhttps://www.webcal.guru/pt-BR/o
+ s_meus_calend%C3%A1rios\n\nWikipedia content re-released under CC-BY-SA.\nh
+ ttps://creativecommons.org/licenses/by-sa/3.0/\n\nEste calendário é forneci
+ do por WebCal.Guru https://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 N
+ ov 2025 01:05:50 +0000\n\nID de Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:🤞 Sexta-feira 13
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+DTSTAMP:20251122T192243Z
+UID:64965162-954f-c400-d36e-5f0751695330
+URL:https://pt.wikipedia.org/wiki/Domingo_de_Ramos
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Domingo de Ramos é uma festa móvel cristã celebrada no domingo 
+ anterior à Páscoa. A festa comemora a entrada triunfal de Jesus em Jerusalé
+ m\, um evento da vida de Jesus mencionado nos quatro evangelhos canônicos. 
+ Diz a tradição que Jesus teria entrado pela porta dourada de Jerusalém. Na 
+ liturgia romana\, este dia é denominado de "Domingo de Ramos e da Paixão do
+  Senhor". A liturgia católica ainda denomina a festa de diversas formas\, c
+ omo: "Páscoa Florida"\, em contraste com a Páscoa enquanto tal que é "frutí
+ fera" e Pascha competentium ou Pascha petitum\, pois era durante essa festa
+  que "aqueles que pedem" o Batismo são apresentados.\n\nInformação adiciona
+ l\nhttps://pt.wikipedia.org/wiki/Domingo_de_Ramos\n\nOs meus calendários\nh
+ ttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWikipedia content 
+ re-released under CC-BY-SA.\nhttps://creativecommons.org/licenses/by-sa/3.0
+ /\n\nEste calendário é fornecido por WebCal.Guru https://www.webcal.guru/.\
+ n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\nb6
+ 85b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:Domingo de Ramos
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20260511
+DTSTAMP:20251122T192243Z
+UID:bf2746e7-4643-c09b-e339-fc254db9de30
+URL:https://pt.wikipedia.org/wiki/Dia_das_M%C3%A3es
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Dia da Mãe (Portugal) ou Dia das Mães (Brasil) é uma data comem
+ orativa que homenageia anualmente a figura familiar materna (mãe) e a mater
+ nidade. A data de comemoração varia de acordo com o país. Em Portugal e nos
+  PALOP é comemorado no primeiro domingo do mês de maio e no Brasil no segun
+ do domingo do mês de maio.\n\nInformação adicional\nhttps://pt.wikipedia.or
+ g/wiki/Dia_das_M%C3%A3es\n\nOs meus calendários\nhttps://www.webcal.guru/pt
+ -BR/os_meus_calend%C3%A1rios\n\nWikipedia content re-released under CC-BY-S
+ A.\nhttps://creativecommons.org/licenses/by-sa/3.0/\n\nEste calendário é fo
+ rnecido por WebCal.Guru https://www.webcal.guru/.\n\nConteúdo criado\nSat\,
+  22 Nov 2025 01:05:50 +0000\n\nID de Inscrição\nb685b30691336f5620e07462ae3
+ 5921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:👩 Dia das Mães
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+DTSTAMP:20251122T192243Z
+UID:0b25b02d-717a-6b55-56e4-4724eaac7332
+URL:https://pt.wikipedia.org/wiki/Hor%C3%A1rio_de_ver%C3%A3o
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:Horário de verão é a prática de adiantar os relógios uma hora d
+ urante os meses da primavera e do verão\, com o alegado objetivo de economi
+ zar energia nas regiões que mais recebem luminosidade solar nesse período d
+ o ano. Normalmente\, os países que adotam essa medida avançam uma hora no i
+ nício da primavera e retornam para o horário padrão no outono.\n\nInformaçã
+ o adicional\nhttps://pt.wikipedia.org/wiki/Hor%C3%A1rio_de_ver%C3%A3o\n\nOs
+  meus calendários\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n
+ \nWikipedia content re-released under CC-BY-SA.\nhttps://creativecommons.or
+ g/licenses/by-sa/3.0/\n\nEste calendário é fornecido por WebCal.Guru https:
+ //www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\
+ nID de Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:🕒 Começa o verão na Europa
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260402
+DTSTAMP:20251122T192243Z
+UID:0a56c9e2-ad19-8b1f-f7ee-7416365c835d
+URL:https://pt.wikipedia.org/wiki/Dia_da_Mentira
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:O Dia da Mentira\, também conhecido como Dia das Mentiras\, dia
+  das petas\, dia dos tolos \, dia da gafe\, ou dia dos bobos\, é uma celebr
+ ação anual em alguns países europeus e ocidentais\, comemorada em 1 de abri
+ l\, pregando partidas e espalhando boatos como formas de assinalar a data. 
+ Uma delas diz que a brincadeira surgiu na França. Desde o começo do século 
+ XVI\, o Ano Novo era festejado no dia 25 de março\, data que marcava a cheg
+ ada da primavera. As festas duravam uma semana e terminavam no dia 1 de abr
+ il.\n\nInformação adicional\nhttps://pt.wikipedia.org/wiki/Dia_da_Mentira\n
+ \nOs meus calendários\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1ri
+ os\n\nWikipedia content re-released under CC-BY-SA.\nhttps://creativecommon
+ s.org/licenses/by-sa/3.0/\n\nEste calendário é fornecido por WebCal.Guru ht
+ tps://www.webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +000
+ 0\n\nID de Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:😉 Dia da Mentira
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+DTSTAMP:20251122T192243Z
+UID:0abdbdce-918d-5a37-b819-13dc4ff39f66
+URL:https://pt.wikipedia.org/wiki/Dia_dos_Namorados
+CLASS:PUBLIC
+CREATED:20251122T010551Z
+DESCRIPTION:O Dia dos Namorados\, em alguns países chamado Dia de São Valen
+ tim é uma data especial e comemorativa na qual se celebra a união amorosa e
+ ntre casais e namorados\, em alguns lugares é o dia de demonstrar afeição e
+ ntre amigos\, sendo comum a troca de cartões e presentes com símbolo de cor
+ ação\, tais como as tradicionais caixas de bombons. Em Portugal e em Angola
+ \, assim como em muitos outros países\, comemora-se no dia 14 de Fevereiro.
+  No Brasil a data é comemorada no dia 12 de junho\, véspera do dia de Santo
+  António de Lisboa\, conhecido pela fama de "Santo Casamenteiro".\n\nInform
+ ação adicional\nhttps://pt.wikipedia.org/wiki/Dia_dos_Namorados\n\nOs meus 
+ calendários\nhttps://www.webcal.guru/pt-BR/os_meus_calend%C3%A1rios\n\nWiki
+ pedia content re-released under CC-BY-SA.\nhttps://creativecommons.org/lice
+ nses/by-sa/3.0/\n\nEste calendário é fornecido por WebCal.Guru https://www.
+ webcal.guru/.\n\nConteúdo criado\nSat\, 22 Nov 2025 01:05:50 +0000\n\nID de
+  Inscrição\nb685b30691336f5620e07462ae35921b
+LAST-MODIFIED:20251122T010552Z
+SEQUENCE:2152
+STATUS:CONFIRMED
+SUMMARY:💝 Dia dos Namorados
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-FUNAMBOL-ALLDAY:1
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+END:VCALENDAR

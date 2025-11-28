@@ -1,0 +1,2003 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto do grupo IRMA-MARY-KELLER de Qualidade de Software (2024.2), Turma 2">
+      
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../../fase_2/GQM/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Fase 1 - Definição dos Requisitos - Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#fase-1-processo-de-avaliacao" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" class="md-header__button md-logo" aria-label="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" data-md-component="logo">
+      
+  <img src="../../assets/img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Fase 1 - Definição dos Requisitos
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="high-contrast" data-md-color-primary="black" data-md-color-accent="yellow"  aria-label="Switch to high contrast"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to high contrast" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 19a5 5 0 0 1-5-5 5 5 0 0 1 5-5c1-2.35 3.3-4 6-4 3.43 0 6.24 2.66 6.5 6.03L19 11a4 4 0 0 1 4 4 4 4 0 0 1-4 4zm13-6h-2v-1a5 5 0 0 0-5-5c-2.5 0-4.55 1.82-4.94 4.19C6.73 11.07 6.37 11 6 11a3 3 0 0 0-3 3 3 3 0 0 0 3 3h13a2 2 0 0 0 2-2 2 2 0 0 0-2-2m-6-1h-2V8h2zm0 4h-2v-2h2"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_IRM-MARY-KELLER" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025-2_T02_IRM-MARY-KELLER
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Fase 1 - Definição dos Requisitos
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase_2/GQM/" class="md-tabs__link">
+          
+  
+  
+  Fase 2 - Especificação da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase_3/planejamento/" class="md-tabs__link">
+          
+  
+  
+  Fase 3 - Projeto de Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase_4/compatibilidade/" class="md-tabs__link">
+          
+  
+  
+  Fase 4 - Execução da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../declaracao_ia/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Declaração de uso de IA
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../contribuicoes/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tabelas de contribuição
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" class="md-nav__button md-logo" aria-label="Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)" data-md-component="logo">
+      
+  <img src="../../assets/img/logo.png" alt="logo">
+
+    </a>
+    Grupo IRMA-MARY-KELLER - Turma 2 (2025.2)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_IRM-MARY-KELLER" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025-2_T02_IRM-MARY-KELLER
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 1 - Definição dos Requisitos
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 1 - Definição dos Requisitos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-contexto-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Contexto de Trabalho
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-aplicacao-escolhida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Aplicação Escolhida
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-requisitante-e-partes-interessadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Requisitante e Partes Interessadas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-classificacao-do-tipo-de-produto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Classificação do Tipo de Produto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-proposito-da-avaliacao-e-uso-pretendido-dos-resultados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Propósito da Avaliação e Uso Pretendido dos Resultados
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-modelo-de-qualidade-isoiec-25010-e-adaptacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Modelo de Qualidade (ISO/IEC 25010) e Adaptação
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Modelo de Qualidade (ISO/IEC 25010) e Adaptação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caracteristicas-selecionadas-para-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Características Selecionadas para Avaliação
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Características Selecionadas para Avaliação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#portabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Portabilidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compatibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compatibilidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caracteristicas-nao-consideradas-nesta-fase-mantidas-apenas-para-registro-historico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Características Não Consideradas nesta Fase (mantidas apenas para registro histórico)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-classificacao-e-enfase-das-caracteristicas-de-qualidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Classificação e Ênfase das Características de Qualidade
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Classificação e Ênfase das Características de Qualidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metodo-de-votacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Método de Votação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-de-enfase-das-caracteristicas-de-qualidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Ênfase das Características de Qualidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-escopo-profundidade-e-objetos-da-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Escopo, Profundidade e Objetos da Avaliação
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Escopo, Profundidade e Objetos da Avaliação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#escopo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Escopo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fora-do-escopo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fora do Escopo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#profundidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Profundidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#objetos-avaliados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetos Avaliados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacao-com-o-processo-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relação com o processo de avaliação
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-proposta-de-avaliacao-e-melhoria-de-qualidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Proposta de Avaliação e Melhoria de Qualidade
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Proposta de Avaliação e Melhoria de Qualidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#publico-alvo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Público-Alvo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-conexao-com-ods-da-onu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Conexão com ODS da ONU
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Referências Bibliográficas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 2 - Especificação da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 2 - Especificação da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_2/GQM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Abordagem GQM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_2/compatibilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medição de Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_2/portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medição de Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 3 - Projeto de Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 3 - Projeto de Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_3/planejamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_3/compatibilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testes de Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_3/portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testes de Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_3/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma de ações
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_3/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas e Ambiente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 4 - Execução da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 4 - Execução da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_4/compatibilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execução da Compatibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_4/portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execução da Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase_4/resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resumo dos Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../declaracao_ia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Declaração de uso de IA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contribuicoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tabelas de contribuição
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-contexto-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Contexto de Trabalho
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-aplicacao-escolhida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Aplicação Escolhida
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-requisitante-e-partes-interessadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Requisitante e Partes Interessadas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-classificacao-do-tipo-de-produto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Classificação do Tipo de Produto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-proposito-da-avaliacao-e-uso-pretendido-dos-resultados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Propósito da Avaliação e Uso Pretendido dos Resultados
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-modelo-de-qualidade-isoiec-25010-e-adaptacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Modelo de Qualidade (ISO/IEC 25010) e Adaptação
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Modelo de Qualidade (ISO/IEC 25010) e Adaptação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caracteristicas-selecionadas-para-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Características Selecionadas para Avaliação
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Características Selecionadas para Avaliação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#portabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Portabilidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compatibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compatibilidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caracteristicas-nao-consideradas-nesta-fase-mantidas-apenas-para-registro-historico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Características Não Consideradas nesta Fase (mantidas apenas para registro histórico)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-classificacao-e-enfase-das-caracteristicas-de-qualidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Classificação e Ênfase das Características de Qualidade
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Classificação e Ênfase das Características de Qualidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metodo-de-votacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Método de Votação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-de-enfase-das-caracteristicas-de-qualidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Ênfase das Características de Qualidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-escopo-profundidade-e-objetos-da-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Escopo, Profundidade e Objetos da Avaliação
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Escopo, Profundidade e Objetos da Avaliação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#escopo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Escopo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fora-do-escopo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fora do Escopo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#profundidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Profundidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#objetos-avaliados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetos Avaliados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacao-com-o-processo-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relação com o processo de avaliação
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-proposta-de-avaliacao-e-melhoria-de-qualidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Proposta de Avaliação e Melhoria de Qualidade
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Proposta de Avaliação e Melhoria de Qualidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#publico-alvo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Público-Alvo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-conexao-com-ods-da-onu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Conexão com ODS da ONU
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Referências Bibliográficas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="fase-1-processo-de-avaliacao">Fase 1 - Processo de Avaliação</h1>
+<hr />
+<h2 id="1-contexto-de-trabalho">1. Contexto de Trabalho</h2>
+<p>Este trabalho foi desenvolvido na disciplina Qualidade de Software com o objetivo de aplicar, na prática, técnicas, normas e boas práticas que garantem a qualidade de produtos e processos ao longo do ciclo de vida do software. Como atividade central, realizamos uma análise crítica de uma aplicação real, avaliando critérios como usabilidade, confiabilidade, segurança, portabilidade e outros atributos de qualidade relevantes. O resultado esperado é identificar pontos fortes, não conformidades e oportunidades de melhoria, propondo recomendações objetivas para elevar o nível de qualidade do software analisado.</p>
+<hr />
+<h2 id="2-aplicacao-escolhida">2. Aplicação Escolhida</h2>
+<p>O software avaliado neste trabalho é o <a href="https://aprender3.unb.br/">Aprender 3</a>, o ambiente virtual de aprendizagem institucional da Universidade de Brasília, construído sobre a plataforma Moodle [3]. A ferramenta apoia disciplinas de modalidades presencial, híbrida e a distância, centralizando a publicação de conteúdos, a realização de atividades como tarefas e questionários, a comunicação por meio de fóruns e avisos, e o acompanhamento do desempenho dos estudantes. O Aprender 3 sucedeu a versão anterior, Aprender 2, consolidando a migração da UnB para uma base tecnológica mais moderna, estável e escalável.</p>
+<p>Como uma instância do Moodle, o Aprender 3 herda uma arquitetura modular e extensível, com uma vasta biblioteca de plugins que incluem fóruns, rubricas, bancos de questões e o sistema de notas. Seus mecanismos de análise de uso apoiam tanto a docência quanto a gestão acadêmica. A filosofia de código aberto do Moodle permite a evolução contínua das funcionalidades sem dependência de fornecedores proprietários, além de favorecer análises de engajamento e usabilidade no contexto educacional [3].</p>
+<p>A natureza aberta da plataforma Moodle alinha-se aos princípios da educação pública, como transparência, auditabilidade e colaboração, promovendo a melhoria contínua pela comunidade e garantindo a independência tecnológica da universidade. Para a UnB, isso se traduz em um ecossistema sustentável, que facilita a adaptação pedagógica, a acessibilidade e a interoperabilidade.</p>
+<p>A avaliação do software considera critérios de qualidade essenciais como a portabilidade e a compatibilidade. A portabilidade é a capacidade de um software ser executado em diferentes ambientes computacionais com mínima modificação, como uma aplicação web que funciona em múltiplos navegadores e plataformas. Já a compatibilidade abrange tanto a habilidade de um software coexistir com outros sistemas sem gerar conflitos, a exemplo de uma aplicação que funciona dentro de um ecossistema maior como o Moodle, quanto a sua capacidade de interoperar, ou seja, de trocar informações com serviços externos para executar funções, como ao se integrar a um sistema de e-mail para enviar notificações.</p>
+<hr />
+<h2 id="3-requisitante-e-partes-interessadas">3. Requisitante e Partes Interessadas</h2>
+<p>Em conformidade com o processo SQuaRE, foram identificadas as partes interessadas relevantes para o software:</p>
+<ul>
+<li>
+<p><strong>Requisitante:</strong> Professora responsável pela disciplina de Qualidade de Software.</p>
+</li>
+<li>
+<p><strong>Demais Stakeholders:</strong> Estudantes e docentes usuários do Aprender3, equipe técnica e administradores do ambiente, coordenações de curso, departamentos acadêmicos e a gestão universitária.</p>
+</li>
+</ul>
+<hr />
+<h2 id="4-classificacao-do-tipo-de-produto">4. Classificação do Tipo de Produto</h2>
+<p>A classificação do produto Aprender 3, essencial para definir o escopo de implementação e manutenção, é a seguinte:</p>
+<ul>
+<li><strong>Tipo de software:</strong> Aplicação web educacional.</li>
+<li><strong>Categoria:</strong> Ambiente Virtual de Aprendizagem (AVA).</li>
+<li><strong>Natureza:</strong> Sistema multiusuário, modular, responsivo, baseado em navegador.</li>
+<li><strong>Modelo de implantação:</strong> Hospedado institucionalmente (on-premise), acessado via web ou aplicativo móvel.</li>
+<li><strong>Base tecnológica:</strong> Moodle (PHP), banco de dados MySQL/MariaDB e plugins educacionais.</li>
+</ul>
+<hr />
+<h2 id="5-proposito-da-avaliacao-e-uso-pretendido-dos-resultados">5. Propósito da Avaliação e Uso Pretendido dos Resultados</h2>
+<p>O propósito desta avaliação é analisar a qualidade do Aprender 3 com foco exclusivo nas características de <strong>Portabilidade</strong> e <strong>Compatibilidade</strong>, conforme orientação da professora. Os resultados obtidos serão utilizados para:</p>
+<ul>
+<li>
+<p>documentar a situação atual da qualidade do software, atendendo às necessidades institucionais e aos requisitos da disciplina;</p>
+</li>
+<li>
+<p>identificar possíveis problemas, falhas e oportunidades de melhoria relacionados às características avaliadas;</p>
+</li>
+<li>
+<p>aplicar e consolidar, na prática, os conceitos estudados na disciplina de Qualidade de Software.</p>
+</li>
+</ul>
+<hr />
+<h2 id="6-modelo-de-qualidade-isoiec-25010-e-adaptacao">6. Modelo de Qualidade (ISO/IEC 25010) e Adaptação</h2>
+<p>O modelo de qualidade adotado segue a norma ISO/IEC 25010 (SQuaRE). No entanto, conforme orientação da disciplina, apenas <strong>Portabilidade</strong> e <strong>Compatibilidade</strong> serão avaliadas nesta fase. As demais características do modelo não serão consideradas para métricas, escopo ou análise detalhada nesta etapa.</p>
+<h3 id="caracteristicas-selecionadas-para-avaliacao"><strong>Características Selecionadas para Avaliação</strong></h3>
+<h4 id="portabilidade">Portabilidade</h4>
+<p>A Portabilidade avalia o quão facilmente o software pode ser transferido para diferentes ambientes computacionais, garantindo acesso amplo pela comunidade universitária. Inclui:</p>
+<ul>
+<li><strong>Adaptabilidade:</strong> capacidade do sistema de ajustar-se a diferentes resoluções, navegadores e dispositivos.</li>
+<li><strong>Instalabilidade:</strong> facilidade de uso tanto via navegador quanto por aplicativo móvel oficial.</li>
+<li><strong>Substituibilidade:</strong> potencial de substituir versões anteriores do ambiente (ex.: migração do Aprender 2 para o Aprender 3).</li>
+</ul>
+<h4 id="compatibilidade">Compatibilidade</h4>
+<p>A Compatibilidade mede o modo como o software se comporta ao coexistir com outros sistemas e se integra ao ecossistema institucional. Inclui:</p>
+<ul>
+<li><strong>Coexistência:</strong> operação simultânea com serviços institucionais e plugins do Moodle.</li>
+<li><strong>Interoperabilidade:</strong> troca de dados com serviços externos, como e-mail institucional, calendários e SIGAA.</li>
+</ul>
+<h3 id="caracteristicas-nao-consideradas-nesta-fase-mantidas-apenas-para-registro-historico"><strong>Características Não Consideradas nesta Fase (mantidas apenas para registro histórico)</strong></h3>
+<ul>
+<li>Adequação Funcional  </li>
+<li>Eficiência  </li>
+<li>Confiabilidade  </li>
+<li>Segurança  </li>
+<li>Manutenibilidade  </li>
+<li>Usabilidade (vetada pela professora)</li>
+</ul>
+<hr />
+<h2 id="7-classificacao-e-enfase-das-caracteristicas-de-qualidade">7. Classificação e Ênfase das Características de Qualidade</h2>
+<p>A decisão sobre a prioridade das características de qualidade para o Aprender3 foi alcançada através de uma votação no canal do Discord da equipe.</p>
+<h3 id="metodo-de-votacao">Método de Votação</h3>
+<p>Cada membro da equipe recebeu <strong>2 votos</strong> para distribuir entre as características consideradas mais importantes, totalizando <strong>12 votos</strong>. Após a contabilização e uma discussão coletiva, os resultados foram convertidos para uma <strong>escala qualitativa de 0 a 5</strong>, utilizada para representar o nível de prioridade atribuído pelo grupo:</p>
+<ul>
+<li><strong>5</strong> — prioridade máxima  </li>
+<li><strong>2</strong> — prioridade baixa  </li>
+<li><strong>1</strong> — prioridade mínima  </li>
+<li><strong>0</strong> — característica excluída da análise (vetada)</li>
+</ul>
+<p>Com base nesse processo, a classificação final das características de qualidade ficou definida conforme a tabela abaixo.</p>
+<hr />
+<h3 id="tabela-de-enfase-das-caracteristicas-de-qualidade"><strong>Tabela de Ênfase das Características de Qualidade</strong></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Característica</th>
+<th style="text-align: center;">Ênfase (0–5)</th>
+<th style="text-align: left;">Justificativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Compatibilidade</strong></td>
+<td style="text-align: center;"><strong>5 – grande interesse</strong></td>
+<td style="text-align: left;">Considerada foco principal da equipe. É essencial para que o Aprender3 opere de forma integrada ao ecossistema tecnológico da UnB (como e-mail institucional, SIGAA e serviços de calendários), garantindo um fluxo de trabalho contínuo, estável e interoperável para alunos e professores.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Portabilidade</strong></td>
+<td style="text-align: center;"><strong>5 – grande interesse</strong></td>
+<td style="text-align: left;">Também definida como foco principal. Fundamental para assegurar que a plataforma seja acessível e funcional em diversos dispositivos (computadores, tablets, celulares) e navegadores, atendendo à diversidade de perfis e contextos de acesso dos usuários da comunidade acadêmica.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Adequação Funcional</strong></td>
+<td style="text-align: center;"><strong>2 – baixo interesse</strong></td>
+<td style="text-align: left;">O Moodle já oferece um conjunto robusto de funcionalidades consolidadas ao longo dos anos. Por esse motivo, o grupo entendeu que as funções essenciais já atendem às necessidades da universidade, não sendo prioridade aprofundar essa característica nesta avaliação.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Confiabilidade</strong></td>
+<td style="text-align: center;"><strong>2 – baixo interesse</strong></td>
+<td style="text-align: left;">Embora importante, a confiabilidade foi tratada como um critério secundário, pois o Aprender3 já está em operação e sob administração da equipe de TI da UnB. Considerou-se que a estabilidade atual do sistema é suficiente para os objetivos desta análise.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Eficiência (Desempenho)</strong></td>
+<td style="text-align: center;"><strong>2 – baixo interesse</strong></td>
+<td style="text-align: left;">A eficiência foi reconhecida como relevante, mas não prioritária para esta etapa. Como o desempenho depende fortemente da infraestrutura institucional (servidores, rede, banco de dados), a equipe optou por concentrar esforços nas dimensões de integração e acesso multiplataforma.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Segurança</strong></td>
+<td style="text-align: center;"><strong>1 – nenhum interesse</strong></td>
+<td style="text-align: left;">A segurança é tratada como um requisito institucional já estabelecido pela universidade e, portanto, não foi incluída no escopo desta análise de qualidade.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Manutenibilidade</strong></td>
+<td style="text-align: center;"><strong>1 – nenhum interesse</strong></td>
+<td style="text-align: left;">A manutenibilidade é considerada uma responsabilidade da equipe técnica encarregada do desenvolvimento e manutenção do Moodle na UnB, não sendo um foco desta avaliação.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Usabilidade</strong></td>
+<td style="text-align: center;"><strong>0 – fora da votação</strong></td>
+<td style="text-align: left;">A característica foi explicitamente vetada pela professora para esta fase do projeto, por isso não participou da votação nem da priorização.</td>
+</tr>
+</tbody>
+</table>
+<p>Obs: <em>(Esta seção é mantida integralmente por ser parte do processo histórico de escolha, embora apenas Portabilidade e Compatibilidade sejam realmente utilizadas no modelo de qualidade desta fase.)</em></p>
+<hr />
+<h2 id="8-escopo-profundidade-e-objetos-da-avaliacao">8. Escopo, Profundidade e Objetos da Avaliação</h2>
+<h3 id="escopo"><strong>Escopo</strong></h3>
+<ul>
+<li>Interface web do Aprender3.</li>
+<li>Funcionalidade dos módulos essenciais (tarefas, questionários, fóruns).</li>
+<li>Acesso via navegadores comuns, como: Chrome, Firefox e Edge.</li>
+<li>Acesso via desktop e dispositivos móveis.</li>
+<li>Integração com serviços institucionais (e-mail institucional e calendários).</li>
+</ul>
+<h3 id="fora-do-escopo"><strong>Fora do Escopo</strong></h3>
+<ul>
+<li>Testes de desempenho de infraestrutura.</li>
+<li>Testes que dependam de código.</li>
+<li>Segurança de servidores e banco de dados.</li>
+<li>Avaliação de código-fonte.</li>
+<li>Análise de usabilidade ou características não escolhidas.</li>
+</ul>
+<h3 id="profundidade"><strong>Profundidade</strong></h3>
+<ul>
+<li>Avaliação funcional de alto nível.</li>
+<li>Testes manuais.</li>
+<li>Verificação de consistência entre dispositivos e navegadores.</li>
+</ul>
+<h3 id="objetos-avaliados"><strong>Objetos Avaliados</strong></h3>
+<ul>
+<li>Responsividade e layout.</li>
+<li>Coexistência com sistemas institucionais.</li>
+<li>Interoperabilidade com serviços externos.</li>
+<li>Consistência funcional entre plataformas.</li>
+</ul>
+<h3 id="relacao-com-o-processo-de-avaliacao"><strong>Relação com o processo de avaliação</strong></h3>
+<p>Esta fase corresponde ao início da avaliação, responsável por definir o escopo, os critérios de qualidade e o direcionamento teórico do projeto. Ela estabelece as bases conceituais e metodológicas que orientam toda a análise realizada sobre a plataforma Aprender3.</p>
+<h2 id="9-proposta-de-avaliacao-e-melhoria-de-qualidade">9. Proposta de Avaliação e Melhoria de Qualidade</h2>
+<p>A proposta busca elevar a qualidade da plataforma Aprender3 a partir da perspectiva dos seus usuários. A avaliação será conduzida por meio de testes manuais, focados em cenários de uso real. Serão utilizados métricas para verificar consistência da interface em diferentes navegadores e dispositivos, além de testes manuais para testar integração com outros sistemas, como o sistema de e-mail. </p>
+<h3 id="publico-alvo">Público-Alvo</h3>
+<p>Embora o público principal do Aprender3 seja composto por professores e estudantes da UnB, é fundamental reconhecer os diferentes perfis e níveis de familiaridade e acessibilidade dos usuários para com a plataforma Moodle. Em geral, a aplicação abrange a gestão de:</p>
+<ul>
+<li>Disciplinas de Graduação e Pós-graduação;   </li>
+</ul>
+<hr />
+<h2 id="10-conexao-com-ods-da-onu">10. Conexão com ODS da ONU</h2>
+<p>O Aprender 3, como ambiente virtual de aprendizagem institucional da UnB construído sobre o Moodle, conecta-se aos Objetivos de Desenvolvimento Sustentável da Agenda 2030 ao ampliar acesso, apoiar práticas pedagógicas inovadoras e facilitar colaboração acadêmica [4].</p>
+<table>
+<thead>
+<tr>
+<th>ODS</th>
+<th>Contribuição do Aprender 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ODS 4 – Educação de Qualidade</strong></td>
+<td>Disponibiliza conteúdos on-line, flexibiliza modalidades de ensino e apoia avaliação formativa.</td>
+</tr>
+<tr>
+<td><strong>ODS 5 – Igualdade de Gênero</strong></td>
+<td>Favorece acesso igualitário a ambientes de ensino e permanência acadêmica.</td>
+</tr>
+<tr>
+<td><strong>ODS 9 – Indústria, Inovação e Infraestrutura</strong></td>
+<td>Sustenta infraestrutura digital e estimula inovação pedagógica via plugins e ferramentas tecnológicas.</td>
+</tr>
+<tr>
+<td><strong>ODS 10 – Redução das Desigualdades</strong></td>
+<td>Facilita acesso remoto e inclui recursos essenciais de acessibilidade.</td>
+</tr>
+<tr>
+<td><strong>ODS 17 – Parcerias e Meios de Implementação</strong></td>
+<td>Apoia cooperação acadêmica, cursos online e compartilhamento de boas práticas.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="11-referencias-bibliograficas">11. Referências Bibliográficas</h2>
+<blockquote>
+<p>[1] ISO/IEC 25010. Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models.<br />
+[2] ISO/IEC 25023:2016. Systems and software engineering — Measurement of system and software product quality.<br />
+[3] Moodle. Moodle - Open-source learning platform.<br />
+[4] ONU Brasil. Objetivos de Desenvolvimento Sustentável.</p>
+</blockquote>
+<hr />
+<h2 id="12-historico-de-versoes">12. Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td>28/09/2025</td>
+<td>Criação do documento</td>
+<td>Pedro Sampaio</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.1</code></td>
+<td>29/09/2025</td>
+<td>Adição da Proposta de Avaliação e Melhoria de Qualidade</td>
+<td>Felipe Hansen</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.2</code></td>
+<td>29/09/2025</td>
+<td>Revisão geral do documento</td>
+<td>Yago Amin</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.3</code></td>
+<td>29/09/2025</td>
+<td>Adição das Especificação do Modelo de Qualidade</td>
+<td>Yago Amin</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.4</code></td>
+<td>30/09/2025</td>
+<td>Correções sugeridas pela professora</td>
+<td>Taynara Vitorino</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.5</code></td>
+<td>01/10/2025</td>
+<td>Descrição da votação da Tabela de Ênfase</td>
+<td>Felipe Hansen</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
