@@ -532,6 +532,13 @@ O vídeo a seguir ilustra a execução do teste em navegador limpo, mostrando o 
 
 ---
 
+## Conclusão GQM da Dimensão Portabilidade
+
+As métricas planejadas foram corretamente processadas e a comparação com as faixas de classificação da Fase 2 permitiu responder, de forma clara e completa, às três Questões GQM da dimensão Portabilidade.  
+Assim, todos os Objetivos de Medição dessa dimensão foram devidamente atendidos.
+
+---
+
 ## Histórico de Versões  
 
 | Versão | Data       | Descrição                                               | Autor                                  |

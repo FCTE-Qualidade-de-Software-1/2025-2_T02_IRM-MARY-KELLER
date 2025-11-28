@@ -1,11 +1,25 @@
-A seguir descrevem-se os recursos mínimos e recomendados para a execução dos testes das dimensões **Portabilidade** e **Compatibilidade**, considerando dispositivos, navegadores, serviços envolvidos e ferramentas de apoio.
 
-| Recurso | Descrição |
-| --- | --- |
-| **Dispositivos de Teste** | Para garantir variedade e validade dos testes, recomenda-se utilizar: <br><br> **Computadores Desktop/Notebook:** <br> • **Windows 10 ou 11** com hardware mínimo: **CPU Dual-Core 2,0 GHz**, **4 GB RAM** (mínimo), ideal **8 GB RAM**. <br> • **Linux (Ubuntu 22.04 LTS ou equivalente)** com hardware mínimo: **CPU Dual-Core 2,0 GHz**, **4 GB RAM**, ideal **8 GB RAM**. <br><br> **Importante:** o grupo pode escolher **apenas um** dos sistemas operacionais (Windows ou Linux) para realizar **todos os testes**, garantindo consistência. <br> No relatório final deve ser indicado de forma explícita **qual SO foi utilizado** como ambiente oficial de testes. <br><br> **Dispositivos Móveis:** <br> • **Android**: smartphones e tablets com **Android 8.0 ou superior**. <br> • **Emulador Android Studio**: AVD (Android Virtual Device) configurado com **Android 8.0 ou superior**, mínimo **2 GB RAM** alocada. |
-| **Navegadores** | Navegadores instalados nas versões **mais recentes estáveis** no momento da análise: <br> • **Google Chrome (versão estável mais recente)** <br> • **Mozilla Firefox (versão estável mais recente)** <br> • **Microsoft Edge (versão estável mais recente)** <br><br> *Obs: o Aprender 3 não informa publicamente a versão exata utilizada em seu backend. Considera-se para os testes a versão corrente acessível pelo usuário.* |
-| **Aplicativo Moodle** | O **App oficial Moodle** instalado em dispositivos Android ou iOS na **versão mais recente disponível na Google Play Store ou Apple Store**. <br> O app deve ser configurado para acessar: **https://aprender3.unb.br** |
-| **Contas de Teste** | Contas específicas para avaliação, garantindo acesso controlado: <br> • **Conta de estudante de teste** com acesso a um curso modelo contendo atividades, arquivos e fóruns. <br> • **Fórum da matéria** para fazer algumas publicações. |
-| **Serviços Externos** | Para avaliação de integração de calendários e notificações: <br> • **Google Calendar** – conta de teste para importação e subscrição por URL. <br> • **Outlook Calendar** – conta de teste equivalente. <br> • **E-mail institucional @unb.br** ou e-mail de teste controlado. |
-| **Ferramentas de Apoio** | Ferramentas auxiliares para registro, documentação e divulgação: <br> • **Planilhas (Excel ou Google Sheets)** para registro dos resultados. <br> • **OBS Studio** para gravação de tela durante execuções dos testes, garantindo rastreabilidade. <br> • **YouTube** (canal não listado ou privado) para **armazenamento e disponibilização segura** dos vídeos gravados. <br> • **Captura de tela** para registro de evidências de falhas. |
-| **Documentação** | Conjunto de documentos utilizados como referência: <br> • Materiais institucionais sobre a migração **Aprender 2 → Aprender 3 (caso existam e estejam disponíveis)**. <br> • Documentação oficial do Moodle sobre recursos avaliados. <br> • Descrições e versões compatíveis dos plugins instalados no Aprender 3. <br> • Políticas institucionais de e-mail, calendário e ambiente virtual. |
+A tabela abaixo lista todos os recursos que serão utilizados na Fase 4:
+
+| Recurso / Ferramenta | Descrição e Uso na Avaliação |
+|----------------------|------------------------------|
+| **Computadores Desktop/Notebook** | Ambiente principal para testes Web. <br>• Windows 10/11 <br>• CPU Dual-Core 2.0 GHz <br>• 4–8 GB RAM |
+| **Dispositivos Móveis (Físicos e Emulados)** | Utilizados nos testes de portabilidade e app móvel. <br>• Smartphones Android 8.0+ e iOS reais <br>• Android Studio / AVD (Pixel 9 Pro – Android 16) |
+| **Navegadores Web (versões estáveis)** | Usados em **todos os CTs Web**: <br>• Google Chrome <br>• Mozilla Firefox <br>• Microsoft Edge |
+| **Modo Navegador Limpo** | Usado no CT-POR-05 para verificar dependências, sem extensões ou dados armazenados. |
+| **DevTools – Device Toolbar** | Utilizado no CT-POR-01 para simular resoluções (desktop, tablet e smartphone). |
+| **Aplicativo Moodle (Android/iOS)** | Usado nos CTs com App (COMP-01, COMP-02, POR-02, POR-04). <br>Versão: **5.0.0 (27/06/2025)** |
+| **Contas de Teste (Estudante)** | Usadas para login e testes de fluxo real. <br>Inclui conta secundária para notificações (CT-COMP-04). |
+| **Curso Modelo de Teste** | Ambiente único contendo todos os elementos necessários: <br>• Atividades com rastreamento de conclusão <br>• Fórum <br>• Calendário com eventos <br>• Tarefa para uploads/drag-and-drop |
+| **Arquivos de Teste (PDF, DOCX, PNG)** | Utilizados em upload, drag-and-drop e sincronização Web ↔ App. |
+| **Gerenciador de Tarefas (Windows)** | Usado exclusivamente no CT-COMP-03 para medir consumo de RAM. |
+| **Serviços Externos de Calendário** | Utilizados no CT-COMP-05 e CT-COMP-06: Google, Outlook, Yahoo, Zoho, Open Web Calendar, Calendar Web. |
+| **Exportações de Calendário** | Testados dois métodos: <br>• Subscrição via URL <br>• Arquivo `.ics` |
+| **E-mail Institucional / Conta de Teste** | Usado no CT-COMP-04 para validar entrega de notificações de fórum. |
+| **Planilhas (Google Sheets / Excel)** | Registro de dados brutos e cálculos das métricas. |
+| **OBS Studio** | Gravação de todas as execuções dos testes. |
+| **YouTube (não listado/privado)** | Repositório dos vídeos incorporados ao relatório. |
+| **Captura de Tela (Ferramentas do SO)** | Registro de evidências de erros e comportamentos relevantes. |
+| **Documentação Institucional da UnB** | Usada no CT-POR-03 para confirmar existência de múltiplos ambientes Aprender (2 e 3) e distinção de públicos. |
+| **Documentação Oficial do Moodle** | Referência para análise de erros (ex.: execução de H5P no app). |
+| **Documento da Fase 2 (GQM)** | Base formal para métricas e critérios |
