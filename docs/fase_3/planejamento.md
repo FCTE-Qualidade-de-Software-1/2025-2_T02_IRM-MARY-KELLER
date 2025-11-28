@@ -32,20 +32,3 @@ A Tabela a seguir resume, para cada **dimensão**, as **questões GQM**, **métr
 | **Portabilidade** | Q2: A arquitetura do Aprender 3 facilita migração de dados e atualização de componentes? | **Métrica 2.1: Verificação de Histórico de Migração** | Comunicados UnB e CEAD, notas técnicas, documentação — [Ver detalhes](../ferramentas) | [Ver plano de coleta](../portabilidade/#ct-por-03-verificacao-de-historico-de-migracao-aprender-2-aprender-3) |
 | **Portabilidade** | Q3: O acesso via app ou navegador pode ser configurado sem conhecimentos técnicos avançados? | **Métrica 3.1: Taxa de Sucesso na Configuração do App** | Usuários de teste, App Moodle — [Ver detalhes](../ferramentas) | [Ver plano de coleta](../portabilidade/#ct-por-05-sucesso-na-configuracao-do-app-moodle-por-novos-usuarios) |
 | | | **Métrica 3.2: Verificação de Dependências de Navegador** | Navegadores padrão (Chrome, Firefox, Edge) — [Ver detalhes](../ferramentas) | [Ver plano de coleta](../portabilidade/#ct-por-06-verificacao-de-dependencias-de-navegador-navegador-limpo) |
-
-
----
-
-## 2. Fontes de Evidência e Rastreabilidade
-
-As fontes abaixo garantem **rastreabilidade**, **reprodutibilidade** e **auditabilidade** de toda a avaliação.
-
-| **Fonte** | **Local/Ferramenta** | **Uso** | **Resultado Esperado** |
-| --- | --- | --- | --- |
-| **Instância Aprender 3 (Moodle da UnB)** | `https://aprender3.unb.br/` | Ambiente principal para execução dos testes (layout, D&D, notificações, arquivos, calendário). | Coleta direta dos dados brutos das métricas de uso real. |
-| **Documentação Institucional** | CEAD, STI, UnB, comunicados e documentos de migração Aprender 2 → 3 | Apoia a verificação do histórico de migração, atualizações e decisões técnicas. | Evidências para a Métrica 2.1 e suporte à análise de Portabilidade. |
-| **Serviços Externos** | Google Calendar, Outlook Calendar, e-mail institucional | Testar integração com calendários e entrega de notificações por e-mail. | Evidências para as Métricas 3.1 (notificações), 4.1 e 4.2 (calendário externo). |
-| **Definição da Avaliação (Fase 2 – GQM)** | Documento da Fase 2 | Referência formal para objetivos, questões e métricas. | Garantir fidelidade total entre Fase 2 (GQM) e este plano de coleta. |
-| **Dados Brutos Coletados** | Planilhas (Google Sheets/Excel) e anexos | Registro centralizado de valores, logs, prints e observações. | Permitir auditoria e repetição dos testes. |
-| **Relatório Final** | Documento da Fase 4 | Consolidação das métricas e conclusão da avaliação. | Manter ligação explícita com os dados brutos e este plano (rastreabilidade GQM). |
-
